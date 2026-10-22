@@ -1,0 +1,26 @@
+{
+  "method": "single positive score scale fitted on validation only",
+  "samples": 2048,
+  "old_scale": 99.9990005493164,
+  "scale": 26.334466943949682,
+  "validation_before": {
+    "samples": 2048,
+    "top1": 0.62646484375,
+    "top2": 0.81640625,
+    "loss": 1.5415397882461548,
+    "mean_correct_probability": 0.6053045392036438,
+    "ece": 0.21558190928772092,
+    "bins": 15
+  },
+  "validation_after": {
+    "samples": 2048,
+    "top1": 0.62646484375,
+    "top2": 0.81640625,
+    "loss": 0.9056850075721741,
+    "mean_correct_probability": 0.5134127140045166,
+    "ece": 0.030462884926237166,
+    "bins": 15
+  },
+  "rankings_unchanged": true,
+  "test_labels_used": false
+}

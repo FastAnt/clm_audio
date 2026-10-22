@@ -1,0 +1,7 @@
+{
+  "stage": 2,
+  "step": 314,
+  "epoch": 2,
+  "samples": 10000,
+  "checkpoint": "/srv/data/samsone_clm/runs/v3/diagnostic-stage2-clm-infonce/best.pt"
+}

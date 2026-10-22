@@ -1,0 +1,15 @@
+data_root: /srv/data/samsone_clm
+dataset: inclusionAI/AudioMCQ
+source_subset: Clotho
+audio_contribution: strong
+train_samples: 256
+heldout_per_split: 32
+architecture:
+  encoder: Samsone-356M
+  encoder_frozen: true
+  adapter_shared: true
+  heads: official_CLM_pretrained
+  stage1_heads_frozen: true
+  stage2_4_both_heads_trainable: true
+  score: cosine
+  loss: cross_entropy_cosine_logits

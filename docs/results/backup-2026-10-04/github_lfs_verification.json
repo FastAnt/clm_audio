@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "source_commit": "502efe765293fe0d2024166c8278c9c333ce2c90",
+  "github_main_commit": "502efe765293fe0d2024166c8278c9c333ce2c90",
+  "fresh_lfs_cache": true,
+  "all_bytes_read_and_sha256_verified": true,
+  "models": {
+    "samsone_clm_common": [
+      {
+        "name": "best.pt",
+        "bytes": 307155449,
+        "sha256": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78"
+      },
+      {
+        "name": "calibrated.pt",
+        "bytes": 307155441,
+        "sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98"
+      },
+      {
+        "name": "last.pt",
+        "bytes": 307156793,
+        "sha256": "e9b76ce5eb08d4ad14ed12def0c2f5ad137f0e67293ab45c2cd26c782fa41ce4"
+      }
+    ],
+    "samsone_clm_music": [
+      {
+        "name": "best.pt",
+        "bytes": 339641465,
+        "sha256": "a87f43181d3cd1b5ce98c0664e82a1c2fd05d8197754a28e540415e3ac4107b8"
+      },
+      {
+        "name": "calibrated.pt",
+        "bytes": 339641457,
+        "sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b"
+      },
+      {
+        "name": "last.pt",
+        "bytes": 339708921,
+        "sha256": "0a1ae78928c9da4341a6f514f5df83ec13db1a041efdd4944e837a62c8ffa538"
+      }
+    ]
+  }
+}

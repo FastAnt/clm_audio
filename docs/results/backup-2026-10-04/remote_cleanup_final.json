@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "removed": [
+    "/home/ubuntu/dev_clm/data/models",
+    "/home/ubuntu/dev_clm/data/runs",
+    "/home/ubuntu/dev_clm/data/cache",
+    "/home/ubuntu/dev_clm/data/tmp"
+  ],
+  "free_bytes_before": 507604066304,
+  "free_bytes_after": 536454561792,
+  "additional_reclaimed_bytes": 28850495488,
+  "project_code_retained": true,
+  "git_lfs_retained": true,
+  "all_trained_results_verified_locally": true,
+  "selected_models_verified_in_github": true
+}

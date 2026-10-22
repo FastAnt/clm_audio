@@ -1,0 +1,57 @@
+{
+  "verified_locally": true,
+  "timestamp": 1791099427.0506098,
+  "bundles": {
+    "runs/music-window/stage6-window": {
+      "verified_files": 12,
+      "best_sha256": "5a358a1398f3252e02dba0adb2af8af968e99113d9378a69c9ab7c66479c9130",
+      "calibrated_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db"
+    },
+    "models/samsone_clm_music_window": {
+      "verified_files": 9,
+      "best_sha256": "5a358a1398f3252e02dba0adb2af8af968e99113d9378a69c9ab7c66479c9130",
+      "calibrated_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db"
+    },
+    "runs/music-window/stage6-window-lowlr": {
+      "verified_files": 12,
+      "best_sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694",
+      "calibrated_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    "models/samsone_clm_music_window_lowlr": {
+      "verified_files": 9,
+      "best_sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694",
+      "calibrated_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    }
+  },
+  "selected_best_sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694",
+  "test_used_for_selection": false,
+  "common_best_sha256_unchanged": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78",
+  "prepared_audio_verified": {
+    "verified": true,
+    "audio_files": 73450,
+    "datasets": {
+      "nsynth": {
+        "qa": 42344,
+        "canonical_sha256": "d145510a8a3af11512578ee983f74ecf478d566e68243c97b569b52b55677bb5",
+        "split_leaks": 0
+      },
+      "jamendo": {
+        "qa": 60981,
+        "canonical_sha256": "dfa244e48b27a78d9ba18dfd8376ad36333de5614496ff6914ddb779b48a91d4",
+        "split_leaks": 0
+      },
+      "musicbench": {
+        "qa": 111561,
+        "canonical_sha256": "b135085b91184e9bea015f02289ae1b38e86c2071b70983d7031d95e94f9170c",
+        "split_leaks": 0
+      }
+    }
+  },
+  "window_data_verified": {
+    "verified": true,
+    "audio_files": 16528,
+    "canonical_sha256": "3db82df0d0dd80188b2b6eff42b487c92c0133723e310a57c449e02a8967afe3",
+    "split_leaks": 0,
+    "features_verified": true
+  }
+}

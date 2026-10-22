@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "all_local_bytes_read_and_sha256_verified": true,
+  "files": 428,
+  "bytes": 20466904972,
+  "symlinks": 1,
+  "seconds": 12.93395471572876,
+  "backup_root": "/srv/data/samsone_clm/backups/runpod-2026-10-04",
+  "datasets_copied": false,
+  "features_copied": false,
+  "audio_copied": false
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "/srv/data/samsone_clm/processed/v2/stage2_audio_contrast.jsonl",
+  "dataset_sha256": "23cf4a9d9ab92e0b07ae4684bb6a69b5445d714577f4bd6b5efc4a7415db0768",
+  "canonical_sha256": "b6e664a7e9e10af53ce1055e5ea2db0deaf68772d7ae7fbc5c957744a7a2d8bc",
+  "base_dataset_sha256": "00b7219256649cca879d7281559bec7790eb8883333ddd8b2a9929917c7e7fa9",
+  "main_train_samples": 10000,
+  "auxiliary_train_samples": 1113,
+  "total_train_samples": 11113,
+  "directed_paired_rows": 1186,
+  "paired_types": {
+    "speech": 718,
+    "temporal": 463,
+    "sound": 2,
+    "music": 3
+  },
+  "validation_samples": 2048,
+  "test_samples": 2048,
+  "heldout_unchanged": true,
+  "heldout_audio_overlap": 0,
+  "heldout_pcm_overlap": 0,
+  "pair_manifest": "/srv/data/samsone_clm/processed/v2/audio_contrast_pairs.json"
+}

@@ -1,0 +1,777 @@
+{
+  "samples": 19,
+  "frozen_encoder": true,
+  "results": [
+    {
+      "task": "key_tonic",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/3ujGrObyefA_9.wav",
+      "question": "What is the tonic note of the musical key?",
+      "choices": [
+        "B flat",
+        "C",
+        "G",
+        "B",
+        "E flat",
+        "E",
+        "F",
+        "F sharp",
+        "A flat",
+        "D",
+        "A",
+        "C sharp"
+      ],
+      "answer_index": 7,
+      "prediction": 10,
+      "probabilities": [
+        0.05562971159815788,
+        0.07084300369024277,
+        0.03582514822483063,
+        0.11408892273902893,
+        0.10919755697250366,
+        0.06669291108846664,
+        0.08765748143196106,
+        0.05468286573886871,
+        0.09718560427427292,
+        0.12592414021492004,
+        0.13907752931118011,
+        0.04319508373737335
+      ],
+      "ranking": [
+        {
+          "choice": "A",
+          "probability": 0.13907752931118011
+        },
+        {
+          "choice": "D",
+          "probability": 0.12592414021492004
+        },
+        {
+          "choice": "B",
+          "probability": 0.11408892273902893
+        },
+        {
+          "choice": "E flat",
+          "probability": 0.10919755697250366
+        },
+        {
+          "choice": "A flat",
+          "probability": 0.09718560427427292
+        },
+        {
+          "choice": "F",
+          "probability": 0.08765748143196106
+        },
+        {
+          "choice": "C",
+          "probability": 0.07084300369024277
+        },
+        {
+          "choice": "E",
+          "probability": 0.06669291108846664
+        },
+        {
+          "choice": "B flat",
+          "probability": 0.05562971159815788
+        },
+        {
+          "choice": "F sharp",
+          "probability": 0.05468286573886871
+        },
+        {
+          "choice": "C sharp",
+          "probability": 0.04319508373737335
+        },
+        {
+          "choice": "G",
+          "probability": 0.03582514822483063
+        }
+      ],
+      "max_live_cached_probability_difference": 9.194016456604004e-05
+    },
+    {
+      "task": "tempo",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/qRLRLp-KTFs_5.wav",
+      "question": "What is the approximate tempo of the musical pulse in beats per minute?",
+      "choices": [
+        "80 to 119 BPM",
+        "120 to 159 BPM",
+        "40 to 79 BPM",
+        "160 to 239 BPM"
+      ],
+      "answer_index": 0,
+      "prediction": 3,
+      "probabilities": [
+        0.1613088846206665,
+        0.29792582988739014,
+        0.13356177508831024,
+        0.4072034955024719
+      ],
+      "ranking": [
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.4072034955024719
+        },
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.29792582988739014
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.1613088846206665
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.13356177508831024
+        }
+      ],
+      "max_live_cached_probability_difference": 2.753734588623047e-05
+    },
+    {
+      "task": "meter",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/aXDgw2fLHAA_5.wav",
+      "question": "How many beats are there per bar in this music?",
+      "choices": [
+        "three beats per bar",
+        "four beats per bar"
+      ],
+      "answer_index": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.45935899019241333,
+        0.5406409502029419
+      ],
+      "ranking": [
+        {
+          "choice": "four beats per bar",
+          "probability": 0.5406409502029419
+        },
+        {
+          "choice": "three beats per bar",
+          "probability": 0.45935899019241333
+        }
+      ],
+      "max_live_cached_probability_difference": 1.379847526550293e-05
+    },
+    {
+      "task": "key_mode",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/2M-CFCo-rkY.wav",
+      "question": "Is the overall musical key major or minor?",
+      "choices": [
+        "major",
+        "minor"
+      ],
+      "answer_index": 1,
+      "prediction": 0,
+      "probabilities": [
+        0.6124436855316162,
+        0.3875563144683838
+      ],
+      "ranking": [
+        {
+          "choice": "major",
+          "probability": 0.6124436855316162
+        },
+        {
+          "choice": "minor",
+          "probability": 0.3875563144683838
+        }
+      ],
+      "max_live_cached_probability_difference": 1.2040138244628906e-05
+    },
+    {
+      "task": "instrument_family",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/nsynth/valid/flute_synthetic_000-081-025.wav",
+      "question": "Which instrument family produces this sound?",
+      "choices": [
+        "guitar",
+        "bass",
+        "organ",
+        "vocal",
+        "keyboard",
+        "reed",
+        "flute",
+        "string",
+        "synth lead",
+        "brass",
+        "mallet"
+      ],
+      "answer_index": 6,
+      "prediction": 6,
+      "probabilities": [
+        0.007852834649384022,
+        0.0102309575304389,
+        0.17108067870140076,
+        0.10093054175376892,
+        0.04380415007472038,
+        0.13042491674423218,
+        0.4464406967163086,
+        0.0017668878426775336,
+        0.009355004876852036,
+        0.015627238899469376,
+        0.0624861903488636
+      ],
+      "ranking": [
+        {
+          "choice": "flute",
+          "probability": 0.4464406967163086
+        },
+        {
+          "choice": "organ",
+          "probability": 0.17108067870140076
+        },
+        {
+          "choice": "reed",
+          "probability": 0.13042491674423218
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.10093054175376892
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.0624861903488636
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.04380415007472038
+        },
+        {
+          "choice": "brass",
+          "probability": 0.015627238899469376
+        },
+        {
+          "choice": "bass",
+          "probability": 0.0102309575304389
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.009355004876852036
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.007852834649384022
+        },
+        {
+          "choice": "string",
+          "probability": 0.0017668878426775336
+        }
+      ],
+      "max_live_cached_probability_difference": 2.8431415557861328e-05
+    },
+    {
+      "task": "instrument_source",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/nsynth/valid/vocal_synthetic_003-030-075.wav",
+      "question": "Is the sound from an acoustic, electronic, or synthetic source?",
+      "choices": [
+        "electronic",
+        "synthetic",
+        "acoustic"
+      ],
+      "answer_index": 1,
+      "prediction": 2,
+      "probabilities": [
+        0.13944664597511292,
+        0.18281899392604828,
+        0.6777343153953552
+      ],
+      "ranking": [
+        {
+          "choice": "acoustic",
+          "probability": 0.6777343153953552
+        },
+        {
+          "choice": "synthetic",
+          "probability": 0.18281899392604828
+        },
+        {
+          "choice": "electronic",
+          "probability": 0.13944664597511292
+        }
+      ],
+      "max_live_cached_probability_difference": 4.0471553802490234e-05
+    },
+    {
+      "task": "danceability",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0195298.wav",
+      "question": "Is the musical pulse suitable for dancing?",
+      "choices": [
+        "danceable",
+        "not danceable"
+      ],
+      "answer_index": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.39247623085975647,
+        0.6075237393379211
+      ],
+      "ranking": [
+        {
+          "choice": "not danceable",
+          "probability": 0.6075237393379211
+        },
+        {
+          "choice": "danceable",
+          "probability": 0.39247623085975647
+        }
+      ],
+      "max_live_cached_probability_difference": 0.00024044513702392578
+    },
+    {
+      "task": "mood_acoustic",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1108993.wav",
+      "question": "Does this music have a acoustic character?",
+      "choices": [
+        "not acoustic",
+        "acoustic"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9728030562400818,
+        0.02719699777662754
+      ],
+      "ranking": [
+        {
+          "choice": "not acoustic",
+          "probability": 0.9728030562400818
+        },
+        {
+          "choice": "acoustic",
+          "probability": 0.02719699777662754
+        }
+      ],
+      "max_live_cached_probability_difference": 2.9802322387695312e-06
+    },
+    {
+      "task": "mood_aggressive",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0127596.wav",
+      "question": "Does this music have a aggressive character?",
+      "choices": [
+        "aggressive",
+        "not aggressive"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9971776008605957,
+        0.0028224424459040165
+      ],
+      "ranking": [
+        {
+          "choice": "aggressive",
+          "probability": 0.9971776008605957
+        },
+        {
+          "choice": "not aggressive",
+          "probability": 0.0028224424459040165
+        }
+      ],
+      "max_live_cached_probability_difference": 8.344650268554688e-07
+    },
+    {
+      "task": "genre_rosamerica",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1347105.wav",
+      "question": "Which musical style best describes this excerpt?",
+      "choices": [
+        "rock",
+        "hip hop",
+        "jazz",
+        "rhythm and blues",
+        "speech",
+        "dance",
+        "pop",
+        "classical"
+      ],
+      "answer_index": 6,
+      "prediction": 6,
+      "probabilities": [
+        0.32104942202568054,
+        0.0013175549684092402,
+        0.003377402201294899,
+        0.00015273626195266843,
+        0.0008536283276043832,
+        0.0014576900284737349,
+        0.6716561913490295,
+        0.0001353834377368912
+      ],
+      "ranking": [
+        {
+          "choice": "pop",
+          "probability": 0.6716561913490295
+        },
+        {
+          "choice": "rock",
+          "probability": 0.32104942202568054
+        },
+        {
+          "choice": "jazz",
+          "probability": 0.003377402201294899
+        },
+        {
+          "choice": "dance",
+          "probability": 0.0014576900284737349
+        },
+        {
+          "choice": "hip hop",
+          "probability": 0.0013175549684092402
+        },
+        {
+          "choice": "speech",
+          "probability": 0.0008536283276043832
+        },
+        {
+          "choice": "rhythm and blues",
+          "probability": 0.00015273626195266843
+        },
+        {
+          "choice": "classical",
+          "probability": 0.0001353834377368912
+        }
+      ],
+      "max_live_cached_probability_difference": 0.00011092424392700195
+    },
+    {
+      "task": "mood_happy",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1157360.wav",
+      "question": "Does this music have a happy character?",
+      "choices": [
+        "not happy",
+        "happy"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.7263934016227722,
+        0.27360662817955017
+      ],
+      "ranking": [
+        {
+          "choice": "not happy",
+          "probability": 0.7263934016227722
+        },
+        {
+          "choice": "happy",
+          "probability": 0.27360662817955017
+        }
+      ],
+      "max_live_cached_probability_difference": 2.9206275939941406e-05
+    },
+    {
+      "task": "mood_electronic",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0171318.wav",
+      "question": "Does this music have a electronic character?",
+      "choices": [
+        "electronic",
+        "not electronic"
+      ],
+      "answer_index": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.011092902161180973,
+        0.9889070987701416
+      ],
+      "ranking": [
+        {
+          "choice": "not electronic",
+          "probability": 0.9889070987701416
+        },
+        {
+          "choice": "electronic",
+          "probability": 0.011092902161180973
+        }
+      ],
+      "max_live_cached_probability_difference": 2.086162567138672e-06
+    },
+    {
+      "task": "mood_relaxed",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0033322.wav",
+      "question": "Does this music have a relaxed character?",
+      "choices": [
+        "not relaxed",
+        "relaxed"
+      ],
+      "answer_index": 1,
+      "prediction": 0,
+      "probabilities": [
+        0.5932825207710266,
+        0.4067174196243286
+      ],
+      "ranking": [
+        {
+          "choice": "not relaxed",
+          "probability": 0.5932825207710266
+        },
+        {
+          "choice": "relaxed",
+          "probability": 0.4067174196243286
+        }
+      ],
+      "max_live_cached_probability_difference": 1.913309097290039e-05
+    },
+    {
+      "task": "genre",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1163803.wav",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "alternative",
+        "electronic",
+        "rock",
+        "blues",
+        "jazz",
+        "folk country",
+        "rap hiphop",
+        "funk soul rnb"
+      ],
+      "answer_index": 2,
+      "prediction": 2,
+      "probabilities": [
+        0.035175926983356476,
+        0.0026589175686240196,
+        0.9363989233970642,
+        0.0013598334044218063,
+        1.0269681297359057e-05,
+        0.003982411231845617,
+        0.0037486935034394264,
+        0.01612696796655655,
+        0.0005380926304496825
+      ],
+      "ranking": [
+        {
+          "choice": "electronic",
+          "probability": 0.9363989233970642
+        },
+        {
+          "choice": "pop",
+          "probability": 0.035175926983356476
+        },
+        {
+          "choice": "rap hiphop",
+          "probability": 0.01612696796655655
+        },
+        {
+          "choice": "jazz",
+          "probability": 0.003982411231845617
+        },
+        {
+          "choice": "folk country",
+          "probability": 0.0037486935034394264
+        },
+        {
+          "choice": "alternative",
+          "probability": 0.0026589175686240196
+        },
+        {
+          "choice": "rock",
+          "probability": 0.0013598334044218063
+        },
+        {
+          "choice": "funk soul rnb",
+          "probability": 0.0005380926304496825
+        },
+        {
+          "choice": "blues",
+          "probability": 1.0269681297359057e-05
+        }
+      ],
+      "max_live_cached_probability_difference": 1.4901161193847656e-06
+    },
+    {
+      "task": "vocals",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1093794.wav",
+      "question": "Does this music contain singing or voice, or is it instrumental?",
+      "choices": [
+        "voice",
+        "instrumental"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.9986224174499512,
+        0.001377562526613474
+      ],
+      "ranking": [
+        {
+          "choice": "voice",
+          "probability": 0.9986224174499512
+        },
+        {
+          "choice": "instrumental",
+          "probability": 0.001377562526613474
+        }
+      ],
+      "max_live_cached_probability_difference": 4.320172592997551e-07
+    },
+    {
+      "task": "genre_gtzan",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0171315.wav",
+      "question": "Which genre best fits the musical style of this excerpt?",
+      "choices": [
+        "disco",
+        "classical",
+        "country",
+        "metal",
+        "pop",
+        "rock",
+        "hip hop",
+        "reggae",
+        "jazz",
+        "blues"
+      ],
+      "answer_index": 5,
+      "prediction": 5,
+      "probabilities": [
+        0.0003939311718568206,
+        4.616077058017254e-05,
+        0.0007238623802550137,
+        0.06985390931367874,
+        0.018268922343850136,
+        0.8880979418754578,
+        0.00361870089545846,
+        5.783825690741651e-05,
+        0.0007866482483223081,
+        0.01815204508602619
+      ],
+      "ranking": [
+        {
+          "choice": "rock",
+          "probability": 0.8880979418754578
+        },
+        {
+          "choice": "metal",
+          "probability": 0.06985390931367874
+        },
+        {
+          "choice": "pop",
+          "probability": 0.018268922343850136
+        },
+        {
+          "choice": "blues",
+          "probability": 0.01815204508602619
+        },
+        {
+          "choice": "hip hop",
+          "probability": 0.00361870089545846
+        },
+        {
+          "choice": "jazz",
+          "probability": 0.0007866482483223081
+        },
+        {
+          "choice": "country",
+          "probability": 0.0007238623802550137
+        },
+        {
+          "choice": "disco",
+          "probability": 0.0003939311718568206
+        },
+        {
+          "choice": "reggae",
+          "probability": 5.783825690741651e-05
+        },
+        {
+          "choice": "classical",
+          "probability": 4.616077058017254e-05
+        }
+      ],
+      "max_live_cached_probability_difference": 1.5139579772949219e-05
+    },
+    {
+      "task": "mood_party",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1161063.wav",
+      "question": "Does this music have a party character?",
+      "choices": [
+        "party",
+        "not party"
+      ],
+      "answer_index": 1,
+      "prediction": 1,
+      "probabilities": [
+        0.01670525036752224,
+        0.9832947254180908
+      ],
+      "ranking": [
+        {
+          "choice": "not party",
+          "probability": 0.9832947254180908
+        },
+        {
+          "choice": "party",
+          "probability": 0.01670525036752224
+        }
+      ],
+      "max_live_cached_probability_difference": 1.73225998878479e-06
+    },
+    {
+      "task": "mood_sad",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0195303.wav",
+      "question": "Does this music have a sad character?",
+      "choices": [
+        "not sad",
+        "sad"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.8028293251991272,
+        0.1971707046031952
+      ],
+      "ranking": [
+        {
+          "choice": "not sad",
+          "probability": 0.8028293251991272
+        },
+        {
+          "choice": "sad",
+          "probability": 0.1971707046031952
+        }
+      ],
+      "max_live_cached_probability_difference": 6.711483001708984e-05
+    },
+    {
+      "task": "electronic_genre",
+      "audio": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_0032538.wav",
+      "question": "Which electronic music style best describes this excerpt?",
+      "choices": [
+        "ambient",
+        "trance",
+        "house",
+        "techno",
+        "drum and bass"
+      ],
+      "answer_index": 0,
+      "prediction": 0,
+      "probabilities": [
+        0.8881025314331055,
+        0.04780864343047142,
+        0.015508602373301983,
+        0.013515399768948555,
+        0.03506483882665634
+      ],
+      "ranking": [
+        {
+          "choice": "ambient",
+          "probability": 0.8881025314331055
+        },
+        {
+          "choice": "trance",
+          "probability": 0.04780864343047142
+        },
+        {
+          "choice": "drum and bass",
+          "probability": 0.03506483882665634
+        },
+        {
+          "choice": "house",
+          "probability": 0.015508602373301983
+        },
+        {
+          "choice": "techno",
+          "probability": 0.013515399768948555
+        }
+      ],
+      "max_live_cached_probability_difference": 4.3608248233795166e-05
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "completed": true,
+  "versions": [
+    "v1",
+    "v2"
+  ],
+  "artifacts_remote_only": true,
+  "common_sha256": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78",
+  "selected_parent": "/home/ubuntu/dev_clm/data/models/samsone_clm_music_genre_v2/best.pt",
+  "timestamp": 1791113254.1449673
+}

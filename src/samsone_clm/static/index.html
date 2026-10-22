@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samsone–CLM · Audio System 1</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101820;color:#e8eef1;font:16px system-ui,sans-serif}main{max-width:880px;margin:40px auto;padding:0 24px}h1{font-size:30px;margin-bottom:8px}.muted{color:#a6b7c1;font-size:14px}section{background:#192630;border:1px solid #304451;border-radius:14px;padding:24px;margin:20px 0}label{display:block;margin:14px 0 8px}input,textarea,button{font:inherit}input[type=text],textarea{width:100%;background:#0f1b24;color:#fff;border:1px solid #425766;border-radius:8px;padding:12px}textarea{resize:vertical}audio{width:100%;margin:16px 0}button{border:0;border-radius:8px;padding:12px 18px;cursor:pointer;background:#c6f095;color:#172117}button.secondary{background:#304451;color:#e8eef1}button:disabled{opacity:.45;cursor:wait}.choice{display:flex;gap:8px;margin:8px 0}.choice button{background:#304451;color:#e8eef1}.actions{display:flex;gap:12px;margin-top:18px}.rank{margin:16px 0}.rank-label{display:flex;justify-content:space-between;gap:16px}.track{height:8px;background:#304451;border-radius:8px;margin-top:8px;overflow:hidden}.fill{height:100%;background:#c6f095}#error{color:#ffb29e;white-space:pre-wrap}#details{line-height:1.8;overflow-wrap:anywhere}code{font-size:12px}#result[hidden]{display:none}
+</style>
+<style>
+select{font:inherit;width:100%;background:#0f1b24;color:#fff;border:1px solid #425766;border-radius:8px;padding:12px}select:disabled{opacity:.6}#model-info{overflow-wrap:anywhere}
+</style>
+<main>
+<h1>Audio System 1</h1><p class="muted">Samsone–CLM · audio answer ranking without generation · <a href="/training" style="color:#c6f095">Training monitor ↗</a></p>
+<section>
+<label for="model">Model</label><select id="model" disabled><option>Loading models…</option></select>
+<p id="model-info" class="muted"></p>
+<label for="file">Audio file</label><input id="file" type="file" accept="audio/*">
+<audio id="audio" controls preload="metadata"></audio><div>Current position: <strong id="position">0.00 s</strong></div>
+<p class="muted">Analyze uses the 5 seconds before and after the current position. Windows are padded with silence to 10 seconds at file boundaries.</p>
+<label for="question">Question</label><textarea id="question" rows="2" placeholder="What instrument is playing?"></textarea>
+<label>Choices</label><div id="choices"></div>
+<p class="muted">Enter the question and choices in English. Samsone uses its original ASCII text path.</p>
+<div class="actions"><button id="add" class="secondary">+ Choice</button><button id="analyze" disabled>Analyze</button></div>
+<p id="status" class="muted">Upload an audio file.</p><p id="error" role="alert"></p>
+</section>
+<section id="result" hidden><h2>Ranking</h2><div id="ranking"></div><div id="details" class="muted"></div></section>
+<p id="checkpoint" class="muted"></p>
+</main>
+<script>
+const $=id=>document.getElementById(id);let audioId=null;let pending=false;let modelCatalog=null;
+function updateAnalyze(){ $('analyze').disabled=!audioId||!modelCatalog||pending; }
+function showModel(){
+  const model=modelCatalog.models.find(m=>m.id===$('model').value);
+  $('model-info').textContent=`${model.name} · ${modelCatalog.device.toUpperCase()}`;
+  $('checkpoint').textContent='Checkpoint: '+model.checkpoint;
+}
+function addChoice(value=''){const row=document.createElement('div');row.className='choice';const input=document.createElement('input');input.type='text';input.value=value;input.placeholder='Choice text';const remove=document.createElement('button');remove.textContent='×';remove.setAttribute('aria-label','Remove choice');remove.onclick=()=>row.remove();row.append(input,remove);$('choices').append(row)}
+['piano','guitar','strings','synth'].forEach(addChoice);$('add').onclick=()=>addChoice();
+$('audio').ontimeupdate=()=>{$('position').textContent=$('audio').currentTime.toFixed(2)+' s'};
+async function responseJSON(response){const body=await response.json();if(!response.ok)throw new Error(typeof body.detail==='string'?body.detail:JSON.stringify(body.detail));return body}
+$('model').onchange=()=>{showModel();$('result').hidden=true;$('error').textContent='';if(audioId)$('status').textContent='Model selected. Click Analyze.';};
+$('file').onchange=async()=>{
+  const file=$('file').files[0];if(!file)return;
+  audioId=null;updateAnalyze();$('result').hidden=true;$('error').textContent='';$('status').textContent='Uploading and preparing audio…';
+  try{
+    const data=new FormData();data.append('file',file);
+    const body=await responseJSON(await fetch('/api/upload',{method:'POST',body:data}));
+    audioId=body.audio_id;$('audio').src=body.audio_url;$('status').textContent=`Audio ready · ${body.duration_s.toFixed(2)} s`;
+  }catch(e){$('error').textContent=e.message;$('status').textContent='Audio upload failed.';}
+  finally{updateAnalyze();}
+};
+$('analyze').onclick=async()=>{
+  if(!audioId||!modelCatalog||pending)return;
+  pending=true;updateAnalyze();$('model').disabled=true;$('file').disabled=true;
+  $('result').hidden=true;$('error').textContent='';$('status').textContent='Analyzing audio window…';
+  const request={audio_id:audioId,model_id:$('model').value,position_s:$('audio').currentTime,question:$('question').value,choices:[...$('choices').querySelectorAll('input')].map(i=>i.value.trim()).filter(Boolean)};
+  try{
+    const body=await responseJSON(await fetch('/api/analyze',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(request)}));
+    $('ranking').replaceChildren();
+    body.ranking.forEach(item=>{
+      const row=document.createElement('div');row.className='rank';
+      const label=document.createElement('div');label.className='rank-label';
+      const choice=document.createElement('span');choice.textContent=item.choice;
+      const percent=document.createElement('strong');percent.textContent=(item.probability*100).toFixed(1)+'%';label.append(choice,percent);
+      const track=document.createElement('div');track.className='track';
+      const fill=document.createElement('div');fill.className='fill';fill.style.width=(item.probability*100)+'%';track.append(fill);
+      row.append(label,track);$('ranking').append(row);
+    });
+    const w=body.window;
+    $('details').textContent=`Model: ${body.model_name} · ${body.device.toUpperCase()} · Position at Analyze: ${w.position_s.toFixed(2)} s · Window: ${w.requested_start_s.toFixed(2)}…${w.requested_end_s.toFixed(2)} s · Source audio: ${w.source_start_s.toFixed(2)}…${w.source_end_s.toFixed(2)} s · Silence before/after: ${w.silence_before_s.toFixed(2)}/${w.silence_after_s.toFixed(2)} s · Inference: ${body.latency_ms.toFixed(0)} ms · Checkpoint: ${body.checkpoint}`;
+    $('checkpoint').textContent='Checkpoint: '+body.checkpoint;$('result').hidden=false;$('status').textContent='Analysis complete.';
+  }catch(e){$('error').textContent=e.message;$('status').textContent='Analysis failed.';}
+  finally{pending=false;$('model').disabled=false;$('file').disabled=false;updateAnalyze();}
+};
+fetch('/api/models').then(responseJSON).then(body=>{
+  modelCatalog=body;$('model').replaceChildren();
+  body.models.forEach(model=>{const option=document.createElement('option');option.value=model.id;option.textContent=model.name;$('model').append(option);});
+  $('model').value=body.default_model;$('model').disabled=false;showModel();updateAnalyze();
+}).catch(e=>{$('error').textContent=e.message;});
+</script>
+</html>

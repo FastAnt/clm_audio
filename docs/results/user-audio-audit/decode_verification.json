@@ -1,0 +1,14 @@
+[
+  {
+    "audio_id": "f1fbfbc185d24085bce7b27a32e68ec3",
+    "fresh_decode_equals_server_audio": true,
+    "samples": 4416993,
+    "max_abs_error": 0.0
+  },
+  {
+    "audio_id": "c51f7904539d48029a77a1696429924e",
+    "fresh_decode_equals_server_audio": true,
+    "samples": 3839599,
+    "max_abs_error": 0.0
+  }
+]

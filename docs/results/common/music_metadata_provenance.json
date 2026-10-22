@@ -1,0 +1,24 @@
+{
+  "scope": "Metadata only; not added to active AudioMCQ training",
+  "sources": [
+    {
+      "path": "/srv/data/samsone_clm/raw/music_expansion/mtg_jamendo_autotagging.tsv",
+      "url": "https://raw.githubusercontent.com/MTG/mtg-jamendo-dataset/master/data/raw_30s_cleantags_50artists.tsv",
+      "bytes": 7807534,
+      "sha256": "a30655f45f4a7b4f9dba2d6b51d78733be33687eae3e8b9795e2234d54ef4e56",
+      "note": "Resolved official autotagging.tsv symlink to its actual TSV target"
+    },
+    {
+      "path": "/srv/data/samsone_clm/raw/music_expansion/mtg_jamendo_raw_meta.tsv",
+      "url": "https://raw.githubusercontent.com/MTG/mtg-jamendo-dataset/master/data/raw.meta.tsv",
+      "bytes": 7848074,
+      "sha256": "bb1efa2876536cbe1a8b67db5dda15249ca144f0cff69e481b638803cbdc9aca"
+    },
+    {
+      "path": "/srv/data/samsone_clm/raw/music_expansion/MusicBench_train.json",
+      "url": "https://huggingface.co/datasets/amaai-lab/MusicBench/resolve/main/MusicBench_train.json",
+      "bytes": 85670037,
+      "sha256": "579d35b724391cb6fd2b0ae181bed074e536f44158e5ebfc0d683d323d23ac26"
+    }
+  ]
+}

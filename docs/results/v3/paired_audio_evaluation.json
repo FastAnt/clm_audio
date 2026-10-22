@@ -1,0 +1,300 @@
+{
+  "checkpoint": "/srv/data/samsone_clm/runs/v3/stage4/calibrated.pt",
+  "method": "paired bootstrap over audio_identity clusters; 2000 resamples, 95% intervals",
+  "splits": {
+    "validation": {
+      "overall": {
+        "samples": 2048,
+        "audio_clusters": 1834,
+        "accuracy": {
+          "correct": 0.65185546875,
+          "random": 0.5966796875,
+          "silence": 0.580078125
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.05517578125,
+            "ci95": [
+              0.039941771859481195,
+              0.06985891827487123
+            ],
+            "lost": 182,
+            "gained": 69
+          },
+          "silence": {
+            "gap": 0.07177734375,
+            "ci95": [
+              0.05522275168292867,
+              0.08881554357967111
+            ],
+            "lost": 224,
+            "gained": 77
+          }
+        }
+      },
+      "music": {
+        "samples": 512,
+        "audio_clusters": 421,
+        "accuracy": {
+          "correct": 0.708984375,
+          "random": 0.634765625,
+          "silence": 0.61328125
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.07421875,
+            "ci95": [
+              0.044264722953103235,
+              0.1039235294117647
+            ],
+            "lost": 49,
+            "gained": 11
+          },
+          "silence": {
+            "gap": 0.095703125,
+            "ci95": [
+              0.060546875,
+              0.13193116634799235
+            ],
+            "lost": 68,
+            "gained": 19
+          }
+        }
+      },
+      "sound": {
+        "samples": 512,
+        "audio_clusters": 507,
+        "accuracy": {
+          "correct": 0.6875,
+          "random": 0.642578125,
+          "silence": 0.66015625
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.044921875,
+            "ci95": [
+              0.01568627450980392,
+              0.07407407407407407
+            ],
+            "lost": 39,
+            "gained": 16
+          },
+          "silence": {
+            "gap": 0.02734375,
+            "ci95": [
+              0.001949222927617357,
+              0.05283757338551859
+            ],
+            "lost": 30,
+            "gained": 16
+          }
+        }
+      },
+      "speech": {
+        "samples": 512,
+        "audio_clusters": 512,
+        "accuracy": {
+          "correct": 0.7265625,
+          "random": 0.625,
+          "silence": 0.603515625
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.1015625,
+            "ci95": [
+              0.0703125,
+              0.1328125
+            ],
+            "lost": 60,
+            "gained": 8
+          },
+          "silence": {
+            "gap": 0.123046875,
+            "ci95": [
+              0.08984375,
+              0.15625
+            ],
+            "lost": 74,
+            "gained": 11
+          }
+        }
+      },
+      "temporal": {
+        "samples": 512,
+        "audio_clusters": 399,
+        "accuracy": {
+          "correct": 0.484375,
+          "random": 0.484375,
+          "silence": 0.443359375
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.0,
+            "ci95": [
+              -0.032142419812800874,
+              0.033012926058403814
+            ],
+            "lost": 34,
+            "gained": 34
+          },
+          "silence": {
+            "gap": 0.041015625,
+            "ci95": [
+              0.005928853754940711,
+              0.07524752475247524
+            ],
+            "lost": 52,
+            "gained": 31
+          }
+        }
+      }
+    },
+    "test": {
+      "overall": {
+        "samples": 2048,
+        "audio_clusters": 1841,
+        "accuracy": {
+          "correct": 0.6279296875,
+          "random": 0.59033203125,
+          "silence": 0.57421875
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.03759765625,
+            "ci95": [
+              0.02202455141291501,
+              0.05253302647812468
+            ],
+            "lost": 167,
+            "gained": 90
+          },
+          "silence": {
+            "gap": 0.0537109375,
+            "ci95": [
+              0.03655456657049014,
+              0.07047909378652052
+            ],
+            "lost": 205,
+            "gained": 95
+          }
+        }
+      },
+      "music": {
+        "samples": 512,
+        "audio_clusters": 421,
+        "accuracy": {
+          "correct": 0.689453125,
+          "random": 0.619140625,
+          "silence": 0.59375
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.0703125,
+            "ci95": [
+              0.037916641963597564,
+              0.10352068936521523
+            ],
+            "lost": 55,
+            "gained": 19
+          },
+          "silence": {
+            "gap": 0.095703125,
+            "ci95": [
+              0.06055036912270643,
+              0.130859375
+            ],
+            "lost": 67,
+            "gained": 18
+          }
+        }
+      },
+      "sound": {
+        "samples": 512,
+        "audio_clusters": 507,
+        "accuracy": {
+          "correct": 0.66796875,
+          "random": 0.64453125,
+          "silence": 0.64453125
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.0234375,
+            "ci95": [
+              0.0,
+              0.04518664047151277
+            ],
+            "lost": 26,
+            "gained": 14
+          },
+          "silence": {
+            "gap": 0.0234375,
+            "ci95": [
+              -0.001953125,
+              0.050883120371436226
+            ],
+            "lost": 29,
+            "gained": 17
+          }
+        }
+      },
+      "speech": {
+        "samples": 512,
+        "audio_clusters": 512,
+        "accuracy": {
+          "correct": 0.728515625,
+          "random": 0.64453125,
+          "silence": 0.625
+        },
+        "gaps": {
+          "random": {
+            "gap": 0.083984375,
+            "ci95": [
+              0.0546875,
+              0.115234375
+            ],
+            "lost": 57,
+            "gained": 14
+          },
+          "silence": {
+            "gap": 0.103515625,
+            "ci95": [
+              0.06640625,
+              0.142578125
+            ],
+            "lost": 78,
+            "gained": 25
+          }
+        }
+      },
+      "temporal": {
+        "samples": 512,
+        "audio_clusters": 409,
+        "accuracy": {
+          "correct": 0.42578125,
+          "random": 0.453125,
+          "silence": 0.43359375
+        },
+        "gaps": {
+          "random": {
+            "gap": -0.02734375,
+            "ci95": [
+              -0.06138918356121326,
+              0.005814803481572143
+            ],
+            "lost": 29,
+            "gained": 43
+          },
+          "silence": {
+            "gap": -0.0078125,
+            "ci95": [
+              -0.039527648417015615,
+              0.022904060013772674
+            ],
+            "lost": 31,
+            "gained": 35
+          }
+        }
+      }
+    }
+  }
+}

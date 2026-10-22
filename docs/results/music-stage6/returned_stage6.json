@@ -1,0 +1,9 @@
+{
+  "stage": 6,
+  "verified_locally": true,
+  "verified_files": 12,
+  "best_sha256": "0c8362478011dfe0e245fae82721b4e0b1747a007e54c420017fed6306aaec88",
+  "feature_manifest_sha256": "7d7b2c1c0136a10531d8795dba0475b8a7eaf2c302be03f0bce1f77df2f80912",
+  "local_directory": "/srv/data/samsone_clm/runs/music/stage6",
+  "timestamp": 1791077587.075962
+}

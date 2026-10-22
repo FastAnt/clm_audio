@@ -1,0 +1,373 @@
+{
+  "passed": true,
+  "samples": 9,
+  "seek_range_verified": true,
+  "results": [
+    {
+      "task": "instrument_family",
+      "position_s": 0.0,
+      "ranking": [
+        {
+          "choice": "flute",
+          "probability": 0.7001638412475586
+        },
+        {
+          "choice": "organ",
+          "probability": 0.09139163792133331
+        },
+        {
+          "choice": "reed",
+          "probability": 0.07304821163415909
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.040038302540779114
+        },
+        {
+          "choice": "bass",
+          "probability": 0.035300467163324356
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.022346720099449158
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.013694548048079014
+        },
+        {
+          "choice": "brass",
+          "probability": 0.01333730947226286
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.009136578999459743
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.001366523327305913
+        },
+        {
+          "choice": "string",
+          "probability": 0.0001758374273777008
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 4.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 1.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 813.229713588953,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "instrument_family",
+      "position_s": 2.0,
+      "ranking": [
+        {
+          "choice": "flute",
+          "probability": 0.5308077335357666
+        },
+        {
+          "choice": "organ",
+          "probability": 0.246522918343544
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.05468841269612312
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.04708372429013252
+        },
+        {
+          "choice": "bass",
+          "probability": 0.045786771923303604
+        },
+        {
+          "choice": "reed",
+          "probability": 0.031086180359125137
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.027178609743714333
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.010986137203872204
+        },
+        {
+          "choice": "brass",
+          "probability": 0.0025815439876168966
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.0021681131329387426
+        },
+        {
+          "choice": "string",
+          "probability": 0.0011099582770839334
+        }
+      ],
+      "window": {
+        "position_s": 2.0,
+        "requested_start_s": -3.0,
+        "requested_end_s": 7.0,
+        "source_start_s": 0.0,
+        "source_end_s": 4.0,
+        "silence_before_s": 3.0,
+        "silence_after_s": 3.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 85.92245168983936,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "instrument_family",
+      "position_s": 4.0,
+      "ranking": [
+        {
+          "choice": "flute",
+          "probability": 0.3711007237434387
+        },
+        {
+          "choice": "organ",
+          "probability": 0.2207833081483841
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.09823095798492432
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.09064091742038727
+        },
+        {
+          "choice": "bass",
+          "probability": 0.0655275359749794
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.05540205165743828
+        },
+        {
+          "choice": "reed",
+          "probability": 0.053466636687517166
+        },
+        {
+          "choice": "brass",
+          "probability": 0.02044905722141266
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.01668209582567215
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.007306082174181938
+        },
+        {
+          "choice": "string",
+          "probability": 0.000410674256272614
+        }
+      ],
+      "window": {
+        "position_s": 4.0,
+        "requested_start_s": -1.0,
+        "requested_end_s": 9.0,
+        "source_start_s": 0.0,
+        "source_end_s": 4.0,
+        "silence_before_s": 1.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 75.0690195709467,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "vocals",
+      "position_s": 0.0,
+      "ranking": [
+        {
+          "choice": "voice",
+          "probability": 0.7959352135658264
+        },
+        {
+          "choice": "instrumental",
+          "probability": 0.20406480133533478
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 138.08396086096764,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "vocals",
+      "position_s": 15.0,
+      "ranking": [
+        {
+          "choice": "voice",
+          "probability": 0.7711849808692932
+        },
+        {
+          "choice": "instrumental",
+          "probability": 0.228814959526062
+        }
+      ],
+      "window": {
+        "position_s": 15.0,
+        "requested_start_s": 10.0,
+        "requested_end_s": 20.0,
+        "source_start_s": 10.0,
+        "source_end_s": 20.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 81.68304711580276,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "vocals",
+      "position_s": 30.0,
+      "ranking": [
+        {
+          "choice": "voice",
+          "probability": 0.7276643514633179
+        },
+        {
+          "choice": "instrumental",
+          "probability": 0.2723356783390045
+        }
+      ],
+      "window": {
+        "position_s": 30.0,
+        "requested_start_s": 25.0,
+        "requested_end_s": 35.0,
+        "source_start_s": 25.0,
+        "source_end_s": 30.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 83.04970897734165,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "tempo",
+      "position_s": 0.0,
+      "ranking": [
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.31666404008865356
+        },
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.31607720255851746
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.2186400294303894
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.14861872792243958
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 120.63467130064964,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "tempo",
+      "position_s": 5.0,
+      "ranking": [
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.4072034955024719
+        },
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.29792582988739014
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.1613088846206665
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.13356177508831024
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 85.1336196064949,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    },
+    {
+      "task": "tempo",
+      "position_s": 10.0,
+      "ranking": [
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.4463549852371216
+        },
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.21437762677669525
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.17334870994091034
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.1659187525510788
+        }
+      ],
+      "window": {
+        "position_s": 10.0,
+        "requested_start_s": 5.0,
+        "requested_end_s": 15.0,
+        "source_start_s": 5.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 76.52871124446392,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music/stage6/calibrated.pt"
+    }
+  ]
+}

@@ -1,0 +1,2172 @@
+{
+  "summary": {
+    "snapshot": "/home/ubuntu/dev_clm/data/tmp/artifacts-2026-10-04/data",
+    "files": 428,
+    "bytes": 20466904972,
+    "scope": "all learned model exports and all run checkpoints/metrics/logs/plots; datasets, audio, features, upstream pretrained weights and host environments excluded by user instruction",
+    "models": [
+      "samsone_clm_common",
+      "samsone_clm_music_full32",
+      "samsone_clm_music_stage6_initial",
+      "samsone_clm_music_window",
+      "samsone_clm_music_full32_before_windows",
+      "samsone_clm_music_window_lowlr",
+      "samsone_clm_music_window_before_lowlr",
+      "samsone_clm_music_genre_v2",
+      "samsone_clm_music_before_genre_v2",
+      "samsone_clm_music"
+    ],
+    "excluded_run_files": [],
+    "all_bytes_hashed": true,
+    "hash_seconds": 20.204559564590454
+  },
+  "files": [
+    {
+      "path": "models/samsone_clm_common/best.pt",
+      "bytes": 307155449,
+      "sha256": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78"
+    },
+    {
+      "path": "models/samsone_clm_common/calibrated.pt",
+      "bytes": 307155441,
+      "sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98"
+    },
+    {
+      "path": "models/samsone_clm_common/calibrated_test.json",
+      "bytes": 4920,
+      "sha256": "f86b3060ee44a5e44ef8d55f67d856b06ece8b424525ab9a84103882a72cfcf3"
+    },
+    {
+      "path": "models/samsone_clm_common/calibration.json",
+      "bytes": 680,
+      "sha256": "c193fb03e4188d2a437be3b1a0175d0addc5439e21ee55534f12c14a981a7a66"
+    },
+    {
+      "path": "models/samsone_clm_common/card.json",
+      "bytes": 2170,
+      "sha256": "a1328bec87620754eaefba9fbc0dce7ff36f6724396ba13e2b7f443891f97218"
+    },
+    {
+      "path": "models/samsone_clm_common/checksums.json",
+      "bytes": 907,
+      "sha256": "0722eef26b32ab36a3118495b6ac3313e386232e6b53c957276db81b259a01e9"
+    },
+    {
+      "path": "models/samsone_clm_common/last.pt",
+      "bytes": 307156793,
+      "sha256": "e9b76ce5eb08d4ad14ed12def0c2f5ad137f0e67293ab45c2cd26c782fa41ce4"
+    },
+    {
+      "path": "models/samsone_clm_common/live_inference.json",
+      "bytes": 5964,
+      "sha256": "51d7234db6b90854ab6df0abc5707bb1e11fb7bcaa9fc334f42389bc68f1639c"
+    },
+    {
+      "path": "models/samsone_clm_common/paired_audio_evaluation.json",
+      "bytes": 6970,
+      "sha256": "cca8faf6e7f62c93de2fb28eaf35a4b6ad6507829bb216ee6daa7ee263502586"
+    },
+    {
+      "path": "models/samsone_clm_common/raw_test.json",
+      "bytes": 4915,
+      "sha256": "d45caada40e9980e078ee15d3cc2ac2555e1c40ac55bb4cf6a3b979fd13938dc"
+    },
+    {
+      "path": "models/samsone_clm_common/training_metrics.json",
+      "bytes": 22690,
+      "sha256": "3963b3a37d8b167c728606f3e2e1653e9ee44803d654ca00bc14b3b31f8dde6f"
+    },
+    {
+      "path": "models/samsone_clm_common/window_transfer.json",
+      "bytes": 59242,
+      "sha256": "ba94857f933322e8e9cdf0a97fca3cda655984a0ad1a51b48a962e9a66e3a063"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/best.pt",
+      "bytes": 315038457,
+      "sha256": "18d568e067ea0a6bf4497e415284afdb11c89cce03dbeb6e20b3680701ad397e"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/last.pt",
+      "bytes": 315051513,
+      "sha256": "d7ba2f42df9d00cf53af5d58d198cfd0c70ed3bb10840b4ecfdb846ee85d3737"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/calibrated.pt",
+      "bytes": 315038513,
+      "sha256": "e6e51f492c52d0f81e74fc079e0c193764b452e405f2e50c983783a826e95ad8"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/calibrated.json",
+      "bytes": 702,
+      "sha256": "4ebbe0a2ba74ff88ff9448e9804cc1b76448119b322903789237b288db22af77"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/evaluation_test.json",
+      "bytes": 36820,
+      "sha256": "440757380fe328b2e38204ad6635d74a5de8513ef5bd7b541dfb5d24e2d9d860"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/metrics.json",
+      "bytes": 165315,
+      "sha256": "30e1c48409816d29f8d334daaa52bc1a85725eb86bc48df83db747d4ac5244bc"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/training_curves.png",
+      "bytes": 237470,
+      "sha256": "c48aeb3fba49172452f95f72f520996ddffb96a0ae1a7f5358019327f84585ee"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/live_audio.json",
+      "bytes": 20291,
+      "sha256": "1d761df5d3c1efc1bf0e9071b3a568c99a40e1bbc84a229c26682c015eac23e8"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/card.json",
+      "bytes": 80335,
+      "sha256": "21b4180ce8076845f2eb517eea3593d86f5b12fe33d6ee7db5ca2bca8382322f"
+    },
+    {
+      "path": "models/samsone_clm_music_full32/checksums.json",
+      "bytes": 786,
+      "sha256": "4f9a47f879876139a703e376b263a0306cbeafd12e6b52aa3ac1452ebaae0081"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/best.pt",
+      "bytes": 315031289,
+      "sha256": "0c8362478011dfe0e245fae82721b4e0b1747a007e54c420017fed6306aaec88"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/last.pt",
+      "bytes": 315034553,
+      "sha256": "cbcfd6b21ead835ba7fcbabd4f9900ab0dfbd3b95a0f3e759b19c51e7fb89131"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/calibrated.pt",
+      "bytes": 315031281,
+      "sha256": "89dd6ac9e8286f29c3db82e8179d50c36e29e99e3ac02108c7abab72f5bb3132"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/calibrated.json",
+      "bytes": 698,
+      "sha256": "5ac098917de815cd4aa941f60c16a7fe7cbf7c2a4e5ed8d64798f57b1aa81403"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/evaluation_test.json",
+      "bytes": 36896,
+      "sha256": "ff8c298a1a2505e490332033b4bd86477f4d4603d53c71e8d1390bbd27986ed3"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/metrics.json",
+      "bytes": 112192,
+      "sha256": "e9189dc95691c44881b6823c682aecd1a6cf26d67177dfc6e1399d306e99ab99"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/training_curves.png",
+      "bytes": 192470,
+      "sha256": "b8a608b0a917d41561b85526b80dc6290cb361c401a5153640c53b8c46d77721"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/live_audio.json",
+      "bytes": 20322,
+      "sha256": "c5499588251a35e3a4f09e941b071e650ed5290a2d4a41b4bba2dbde11862598"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/card.json",
+      "bytes": 80429,
+      "sha256": "e4833e24006f23ff0f4768f15721309621400265646f90c144950ac3f4e01830"
+    },
+    {
+      "path": "models/samsone_clm_music_stage6_initial/checksums.json",
+      "bytes": 786,
+      "sha256": "9026151d0d0776f8f3af75d92ae09ebc91234d61f9a0aed0050f6437c53de527"
+    },
+    {
+      "path": "models/samsone_clm_music_window/best.pt",
+      "bytes": 316146041,
+      "sha256": "5a358a1398f3252e02dba0adb2af8af968e99113d9378a69c9ab7c66479c9130"
+    },
+    {
+      "path": "models/samsone_clm_music_window/last.pt",
+      "bytes": 316183289,
+      "sha256": "6464221eacfa0a35a4350b8e665a28e7872202264b7666072426259b2253f0a4"
+    },
+    {
+      "path": "models/samsone_clm_music_window/calibrated.pt",
+      "bytes": 316146033,
+      "sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db"
+    },
+    {
+      "path": "models/samsone_clm_music_window/calibrated.json",
+      "bytes": 703,
+      "sha256": "7ae42b3044eb52f56a8c954b16654bb8cc67d447d37a4d6498c6241a9977a753"
+    },
+    {
+      "path": "models/samsone_clm_music_window/evaluation_test.json",
+      "bytes": 113454,
+      "sha256": "195742db3435ae6e8a5dfe8a2d487d64f343fa3e0063cb110f6b476d73933fa5"
+    },
+    {
+      "path": "models/samsone_clm_music_window/metrics.json",
+      "bytes": 430090,
+      "sha256": "18be4a93589c0182de38242505232519edc023ae27192cc433e7ed7742164096"
+    },
+    {
+      "path": "models/samsone_clm_music_window/training_curves.png",
+      "bytes": 272964,
+      "sha256": "d2f884e8587f6783ca50053f7051f904fa78b28174a52bb409acdbcb30af00e4"
+    },
+    {
+      "path": "models/samsone_clm_music_window/live_audio.json",
+      "bytes": 21092,
+      "sha256": "537967012479f7ca27239877c5aecd30c8a60ddafe2b2421ed1ede42e4760580"
+    },
+    {
+      "path": "models/samsone_clm_music_window/card.json",
+      "bytes": 244499,
+      "sha256": "afcb28ced54096195d948cab885a194ad148830f0547de6205a40fde2b317461"
+    },
+    {
+      "path": "models/samsone_clm_music_window/checksums.json",
+      "bytes": 786,
+      "sha256": "8491b836b348cc55a959590002b97798fa5c2aaca2ecdf21e420ba8a4d356b36"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/best.pt",
+      "bytes": 315038457,
+      "sha256": "18d568e067ea0a6bf4497e415284afdb11c89cce03dbeb6e20b3680701ad397e"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/last.pt",
+      "bytes": 315051513,
+      "sha256": "d7ba2f42df9d00cf53af5d58d198cfd0c70ed3bb10840b4ecfdb846ee85d3737"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/calibrated.pt",
+      "bytes": 315038513,
+      "sha256": "e6e51f492c52d0f81e74fc079e0c193764b452e405f2e50c983783a826e95ad8"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/calibrated.json",
+      "bytes": 702,
+      "sha256": "4ebbe0a2ba74ff88ff9448e9804cc1b76448119b322903789237b288db22af77"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/evaluation_test.json",
+      "bytes": 36820,
+      "sha256": "440757380fe328b2e38204ad6635d74a5de8513ef5bd7b541dfb5d24e2d9d860"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/metrics.json",
+      "bytes": 165315,
+      "sha256": "30e1c48409816d29f8d334daaa52bc1a85725eb86bc48df83db747d4ac5244bc"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/training_curves.png",
+      "bytes": 237470,
+      "sha256": "c48aeb3fba49172452f95f72f520996ddffb96a0ae1a7f5358019327f84585ee"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/live_audio.json",
+      "bytes": 20291,
+      "sha256": "1d761df5d3c1efc1bf0e9071b3a568c99a40e1bbc84a229c26682c015eac23e8"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/card.json",
+      "bytes": 80335,
+      "sha256": "21b4180ce8076845f2eb517eea3593d86f5b12fe33d6ee7db5ca2bca8382322f"
+    },
+    {
+      "path": "models/samsone_clm_music_full32_before_windows/checksums.json",
+      "bytes": 786,
+      "sha256": "4f9a47f879876139a703e376b263a0306cbeafd12e6b52aa3ac1452ebaae0081"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/best.pt",
+      "bytes": 316154937,
+      "sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/last.pt",
+      "bytes": 316184377,
+      "sha256": "97c1e8f1b12e661cbc5d8c44c9e8a1dbef4d5df9bfbe3773fd1ecebd479b854a"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/calibrated.pt",
+      "bytes": 316154929,
+      "sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/calibrated.json",
+      "bytes": 704,
+      "sha256": "927d7ba9fc4ba5a11488b11981317c77dbe6842bc6c1ec1868c5e0bb78a9b366"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/evaluation_test.json",
+      "bytes": 122266,
+      "sha256": "a4c79f43822e842a13481ae7ccf5761590286b0a0605b6ef2c98eeaa51262094"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/metrics.json",
+      "bytes": 448847,
+      "sha256": "12ff54499e915271fbaf3f6c130c563ad2422a96359c13a5a6f942fa2ae4845e"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/training_curves.png",
+      "bytes": 259543,
+      "sha256": "57c1e6731264e985f89bf4b656d55c0af5e938bfb72e09a03e9a6dbdae58865a"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/live_audio.json",
+      "bytes": 21119,
+      "sha256": "32c5e19806bf0f361be44a191d9190f18133bc3e33271ce4b2526bed30b6eabc"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/card.json",
+      "bytes": 262797,
+      "sha256": "0b1815926817d774197c8996065536eb484f4653f1198eeaab3e89eb6e7c28f5"
+    },
+    {
+      "path": "models/samsone_clm_music_window_lowlr/checksums.json",
+      "bytes": 786,
+      "sha256": "3896408242f1e27c4e52faf770de7f93288c3354df8f7228f1d3ac076980c1bd"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/best.pt",
+      "bytes": 316146041,
+      "sha256": "5a358a1398f3252e02dba0adb2af8af968e99113d9378a69c9ab7c66479c9130"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/last.pt",
+      "bytes": 316183289,
+      "sha256": "6464221eacfa0a35a4350b8e665a28e7872202264b7666072426259b2253f0a4"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/calibrated.pt",
+      "bytes": 316146033,
+      "sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/calibrated.json",
+      "bytes": 703,
+      "sha256": "7ae42b3044eb52f56a8c954b16654bb8cc67d447d37a4d6498c6241a9977a753"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/evaluation_test.json",
+      "bytes": 113454,
+      "sha256": "195742db3435ae6e8a5dfe8a2d487d64f343fa3e0063cb110f6b476d73933fa5"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/metrics.json",
+      "bytes": 430090,
+      "sha256": "18be4a93589c0182de38242505232519edc023ae27192cc433e7ed7742164096"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/training_curves.png",
+      "bytes": 272964,
+      "sha256": "d2f884e8587f6783ca50053f7051f904fa78b28174a52bb409acdbcb30af00e4"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/live_audio.json",
+      "bytes": 21092,
+      "sha256": "537967012479f7ca27239877c5aecd30c8a60ddafe2b2421ed1ede42e4760580"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/card.json",
+      "bytes": 244499,
+      "sha256": "afcb28ced54096195d948cab885a194ad148830f0547de6205a40fde2b317461"
+    },
+    {
+      "path": "models/samsone_clm_music_window_before_lowlr/checksums.json",
+      "bytes": 786,
+      "sha256": "8491b836b348cc55a959590002b97798fa5c2aaca2ecdf21e420ba8a4d356b36"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/best.pt",
+      "bytes": 339641465,
+      "sha256": "a87f43181d3cd1b5ce98c0664e82a1c2fd05d8197754a28e540415e3ac4107b8"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/last.pt",
+      "bytes": 339708921,
+      "sha256": "0a1ae78928c9da4341a6f514f5df83ec13db1a041efdd4944e837a62c8ffa538"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/calibrated.pt",
+      "bytes": 339641457,
+      "sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/calibrated.json",
+      "bytes": 706,
+      "sha256": "cde26069740649f87b93c62c483474c25aa6f63d8ddef4e17f276523fba03b4e"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/evaluation_test.json",
+      "bytes": 314145,
+      "sha256": "b0544af1f4d11b31eec1ba132b3a1bb1a3614491dbf4544df123c5baf29cf0fc"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/metrics.json",
+      "bytes": 1064707,
+      "sha256": "46984c76c5789500ef1df86787469d387e1d96c3bc43b1d1b1ee6d218f4d93bf"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/training_curves.png",
+      "bytes": 246629,
+      "sha256": "d5791b8840719f62ad9f1f3413d662005b47b10e2b783d458f379ab3d7243a84"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/live_audio.json",
+      "bytes": 23106,
+      "sha256": "f1f7115a70ff50335008b1ebf7968f2cb472408d79e84ff00d88f96df4cc2e0e"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/card.json",
+      "bytes": 673393,
+      "sha256": "aff6f3db2aa03a41a3e90e694b25dc6f8839c1c9486b37bbdf2fdb5fdec7f6f9"
+    },
+    {
+      "path": "models/samsone_clm_music_genre_v2/checksums.json",
+      "bytes": 786,
+      "sha256": "5b85685da57a0421a485bd421decd403d4b7cac5ed1b182cb7d591cc948d83c4"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/best.pt",
+      "bytes": 316154937,
+      "sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/last.pt",
+      "bytes": 316184377,
+      "sha256": "97c1e8f1b12e661cbc5d8c44c9e8a1dbef4d5df9bfbe3773fd1ecebd479b854a"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/calibrated.pt",
+      "bytes": 316154929,
+      "sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/calibrated.json",
+      "bytes": 704,
+      "sha256": "927d7ba9fc4ba5a11488b11981317c77dbe6842bc6c1ec1868c5e0bb78a9b366"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/evaluation_test.json",
+      "bytes": 122266,
+      "sha256": "a4c79f43822e842a13481ae7ccf5761590286b0a0605b6ef2c98eeaa51262094"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/metrics.json",
+      "bytes": 448847,
+      "sha256": "12ff54499e915271fbaf3f6c130c563ad2422a96359c13a5a6f942fa2ae4845e"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/training_curves.png",
+      "bytes": 259543,
+      "sha256": "57c1e6731264e985f89bf4b656d55c0af5e938bfb72e09a03e9a6dbdae58865a"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/live_audio.json",
+      "bytes": 21119,
+      "sha256": "32c5e19806bf0f361be44a191d9190f18133bc3e33271ce4b2526bed30b6eabc"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/card.json",
+      "bytes": 262797,
+      "sha256": "0b1815926817d774197c8996065536eb484f4653f1198eeaab3e89eb6e7c28f5"
+    },
+    {
+      "path": "models/samsone_clm_music_before_genre_v2/checksums.json",
+      "bytes": 786,
+      "sha256": "3896408242f1e27c4e52faf770de7f93288c3354df8f7228f1d3ac076980c1bd"
+    },
+    {
+      "path": "models/samsone_clm_music/best.pt",
+      "bytes": 339641465,
+      "sha256": "a87f43181d3cd1b5ce98c0664e82a1c2fd05d8197754a28e540415e3ac4107b8"
+    },
+    {
+      "path": "models/samsone_clm_music/last.pt",
+      "bytes": 339708921,
+      "sha256": "0a1ae78928c9da4341a6f514f5df83ec13db1a041efdd4944e837a62c8ffa538"
+    },
+    {
+      "path": "models/samsone_clm_music/calibrated.pt",
+      "bytes": 339641457,
+      "sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b"
+    },
+    {
+      "path": "models/samsone_clm_music/calibrated.json",
+      "bytes": 706,
+      "sha256": "cde26069740649f87b93c62c483474c25aa6f63d8ddef4e17f276523fba03b4e"
+    },
+    {
+      "path": "models/samsone_clm_music/evaluation_test.json",
+      "bytes": 314145,
+      "sha256": "b0544af1f4d11b31eec1ba132b3a1bb1a3614491dbf4544df123c5baf29cf0fc"
+    },
+    {
+      "path": "models/samsone_clm_music/metrics.json",
+      "bytes": 1064707,
+      "sha256": "46984c76c5789500ef1df86787469d387e1d96c3bc43b1d1b1ee6d218f4d93bf"
+    },
+    {
+      "path": "models/samsone_clm_music/training_curves.png",
+      "bytes": 246629,
+      "sha256": "d5791b8840719f62ad9f1f3413d662005b47b10e2b783d458f379ab3d7243a84"
+    },
+    {
+      "path": "models/samsone_clm_music/live_audio.json",
+      "bytes": 23106,
+      "sha256": "f1f7115a70ff50335008b1ebf7968f2cb472408d79e84ff00d88f96df4cc2e0e"
+    },
+    {
+      "path": "models/samsone_clm_music/card.json",
+      "bytes": 673393,
+      "sha256": "aff6f3db2aa03a41a3e90e694b25dc6f8839c1c9486b37bbdf2fdb5fdec7f6f9"
+    },
+    {
+      "path": "models/samsone_clm_music/checksums.json",
+      "bytes": 786,
+      "sha256": "5b85685da57a0421a485bd421decd403d4b7cac5ed1b182cb7d591cc948d83c4"
+    },
+    {
+      "path": "runs/served_checkpoint.json",
+      "bytes": 287,
+      "sha256": "563814134c6634c3d80303ec2905be2eb798ababc195e76bfb4c87960f30f4eb"
+    },
+    {
+      "path": "runs/migration/stage4.json",
+      "bytes": 453930,
+      "sha256": "dfea31b6686ca7ba7048c19f7aa25ebe74dd0d3e3a2ba235079497cf92cbb4f3"
+    },
+    {
+      "path": "runs/remote-stage4/worker.pid",
+      "bytes": 5,
+      "sha256": "027de4cf76814e2802fa32d1554b9ffdc942ec53b238f353aa853af15fe6c261"
+    },
+    {
+      "path": "runs/remote-stage4/training.log",
+      "bytes": 6506,
+      "sha256": "258507f5ea82bbef62ee4688faa351688a6e15e735ccc74fc8c43ea0081b2e44"
+    },
+    {
+      "path": "runs/remote-stage4/batch_benchmark.json",
+      "bytes": 2059,
+      "sha256": "5451078560f7360820d85eba6ffb95230f75a52cdbb5891225baa5647c8e1b73"
+    },
+    {
+      "path": "runs/remote-stage4/batch_benchmark_stable.json",
+      "bytes": 2458,
+      "sha256": "13f3c95ddc363af067ec6c17317d2068a571a758e0c106edc586709c15cf5f95"
+    },
+    {
+      "path": "runs/remote-stage4/checksums.json",
+      "bytes": 1218,
+      "sha256": "1749e2e29e9f88e33e645915769c1e131ec9baf28b6b148b43f1fdee22a74564"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/best.pt",
+      "bytes": 307155193,
+      "sha256": "2ce5f014f4b492b620efb7ff652d3e50121417028c7599466e1472e7a443a9e3"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/best.pt.info.json",
+      "bytes": 147,
+      "sha256": "34a68c905ece481f017765bafb67553640f1e65eeba26320c40cfdbb86170475"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/progress.json",
+      "bytes": 13379,
+      "sha256": "71dd26945e9613633c4d27f38b5f7e285c1c5f8e16f944ebadb6c18775fff1c0"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/metrics.json",
+      "bytes": 21815,
+      "sha256": "c33bedaa007daac4977bb070fd3d82e5a340050f5f5e0d43a7c11851a7cc3727"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/last.pt",
+      "bytes": 307156473,
+      "sha256": "c576a69de39efc6c820a2c63453f7f7a274796163392f1abc95795ca5b357c8a"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/last.pt.info.json",
+      "bytes": 148,
+      "sha256": "8ed706bf6c34e66432d34e5284b79892f06a033a3dcddb30b73c9d83299166f0"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/calibrated.pt",
+      "bytes": 307155185,
+      "sha256": "ec09e0304e9e92383cb6f20ffc48b0cf5a4225f9a028b926003b8d9b2cf4a6ce"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/calibrated.json",
+      "bytes": 685,
+      "sha256": "53d1c0c12a3886677395d5654b977972de2ad6c969495facefe716b11293cd6f"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/evaluation_test.json",
+      "bytes": 4898,
+      "sha256": "16b10f73c6a5a38bb52e6618c3a9aabf4c5024243cd03d842aaadf7cea2e575f"
+    },
+    {
+      "path": "runs/remote-stage4/stage4/training_curves.png",
+      "bytes": 172792,
+      "sha256": "d0293e30b1313cf303ce92f52ae9bd1c6a2c473ffacbefe8cfe46a711fa44a1e"
+    },
+    {
+      "path": "runs/stage4/training_curves.png",
+      "bytes": 121495,
+      "sha256": "e572f10b7dcac8cb2a3e9350a96851e23572e73b8074ad6e3e55e6ddc1cb9c0a"
+    },
+    {
+      "path": "runs/music-preparation/download-jamendo.pid",
+      "bytes": 5,
+      "sha256": "7e6951936ad0c82269754820bc255cf44b0b9285701e0ba45a8bf91bc24d4fae"
+    },
+    {
+      "path": "runs/music-preparation/download-jamendo.log",
+      "bytes": 6252,
+      "sha256": "cb5c7da980ca53af008403de5d9ee904d6579733fe532480c049e8ebc53f4731"
+    },
+    {
+      "path": "runs/music-preparation/download-nsynth.pid",
+      "bytes": 5,
+      "sha256": "0a06b8ac4d9152342cd60ed1d1fd6e894111161ee2dc1b40cee9bea97d5252a4"
+    },
+    {
+      "path": "runs/music-preparation/download-nsynth.log",
+      "bytes": 176,
+      "sha256": "0cb62d286aafca601c208d83df8c1dbbe3b1125a85e268789028581f79509681"
+    },
+    {
+      "path": "runs/music-preparation/download-musicbench.pid",
+      "bytes": 5,
+      "sha256": "bcefca6098bdd5b383898f6c544885fcaaf0f573438364db5a592dd32e488b10"
+    },
+    {
+      "path": "runs/music-preparation/download-musicbench.log",
+      "bytes": 101,
+      "sha256": "44f721230d96bb34479fd3ef7c9d862a6d2bf665ca36d75df66986e6307b6ad4"
+    },
+    {
+      "path": "runs/music-preparation/prepare-jamendo.pid",
+      "bytes": 7,
+      "sha256": "aab10a5ebeb0fdaacacf7a43ae7d67ad3f797b9596bb31769181584d0038e3f7"
+    },
+    {
+      "path": "runs/music-preparation/prepare-jamendo.log",
+      "bytes": 14533,
+      "sha256": "657a8d7b997bee059b80959dd20ac70dc6fac741806dd5a6624a5307307482f8"
+    },
+    {
+      "path": "runs/music-preparation/prepare-nsynth.pid",
+      "bytes": 7,
+      "sha256": "ce5eba286c2d947cb79bb9b11eddfdf4b53b79c333ce112ab71891270b391873"
+    },
+    {
+      "path": "runs/music-preparation/prepare-nsynth.log",
+      "bytes": 936,
+      "sha256": "3bf25e7367b16ffe7da1127bbc79c74c570f42d7d25d46e30e1db2f8e2b0dcaa"
+    },
+    {
+      "path": "runs/music-preparation/prepare-musicbench.pid",
+      "bytes": 7,
+      "sha256": "52998dd4d64a91522803bb7f7409f90e95bbda6d01030d7e434134fb36938714"
+    },
+    {
+      "path": "runs/music-preparation/prepare-musicbench.log",
+      "bytes": 5203,
+      "sha256": "a85d7b871eae776a0913dec5faa7b2c04eb6bd71a6ac0c8a702bc56477e79783"
+    },
+    {
+      "path": "runs/music-preparation/resource-monitor.pid",
+      "bytes": 6,
+      "sha256": "3f70f3b5b7444a14ac38317455ba7b3f74d1c6f6940828e593bc6dc40c123363"
+    },
+    {
+      "path": "runs/music-preparation/resources.log",
+      "bytes": 229027,
+      "sha256": "4d0f62a8f72ae2bb331fc0b80fd368e827140b7207a8a0e99804928dbfbf8743"
+    },
+    {
+      "path": "runs/music-preparation/resources.json",
+      "bytes": 308,
+      "sha256": "4925724f68bd32f9b086ded16e7507808961c103281fb3c9d66ee110d62d293c"
+    },
+    {
+      "path": "runs/music-preparation/encoder_benchmark.json",
+      "bytes": 1989,
+      "sha256": "80f1fcce3f30b9a7bd545c776ab754c2647f0aba8e44567947888ce48b078f6b"
+    },
+    {
+      "path": "runs/music-preparation/window-lowlr.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/encoder_30s_benchmark.json",
+      "bytes": 1174,
+      "sha256": "b383265b642754afab04919e3ba69f531d7504326b2ea68b2bfc37a368b37ee6"
+    },
+    {
+      "path": "runs/music-preparation/precompute-nsynth.pid",
+      "bytes": 7,
+      "sha256": "cee21b17cd380bc050845a31fa8cf0f99309e9dbcc6f3b08fb5bfd0ecfb92259"
+    },
+    {
+      "path": "runs/music-preparation/precompute-nsynth.log",
+      "bytes": 11594,
+      "sha256": "3c465c7858d72ec1c4eb66926a7ce9372fc9d3a9ba33f6e067dccad31ac34869"
+    },
+    {
+      "path": "runs/music-preparation/web.pid",
+      "bytes": 7,
+      "sha256": "1e88efc3be45e493b2cd7a23997f83e9002f58daf039fe6591a67b433d1f3c14"
+    },
+    {
+      "path": "runs/music-preparation/web.log",
+      "bytes": 162511,
+      "sha256": "e6fed9d9e2b1c522de36af96998109ecacced074a68bfba2be1499f11b9e6759"
+    },
+    {
+      "path": "runs/music-preparation/window-lowlr-finalize.log",
+      "bytes": 122953,
+      "sha256": "d89e5dda6aae9f0ff3e9d356ee36c65a53b7e9984fbed8ee9df90dbc5184debb"
+    },
+    {
+      "path": "runs/music-preparation/precompute-nsynth.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/precompute-jamendo.pid",
+      "bytes": 7,
+      "sha256": "eb8639f36d2d679a7f60a08a0611ac44b8a06ed405b7354baa80ce33317b1f6e"
+    },
+    {
+      "path": "runs/music-preparation/window-lowlr.log",
+      "bytes": 87568,
+      "sha256": "5d08ac0b8c01b458cdc51765082d73cd2a3643475645e855f8a661d2fae706f9"
+    },
+    {
+      "path": "runs/music-preparation/window-lowlr.pid",
+      "bytes": 6,
+      "sha256": "80950b858b71f106dc06d452a1662fa2498729770a2fd79f6486cda71ddc1129"
+    },
+    {
+      "path": "runs/music-preparation/encoder_batch_reuse_benchmark.json",
+      "bytes": 669,
+      "sha256": "957feb3667028452f29fcfb3a0e75a9a1f478e16c7a44fc0efefce76f6a10b4a"
+    },
+    {
+      "path": "runs/music-preparation/window-reference-validation.log",
+      "bytes": 123456,
+      "sha256": "264b84523c28f40495fccf873928f490a4be85ed025daca4a0a2c888e39cc974"
+    },
+    {
+      "path": "runs/music-preparation/native_wav_benchmark.json",
+      "bytes": 1389,
+      "sha256": "973c2c9f850b57e8c33ab3784f351be0f6ef5fb93833f6f8c18a8514ed38e6e7"
+    },
+    {
+      "path": "runs/music-preparation/window-pipeline.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/jamendo_native_wav_benchmark.json",
+      "bytes": 779,
+      "sha256": "1b3c082759095d590ac8411a6ec5dd09b53d24fba6c5876385d8286bbe4487c6"
+    },
+    {
+      "path": "runs/music-preparation/precompute-jamendo.ffmpeg.log",
+      "bytes": 3626,
+      "sha256": "7ccdb10821b26db63fde487a5a0012932a96ab1174cd874fce59faa74599e6fb"
+    },
+    {
+      "path": "runs/music-preparation/precompute-jamendo.log",
+      "bytes": 12755,
+      "sha256": "9cc4f61555619b64f314d718e2fb53369e1320bdd18db1047d198ad9f336f71c"
+    },
+    {
+      "path": "runs/music-preparation/user-genre-diagnostic.log",
+      "bytes": 4070,
+      "sha256": "69e123014d122bcd40c2eef522ec5d42d4554856ad940ae094260c33a8b7f059"
+    },
+    {
+      "path": "runs/music-preparation/precompute-jamendo.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage5.pid",
+      "bytes": 7,
+      "sha256": "e55755e738e5714580a33a3dcd2197369b834aebb1692b573f5a3d2c4a071954"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage5.log",
+      "bytes": 79,
+      "sha256": "2747ee2c52a388c9bcb4d41d08fb43ffed06a565caa12fb9514aeef533f16e64"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage5.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage5.pid",
+      "bytes": 7,
+      "sha256": "2294966b8b709d3b217c4026c5c005f0e36409b4c054bd257272495330af5d61"
+    },
+    {
+      "path": "runs/music-preparation/window-pipeline.pid",
+      "bytes": 6,
+      "sha256": "30eb78dc32e6c9b46980b1184cadacac77a3712672c7ff306cd17ad8f3088ac1"
+    },
+    {
+      "path": "runs/music-preparation/window-precompute.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage5.constant-high-lr.log",
+      "bytes": 98310,
+      "sha256": "b1eb9fe31063f8ce15f2fb2d04a68cff6e5d413bd5b05279a3f31df469bc4d60"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage5.log",
+      "bytes": 28009,
+      "sha256": "400c212e5594f03a2b422e7230ad64ea51dc1f1cd894785b1c50813e6d34bde1"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage5.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/train-stage5.pid",
+      "bytes": 7,
+      "sha256": "0b52042680590c5cadb051550f1787d1c27165778bb384c65cac9aabd26bbfdc"
+    },
+    {
+      "path": "runs/music-preparation/train-stage5.log",
+      "bytes": 33677,
+      "sha256": "1c9ed3197e0adc064f5334d38a53a278199d64e5d27812cf4887205123ef7c12"
+    },
+    {
+      "path": "runs/music-preparation/train-stage5.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage5.pid",
+      "bytes": 7,
+      "sha256": "1cabe65eeda2b307e7c595c22cde3a43962b76373fa4de96b747a138e0922e5b"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage5.log",
+      "bytes": 30129,
+      "sha256": "25d36167edf9b1126219fedd58a30ced571bd94ea5af2b3b1f4be3d66bd8a02c"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage5.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/precompute-musicbench.pid",
+      "bytes": 7,
+      "sha256": "c6465f0cacc39d37200bc94071b8988665e185f0d0b83fca08153fdc89905fb7"
+    },
+    {
+      "path": "runs/music-preparation/precompute-musicbench.log",
+      "bytes": 30081,
+      "sha256": "8bc362b88ab44bbac5c259d08786f8098511276a9109337512b4e9ea29a78fbb"
+    },
+    {
+      "path": "runs/music-preparation/precompute-musicbench.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage6.pid",
+      "bytes": 7,
+      "sha256": "71e04753d7a7908f161c9850ba5a44ec6a0f654c0a7d39e1b964a9cc2db6ea95"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage6.log",
+      "bytes": 79,
+      "sha256": "0fe92cdc975c33c651ba13490dfd10b70c084dafc075578c4e1c7986b616eea4"
+    },
+    {
+      "path": "runs/music-preparation/compose-stage6.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage6.pid",
+      "bytes": 7,
+      "sha256": "0ec8d4f3b1c905751f945b3f741c997640c3305ec1c8d649ea9f1d13d3039369"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage6.log",
+      "bytes": 31323,
+      "sha256": "604e155bb4db359038dd342103dddc1c890aa7a0ec2c61bca79b4440bca0c24d"
+    },
+    {
+      "path": "runs/music-preparation/overfit-stage6.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6.pid",
+      "bytes": 7,
+      "sha256": "d9014c0b2ab6bccf00e5a06e0eb3a16459fddc5e66ac5c150298045677a4e808"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6.log",
+      "bytes": 10722,
+      "sha256": "f88b573ec54567fb69742a99cf202e7f80f19983fa0deee4d35dc56456a7fe39"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage6.pid",
+      "bytes": 7,
+      "sha256": "e031667672e73ddba9ad7491c67fbe057ff9b56d749c84f265bfc8d0bb2ff36b"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage6.log",
+      "bytes": 37577,
+      "sha256": "333d9c0075822cd1dff26c062f67ca3ba8102d064610fe4382caba4ca4e0ddb6"
+    },
+    {
+      "path": "runs/music-preparation/finalize-stage6.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6-full32.pid",
+      "bytes": 7,
+      "sha256": "69dd5392586c018c81721860fd5753518611accde68e5b0b42229681e91aa345"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6-full32.log",
+      "bytes": 47317,
+      "sha256": "22c169fa1cca968f8e80621dd4f8f5c3a030506a7e259e5dd4aaa807f5f93f12"
+    },
+    {
+      "path": "runs/music-preparation/refinement-watch.pid",
+      "bytes": 6,
+      "sha256": "8fa5a8d877bce3ed7c730bde48569e44ff12e982380249b98c59c56f7f05e7eb"
+    },
+    {
+      "path": "runs/music-preparation/refinement-watch.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/music-preparation/train-stage6-full32.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-preparation/window-precompute.log",
+      "bytes": 18803,
+      "sha256": "617a1890ffdb264689ee4e31febd3504ef0d5f71bba29059573549ba69dace94"
+    },
+    {
+      "path": "runs/music-preparation/window-precompute.pid",
+      "bytes": 6,
+      "sha256": "0af990c415a441aacff09f453c075f31cb1aa03dc668184e4ef74c2161a43741"
+    },
+    {
+      "path": "runs/music-preparation/resource-monitor.log",
+      "bytes": 380105,
+      "sha256": "75f28eed2fd4298b2d246cd25b8989b134fc18052f94e03bef0a03269698b0d9"
+    },
+    {
+      "path": "runs/music-preparation/window-pipeline.log",
+      "bytes": 270164,
+      "sha256": "b5fd489c53ed2ba88238c1a61a62ae6c58300e68f525ce897f8f92da0adf2a58"
+    },
+    {
+      "path": "runs/music/status.json",
+      "bytes": 609,
+      "sha256": "2b1469b0a2d8cdbafa2715df9b74ca84d4d8979cfd369ae2eae1bbb1bc6d98f7"
+    },
+    {
+      "path": "runs/music/overfit_stage5_failed_gate.json",
+      "bytes": 648,
+      "sha256": "5b6ed3703947e461106c8e936efd41aad8805018403a648c907b2680876409ea"
+    },
+    {
+      "path": "runs/music/overfit_stage5_gate.json",
+      "bytes": 636,
+      "sha256": "2b8697a54ec8a32446fb159dc8d544826c8cc871814fa6be20cb46195f1bd1ad"
+    },
+    {
+      "path": "runs/music/returned_stage5.json",
+      "bytes": 361,
+      "sha256": "8c2dd18d75934e29463703092ee77f665b699bb0d1f439f611698c981b7851c2"
+    },
+    {
+      "path": "runs/music/overfit_stage6_gate.json",
+      "bytes": 636,
+      "sha256": "611dccc607939483daa03ec3d9825358f024c5f7d699d5d8adaac354a7c8ec83"
+    },
+    {
+      "path": "runs/music/returned_stage6.json",
+      "bytes": 360,
+      "sha256": "b9d6db8eb8562ff4802937a7df6389894e7b613e5a993637734d7fbf4a4f7e9c"
+    },
+    {
+      "path": "runs/music/refinement_status.json",
+      "bytes": 1038,
+      "sha256": "6047fccfc6c0e46e7faa1bae4a0dc92339318bea9cb69e303582847ccb5f60b7"
+    },
+    {
+      "path": "runs/music/web_stage6_initial.json",
+      "bytes": 9481,
+      "sha256": "1513b67655ac5167827d0c8799cd62e17e61762a9692b2fcb65ebcdfd1731c0c"
+    },
+    {
+      "path": "runs/music/refinement_selection.json",
+      "bytes": 1085,
+      "sha256": "562060d178c4ad3c4d66212ccf4a4687dee68babe71845a01fe4c2fb1fb395eb"
+    },
+    {
+      "path": "runs/music/web_stage6_full32.json",
+      "bytes": 11819,
+      "sha256": "40dc1720ca3e52b96ac4fd499ecb6165b8a3cefce89e89f70828c336e91fd69c"
+    },
+    {
+      "path": "runs/music/window_diagnostic.json",
+      "bytes": 190530,
+      "sha256": "68eafab5ed028e253f326600e35dfef04f6089e66938a547d22aeb0d84238f1c"
+    },
+    {
+      "path": "runs/music/completed.json",
+      "bytes": 37,
+      "sha256": "dc4e9011b0a3c7f870bf8bcbd822a33c2fcc6eb575c7d6a14a1cb8c3170fdbcf"
+    },
+    {
+      "path": "runs/music/window_pipeline_status.json",
+      "bytes": 476,
+      "sha256": "36c7ca0c9837d09841a787a7181976e81e3212c8b05d410320bc8951b0bc341e"
+    },
+    {
+      "path": "runs/music/published_model.json",
+      "bytes": 534,
+      "sha256": "39a74145078c38a35696a9901dca6e9d9179e8e8c8b120dad1e34654b8d33aa6"
+    },
+    {
+      "path": "runs/music/window_selection.json",
+      "bytes": 245499,
+      "sha256": "3b04e70ef9b4b430e70853a1871dd40c868a4b67c0543f33145aa930a077b174"
+    },
+    {
+      "path": "runs/music/window_reference_validation.json",
+      "bytes": 123456,
+      "sha256": "264b84523c28f40495fccf873928f490a4be85ed025daca4a0a2c888e39cc974"
+    },
+    {
+      "path": "runs/music/window_refinement_selection.json",
+      "bytes": 395542,
+      "sha256": "f83fdf95d767706fa6fe0521f09a4df1ca3743591bb4241af60eb49776a01c9c"
+    },
+    {
+      "path": "runs/music/returned_stage6_window.json",
+      "bytes": 2208,
+      "sha256": "0daf0dffcb17ff880646da1c0acc4975b08bef2a41a01c49f26f18073e0c6260"
+    },
+    {
+      "path": "runs/music/final_web_verification.json",
+      "bytes": 12229,
+      "sha256": "159fa28c6066f03b50aabd383afb34373c2d988718d2cd938abff9ebf7e828ac"
+    },
+    {
+      "path": "runs/music/user_genre_diagnostic.json",
+      "bytes": 16674,
+      "sha256": "a8f7d340c8a4622fdf5548e2cb4fc8502ea131629abe5ed40b040c5d2287dc8d"
+    },
+    {
+      "path": "runs/music/window_completed.json",
+      "bytes": 700,
+      "sha256": "593e5fa3e1b0cfb35d9e5e239c660438348e74b1edfd746bd9511a4115e472e8"
+    },
+    {
+      "path": "runs/music/full32_completed.json",
+      "bytes": 212,
+      "sha256": "58f2948b51470d0888f7cdc0026a35281aad0b87322409ea66944fdf2726f9b8"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/best.pt",
+      "bytes": 292949881,
+      "sha256": "4afa3e94f69de5b11fd27ed8b8a69520f02516e92e1298b0540646954b508f72"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/best.pt.info.json",
+      "bytes": 151,
+      "sha256": "7bd677ce50b2aa930c004a0b9eb1bfa44d948e679e67ef8565391b85364c1cfa"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/progress.json",
+      "bytes": 12673,
+      "sha256": "bfd5c6cc804cfd3585b9c99e4e3e8b5049f64f85d001376eff932dd32e321889"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/metrics.json",
+      "bytes": 219411,
+      "sha256": "98abe489f58cab7daf8e41ce1ec77d6db4712c184ef97187eb90320e790246e5"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/last.pt",
+      "bytes": 292957817,
+      "sha256": "b69083e937d28e69a13818884a4a007f49c2dec647e2fe89d232c04c2aa92e0a"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/last.pt.info.json",
+      "bytes": 151,
+      "sha256": "b460a0260f8fc6f755ff25e8ec167ae2c276eff791eb10a421c7106809067b73"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512-constant-high-lr/checksums.json",
+      "bytes": 520,
+      "sha256": "cf5fb178136c37da9a811b8d16ef9a0b9d971b9d039b8ef5804fa149569753aa"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/best.pt",
+      "bytes": 292917241,
+      "sha256": "81b38fbe21ef6e64236fc901cb20be02c685f22cfec938521aab66df184608c0"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/best.pt.info.json",
+      "bytes": 153,
+      "sha256": "bf8e5cca61cd6fcb55e6563d90dce99adf838fc6dd0b9af336b4c548668b7de4"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/progress.json",
+      "bytes": 34858,
+      "sha256": "4f32a457c7f7a1cb3a61adcd3bbb7ddd07298dbb5f9569f284b9c18e32b7b233"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/metrics.json",
+      "bytes": 115806,
+      "sha256": "259281d393a354e153e29a9345c53b085046ccfd49dad9be414dc44f011bbc7b"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/last.pt",
+      "bytes": 292923513,
+      "sha256": "9d586b95be2dd8b38efb18c362757602f153c78fe3a6e4cccc08be7d422f379f"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/last.pt.info.json",
+      "bytes": 153,
+      "sha256": "8b705d2a714b31a3d5852139d9d91c1ad5d8d0b830687b8c33a1d606065b7600"
+    },
+    {
+      "path": "runs/music/diagnostic-stage5-512/checksums.json",
+      "bytes": 520,
+      "sha256": "ac76159cbea544b54fd067442a5ba52726c21f32fd7f00d8007029afccebcc9d"
+    },
+    {
+      "path": "runs/music/stage5/best.pt",
+      "bytes": 304151033,
+      "sha256": "21006be9f0de3dee0fe783797945bb7dd6cc1d005b6c49b57c6bb33f2043510b"
+    },
+    {
+      "path": "runs/music/stage5/best.pt.info.json",
+      "bytes": 140,
+      "sha256": "7b732d32ae4b4ba3f17b24575ec517921aad85691b2f498138049f06b43d67df"
+    },
+    {
+      "path": "runs/music/stage5/progress.json",
+      "bytes": 15283,
+      "sha256": "ad07f4c44f6ee987b82df2bac9bda12e9c3473098cba67f5572ed3561ff64f28"
+    },
+    {
+      "path": "runs/music/stage5/metrics.json",
+      "bytes": 125518,
+      "sha256": "b75a2ca13486bd02189957f5545c4b49b70d22b47398327bd2285cb4a74930c9"
+    },
+    {
+      "path": "runs/music/stage5/last.pt",
+      "bytes": 304153913,
+      "sha256": "2b0bb48b552e4f01f4148680e4e8f952b8b7305a663fbce1d2d074c83cc1ab6a"
+    },
+    {
+      "path": "runs/music/stage5/last.pt.info.json",
+      "bytes": 140,
+      "sha256": "1670f69473223dab7ea9fa23851033a0a1505bdf3420cd73a32523f8b615d70b"
+    },
+    {
+      "path": "runs/music/stage5/training_curves.png",
+      "bytes": 228642,
+      "sha256": "9109d3d0e530ab8bd4414482535c2cdcc6ce87124b471c806c9e7d73bb058af9"
+    },
+    {
+      "path": "runs/music/stage5/calibrated.pt",
+      "bytes": 304151089,
+      "sha256": "f841639cebec76b2dabed931c807b7402f61775d7ca73900a1d43fafe9d7bd74"
+    },
+    {
+      "path": "runs/music/stage5/calibrated.json",
+      "bytes": 705,
+      "sha256": "abe39c09bdd1ec84125639f131de0eea9d88b6c9b478b626b274098cb8bf1ec1"
+    },
+    {
+      "path": "runs/music/stage5/evaluation_test.json",
+      "bytes": 29441,
+      "sha256": "771abe010f5c0ba7029e6f593fbb5262cc49b2048fc35798d332bdf7fdfc5177"
+    },
+    {
+      "path": "runs/music/stage5/live_audio.json",
+      "bytes": 15779,
+      "sha256": "fda46e918c970bfddb6f4b2735ee7935dd2c2a7040f779641e49eaae6d88e184"
+    },
+    {
+      "path": "runs/music/stage5/model_card.json",
+      "bytes": 64366,
+      "sha256": "3291e1dfab47a13556051fb77fbcaad7385f52eaad17cec83dfaa1ab6afc5264"
+    },
+    {
+      "path": "runs/music/stage5/checksums.json",
+      "bytes": 1061,
+      "sha256": "74c96b189a80d39add8212fb6c065b8eaa20f91e74f115adc0351370152095ea"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/best.pt",
+      "bytes": 296280182,
+      "sha256": "b91a32f4b51650ef99f4403d271686587357edb5d8b4a9e7f3b9c12bb0eee11d"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/best.pt.info.json",
+      "bytes": 151,
+      "sha256": "ed2b0773dfe5c736db43bb019f52e45177daa21edb091d7107c58313224f5103"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/progress.json",
+      "bytes": 35047,
+      "sha256": "b1e1b0ee87e2f6f2e608b826bb875073e591d9a09ab686cdde6f49416cd8c0d8"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/metrics.json",
+      "bytes": 139987,
+      "sha256": "3aae738ee8e59df3ab18e76d5831625af6c68fe9cedbef54d58417e90c6fc0b1"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/last.pt",
+      "bytes": 296288697,
+      "sha256": "854eaf7f33212cd149e59588fe85fbf7c4dd6a11744eb3bef651fa3dc286b688"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/last.pt.info.json",
+      "bytes": 153,
+      "sha256": "18d62b8fb2c35c410c9021fac09ceb8489cdbd60e97fba07b644b9cd3d9cc662"
+    },
+    {
+      "path": "runs/music/diagnostic-stage6-512/checksums.json",
+      "bytes": 520,
+      "sha256": "aa593e6cb0c72fc1daca471220f6537819734f1fda8e7a291360e4454e371767"
+    },
+    {
+      "path": "runs/music/stage6/best.pt",
+      "bytes": 315031289,
+      "sha256": "0c8362478011dfe0e245fae82721b4e0b1747a007e54c420017fed6306aaec88"
+    },
+    {
+      "path": "runs/music/stage6/best.pt.info.json",
+      "bytes": 138,
+      "sha256": "574342ecf693c7f30a90752b3bb1e61b50e68cbe038f1152c0a63cacb83dfd84"
+    },
+    {
+      "path": "runs/music/stage6/progress.json",
+      "bytes": 8843,
+      "sha256": "d9792e3cd606ebbfd1b09688d38a142416eeeea17b821735a00d1fcc81cf6f0a"
+    },
+    {
+      "path": "runs/music/stage6/metrics.json",
+      "bytes": 112192,
+      "sha256": "e9189dc95691c44881b6823c682aecd1a6cf26d67177dfc6e1399d306e99ab99"
+    },
+    {
+      "path": "runs/music/stage6/last.pt",
+      "bytes": 315034553,
+      "sha256": "cbcfd6b21ead835ba7fcbabd4f9900ab0dfbd3b95a0f3e759b19c51e7fb89131"
+    },
+    {
+      "path": "runs/music/stage6/last.pt.info.json",
+      "bytes": 139,
+      "sha256": "e27ece8d2a482d3d013b6fc9bce15059f06bd7686858006a7d717fb7d365fa87"
+    },
+    {
+      "path": "runs/music/stage6/training_curves.png",
+      "bytes": 192470,
+      "sha256": "b8a608b0a917d41561b85526b80dc6290cb361c401a5153640c53b8c46d77721"
+    },
+    {
+      "path": "runs/music/stage6/calibrated.pt",
+      "bytes": 315031281,
+      "sha256": "89dd6ac9e8286f29c3db82e8179d50c36e29e99e3ac02108c7abab72f5bb3132"
+    },
+    {
+      "path": "runs/music/stage6/calibrated.json",
+      "bytes": 698,
+      "sha256": "5ac098917de815cd4aa941f60c16a7fe7cbf7c2a4e5ed8d64798f57b1aa81403"
+    },
+    {
+      "path": "runs/music/stage6/evaluation_test.json",
+      "bytes": 36896,
+      "sha256": "ff8c298a1a2505e490332033b4bd86477f4d4603d53c71e8d1390bbd27986ed3"
+    },
+    {
+      "path": "runs/music/stage6/live_audio.json",
+      "bytes": 20322,
+      "sha256": "c5499588251a35e3a4f09e941b071e650ed5290a2d4a41b4bba2dbde11862598"
+    },
+    {
+      "path": "runs/music/stage6/model_card.json",
+      "bytes": 80436,
+      "sha256": "2a09b0e960eeeb28c85103f6bbd3ac9ce6a05dc71c0f24efef49f2b7bbdaa7b8"
+    },
+    {
+      "path": "runs/music/stage6/checksums.json",
+      "bytes": 1061,
+      "sha256": "d5cf44748bb718456e5087d22ebfef367c493b2433f649948824ec86593a0c1a"
+    },
+    {
+      "path": "runs/music/stage6-full32/best.pt",
+      "bytes": 315038457,
+      "sha256": "18d568e067ea0a6bf4497e415284afdb11c89cce03dbeb6e20b3680701ad397e"
+    },
+    {
+      "path": "runs/music/stage6-full32/best.pt.info.json",
+      "bytes": 147,
+      "sha256": "c9a64683115418753c5976ce088d374319a5705807aeb4528e71c4dc39e11ed6"
+    },
+    {
+      "path": "runs/music/stage6-full32/progress.json",
+      "bytes": 34447,
+      "sha256": "503205e296dc358f82b0e1273394ce994baff11315d95ece696f28787f440521"
+    },
+    {
+      "path": "runs/music/stage6-full32/metrics.json",
+      "bytes": 165315,
+      "sha256": "30e1c48409816d29f8d334daaa52bc1a85725eb86bc48df83db747d4ac5244bc"
+    },
+    {
+      "path": "runs/music/stage6-full32/last.pt",
+      "bytes": 315051513,
+      "sha256": "d7ba2f42df9d00cf53af5d58d198cfd0c70ed3bb10840b4ecfdb846ee85d3737"
+    },
+    {
+      "path": "runs/music/stage6-full32/last.pt.info.json",
+      "bytes": 148,
+      "sha256": "bce16fc4d716f2905026c37994caa95cba7c80266af417060eade545be5eeb60"
+    },
+    {
+      "path": "runs/music/stage6-full32/training_curves.png",
+      "bytes": 237470,
+      "sha256": "c48aeb3fba49172452f95f72f520996ddffb96a0ae1a7f5358019327f84585ee"
+    },
+    {
+      "path": "runs/music/stage6-full32/calibrated.pt",
+      "bytes": 315038513,
+      "sha256": "e6e51f492c52d0f81e74fc079e0c193764b452e405f2e50c983783a826e95ad8"
+    },
+    {
+      "path": "runs/music/stage6-full32/calibrated.json",
+      "bytes": 702,
+      "sha256": "4ebbe0a2ba74ff88ff9448e9804cc1b76448119b322903789237b288db22af77"
+    },
+    {
+      "path": "runs/music/stage6-full32/evaluation_test.json",
+      "bytes": 36820,
+      "sha256": "440757380fe328b2e38204ad6635d74a5de8513ef5bd7b541dfb5d24e2d9d860"
+    },
+    {
+      "path": "runs/music/stage6-full32/live_audio.json",
+      "bytes": 20291,
+      "sha256": "1d761df5d3c1efc1bf0e9071b3a568c99a40e1bbc84a229c26682c015eac23e8"
+    },
+    {
+      "path": "runs/music/stage6-full32/model_card.json",
+      "bytes": 80342,
+      "sha256": "173678dc501a1ce019311ce65c5d5d93eddc6732d86bc9ca23c7d3ce325782b2"
+    },
+    {
+      "path": "runs/music/stage6-full32/checksums.json",
+      "bytes": 1061,
+      "sha256": "746c6546b76f7de75c62eda634f1fc040cd9cc9f12b95c143601035fd235bc10"
+    },
+    {
+      "path": "runs/music-window/overfit_stage6_gate.json",
+      "bytes": 637,
+      "sha256": "b97742f002dd78b936817c62fead7f55f4bf6006caff429aa33eb4be7a1aaab6"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/best.pt",
+      "bytes": 300048182,
+      "sha256": "0f23eff955b16873832f1f55f1e273ae3c18e53420ace0491356162ef77623e4"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/best.pt.info.json",
+      "bytes": 158,
+      "sha256": "dcba9916f124ab47dc6ab919e3f99473789d7e0439818f407721d750d601ec2f"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/progress.json",
+      "bytes": 35028,
+      "sha256": "433953b8fd17ac2c4ba0f41323d03154950ed3226959961e4462b8c3161dbf56"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/metrics.json",
+      "bytes": 375280,
+      "sha256": "098e29bae38eba13574262525b3942f57031b935d939399cf09b2f6ca193d86a"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/last.pt",
+      "bytes": 300068537,
+      "sha256": "bc623e6444e2319eb6d331c7f4fac281cea3e1e27f13d5f501ce29b0badc641b"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/last.pt.info.json",
+      "bytes": 160,
+      "sha256": "79af3e8abc3842163b92724825163d2cf81442a4af8362e7a8b38de562a6a12f"
+    },
+    {
+      "path": "runs/music-window/diagnostic-stage6-512/checksums.json",
+      "bytes": 520,
+      "sha256": "05d0fcfb24c78d4d7de7ab1f1dca59a614fac79670491f1d76333dd9cd61a313"
+    },
+    {
+      "path": "runs/music-window/stage6-window/best.pt",
+      "bytes": 316146041,
+      "sha256": "5a358a1398f3252e02dba0adb2af8af968e99113d9378a69c9ab7c66479c9130"
+    },
+    {
+      "path": "runs/music-window/stage6-window/best.pt.info.json",
+      "bytes": 153,
+      "sha256": "24e77c17ecac6145caea28e05df240939b217ef56a5293ff295cebfb9c70fca7"
+    },
+    {
+      "path": "runs/music-window/stage6-window/progress.json",
+      "bytes": 34875,
+      "sha256": "e47774a730f78b296dc052782d0031ed6ef2784f9eb6d03d4e91e88bc813a5eb"
+    },
+    {
+      "path": "runs/music-window/stage6-window/metrics.json",
+      "bytes": 430090,
+      "sha256": "18be4a93589c0182de38242505232519edc023ae27192cc433e7ed7742164096"
+    },
+    {
+      "path": "runs/music-window/stage6-window/last.pt",
+      "bytes": 316183289,
+      "sha256": "6464221eacfa0a35a4350b8e665a28e7872202264b7666072426259b2253f0a4"
+    },
+    {
+      "path": "runs/music-window/stage6-window/last.pt.info.json",
+      "bytes": 155,
+      "sha256": "7257da0e248677b95e9bfad4825dc6c1f63de69e323d3819621f10e88ed473d5"
+    },
+    {
+      "path": "runs/music-window/stage6-window/training_curves.png",
+      "bytes": 272964,
+      "sha256": "d2f884e8587f6783ca50053f7051f904fa78b28174a52bb409acdbcb30af00e4"
+    },
+    {
+      "path": "runs/music-window/stage6-window/calibrated.pt",
+      "bytes": 316146033,
+      "sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db"
+    },
+    {
+      "path": "runs/music-window/stage6-window/calibrated.json",
+      "bytes": 703,
+      "sha256": "7ae42b3044eb52f56a8c954b16654bb8cc67d447d37a4d6498c6241a9977a753"
+    },
+    {
+      "path": "runs/music-window/stage6-window/evaluation_test.json",
+      "bytes": 113454,
+      "sha256": "195742db3435ae6e8a5dfe8a2d487d64f343fa3e0063cb110f6b476d73933fa5"
+    },
+    {
+      "path": "runs/music-window/stage6-window/live_audio.json",
+      "bytes": 21092,
+      "sha256": "537967012479f7ca27239877c5aecd30c8a60ddafe2b2421ed1ede42e4760580"
+    },
+    {
+      "path": "runs/music-window/stage6-window/model_card.json",
+      "bytes": 244506,
+      "sha256": "47f23aa09d9a4caf5bdb3ccaa77b36d024b1f33de21cfde39ec3a2816c5211fa"
+    },
+    {
+      "path": "runs/music-window/stage6-window/checksums.json",
+      "bytes": 1061,
+      "sha256": "bd02641cb03c470ace7cc88f16b510da46db193ea1832c24bcd84e84871959ff"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/best.pt",
+      "bytes": 316154937,
+      "sha256": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/best.pt.info.json",
+      "bytes": 159,
+      "sha256": "33897260977bd0a9e493b3c16905a6c22b66261a498dcbded8a98db569cbcebe"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/progress.json",
+      "bytes": 35237,
+      "sha256": "f43804b25536c173f4cfb067f99ebeaded1c5daa89f52d3c32858c431f8c048f"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/metrics.json",
+      "bytes": 448847,
+      "sha256": "12ff54499e915271fbaf3f6c130c563ad2422a96359c13a5a6f942fa2ae4845e"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/last.pt",
+      "bytes": 316184377,
+      "sha256": "97c1e8f1b12e661cbc5d8c44c9e8a1dbef4d5df9bfbe3773fd1ecebd479b854a"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/last.pt.info.json",
+      "bytes": 161,
+      "sha256": "2ad05a39ef4a6990c7e3f4dc9d79bc88c045fc5938ab120bc83bc43e600ebed5"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "bytes": 316154929,
+      "sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/calibrated.json",
+      "bytes": 704,
+      "sha256": "927d7ba9fc4ba5a11488b11981317c77dbe6842bc6c1ec1868c5e0bb78a9b366"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/evaluation_test.json",
+      "bytes": 122266,
+      "sha256": "a4c79f43822e842a13481ae7ccf5761590286b0a0605b6ef2c98eeaa51262094"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/training_curves.png",
+      "bytes": 259543,
+      "sha256": "57c1e6731264e985f89bf4b656d55c0af5e938bfb72e09a03e9a6dbdae58865a"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/live_audio.json",
+      "bytes": 21119,
+      "sha256": "32c5e19806bf0f361be44a191d9190f18133bc3e33271ce4b2526bed30b6eabc"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/model_card.json",
+      "bytes": 262804,
+      "sha256": "7a4c8a9e70aef749e93c0f58b2c62b991bb3b65b4e30a40f32d590754e416fa2"
+    },
+    {
+      "path": "runs/music-window/stage6-window-lowlr/checksums.json",
+      "bytes": 1061,
+      "sha256": "2ffcd1bd779b49443e284bc008bdbce43b841b6c3d7306d0177d75bf475331d8"
+    },
+    {
+      "path": "runs/music-genre/status.json",
+      "bytes": 1038,
+      "sha256": "6047fccfc6c0e46e7faa1bae4a0dc92339318bea9cb69e303582847ccb5f60b7"
+    },
+    {
+      "path": "runs/music-genre/download.pid",
+      "bytes": 7,
+      "sha256": "1f9e8d3817992b3da1f23f71939d7f23ee9fb223f18bc5db547f0a6c99dc670a"
+    },
+    {
+      "path": "runs/music-genre/download.log",
+      "bytes": 25922,
+      "sha256": "4dbb85d76f89bda21bcda85f8c6ec9e9bfd1bf3eb877d95ba5db8d528f5c36bc"
+    },
+    {
+      "path": "runs/music-genre/resource-monitor.pid",
+      "bytes": 7,
+      "sha256": "22a0d0a232d56683b1f0ecf6a250c0bf0e80c93585cde23bc22cd2f4ec6691db"
+    },
+    {
+      "path": "runs/music-genre/resources.log",
+      "bytes": 242332,
+      "sha256": "d078c15af0312d772d93aa67fd903056b6dbeb070d8635f28f7082989a8f8025"
+    },
+    {
+      "path": "runs/music-genre/prepare-medium.pid",
+      "bytes": 7,
+      "sha256": "37db323247a443610d5db4ed084f633a2c629c2111c9a91b101f48ec6eeb8ab6"
+    },
+    {
+      "path": "runs/music-genre/prepare-medium.log",
+      "bytes": 3906,
+      "sha256": "2b6bf6840b6deb7b0bf933aa29f36f3350d3348d53a5b6b779ce7c7472a445c7"
+    },
+    {
+      "path": "runs/music-genre/download-large.pid",
+      "bytes": 7,
+      "sha256": "dd37d6732ac1608c810cccbc8d2ec70a202c36713f35775891239b61bc0d7ea2"
+    },
+    {
+      "path": "runs/music-genre/download-large.log",
+      "bytes": 88090,
+      "sha256": "2eb2acf265d4dace80e5e953c58e1cd8a9ac1a6ec8c2e92f565f3adce5e8efec"
+    },
+    {
+      "path": "runs/music-genre/tests.log",
+      "bytes": 100,
+      "sha256": "6a0fb5dc8b5d784cda447ec425485a65996b7b07cd19add35473d85c2472154c"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium.log",
+      "bytes": 44869,
+      "sha256": "18ef9ed8e67195e77808951fd530322e515414fccdb5cdb9516a3ea6928cf95d"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium.pid",
+      "bytes": 7,
+      "sha256": "74b8510356bd13ebe9d6cd5c058a6e011ada5d02d68bcb7f411fd584c3e722f0"
+    },
+    {
+      "path": "runs/music-genre/pipeline.log",
+      "bytes": 4295,
+      "sha256": "3ecb64b881b2bb207a12ce32a1b04612410937ebb9d3f2fa0131a9e323e0b31b"
+    },
+    {
+      "path": "runs/music-genre/pipeline.pid",
+      "bytes": 7,
+      "sha256": "9a061ed7f1e0bd8a92d5c5189bc8748b0f16c4b07491bc6826f83eff2116412c"
+    },
+    {
+      "path": "runs/music-genre/prepare-large.log",
+      "bytes": 7093,
+      "sha256": "ff08b1d53e2598dfbabddcd70d9a43ae8c6e2a5237049ad472f5c1a1b4dddd84"
+    },
+    {
+      "path": "runs/music-genre/prepare-large.pid",
+      "bytes": 7,
+      "sha256": "13e4383379f87940148a0650dec06dca21805c0e0ddb7a6b80411d8aed846432"
+    },
+    {
+      "path": "runs/music-genre/prepare-large.command.json",
+      "bytes": 240,
+      "sha256": "182bd136d59c50f623c3bcb5cd2f0fb3c59211d201dc78673f5f01cb61d1bc2c"
+    },
+    {
+      "path": "runs/music-genre/genre-cohort-tests.log",
+      "bytes": 98,
+      "sha256": "eb7d792c6423e7055907272f5c75d1bb35a2fbe8c1523c0a121f3bf99d8b2beb"
+    },
+    {
+      "path": "runs/music-genre/tests-current.log",
+      "bytes": 99,
+      "sha256": "0aa3aef908a793f2ba3848e6eb6d745d6bfbd667b668126fc7b91c6953f083f2"
+    },
+    {
+      "path": "runs/music-genre/grouped_ablation_audit.json",
+      "bytes": 915,
+      "sha256": "122289950bd5b17760e2f2b391a8c6a83cf1f7f468abba0dabba20b46442a5ac"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium-balanced.log",
+      "bytes": 43170,
+      "sha256": "1ae4edf0e14c3ec56735a2b28aaf1d3384d0ce0b3ce7f9132a27ac0b79e18f86"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium-balanced.pid",
+      "bytes": 7,
+      "sha256": "a85cc589162c9905a5ab85132302dbd23cff67547ee6c70b19bfc96f5a1cc684"
+    },
+    {
+      "path": "runs/music-genre/publish-v2.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium-balanced.command.json",
+      "bytes": 535,
+      "sha256": "c08a591100be3370ce3909c2b143a29b8016c4d1160f0c2545cd39cc2d145ba1"
+    },
+    {
+      "path": "runs/music-genre/completed.json",
+      "bytes": 311,
+      "sha256": "bd689084071140f7657ef9e9a7a9ddcca31ba9ca19177d113acd362e3e031977"
+    },
+    {
+      "path": "runs/music-genre/precompute-medium-balanced.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/compose-v1.log",
+      "bytes": 79,
+      "sha256": "2e1a5b5af411dac99f98b26ff4cef97f40fc0fc1cc09dbda74988b49bb8e5ec2"
+    },
+    {
+      "path": "runs/music-genre/compose-v1.pid",
+      "bytes": 7,
+      "sha256": "5be80d06a65720582b4ef92a46807eca0e3eccbfa60661c5b1672361e790c329"
+    },
+    {
+      "path": "runs/music-genre/compose-v1.command.json",
+      "bytes": 657,
+      "sha256": "d4cc9dd695294334803e36bb7fb1b17d392a8072e5f5d52f8d162642d6b7c00b"
+    },
+    {
+      "path": "runs/music-genre/compose-v1.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/overfit-v1.log",
+      "bytes": 112539,
+      "sha256": "801ee35a160bcb8620e06b6e65abd3cb4100bb639d1cce94a3554e6fa60aed32"
+    },
+    {
+      "path": "runs/music-genre/overfit-v1.pid",
+      "bytes": 7,
+      "sha256": "dafe00924f9c396ded4439f7343b70af64c179b8f407b528d2d1d8e532e33066"
+    },
+    {
+      "path": "runs/music-genre/overfit-v1.command.json",
+      "bytes": 537,
+      "sha256": "43a507a3c594186acb93cd19060e39c0011d4e2a92a44e1d827530be45c04a19"
+    },
+    {
+      "path": "runs/music-genre/overfit-v1.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/train-v1.log",
+      "bytes": 171313,
+      "sha256": "d29f3965597db6e548afc1cf1b89913d79c1b51fc2dc5dac4646ee9e722100da"
+    },
+    {
+      "path": "runs/music-genre/train-v1.pid",
+      "bytes": 7,
+      "sha256": "bb819f8ea4714d88add0a3706c2dedca8e2c68e65eaaa5375d7813d7e9b8a6e6"
+    },
+    {
+      "path": "runs/music-genre/train-v1.command.json",
+      "bytes": 805,
+      "sha256": "e54210b4172b1580ca7799e3cef3fbd4d524234937f84fee06283403bbe4eeee"
+    },
+    {
+      "path": "runs/music-genre/prepare-large.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/train-v1.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/genre-selection-v1.json",
+      "bytes": 674222,
+      "sha256": "0462dd55ea86660235e521f69fd2a0020373568b4db0a84621a3249fd5c7d2a5"
+    },
+    {
+      "path": "runs/music-genre/precompute-large.log",
+      "bytes": 91916,
+      "sha256": "03c11e184a05a11164a712dfd5f0a3532124f87e2a11fec725089fb2e4c6f458"
+    },
+    {
+      "path": "runs/music-genre/precompute-large.pid",
+      "bytes": 7,
+      "sha256": "9ec9704e6eb4b3fd169030d7298bc554cdc7115fa24b518b27953e5ec5f8e93a"
+    },
+    {
+      "path": "runs/music-genre/precompute-large.command.json",
+      "bytes": 533,
+      "sha256": "bfcf7bd15911d6322c3abed5cbb7cfa4396d6061eb021e1b2a2751cb7e56647f"
+    },
+    {
+      "path": "runs/music-genre/dashboard-tests.log",
+      "bytes": 2097,
+      "sha256": "fff1bf477c19abba69b8c2648b83cb6794263fb85974a7c53103945b3caadc61"
+    },
+    {
+      "path": "runs/music-genre/dashboard-all-tests.log",
+      "bytes": 99,
+      "sha256": "5bc797fa9121a692fafb0e4694b8088a11bc080a42b222c781408b2d8616a768"
+    },
+    {
+      "path": "runs/music-genre/dashboard-render-proof.json",
+      "bytes": 193,
+      "sha256": "0626ae04d3c47e6a092225addb2b0fff802222015f7fd6000db81565d558525a"
+    },
+    {
+      "path": "runs/music-genre/precompute-large.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/compose-v2.log",
+      "bytes": 79,
+      "sha256": "9f9120af7097176f673417df4ad2434b47e3765c0a601c822c58e196175229ee"
+    },
+    {
+      "path": "runs/music-genre/compose-v2.pid",
+      "bytes": 7,
+      "sha256": "87162eea948ed9ed4fb3cfbbf97ed93dbc819ea6811d01774b63bfe04607aa02"
+    },
+    {
+      "path": "runs/music-genre/compose-v2.command.json",
+      "bytes": 657,
+      "sha256": "763b5c426488ab2057f9bece17e50746a57a51de6403eef7d2a9b7a68f68361f"
+    },
+    {
+      "path": "runs/music-genre/compose-v2.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/overfit-v2.log",
+      "bytes": 112700,
+      "sha256": "6c4ad1ada8882200116ed5d6f06d52d3a38b22a7978a260549f9d7b012935866"
+    },
+    {
+      "path": "runs/music-genre/overfit-v2.pid",
+      "bytes": 7,
+      "sha256": "65dc3b6c248585b5b13d56e5eb4d30e0e0acc53b877a0ae359b9f7e5ffd4b5a2"
+    },
+    {
+      "path": "runs/music-genre/overfit-v2.command.json",
+      "bytes": 537,
+      "sha256": "9f73f26fb2b01237f1247f9eff5bf25fcea8325780c754f6423e12d5a01b0c8a"
+    },
+    {
+      "path": "runs/music-genre/overfit-v2.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/train-v2.log",
+      "bytes": 171420,
+      "sha256": "e6025bab52e4c457c8849d292a017af375a892f2036bb94ce90e9b9d155476b6"
+    },
+    {
+      "path": "runs/music-genre/train-v2.pid",
+      "bytes": 7,
+      "sha256": "276e3661063e88b6388b66fb2349792aa932ea12fd4ef1c43a372050e11a1fea"
+    },
+    {
+      "path": "runs/music-genre/train-v2.command.json",
+      "bytes": 805,
+      "sha256": "b268b166a97f2edcbcc825c7e30f90dfe0dba9733b6159eb47ac59b7b6d33b96"
+    },
+    {
+      "path": "runs/music-genre/train-v2.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/genre-selection-v2.json",
+      "bytes": 674103,
+      "sha256": "d6f0a69a384c3608f2df56f98bf7228de771c7a791cb990ae03ff749666c9186"
+    },
+    {
+      "path": "runs/music-genre/finalize-v2.log",
+      "bytes": 314834,
+      "sha256": "14b2dba15327aaa1337d13cf793c951bf3ab61131f40ebce059896d504526d71"
+    },
+    {
+      "path": "runs/music-genre/finalize-v2.pid",
+      "bytes": 7,
+      "sha256": "68bbdcee8a210094d0bac2f5dfa825f94089b14e5b4e8f1e6c77467211860c65"
+    },
+    {
+      "path": "runs/music-genre/finalize-v2.command.json",
+      "bytes": 506,
+      "sha256": "bf606daee78f95bda919e5dfadfb1ec98ca1b3b679d54925410613b9e22b72c0"
+    },
+    {
+      "path": "runs/music-genre/finalize-v2.exit.json",
+      "bytes": 16,
+      "sha256": "d24219f6de94b955cf36d25bd2aca88e2d35eef45b9317b7083f55ec8fe9653c"
+    },
+    {
+      "path": "runs/music-genre/publish-v2.log",
+      "bytes": 151,
+      "sha256": "deb8468cf865c8df31cccd87754991487374a550243f6750568fe939f5917a0d"
+    },
+    {
+      "path": "runs/music-genre/publish-v2.pid",
+      "bytes": 7,
+      "sha256": "e99944e401879a6f464bef4108533fdf54892824f6916cdab5d3cb8b001721f2"
+    },
+    {
+      "path": "runs/music-genre/publish-v2.command.json",
+      "bytes": 336,
+      "sha256": "7e33461d77ccd887c5c59723e8cdd1c89b62f08b9aaed00540a4f125633c0b5f"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/overfit_stage6_gate.json",
+      "bytes": 630,
+      "sha256": "1dd23ea13e7e1d1de387bd92344bd59619a85d97584f22c655877822cb10889f"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/best.pt",
+      "bytes": 301245814,
+      "sha256": "7d9f77c12c6b245b9fd79b69609a39b371732ac3e89a1a6bcad265a7bd07ff7d"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/best.pt.info.json",
+      "bytes": 171,
+      "sha256": "9fce321d0c03551760c398bf1c8784add9db8bafac04d4026ec8e7e1a14f26e7"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/progress.json",
+      "bytes": 37722,
+      "sha256": "e1b5b5ae3f2e519ce8619c4067310b897503a474a52e239f3f551beb9cb71869"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/metrics.json",
+      "bytes": 949402,
+      "sha256": "51073805c57250fef940bf6572d8e2ecad922bf8681bb6457cb6e45b740927db"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/last.pt",
+      "bytes": 301272505,
+      "sha256": "ce06f3bbfe656606871150d1a4d51da41a106fabe58f737c4a197dd5aa4569a0"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/diagnostic-stage6-512/last.pt.info.json",
+      "bytes": 172,
+      "sha256": "21d45115c6005509ab09d2ec011f1277ddcb96d184468f32f057dee1a367d460"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/best.pt",
+      "bytes": 320218553,
+      "sha256": "24c3564d482fa8bc02230a8f42247f2ba3ff7f12b12f4032d6cb58f411b17ef8"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/best.pt.info.json",
+      "bytes": 168,
+      "sha256": "cc2a464e6b8f664e8161bd5f619ae71ed4780e55018c31e69f7fd0677e716d3f"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/progress.json",
+      "bytes": 38518,
+      "sha256": "ef35d37b48c077a9508aeae76bbbdada9ffa330d28751c598edb70ad1ed51103"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/metrics.json",
+      "bytes": 1064018,
+      "sha256": "b72b9097a4fae31d6a3c25ad3293dd734cd18c79fd5cebaacd0feda2b38ef880"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/last.pt",
+      "bytes": 320270457,
+      "sha256": "f194621f45715833cb8e789c8ffbb1a858773ab69565237da4eb6f142875a6eb"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/last.pt.info.json",
+      "bytes": 169,
+      "sha256": "36198768b1601fc96b2a39a0ad303929ba9b53339da1bcf9ae9d5a0b838b3c2a"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/training_curves.png",
+      "bytes": 246366,
+      "sha256": "ff43074af5515de789860a2133b831c446f4726bd8585b948d6da08350df0f34"
+    },
+    {
+      "path": "runs/music-genre/iteration-v1/stage6-genre-v1/checksums.json",
+      "bytes": 613,
+      "sha256": "460e67ea0b2ecd29a9d36b695ef12b4333490c6dd7d43a93946a780acba44f66"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/overfit_stage6_gate.json",
+      "bytes": 628,
+      "sha256": "8a0694f6be6f97732e928378961094df94e6c75ab55e1d9b82ac96884b6d3784"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/best.pt",
+      "bytes": 301224953,
+      "sha256": "bd1074108566fdd77a9172d477b976510ed099db26bbd88beb37d0de51415d37"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/best.pt.info.json",
+      "bytes": 170,
+      "sha256": "602cd26337fb1c64629a1de164aef8e1c428ade9e461e12af2463cb5932bfacf"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/progress.json",
+      "bytes": 37650,
+      "sha256": "7ca28dd5fdf1cd99f67cf92a98efe6be83f1bb5f96a0a3750ba8c21c1e7849b4"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/metrics.json",
+      "bytes": 952042,
+      "sha256": "19ed6f0373c05f618a8c71dc2223d8f0981d23a5678acd6524ec2d24f29c965a"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/last.pt",
+      "bytes": 301274169,
+      "sha256": "c53dede5a108393da23b7169670d30c96e69d4f3f7939a645393dc00468775e1"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/diagnostic-stage6-512/last.pt.info.json",
+      "bytes": 172,
+      "sha256": "dfbb674dfd204f01761d22d0e043cf06910489c67173e287dcf333d9ea392159"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/best.pt",
+      "bytes": 339641465,
+      "sha256": "a87f43181d3cd1b5ce98c0664e82a1c2fd05d8197754a28e540415e3ac4107b8"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/best.pt.info.json",
+      "bytes": 167,
+      "sha256": "05ad17deb5c579d90884ec9dd20770ba0d1af20a51ef6e1f57776add4adcde95"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/progress.json",
+      "bytes": 70289,
+      "sha256": "b172f63ac53940f46e2fe54e86b71b26dce5075458e37f4f4daeed2527096fe0"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/metrics.json",
+      "bytes": 1064707,
+      "sha256": "46984c76c5789500ef1df86787469d387e1d96c3bc43b1d1b1ee6d218f4d93bf"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/last.pt",
+      "bytes": 339708921,
+      "sha256": "0a1ae78928c9da4341a6f514f5df83ec13db1a041efdd4944e837a62c8ffa538"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/last.pt.info.json",
+      "bytes": 169,
+      "sha256": "d913fa3ab9bd02df3e68c6ef60ec08c2654808a0997aa9c5e30304389a8108bd"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/calibrated.pt",
+      "bytes": 339641457,
+      "sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/calibrated.json",
+      "bytes": 706,
+      "sha256": "cde26069740649f87b93c62c483474c25aa6f63d8ddef4e17f276523fba03b4e"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/evaluation_test.json",
+      "bytes": 314145,
+      "sha256": "b0544af1f4d11b31eec1ba132b3a1bb1a3614491dbf4544df123c5baf29cf0fc"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/training_curves.png",
+      "bytes": 246629,
+      "sha256": "d5791b8840719f62ad9f1f3413d662005b47b10e2b783d458f379ab3d7243a84"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/live_audio.json",
+      "bytes": 23106,
+      "sha256": "f1f7115a70ff50335008b1ebf7968f2cb472408d79e84ff00d88f96df4cc2e0e"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/model_card.json",
+      "bytes": 673400,
+      "sha256": "60af7015a89039b27e57f4d61bf6a6f0f1b7415f557378dd51e1e49a92927fa8"
+    },
+    {
+      "path": "runs/music-genre/iteration-v2/stage6-genre-v2/checksums.json",
+      "bytes": 1061,
+      "sha256": "e794f5cffc7955a51e03b9c4ce5faf628809ab3d0585c14595581c4ecab7f3c1"
+    },
+    {
+      "path": "runs/history/stage1/metrics.json",
+      "bytes": 25708,
+      "sha256": "71f76f2b2260b88fa299aeacb0e3f41e8d66c725261927ea62f8a2bd84bb6374"
+    },
+    {
+      "path": "runs/history/stage1/progress.json",
+      "bytes": 4149,
+      "sha256": "d7bcb603f5dfc7a86dbb9dfac14a24165c1cebc40a6a431b6ef46585835ebebf"
+    },
+    {
+      "path": "runs/history/stage1/best.pt.info.json",
+      "bytes": 143,
+      "sha256": "38f30aa86f8f17fd0ca7591dcd3c5ded246d7d209685ede9f04182d5cdf3cb70"
+    },
+    {
+      "path": "runs/history/stage1/training_curves.png",
+      "bytes": 204943,
+      "sha256": "b67970ee6f00af63a80d218dbae8eb2941288e8b528dec55ba6a74277aeb6afb"
+    },
+    {
+      "path": "runs/history/stage1/history_source.json",
+      "bytes": 483,
+      "sha256": "03ffe72c6b54a7f48f0559b019ff1e1ed7e8d85f48bdf514b583cad6279e38b6"
+    },
+    {
+      "path": "runs/history/stage1/checksums.json",
+      "bytes": 360,
+      "sha256": "bd448f3277aaa76bb9e931ad89d60e2ffc504e6f91652250f012668c3bf7187a"
+    },
+    {
+      "path": "runs/history/stage2/metrics.json",
+      "bytes": 38077,
+      "sha256": "66be744c0aeca24945b72c57a11a598d1d6b0168c278dd30effe7741c8a7f6a1"
+    },
+    {
+      "path": "runs/history/stage2/history_source.json",
+      "bytes": 221,
+      "sha256": "c51cf4dc42d5d8e229f6d83c5fdea3d3c79719377d26e953bff62b6be2542b35"
+    },
+    {
+      "path": "runs/history/stage2/checksums.json",
+      "bytes": 89,
+      "sha256": "020dea5af98cf6272fab7951e7e7311ff6a32319540fce62eb5e8220a5fb89e3"
+    },
+    {
+      "path": "runs/history/stage3/metrics.json",
+      "bytes": 25518,
+      "sha256": "7f0bd0b0c4c74477a2e54a43dfacf56e886ba8e96d6db63dfddee476732f7596"
+    },
+    {
+      "path": "runs/history/stage3/progress.json",
+      "bytes": 36045,
+      "sha256": "f5bd3788c2eb647188de8c30eae839953d105f061f2a3ed3469caa7464a97c56"
+    },
+    {
+      "path": "runs/history/stage3/best.pt.info.json",
+      "bytes": 144,
+      "sha256": "76063574392ca3c20f1c79035b232ad53c0d8425ee9c29442e1c3483ff2d0cc7"
+    },
+    {
+      "path": "runs/history/stage3/training_curves.png",
+      "bytes": 195351,
+      "sha256": "0ec4721548700334a74119ef5ace85075b6cff313c7deb0bfca898f5a560f74e"
+    },
+    {
+      "path": "runs/history/stage3/history_source.json",
+      "bytes": 483,
+      "sha256": "c14ab325ca09baa02df00460943423e9315eae3d44365926e43fce7669d8fdd0"
+    },
+    {
+      "path": "runs/history/stage3/checksums.json",
+      "bytes": 360,
+      "sha256": "09a34fde6d956ac256f2318e0e1a8bd130aa5c20c619d99be0d08bce05a2e174"
+    }
+  ],
+  "symlinks": [
+    {
+      "path": "runs/music/demo.pt",
+      "target": "../music-genre/iteration-v2/stage6-genre-v2/calibrated.pt",
+      "original_target": "/home/ubuntu/dev_clm/data/runs/music-genre/iteration-v2/stage6-genre-v2/calibrated.pt"
+    }
+  ]
+}

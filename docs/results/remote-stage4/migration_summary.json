@@ -1,0 +1,17 @@
+{
+  "status": "stage4_completed_and_artifacts_verified_locally",
+  "epochs": 6,
+  "updates": 17028,
+  "seconds": 419.1486645452678,
+  "selected_step": 5676,
+  "selected_validation_top1": 0.64306640625,
+  "original_common_validation_top1": 0.65185546875,
+  "music_parent": "/srv/data/samsone_clm/models/samsone_clm_common/best.pt",
+  "parent_selection": "Original checkpoint retained based on validation, before inspecting new test results",
+  "artifact_return": "best/last/calibrated and all other remote run files copied locally; all 13 remote hashes verified",
+  "gpu": "RTX 3090 24 GB",
+  "container_ram_gib": 116.41532135009766,
+  "data_volume_gib": 500,
+  "next_status": "Musical data preparation running; Stage 5 training not started",
+  "future_training_batch_size": 256
+}

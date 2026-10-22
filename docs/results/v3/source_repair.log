@@ -1,0 +1,15 @@
+[
+  {
+    "old_path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+    "new_path": "/srv/data/samsone_clm/processed/audio_verified/tacos/9ce1667ee1d63fd8e0162d893131467d87a3955b8b5534acd7b6f48f104fbb54.wav",
+    "old_duration_s": 14.751375,
+    "restored_duration_s": 18.4875625,
+    "original_payload_sha256": "cc90a2af4e1683c9bc1004e96806835913d469163989588be730ba0c8a68c0cd",
+    "archive_md5": "a1b11ed7a88d6b95109decb577c128fd",
+    "old_pcm": "pcm:4c966a25fcb6f98e24c7cf1afbea269e5b5bc479f637e1be8b4899a5a748a184",
+    "new_pcm": "pcm:9ce1667ee1d63fd8e0162d893131467d87a3955b8b5534acd7b6f48f104fbb54",
+    "samples": 3,
+    "labels_match_official_metadata": true,
+    "pcm_roundtrip_exact": true
+  }
+]

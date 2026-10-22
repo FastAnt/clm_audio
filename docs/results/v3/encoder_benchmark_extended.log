@@ -1,0 +1,3 @@
+{"batch_size": 64, "seconds": 24.189239608000207, "samples_per_second": 10.583218164300298, "peak_gpu_gib": 3.050564765930176, "max_relative_l2": 0.0}
+{"batch_size": 128, "seconds": 27.186203007000586, "samples_per_second": 9.416541174730384, "peak_gpu_gib": 4.7584028244018555, "max_relative_l2": 1.7196000499097863e-06}
+{"batch_size": 256, "seconds": 26.776592131000143, "samples_per_second": 9.56058929185467, "peak_gpu_gib": 8.167731285095215, "max_relative_l2": 2.21238019548764e-06}

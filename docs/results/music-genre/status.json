@@ -1,0 +1,25 @@
+{
+  "phase": "completed",
+  "status": "completed",
+  "updated_at": "2026-10-04T11:27:34.147127+00:00",
+  "elapsed_s": 9313.352116584778,
+  "music_only": true,
+  "local_training": false,
+  "remote_data_root": "/home/ubuntu/dev_clm/data",
+  "run_root": "/home/ubuntu/dev_clm/data/runs/music-genre",
+  "resources": {
+    "available_ram_gib": 30.324447631835938,
+    "memory_limit_gib": 116.41532135009766,
+    "free_disk_gib": 101.96823120117188,
+    "swap_used_gib": 0.0
+  },
+  "parent_checkpoint": "/home/ubuntu/dev_clm/data/models/samsone_clm_music_genre_v2/best.pt",
+  "log": "/home/ubuntu/dev_clm/data/runs/music-genre/publish-v2.log",
+  "stage_directories": {
+    "4": "/home/ubuntu/dev_clm/data/runs/remote-stage4/stage4",
+    "5": "/home/ubuntu/dev_clm/data/runs/music/stage5",
+    "6": "/home/ubuntu/dev_clm/data/runs/music-genre/iteration-v2/stage6-genre-v2"
+  },
+  "experiment": "FMA primary-genre 10s windows, question/choice variants, balanced CE and music replay; frozen Samsone356M",
+  "source": "FMA medium then FMA large"
+}

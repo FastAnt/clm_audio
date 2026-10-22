@@ -1,0 +1,16 @@
+{
+  "paused_by_user": true,
+  "paused_at": "2026-10-03T21:49:51.876427+00:00",
+  "completed_stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "model": "samsone_clm_common",
+  "next_stages": [
+    5,
+    6
+  ],
+  "web_demo_stopped": true
+}

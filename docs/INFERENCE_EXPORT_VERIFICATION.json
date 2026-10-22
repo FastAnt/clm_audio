@@ -1,0 +1,38 @@
+{
+  "samsone_clm_common": {
+    "original_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+    "export_sha256": "3e27bb41bad690720837323178b41d8d393a1c2cd2a79c5c256bd85d17b5edae",
+    "export_bytes": 91302826,
+    "tensors_bitwise_equal": true,
+    "spec_equal": true,
+    "all_encoder_contract_fields_preserved": true,
+    "training_state_removed": true,
+    "original_file_unchanged": true,
+    "ranking_check": {
+      "batch": 8,
+      "choices": 5,
+      "hidden_width": 960,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "input": "deterministic synthetic frozen-hidden vectors; encoder unchanged"
+    }
+  },
+  "samsone_clm_music": {
+    "original_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+    "export_sha256": "c854b88ddbf3f7ddf521e63e7a70fba219dde4b3cb7b1bdde05a8b5542319c03",
+    "export_bytes": 91302826,
+    "tensors_bitwise_equal": true,
+    "spec_equal": true,
+    "all_encoder_contract_fields_preserved": true,
+    "training_state_removed": true,
+    "original_file_unchanged": true,
+    "ranking_check": {
+      "batch": 8,
+      "choices": 5,
+      "hidden_width": 960,
+      "logits_bitwise_equal": true,
+      "probabilities_bitwise_equal": true,
+      "input": "deterministic synthetic frozen-hidden vectors; encoder unchanged"
+    }
+  }
+}

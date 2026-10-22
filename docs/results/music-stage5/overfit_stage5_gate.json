@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "feature_manifest": "7b75eeb7745e8a785c4e4239b4ab1c999e0c57b9c780a094bc9277520c0e9266",
+  "diagnostic_checkpoint_sha256": "9d586b95be2dd8b38efb18c362757602f153c78fe3a6e4cccc08be7d422f379f",
+  "final_train": {
+    "samples": 512,
+    "top1": 1.0,
+    "top2": 1.0,
+    "loss": 0.0019500615308061242,
+    "mean_correct_probability": 0.9980739951133728,
+    "ece": 0.0019260048866271973,
+    "bins": 15
+  },
+  "first_interval_ce": 1.0758221781253814,
+  "both_heads_train": true,
+  "encoder_calls": 0,
+  "feature_manifest_path": "/srv/data/samsone_clm/features/music-stage5-24b5c2390fb2dbf0/manifest.json"
+}

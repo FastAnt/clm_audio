@@ -1,0 +1,7 @@
+{
+  "stage": 4,
+  "step": 17028,
+  "epoch": 6,
+  "samples": 181592,
+  "checkpoint": "/home/ubuntu/dev_clm/data/runs/remote-stage4/stage4/last.pt"
+}

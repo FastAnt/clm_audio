@@ -1,0 +1,7 @@
+{
+  "stage": 4,
+  "step": 8514,
+  "epoch": 3,
+  "samples": 181592,
+  "checkpoint": "/srv/data/samsone_clm/runs/v3/stage4/best.pt"
+}

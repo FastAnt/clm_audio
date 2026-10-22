@@ -1,0 +1,6 @@
+[submodule "vendor/samsone"]
+	path = vendor/samsone
+	url = https://github.com/SamsungLabs/samsone.git
+[submodule "vendor/CLM"]
+	path = vendor/CLM
+	url = https://github.com/Contrastive-LM/CLM.git

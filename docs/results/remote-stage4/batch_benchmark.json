@@ -1,0 +1,68 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "precision": "FP32 heads, BF16 feature storage, TF32 disabled",
+  "resources": {
+    "available_ram_gib": 115.92121887207031,
+    "memory_limit_gib": 116.41532135009766,
+    "free_disk_gib": 490.12818908691406,
+    "swap_used_gib": 0.0
+  },
+  "fixed_pair_batch": false,
+  "checkpoint": "data/models/samsone_clm_common/best.pt",
+  "feature_manifest": "data/features/spike-a86e057eae695e43/manifest.json",
+  "results": [
+    {
+      "batch_size": 64,
+      "pair_count": 32,
+      "pair_endpoints": 64,
+      "steps": 30,
+      "elapsed_s": 0.5444279033690691,
+      "step_ms": 18.14759677896897,
+      "main_samples_per_second": 3526.637757026254,
+      "peak_allocated_gib": 2.171238422393799,
+      "peak_reserved_gib": 2.240234375,
+      "final_loss": 0.18778294324874878,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 128,
+      "pair_count": 64,
+      "pair_endpoints": 128,
+      "steps": 30,
+      "elapsed_s": 0.6824674028903246,
+      "step_ms": 22.748913429677486,
+      "main_samples_per_second": 5626.642362312365,
+      "peak_allocated_gib": 2.222538948059082,
+      "peak_reserved_gib": 2.31640625,
+      "final_loss": 0.28027206659317017,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 256,
+      "pair_count": 128,
+      "pair_endpoints": 256,
+      "steps": 30,
+      "elapsed_s": 0.6628079563379288,
+      "step_ms": 22.093598544597626,
+      "main_samples_per_second": 11587.066700938027,
+      "peak_allocated_gib": 2.356832504272461,
+      "peak_reserved_gib": 2.46484375,
+      "final_loss": 0.2680736780166626,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 512,
+      "pair_count": 256,
+      "pair_endpoints": 512,
+      "steps": 30,
+      "elapsed_s": 1.1533568240702152,
+      "step_ms": 38.44522746900717,
+      "main_samples_per_second": 13317.647825409578,
+      "peak_allocated_gib": 2.6099400520324707,
+      "peak_reserved_gib": 2.798828125,
+      "final_loss": 0.24415422976016998,
+      "encoder_calls": 0
+    }
+  ],
+  "disposable_weights": true
+}

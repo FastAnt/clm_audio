@@ -1,0 +1,14 @@
+{
+  "best.pt": "c9c00f307c12828eee9e66893bd3e7f4c6eba3a2a477d8e4ff4bdaafeed7f694",
+  "best.pt.info.json": "33897260977bd0a9e493b3c16905a6c22b66261a498dcbded8a98db569cbcebe",
+  "progress.json": "f43804b25536c173f4cfb067f99ebeaded1c5daa89f52d3c32858c431f8c048f",
+  "metrics.json": "12ff54499e915271fbaf3f6c130c563ad2422a96359c13a5a6f942fa2ae4845e",
+  "last.pt": "97c1e8f1b12e661cbc5d8c44c9e8a1dbef4d5df9bfbe3773fd1ecebd479b854a",
+  "last.pt.info.json": "2ad05a39ef4a6990c7e3f4dc9d79bc88c045fc5938ab120bc83bc43e600ebed5",
+  "calibrated.pt": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+  "calibrated.json": "927d7ba9fc4ba5a11488b11981317c77dbe6842bc6c1ec1868c5e0bb78a9b366",
+  "evaluation_test.json": "a4c79f43822e842a13481ae7ccf5761590286b0a0605b6ef2c98eeaa51262094",
+  "training_curves.png": "57c1e6731264e985f89bf4b656d55c0af5e938bfb72e09a03e9a6dbdae58865a",
+  "live_audio.json": "32c5e19806bf0f361be44a191d9190f18133bc3e33271ce4b2526bed30b6eabc",
+  "model_card.json": "7a4c8a9e70aef749e93c0f58b2c62b991bb3b65b4e30a40f32d590754e416fa2"
+}

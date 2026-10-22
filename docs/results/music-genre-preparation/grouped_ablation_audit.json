@@ -1,0 +1,54 @@
+{
+  "validation": {
+    "qa": 4092,
+    "unique_recordings": 682,
+    "class_qa": {
+      "folk": 540,
+      "electronic": 540,
+      "hip hop": 534,
+      "experimental": 540,
+      "classical": 372,
+      "jazz": 234,
+      "rock": 534,
+      "pop": 534,
+      "blues": 48,
+      "soul rnb": 108,
+      "country": 108
+    },
+    "all_six_forms_same_recordings": true,
+    "forms": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "test": {
+    "qa": 4092,
+    "unique_recordings": 682,
+    "class_qa": {
+      "classical": 372,
+      "rock": 510,
+      "experimental": 516,
+      "jazz": 234,
+      "electronic": 516,
+      "hip hop": 510,
+      "soul rnb": 252,
+      "pop": 510,
+      "folk": 516,
+      "country": 108,
+      "blues": 48
+    },
+    "all_six_forms_same_recordings": true,
+    "forms": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

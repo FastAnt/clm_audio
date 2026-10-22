@@ -1,0 +1,40 @@
+.venv
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.ruff_cache/
+build/
+dist/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Large artifacts live under SAMSONE_CLM_DATA and travel separately from Git.
+/data/
+/raw/
+/processed/
+/features/
+/models/
+/runs/
+/cache/
+/tmp/
+/artifacts/
+*.pt
+*.ckpt
+*.safetensors
+*.wav
+*.mp3
+*.flac
+*.parquet
+*.sqlite*
+*.tar
+*.tar.gz
+*.zip
+*.part
+*.tmp
+
+# Official upstream source is tracked as pinned Git submodules in vendor/.
+
+# Selected learned checkpoints are versioned in Git LFS by user request.
+!/checkpoints/**/*.pt

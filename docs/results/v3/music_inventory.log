@@ -1,0 +1,63 @@
+{
+  "scope": "Metadata inventory only; external audio not downloaded or mixed into active training",
+  "canonical_music_qa": {
+    "test": 1505,
+    "train": 11623,
+    "validation": 1497
+  },
+  "canonical_music_audio": {
+    "test": 933,
+    "train": 7377,
+    "validation": 956
+  },
+  "canonical_music_sources": {
+    "LP-MusicCaps-MTT": 7894,
+    "MusicCaps": 1307,
+    "CompA-R": 5275,
+    "AudioCaps": 112,
+    "Clotho": 37
+  },
+  "original_strong_music_sources": {
+    "AudioCaps": 233,
+    "Clotho": 37,
+    "CompA-R": 6127,
+    "LP-MusicCaps-MTT": 7894,
+    "MusicCaps": 1345
+  },
+  "unavailable_music_qa_by_source": {
+    "AudioCaps": 121,
+    "Clotho": 0,
+    "CompA-R": 852,
+    "LP-MusicCaps-MTT": 0,
+    "MusicCaps": 38
+  },
+  "target_music_skills": [
+    "instruments",
+    "genre",
+    "mood",
+    "vocals",
+    "tempo",
+    "rhythm",
+    "key",
+    "harmony"
+  ],
+  "musicbench_metadata": {
+    "entries": 52768,
+    "parent_tracks": 5079,
+    "excluded_entries_overlapping_audiomcq_heldout": 2406,
+    "excluded_parent_tracks": 241,
+    "eligible_entries_after_source_overlap_filter": 50362,
+    "eligible_parent_tracks": 4838,
+    "eligible_tempo_metadata": 50345,
+    "eligible_key_confidence_ge_08": 28922,
+    "note": "Eligibility is metadata-only: labels, audio availability/duration and PCM integrity still need verification. Variants of one parent must share a split."
+  },
+  "jamendo_metadata": {
+    "tracks": 55609,
+    "artists": 3565,
+    "instrument_tagged_tracks": 25135,
+    "genre_tagged_tracks": 55215,
+    "mood_tagged_tracks": 18486,
+    "note": "Track-level uploader tags; not ready-made MCQ or guaranteed clip-level labels."
+  }
+}

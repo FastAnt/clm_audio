@@ -1,0 +1,6232 @@
+{
+  "scope": "Two user-selected clips, diagnostic evidence only; not a representative benchmark",
+  "positions": "Playback positions visible in screenshots; actual Analyze positions are not visible and may differ",
+  "python": "/srv/data/samsone_clm/cache/environment/bin/python",
+  "device": "cpu",
+  "threads": 4,
+  "tracks": [
+    {
+      "name": "Umbrella",
+      "audio_id": "f1fbfbc185d24085bce7b27a32e68ec3",
+      "position_s": 114.33,
+      "audio_path": "/srv/data/samsone_clm/runs/local-demo/two-track-audit-2026-10-04/f1fbfbc185d24085bce7b27a32e68ec3-correct.wav",
+      "window": {
+        "position_s": 114.33,
+        "requested_start_s": 109.33,
+        "requested_end_s": 119.33,
+        "source_start_s": 109.33,
+        "source_end_s": 119.33,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "source_path": "/srv/data/samsone_clm/cache/web_uploads/f1fbfbc185d24085bce7b27a32e68ec3.mp3",
+      "source_sha256": "38c99573ebc36ef70e27e2cef51f90269d9c07c08c145681af8ef6102b15c1b4",
+      "duration_s": 276.0620625,
+      "rms": 0.38303625233686495,
+      "peak": 1.6098928451538086,
+      "http_replay": {
+        "ranking": [
+          {
+            "choice": "classic",
+            "probability": 0.6222643852233887
+          },
+          {
+            "choice": "pop",
+            "probability": 0.12713280320167542
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11676768958568573
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.09370725601911545
+          },
+          {
+            "choice": "rock",
+            "probability": 0.040127892047166824
+          }
+        ],
+        "window": {
+          "position_s": 114.33,
+          "requested_start_s": 109.33,
+          "requested_end_s": 119.33,
+          "source_start_s": 109.33,
+          "source_end_s": 119.33,
+          "silence_before_s": 0.0,
+          "silence_after_s": 0.0,
+          "total_seconds": 10.0
+        },
+        "latency_ms": 2815.787013998488,
+        "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+        "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+        "model_id": "music",
+        "model_name": "Music · samsone_clm_music",
+        "device": "cpu"
+      }
+    },
+    {
+      "name": "No White Flag (user filename)",
+      "audio_id": "c51f7904539d48029a77a1696429924e",
+      "position_s": 121.68,
+      "audio_path": "/srv/data/samsone_clm/runs/local-demo/two-track-audit-2026-10-04/c51f7904539d48029a77a1696429924e-correct.wav",
+      "window": {
+        "position_s": 121.68,
+        "requested_start_s": 116.68,
+        "requested_end_s": 126.68,
+        "source_start_s": 116.68,
+        "source_end_s": 126.68,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "source_path": "/srv/data/samsone_clm/cache/web_uploads/c51f7904539d48029a77a1696429924e.mp3",
+      "source_sha256": "9984a7de0d578dfc33467aee042c16cb8c37e373eaa73dff90082608333da16c",
+      "duration_s": 239.9749375,
+      "rms": 0.3465555323685691,
+      "peak": 1.4294661283493042,
+      "http_replay": {
+        "ranking": [
+          {
+            "choice": "pop",
+            "probability": 0.4724246859550476
+          },
+          {
+            "choice": "classic",
+            "probability": 0.3572264015674591
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1272105723619461
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.032213736325502396
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.01092466525733471
+          }
+        ],
+        "window": {
+          "position_s": 121.68,
+          "requested_start_s": 116.68,
+          "requested_end_s": 126.68,
+          "source_start_s": 116.68,
+          "source_end_s": 126.68,
+          "silence_before_s": 0.0,
+          "silence_after_s": 0.0,
+          "total_seconds": 10.0
+        },
+        "latency_ms": 722.9177830013214,
+        "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+        "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+        "model_id": "music",
+        "model_name": "Music · samsone_clm_music",
+        "device": "cpu"
+      }
+    }
+  ],
+  "results": [
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic",
+            "probability": 0.6222668886184692,
+            "cosine": 0.18386425077915192
+          },
+          {
+            "choice": "pop",
+            "probability": 0.127133309841156,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11676815897226334,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.09370361268520355,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.04012805223464966,
+            "cosine": 0.1256617158651352
+          }
+        ],
+        "silence": [
+          {
+            "choice": "classic",
+            "probability": 0.458283394575119,
+            "cosine": 0.18891605734825134
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.2747502326965332,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.24075745046138763,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.01364858914166689,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.012560330331325531,
+            "cosine": 0.11254651844501495
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.47242483496665955,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "classic",
+            "probability": 0.35722652077674866,
+            "cosine": 0.20147474110126495
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1272106170654297,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03221374377608299,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.010924289003014565,
+            "cosine": 0.12743142247200012
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5233263969421387
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.33649852871894836,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3090638816356659,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.24801625311374664,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1062115877866745,
+            "cosine": 0.1256617158651352
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00020984475850127637,
+            "cosine": -0.006544783245772123
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.5006908178329468,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.43874409794807434,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.024872491136193275,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.022889304906129837,
+            "cosine": 0.11254651844501495
+          },
+          {
+            "choice": "classical",
+            "probability": 0.012803267687559128,
+            "cosine": 0.10021150857210159
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.7348911762237549,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "rock",
+            "probability": 0.19788534939289093,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.050110824406147,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.016993524506688118,
+            "cosine": 0.12743142247200012
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00011916998482774943,
+            "cosine": 0.022120999172329903
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5233263969421387
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop music",
+            "probability": 0.5944046974182129,
+            "cosine": 0.17279379069805145
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.20492182672023773,
+            "cosine": 0.15018339455127716
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.14501070976257324,
+            "cosine": 0.14284099638462067
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.05537838116288185,
+            "cosine": 0.12240289896726608
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0002843524853233248,
+            "cosine": 0.010474671609699726
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.6551933288574219,
+            "cosine": 0.1903376430273056
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.2113063633441925,
+            "cosine": 0.16631130874156952
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.07524572312831879,
+            "cosine": 0.14438843727111816
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.04083013907074928,
+            "cosine": 0.13140863180160522
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.017424480989575386,
+            "cosine": 0.11332882195711136
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop music",
+            "probability": 0.8511136770248413,
+            "cosine": 0.2195410579442978
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.1109875738620758,
+            "cosine": 0.17628920078277588
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.02232990600168705,
+            "cosine": 0.14224421977996826
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.015291647985577583,
+            "cosine": 0.13420544564723969
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.00027715499163605273,
+            "cosine": 0.04905569180846214
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5233263969421387
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.35727378726005554,
+            "cosine": 0.13725154101848602
+          },
+          {
+            "choice": "pop",
+            "probability": 0.29543164372444153,
+            "cosine": 0.13321612775325775
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.19640429317951202,
+            "cosine": 0.12454798817634583
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1478445678949356,
+            "cosine": 0.11851787567138672
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0030456336680799723,
+            "cosine": 0.03608648478984833
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.4272128641605377,
+            "cosine": 0.15871661901474
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3054591417312622,
+            "cosine": 0.15159407258033752
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.10784541070461273,
+            "cosine": 0.12948930263519287
+          },
+          {
+            "choice": "classical",
+            "probability": 0.08575081080198288,
+            "cosine": 0.12462184578180313
+          },
+          {
+            "choice": "rock",
+            "probability": 0.07373182475566864,
+            "cosine": 0.12141560763120651
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.5197354555130005,
+            "cosine": 0.1578833907842636
+          },
+          {
+            "choice": "rock",
+            "probability": 0.27147912979125977,
+            "cosine": 0.14409473538398743
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.10921835154294968,
+            "cosine": 0.12476242333650589
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.09844493120908737,
+            "cosine": 0.12255746871232986
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001122188987210393,
+            "cosine": 0.027561893686652184
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.6026720404624939
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.4944603145122528,
+            "cosine": 0.14653261005878448
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.2890661358833313,
+            "cosine": 0.13513514399528503
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1529519259929657,
+            "cosine": 0.12162043899297714
+          },
+          {
+            "choice": "rock",
+            "probability": 0.06160401552915573,
+            "cosine": 0.10231233388185501
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001917658606544137,
+            "cosine": 0.028646070510149002
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.3436484932899475,
+            "cosine": 0.14811600744724274
+          },
+          {
+            "choice": "pop",
+            "probability": 0.340668648481369,
+            "cosine": 0.14793109893798828
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.21708008646965027,
+            "cosine": 0.13836312294006348
+          },
+          {
+            "choice": "classical",
+            "probability": 0.049833156168460846,
+            "cosine": 0.10711874067783356
+          },
+          {
+            "choice": "rock",
+            "probability": 0.04876966401934624,
+            "cosine": 0.10666072368621826
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.49910682439804077,
+            "cosine": 0.16693802177906036
+          },
+          {
+            "choice": "rock",
+            "probability": 0.22325313091278076,
+            "cosine": 0.14985676109790802
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.196132630109787,
+            "cosine": 0.14710691571235657
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07991590350866318,
+            "cosine": 0.12804467976093292
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001591550069861114,
+            "cosine": 0.04489536210894585
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.23859751224517822,
+        "state_cosine": 0.6184325814247131
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.2915855050086975,
+            "cosine": 0.1610584557056427
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2906167805194855,
+            "cosine": 0.16098780930042267
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.27452516555786133,
+            "cosine": 0.1597783863544464
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1426343023777008,
+            "cosine": 0.1458766907453537
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0006382654537446797,
+            "cosine": 0.03102792054414749
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.49839210510253906,
+            "cosine": 0.18332163989543915
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3377477824687958,
+            "cosine": 0.17506061494350433
+          },
+          {
+            "choice": "rock",
+            "probability": 0.060610536485910416,
+            "cosine": 0.13858801126480103
+          },
+          {
+            "choice": "classical",
+            "probability": 0.05167270079255104,
+            "cosine": 0.13520070910453796
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0515768937766552,
+            "cosine": 0.13516131043434143
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.5629045367240906,
+            "cosine": 0.1828301101922989
+          },
+          {
+            "choice": "rock",
+            "probability": 0.25766363739967346,
+            "cosine": 0.16623841226100922
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1193094328045845,
+            "cosine": 0.14989133179187775
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05952565371990204,
+            "cosine": 0.13512860238552094
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0005968057084828615,
+            "cosine": 0.03740781545639038
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.21857483685016632,
+        "state_cosine": 0.49331992864608765
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.22477641701698303,
+            "cosine": 0.13725154101848602
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.192496195435524,
+            "cosine": 0.13395997881889343
+          },
+          {
+            "choice": "pop",
+            "probability": 0.18586885929107666,
+            "cosine": 0.13321612775325775
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.12356644868850708,
+            "cosine": 0.12454798817634583
+          },
+          {
+            "choice": "rock",
+            "probability": 0.09301542490720749,
+            "cosine": 0.11851787567138672
+          },
+          {
+            "choice": "blues",
+            "probability": 0.05558856949210167,
+            "cosine": 0.10758800804615021
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.04165937379002571,
+            "cosine": 0.101463682949543
+          },
+          {
+            "choice": "folk",
+            "probability": 0.03310132026672363,
+            "cosine": 0.0965813547372818
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.03174826130270958,
+            "cosine": 0.09569524973630905
+          },
+          {
+            "choice": "country",
+            "probability": 0.016263028606772423,
+            "cosine": 0.08149237930774689
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0019161399686709046,
+            "cosine": 0.03608648478984833
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.3337145745754242,
+            "cosine": 0.16701091825962067
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2257959097623825,
+            "cosine": 0.15871661901474
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.16144509613513947,
+            "cosine": 0.15159407258033752
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.06349322944879532,
+            "cosine": 0.13177989423274994
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0569998137652874,
+            "cosine": 0.12948930263519287
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04532209411263466,
+            "cosine": 0.12462184578180313
+          },
+          {
+            "choice": "rock",
+            "probability": 0.03896966949105263,
+            "cosine": 0.12141560763120651
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.037313271313905716,
+            "cosine": 0.12049341946840286
+          },
+          {
+            "choice": "blues",
+            "probability": 0.018672628328204155,
+            "cosine": 0.10579486191272736
+          },
+          {
+            "choice": "folk",
+            "probability": 0.017999177798628807,
+            "cosine": 0.10501495748758316
+          },
+          {
+            "choice": "country",
+            "probability": 0.00027453608345240355,
+            "cosine": 0.016202444210648537
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.3561701774597168,
+            "cosine": 0.1578833907842636
+          },
+          {
+            "choice": "rock",
+            "probability": 0.18604229390621185,
+            "cosine": 0.14409473538398743
+          },
+          {
+            "choice": "folk",
+            "probability": 0.1835992932319641,
+            "cosine": 0.1438140869140625
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07484637945890427,
+            "cosine": 0.12476242333650589
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.0674634501338005,
+            "cosine": 0.12255746871232986
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.04206675663590431,
+            "cosine": 0.11252909898757935
+          },
+          {
+            "choice": "country",
+            "probability": 0.02772870846092701,
+            "cosine": 0.10367991030216217
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.02220800705254078,
+            "cosine": 0.09896613657474518
+          },
+          {
+            "choice": "blues",
+            "probability": 0.021534183993935585,
+            "cosine": 0.09831195324659348
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.017571741715073586,
+            "cosine": 0.09399447590112686
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0007690263446420431,
+            "cosine": 0.027561893686652184
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.6026720404624939
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "Umbrella",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.1907929629087448,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.1791328340768814,
+            "cosine": 0.14880646765232086
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.17523765563964844,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.15749451518058777,
+            "cosine": 0.1460731476545334
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.14062395691871643,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.06022142991423607,
+            "cosine": 0.1256617158651352
+          },
+          {
+            "choice": "country",
+            "probability": 0.0551234669983387,
+            "cosine": 0.12378370016813278
+          },
+          {
+            "choice": "folk",
+            "probability": 0.01661776937544346,
+            "cosine": 0.09832460433244705
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.013992169871926308,
+            "cosine": 0.0946732833981514
+          },
+          {
+            "choice": "blues",
+            "probability": 0.01064426638185978,
+            "cosine": 0.08886688202619553
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00011898091906914487,
+            "cosine": -0.006544783245772123
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.4708210825920105,
+            "cosine": 0.19226789474487305
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.24104519188404083,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.21122248470783234,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "folk",
+            "probability": 0.021529575809836388,
+            "cosine": 0.12676677107810974
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.013636253774166107,
+            "cosine": 0.11707030981779099
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.011974245309829712,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.011019488796591759,
+            "cosine": 0.11254651844501495
+          },
+          {
+            "choice": "blues",
+            "probability": 0.006856448482722044,
+            "cosine": 0.10247255116701126
+          },
+          {
+            "choice": "classical",
+            "probability": 0.006163815967738628,
+            "cosine": 0.10021150857210159
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.005151763092726469,
+            "cosine": 0.09640344232320786
+          },
+          {
+            "choice": "country",
+            "probability": 0.0005796858458779752,
+            "cosine": 0.05002031475305557
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.5746521949768066,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "rock",
+            "probability": 0.15473754703998566,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08735454082489014,
+            "cosine": 0.16741299629211426
+          },
+          {
+            "choice": "country",
+            "probability": 0.047539036720991135,
+            "cosine": 0.15449507534503937
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03918443247675896,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.037402406334877014,
+            "cosine": 0.14940334856510162
+          },
+          {
+            "choice": "folk",
+            "probability": 0.02570955827832222,
+            "cosine": 0.1414441466331482
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.014298338443040848,
+            "cosine": 0.12898704409599304
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.013288180343806744,
+            "cosine": 0.12743142247200012
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0057405647821724415,
+            "cosine": 0.10961122065782547
+          },
+          {
+            "choice": "classical",
+            "probability": 9.318561933469027e-05,
+            "cosine": 0.022120999172329903
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5233263969421387
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.47242483496665955,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "classic",
+            "probability": 0.35722652077674866,
+            "cosine": 0.20147474110126495
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1272106170654297,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03221374377608299,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.010924289003014565,
+            "cosine": 0.12743142247200012
+          }
+        ],
+        "silence": [
+          {
+            "choice": "classic",
+            "probability": 0.458283394575119,
+            "cosine": 0.18891605734825134
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.2747502326965332,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.24075745046138763,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.01364858914166689,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.012560330331325531,
+            "cosine": 0.11254651844501495
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "classic",
+            "probability": 0.6222668886184692,
+            "cosine": 0.18386425077915192
+          },
+          {
+            "choice": "pop",
+            "probability": 0.127133309841156,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11676815897226334,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.09370361268520355,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.04012805223464966,
+            "cosine": 0.1256617158651352
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5694054365158081
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.7348911762237549,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "rock",
+            "probability": 0.19788534939289093,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.050110824406147,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.016993524506688118,
+            "cosine": 0.12743142247200012
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00011916998482774943,
+            "cosine": 0.022120999172329903
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.5006908178329468,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.43874409794807434,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.024872491136193275,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.022889304906129837,
+            "cosine": 0.11254651844501495
+          },
+          {
+            "choice": "classical",
+            "probability": 0.012803267687559128,
+            "cosine": 0.10021150857210159
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.33649852871894836,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3090638816356659,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.24801625311374664,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1062115877866745,
+            "cosine": 0.1256617158651352
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00020984475850127637,
+            "cosine": -0.006544783245772123
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5694054365158081
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop music",
+            "probability": 0.8511136770248413,
+            "cosine": 0.2195410579442978
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.1109875738620758,
+            "cosine": 0.17628920078277588
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.02232990600168705,
+            "cosine": 0.14224421977996826
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.015291647985577583,
+            "cosine": 0.13420544564723969
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.00027715499163605273,
+            "cosine": 0.04905569180846214
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.6551933288574219,
+            "cosine": 0.1903376430273056
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.2113063633441925,
+            "cosine": 0.16631130874156952
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.07524572312831879,
+            "cosine": 0.14438843727111816
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.04083013907074928,
+            "cosine": 0.13140863180160522
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.017424480989575386,
+            "cosine": 0.11332882195711136
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop music",
+            "probability": 0.5944046974182129,
+            "cosine": 0.17279379069805145
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.20492182672023773,
+            "cosine": 0.15018339455127716
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.14501070976257324,
+            "cosine": 0.14284099638462067
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.05537838116288185,
+            "cosine": 0.12240289896726608
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0002843524853233248,
+            "cosine": 0.010474671609699726
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5694054365158081
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.5197354555130005,
+            "cosine": 0.1578833907842636
+          },
+          {
+            "choice": "rock",
+            "probability": 0.27147912979125977,
+            "cosine": 0.14409473538398743
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.10921835154294968,
+            "cosine": 0.12476242333650589
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.09844493120908737,
+            "cosine": 0.12255746871232986
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001122188987210393,
+            "cosine": 0.027561893686652184
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.4272128641605377,
+            "cosine": 0.15871661901474
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3054591417312622,
+            "cosine": 0.15159407258033752
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.10784541070461273,
+            "cosine": 0.12948930263519287
+          },
+          {
+            "choice": "classical",
+            "probability": 0.08575081080198288,
+            "cosine": 0.12462184578180313
+          },
+          {
+            "choice": "rock",
+            "probability": 0.07373182475566864,
+            "cosine": 0.12141560763120651
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.35727378726005554,
+            "cosine": 0.13725154101848602
+          },
+          {
+            "choice": "pop",
+            "probability": 0.29543164372444153,
+            "cosine": 0.13321612775325775
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.19640429317951202,
+            "cosine": 0.12454798817634583
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1478445678949356,
+            "cosine": 0.11851787567138672
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0030456336680799723,
+            "cosine": 0.03608648478984833
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.6160527467727661
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.49910682439804077,
+            "cosine": 0.16693802177906036
+          },
+          {
+            "choice": "rock",
+            "probability": 0.22325313091278076,
+            "cosine": 0.14985676109790802
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.196132630109787,
+            "cosine": 0.14710691571235657
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07991590350866318,
+            "cosine": 0.12804467976093292
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001591550069861114,
+            "cosine": 0.04489536210894585
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.3436484932899475,
+            "cosine": 0.14811600744724274
+          },
+          {
+            "choice": "pop",
+            "probability": 0.340668648481369,
+            "cosine": 0.14793109893798828
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.21708008646965027,
+            "cosine": 0.13836312294006348
+          },
+          {
+            "choice": "classical",
+            "probability": 0.049833156168460846,
+            "cosine": 0.10711874067783356
+          },
+          {
+            "choice": "rock",
+            "probability": 0.04876966401934624,
+            "cosine": 0.10666072368621826
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.4944603145122528,
+            "cosine": 0.14653261005878448
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.2890661358833313,
+            "cosine": 0.13513514399528503
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1529519259929657,
+            "cosine": 0.12162043899297714
+          },
+          {
+            "choice": "rock",
+            "probability": 0.06160401552915573,
+            "cosine": 0.10231233388185501
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001917658606544137,
+            "cosine": 0.028646070510149002
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25329524278640747,
+        "state_cosine": 0.6365435719490051
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.5629045367240906,
+            "cosine": 0.1828301101922989
+          },
+          {
+            "choice": "rock",
+            "probability": 0.25766363739967346,
+            "cosine": 0.16623841226100922
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1193094328045845,
+            "cosine": 0.14989133179187775
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05952565371990204,
+            "cosine": 0.13512860238552094
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0005968057084828615,
+            "cosine": 0.03740781545639038
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.49839210510253906,
+            "cosine": 0.18332163989543915
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3377477824687958,
+            "cosine": 0.17506061494350433
+          },
+          {
+            "choice": "rock",
+            "probability": 0.060610536485910416,
+            "cosine": 0.13858801126480103
+          },
+          {
+            "choice": "classical",
+            "probability": 0.05167270079255104,
+            "cosine": 0.13520070910453796
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0515768937766552,
+            "cosine": 0.13516131043434143
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.2915855050086975,
+            "cosine": 0.1610584557056427
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2906167805194855,
+            "cosine": 0.16098780930042267
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.27452516555786133,
+            "cosine": 0.1597783863544464
+          },
+          {
+            "choice": "rock",
+            "probability": 0.1426343023777008,
+            "cosine": 0.1458766907453537
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0006382654537446797,
+            "cosine": 0.03102792054414749
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.2107650339603424,
+        "state_cosine": 0.534393846988678
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.3561701774597168,
+            "cosine": 0.1578833907842636
+          },
+          {
+            "choice": "rock",
+            "probability": 0.18604229390621185,
+            "cosine": 0.14409473538398743
+          },
+          {
+            "choice": "folk",
+            "probability": 0.1835992932319641,
+            "cosine": 0.1438140869140625
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07484637945890427,
+            "cosine": 0.12476242333650589
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.0674634501338005,
+            "cosine": 0.12255746871232986
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.04206675663590431,
+            "cosine": 0.11252909898757935
+          },
+          {
+            "choice": "country",
+            "probability": 0.02772870846092701,
+            "cosine": 0.10367991030216217
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.02220800705254078,
+            "cosine": 0.09896613657474518
+          },
+          {
+            "choice": "blues",
+            "probability": 0.021534183993935585,
+            "cosine": 0.09831195324659348
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.017571741715073586,
+            "cosine": 0.09399447590112686
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0007690263446420431,
+            "cosine": 0.027561893686652184
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.3337145745754242,
+            "cosine": 0.16701091825962067
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2257959097623825,
+            "cosine": 0.15871661901474
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.16144509613513947,
+            "cosine": 0.15159407258033752
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.06349322944879532,
+            "cosine": 0.13177989423274994
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0569998137652874,
+            "cosine": 0.12948930263519287
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04532209411263466,
+            "cosine": 0.12462184578180313
+          },
+          {
+            "choice": "rock",
+            "probability": 0.03896966949105263,
+            "cosine": 0.12141560763120651
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.037313271313905716,
+            "cosine": 0.12049341946840286
+          },
+          {
+            "choice": "blues",
+            "probability": 0.018672628328204155,
+            "cosine": 0.10579486191272736
+          },
+          {
+            "choice": "folk",
+            "probability": 0.017999177798628807,
+            "cosine": 0.10501495748758316
+          },
+          {
+            "choice": "country",
+            "probability": 0.00027453608345240355,
+            "cosine": 0.016202444210648537
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.22477641701698303,
+            "cosine": 0.13725154101848602
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.192496195435524,
+            "cosine": 0.13395997881889343
+          },
+          {
+            "choice": "pop",
+            "probability": 0.18586885929107666,
+            "cosine": 0.13321612775325775
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.12356644868850708,
+            "cosine": 0.12454798817634583
+          },
+          {
+            "choice": "rock",
+            "probability": 0.09301542490720749,
+            "cosine": 0.11851787567138672
+          },
+          {
+            "choice": "blues",
+            "probability": 0.05558856949210167,
+            "cosine": 0.10758800804615021
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.04165937379002571,
+            "cosine": 0.101463682949543
+          },
+          {
+            "choice": "folk",
+            "probability": 0.03310132026672363,
+            "cosine": 0.0965813547372818
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.03174826130270958,
+            "cosine": 0.09569524973630905
+          },
+          {
+            "choice": "country",
+            "probability": 0.016263028606772423,
+            "cosine": 0.08149237930774689
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0019161399686709046,
+            "cosine": 0.03608648478984833
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.6160527467727661
+      }
+    },
+    {
+      "model_id": "selected_fma_large",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.5746521949768066,
+            "cosine": 0.20740921795368195
+          },
+          {
+            "choice": "rock",
+            "probability": 0.15473754703998566,
+            "cosine": 0.1795523762702942
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08735454082489014,
+            "cosine": 0.16741299629211426
+          },
+          {
+            "choice": "country",
+            "probability": 0.047539036720991135,
+            "cosine": 0.15449507534503937
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03918443247675896,
+            "cosine": 0.1503915786743164
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.037402406334877014,
+            "cosine": 0.14940334856510162
+          },
+          {
+            "choice": "folk",
+            "probability": 0.02570955827832222,
+            "cosine": 0.1414441466331482
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.014298338443040848,
+            "cosine": 0.12898704409599304
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.013288180343806744,
+            "cosine": 0.12743142247200012
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0057405647821724415,
+            "cosine": 0.10961122065782547
+          },
+          {
+            "choice": "classical",
+            "probability": 9.318561933469027e-05,
+            "cosine": 0.022120999172329903
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.4708210825920105,
+            "cosine": 0.19226789474487305
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.24104519188404083,
+            "cosine": 0.1780533492565155
+          },
+          {
+            "choice": "pop",
+            "probability": 0.21122248470783234,
+            "cosine": 0.17524920403957367
+          },
+          {
+            "choice": "folk",
+            "probability": 0.021529575809836388,
+            "cosine": 0.12676677107810974
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.013636253774166107,
+            "cosine": 0.11707030981779099
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.011974245309829712,
+            "cosine": 0.11431072652339935
+          },
+          {
+            "choice": "rock",
+            "probability": 0.011019488796591759,
+            "cosine": 0.11254651844501495
+          },
+          {
+            "choice": "blues",
+            "probability": 0.006856448482722044,
+            "cosine": 0.10247255116701126
+          },
+          {
+            "choice": "classical",
+            "probability": 0.006163815967738628,
+            "cosine": 0.10021150857210159
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.005151763092726469,
+            "cosine": 0.09640344232320786
+          },
+          {
+            "choice": "country",
+            "probability": 0.0005796858458779752,
+            "cosine": 0.05002031475305557
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.1907929629087448,
+            "cosine": 0.15014536678791046
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.1791328340768814,
+            "cosine": 0.14880646765232086
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.17523765563964844,
+            "cosine": 0.14833968877792358
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.15749451518058777,
+            "cosine": 0.1460731476545334
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.14062395691871643,
+            "cosine": 0.1436675637960434
+          },
+          {
+            "choice": "rock",
+            "probability": 0.06022142991423607,
+            "cosine": 0.1256617158651352
+          },
+          {
+            "choice": "country",
+            "probability": 0.0551234669983387,
+            "cosine": 0.12378370016813278
+          },
+          {
+            "choice": "folk",
+            "probability": 0.01661776937544346,
+            "cosine": 0.09832460433244705
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.013992169871926308,
+            "cosine": 0.0946732833981514
+          },
+          {
+            "choice": "blues",
+            "probability": 0.01064426638185978,
+            "cosine": 0.08886688202619553
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00011898091906914487,
+            "cosine": -0.006544783245772123
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5694054365158081
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic",
+            "probability": 0.602571964263916,
+            "cosine": 0.1447584331035614
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1774728149175644,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.12226823717355728,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.09167932718992233,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0060076336376369,
+            "cosine": 0.05787064507603645
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.4622112512588501,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2907879948616028,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.12893295288085938,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "classic",
+            "probability": 0.11801322549581528,
+            "cosine": 0.13820046186447144
+          },
+          {
+            "choice": "rock",
+            "probability": 5.456467260955833e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.7541812062263489,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "classic",
+            "probability": 0.20724333822727203,
+            "cosine": 0.14898334443569183
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.026300661265850067,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.009149745106697083,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003125110175460577,
+            "cosine": 0.06989689916372299
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.4641076326370239
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "electronic",
+            "probability": 0.44646206498146057,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3075858950614929,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2306344360113144,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "rock",
+            "probability": 0.015113189816474915,
+            "cosine": 0.05787064507603645
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0002043862041318789,
+            "cosine": -0.023268891498446465
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.523802638053894,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3295365869998932,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.14611375331878662,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00048516964307054877,
+            "cosine": 0.03225068747997284
+          },
+          {
+            "choice": "rock",
+            "probability": 6.183562072692439e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.9511520862579346,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03316965326666832,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.011539400555193424,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003941300790756941,
+            "cosine": 0.06989689916372299
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00019747366604860872,
+            "cosine": 0.013451014645397663
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.4641076326370239
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rock music",
+            "probability": 0.37399977445602417,
+            "cosine": 0.15840505063533783
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.3310633599758148,
+            "cosine": 0.15610575675964355
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.21982276439666748,
+            "cosine": 0.14838480949401855
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.07509894669055939,
+            "cosine": 0.1281341016292572
+          },
+          {
+            "choice": "classical music",
+            "probability": 1.512524249847047e-05,
+            "cosine": -0.03232681751251221
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.7189174890518188,
+            "cosine": 0.1804458349943161
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.17273743450641632,
+            "cosine": 0.1535588949918747
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.10140855610370636,
+            "cosine": 0.14351636171340942
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.006651524920016527,
+            "cosine": 0.09214910119771957
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0002850228629540652,
+            "cosine": 0.032754819840192795
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop music",
+            "probability": 0.8574350476264954,
+            "cosine": 0.19282220304012299
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.08378574252128601,
+            "cosine": 0.14897114038467407
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.049478817731142044,
+            "cosine": 0.1390397995710373
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.009241978637874126,
+            "cosine": 0.10740486532449722
+          },
+          {
+            "choice": "classical music",
+            "probability": 5.8370304031996056e-05,
+            "cosine": 0.01190918404608965
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.4641076326370239
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rock",
+            "probability": 0.45512479543685913,
+            "cosine": 0.16276893019676208
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3386005163192749,
+            "cosine": 0.15719252824783325
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1508987694978714,
+            "cosine": 0.14195357263088226
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05508478358387947,
+            "cosine": 0.12295258045196533
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0002911436022259295,
+            "cosine": 0.024098645895719528
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.8877647519111633,
+            "cosine": 0.16240666806697845
+          },
+          {
+            "choice": "classical",
+            "probability": 0.052537307143211365,
+            "cosine": 0.10909973829984665
+          },
+          {
+            "choice": "rock",
+            "probability": 0.03796013817191124,
+            "cosine": 0.10297206044197083
+          },
+          {
+            "choice": "pop",
+            "probability": 0.01870359480381012,
+            "cosine": 0.0896260067820549
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0030342908576130867,
+            "cosine": 0.0553334541618824
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "electronic",
+            "probability": 0.4187452495098114,
+            "cosine": 0.1717713475227356
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2976274788379669,
+            "cosine": 0.1653338223695755
+          },
+          {
+            "choice": "rock",
+            "probability": 0.2679353654384613,
+            "cosine": 0.16335220634937286
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.014953835867345333,
+            "cosine": 0.1089404746890068
+          },
+          {
+            "choice": "classical",
+            "probability": 0.000738108588848263,
+            "cosine": 0.05221230164170265
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.40026870369911194
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.4798421859741211,
+            "cosine": 0.12677311897277832
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3730365037918091,
+            "cosine": 0.1220257505774498
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07374369353055954,
+            "cosine": 0.09146004915237427
+          },
+          {
+            "choice": "rock",
+            "probability": 0.07260763645172119,
+            "cosine": 0.09116731584072113
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0007699581328779459,
+            "cosine": 0.005442645400762558
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.6433971524238586,
+            "cosine": 0.1611737310886383
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.20049971342086792,
+            "cosine": 0.13918960094451904
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.15348733961582184,
+            "cosine": 0.1341516077518463
+          },
+          {
+            "choice": "classical",
+            "probability": 0.002095518633723259,
+            "cosine": 0.05319109931588173
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0005203081527724862,
+            "cosine": 0.026923343539237976
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.44546034932136536,
+            "cosine": 0.13440173864364624
+          },
+          {
+            "choice": "rock",
+            "probability": 0.2648085653781891,
+            "cosine": 0.12459516525268555
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.22071179747581482,
+            "cosine": 0.12116070836782455
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06768378615379333,
+            "cosine": 0.09887372702360153
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001335548353381455,
+            "cosine": 0.02485780231654644
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.23859751224517822,
+        "state_cosine": 0.5448698401451111
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rock",
+            "probability": 0.35318171977996826,
+            "cosine": 0.15207505226135254
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.24545498192310333,
+            "cosine": 0.14521424472332
+          },
+          {
+            "choice": "pop",
+            "probability": 0.21193784475326538,
+            "cosine": 0.14244592189788818
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.18760254979133606,
+            "cosine": 0.14014621078968048
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0018229595152661204,
+            "cosine": 0.05277406796813011
+          }
+        ],
+        "silence": [
+          {
+            "choice": "hip hop",
+            "probability": 0.789513349533081,
+            "cosine": 0.20286856591701508
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.14576977491378784,
+            "cosine": 0.1710149049758911
+          },
+          {
+            "choice": "pop",
+            "probability": 0.05971110612154007,
+            "cosine": 0.15418650209903717
+          },
+          {
+            "choice": "classical",
+            "probability": 0.004628179594874382,
+            "cosine": 0.10596723854541779
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0003775713557843119,
+            "cosine": 0.058713268488645554
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.6840958595275879,
+            "cosine": 0.17028795182704926
+          },
+          {
+            "choice": "rock",
+            "probability": 0.14474990963935852,
+            "cosine": 0.14100421965122223
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10902325063943863,
+            "cosine": 0.13565979897975922
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06002083048224449,
+            "cosine": 0.12440574169158936
+          },
+          {
+            "choice": "classical",
+            "probability": 0.002110093366354704,
+            "cosine": 0.06127950921654701
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.21857483685016632,
+        "state_cosine": 0.4366403818130493
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rock",
+            "probability": 0.3946494162082672,
+            "cosine": 0.16276893019676208
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2936084568500519,
+            "cosine": 0.15719252824783325
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.13084787130355835,
+            "cosine": 0.14195357263088226
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08354397118091583,
+            "cosine": 0.13349398970603943
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.04776531085371971,
+            "cosine": 0.12295258045196533
+          },
+          {
+            "choice": "country",
+            "probability": 0.040137529373168945,
+            "cosine": 0.1196720153093338
+          },
+          {
+            "choice": "blues",
+            "probability": 0.00520352041348815,
+            "cosine": 0.08115141838788986
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.001731972792185843,
+            "cosine": 0.060409367084503174
+          },
+          {
+            "choice": "folk",
+            "probability": 0.001566876657307148,
+            "cosine": 0.058520521968603134
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.000692650384735316,
+            "cosine": 0.04312880337238312
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00025245745200663805,
+            "cosine": 0.024098645895719528
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.4545111060142517,
+            "cosine": 0.16240666806697845
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.44472140073776245,
+            "cosine": 0.16199609637260437
+          },
+          {
+            "choice": "blues",
+            "probability": 0.04092574492096901,
+            "cosine": 0.11701361835002899
+          },
+          {
+            "choice": "classical",
+            "probability": 0.026897655799984932,
+            "cosine": 0.10909973829984665
+          },
+          {
+            "choice": "rock",
+            "probability": 0.019434545189142227,
+            "cosine": 0.10297206044197083
+          },
+          {
+            "choice": "pop",
+            "probability": 0.00957572553306818,
+            "cosine": 0.0896260067820549
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0015534732956439257,
+            "cosine": 0.0553334541618824
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0010616604704409838,
+            "cosine": 0.048156071454286575
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.0010044010123237967,
+            "cosine": 0.04711069166660309
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0002272434940095991,
+            "cosine": 0.019089609384536743
+          },
+          {
+            "choice": "country",
+            "probability": 8.701485785422847e-05,
+            "cosine": 0.0009897499112412333
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "electronic",
+            "probability": 0.35831019282341003,
+            "cosine": 0.1717713475227356
+          },
+          {
+            "choice": "pop",
+            "probability": 0.254672646522522,
+            "cosine": 0.1653338223695755
+          },
+          {
+            "choice": "rock",
+            "probability": 0.22926580905914307,
+            "cosine": 0.16335220634937286
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08145610988140106,
+            "cosine": 0.14384058117866516
+          },
+          {
+            "choice": "country",
+            "probability": 0.04788608103990555,
+            "cosine": 0.13382399082183838
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.012795635499060154,
+            "cosine": 0.1089404746890068
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005885113496333361,
+            "cosine": 0.09429609775543213
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.005662638694047928,
+            "cosine": 0.09356950223445892
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0033660847693681717,
+            "cosine": 0.08376219123601913
+          },
+          {
+            "choice": "classical",
+            "probability": 0.000631581642664969,
+            "cosine": 0.05221230164170265
+          },
+          {
+            "choice": "jazz",
+            "probability": 6.818499241489917e-05,
+            "cosine": 0.010240708477795124
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.40026870369911194
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "Umbrella",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "experimental",
+            "probability": 0.3467567563056946,
+            "cosine": 0.1446531116962433
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.3306746184825897,
+            "cosine": 0.14375770092010498
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10270080715417862,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.0707547664642334,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05563892424106598,
+            "cosine": 0.11015310138463974
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05305342748761177,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "country",
+            "probability": 0.03202873840928078,
+            "cosine": 0.09974036365747452
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003476525889709592,
+            "cosine": 0.05787064507603645
+          },
+          {
+            "choice": "folk",
+            "probability": 0.002802786650136113,
+            "cosine": 0.05380889028310776
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0020656404085457325,
+            "cosine": 0.04805478826165199
+          },
+          {
+            "choice": "classical",
+            "probability": 4.7015477321110666e-05,
+            "cosine": -0.023268891498446465
+          }
+        ],
+        "silence": [
+          {
+            "choice": "soul rnb",
+            "probability": 0.39458760619163513,
+            "cosine": 0.17114336788654327
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.26932209730148315,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.16943687200546265,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08661027997732162,
+            "cosine": 0.1425510197877884
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07512687891721725,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0033619715832173824,
+            "cosine": 0.08129273355007172
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0010246752062812448,
+            "cosine": 0.058889973908662796
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00024945824407041073,
+            "cosine": 0.03225068747997284
+          },
+          {
+            "choice": "country",
+            "probability": 0.0001325375196756795,
+            "cosine": 0.020326217636466026
+          },
+          {
+            "choice": "folk",
+            "probability": 0.00011591138172661886,
+            "cosine": 0.01779886893928051
+          },
+          {
+            "choice": "rock",
+            "probability": 3.1793839298188686e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.6681303977966309,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.11003559082746506,
+            "cosine": 0.1393306404352188
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.10641124844551086,
+            "cosine": 0.13869912922382355
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05367593094706535,
+            "cosine": 0.12579567730426788
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.023299800232052803,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "country",
+            "probability": 0.022524168714880943,
+            "cosine": 0.10942233353853226
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.008105774410068989,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0027685402892529964,
+            "cosine": 0.06989689916372299
+          },
+          {
+            "choice": "blues",
+            "probability": 0.002592738252133131,
+            "cosine": 0.06865990161895752
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0023170416243374348,
+            "cosine": 0.06654013693332672
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00013871405099052936,
+            "cosine": 0.013451014645397663
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.4641076326370239
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.7541812062263489,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "classic",
+            "probability": 0.20724333822727203,
+            "cosine": 0.14898334443569183
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.026300661265850067,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.009149745106697083,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003125110175460577,
+            "cosine": 0.06989689916372299
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.4622112512588501,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2907879948616028,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.12893295288085938,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "classic",
+            "probability": 0.11801322549581528,
+            "cosine": 0.13820046186447144
+          },
+          {
+            "choice": "rock",
+            "probability": 5.456467260955833e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "classic",
+            "probability": 0.602571964263916,
+            "cosine": 0.1447584331035614
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1774728149175644,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.12226823717355728,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.09167932718992233,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0060076336376369,
+            "cosine": 0.05787064507603645
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.47096145153045654
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.9511520862579346,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.03316965326666832,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.011539400555193424,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003941300790756941,
+            "cosine": 0.06989689916372299
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00019747366604860872,
+            "cosine": 0.013451014645397663
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.523802638053894,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3295365869998932,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.14611375331878662,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00048516964307054877,
+            "cosine": 0.03225068747997284
+          },
+          {
+            "choice": "rock",
+            "probability": 6.183562072692439e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "electronic",
+            "probability": 0.44646206498146057,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3075858950614929,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2306344360113144,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "rock",
+            "probability": 0.015113189816474915,
+            "cosine": 0.05787064507603645
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0002043862041318789,
+            "cosine": -0.023268891498446465
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.47096145153045654
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop music",
+            "probability": 0.8574350476264954,
+            "cosine": 0.19282220304012299
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.08378574252128601,
+            "cosine": 0.14897114038467407
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.049478817731142044,
+            "cosine": 0.1390397995710373
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.009241978637874126,
+            "cosine": 0.10740486532449722
+          },
+          {
+            "choice": "classical music",
+            "probability": 5.8370304031996056e-05,
+            "cosine": 0.01190918404608965
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.7189174890518188,
+            "cosine": 0.1804458349943161
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.17273743450641632,
+            "cosine": 0.1535588949918747
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.10140855610370636,
+            "cosine": 0.14351636171340942
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.006651524920016527,
+            "cosine": 0.09214910119771957
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0002850228629540652,
+            "cosine": 0.032754819840192795
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "rock music",
+            "probability": 0.37399977445602417,
+            "cosine": 0.15840505063533783
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.3310633599758148,
+            "cosine": 0.15610575675964355
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.21982276439666748,
+            "cosine": 0.14838480949401855
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.07509894669055939,
+            "cosine": 0.1281341016292572
+          },
+          {
+            "choice": "classical music",
+            "probability": 1.512524249847047e-05,
+            "cosine": -0.03232681751251221
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.47096145153045654
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "electronic",
+            "probability": 0.4187452495098114,
+            "cosine": 0.1717713475227356
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2976274788379669,
+            "cosine": 0.1653338223695755
+          },
+          {
+            "choice": "rock",
+            "probability": 0.2679353654384613,
+            "cosine": 0.16335220634937286
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.014953835867345333,
+            "cosine": 0.1089404746890068
+          },
+          {
+            "choice": "classical",
+            "probability": 0.000738108588848263,
+            "cosine": 0.05221230164170265
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.8877647519111633,
+            "cosine": 0.16240666806697845
+          },
+          {
+            "choice": "classical",
+            "probability": 0.052537307143211365,
+            "cosine": 0.10909973829984665
+          },
+          {
+            "choice": "rock",
+            "probability": 0.03796013817191124,
+            "cosine": 0.10297206044197083
+          },
+          {
+            "choice": "pop",
+            "probability": 0.01870359480381012,
+            "cosine": 0.0896260067820549
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0030342908576130867,
+            "cosine": 0.0553334541618824
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "rock",
+            "probability": 0.45512479543685913,
+            "cosine": 0.16276893019676208
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3386005163192749,
+            "cosine": 0.15719252824783325
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1508987694978714,
+            "cosine": 0.14195357263088226
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05508478358387947,
+            "cosine": 0.12295258045196533
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0002911436022259295,
+            "cosine": 0.024098645895719528
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.4019365906715393
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.44546034932136536,
+            "cosine": 0.13440173864364624
+          },
+          {
+            "choice": "rock",
+            "probability": 0.2648085653781891,
+            "cosine": 0.12459516525268555
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.22071179747581482,
+            "cosine": 0.12116070836782455
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06768378615379333,
+            "cosine": 0.09887372702360153
+          },
+          {
+            "choice": "classical",
+            "probability": 0.001335548353381455,
+            "cosine": 0.02485780231654644
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.6433971524238586,
+            "cosine": 0.1611737310886383
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.20049971342086792,
+            "cosine": 0.13918960094451904
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.15348733961582184,
+            "cosine": 0.1341516077518463
+          },
+          {
+            "choice": "classical",
+            "probability": 0.002095518633723259,
+            "cosine": 0.05319109931588173
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0005203081527724862,
+            "cosine": 0.026923343539237976
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.4798421859741211,
+            "cosine": 0.12677311897277832
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.3730365037918091,
+            "cosine": 0.1220257505774498
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07374369353055954,
+            "cosine": 0.09146004915237427
+          },
+          {
+            "choice": "rock",
+            "probability": 0.07260763645172119,
+            "cosine": 0.09116731584072113
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0007699581328779459,
+            "cosine": 0.005442645400762558
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25329524278640747,
+        "state_cosine": 0.5503253936767578
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.6840958595275879,
+            "cosine": 0.17028795182704926
+          },
+          {
+            "choice": "rock",
+            "probability": 0.14474990963935852,
+            "cosine": 0.14100421965122223
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10902325063943863,
+            "cosine": 0.13565979897975922
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06002083048224449,
+            "cosine": 0.12440574169158936
+          },
+          {
+            "choice": "classical",
+            "probability": 0.002110093366354704,
+            "cosine": 0.06127950921654701
+          }
+        ],
+        "silence": [
+          {
+            "choice": "hip hop",
+            "probability": 0.789513349533081,
+            "cosine": 0.20286856591701508
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.14576977491378784,
+            "cosine": 0.1710149049758911
+          },
+          {
+            "choice": "pop",
+            "probability": 0.05971110612154007,
+            "cosine": 0.15418650209903717
+          },
+          {
+            "choice": "classical",
+            "probability": 0.004628179594874382,
+            "cosine": 0.10596723854541779
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0003775713557843119,
+            "cosine": 0.058713268488645554
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "rock",
+            "probability": 0.35318171977996826,
+            "cosine": 0.15207505226135254
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.24545498192310333,
+            "cosine": 0.14521424472332
+          },
+          {
+            "choice": "pop",
+            "probability": 0.21193784475326538,
+            "cosine": 0.14244592189788818
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.18760254979133606,
+            "cosine": 0.14014621078968048
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0018229595152661204,
+            "cosine": 0.05277406796813011
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.2107650339603424,
+        "state_cosine": 0.45362141728401184
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "electronic",
+            "probability": 0.35831019282341003,
+            "cosine": 0.1717713475227356
+          },
+          {
+            "choice": "pop",
+            "probability": 0.254672646522522,
+            "cosine": 0.1653338223695755
+          },
+          {
+            "choice": "rock",
+            "probability": 0.22926580905914307,
+            "cosine": 0.16335220634937286
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08145610988140106,
+            "cosine": 0.14384058117866516
+          },
+          {
+            "choice": "country",
+            "probability": 0.04788608103990555,
+            "cosine": 0.13382399082183838
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.012795635499060154,
+            "cosine": 0.1089404746890068
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005885113496333361,
+            "cosine": 0.09429609775543213
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.005662638694047928,
+            "cosine": 0.09356950223445892
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0033660847693681717,
+            "cosine": 0.08376219123601913
+          },
+          {
+            "choice": "classical",
+            "probability": 0.000631581642664969,
+            "cosine": 0.05221230164170265
+          },
+          {
+            "choice": "jazz",
+            "probability": 6.818499241489917e-05,
+            "cosine": 0.010240708477795124
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.4545111060142517,
+            "cosine": 0.16240666806697845
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.44472140073776245,
+            "cosine": 0.16199609637260437
+          },
+          {
+            "choice": "blues",
+            "probability": 0.04092574492096901,
+            "cosine": 0.11701361835002899
+          },
+          {
+            "choice": "classical",
+            "probability": 0.026897655799984932,
+            "cosine": 0.10909973829984665
+          },
+          {
+            "choice": "rock",
+            "probability": 0.019434545189142227,
+            "cosine": 0.10297206044197083
+          },
+          {
+            "choice": "pop",
+            "probability": 0.00957572553306818,
+            "cosine": 0.0896260067820549
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0015534732956439257,
+            "cosine": 0.0553334541618824
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0010616604704409838,
+            "cosine": 0.048156071454286575
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.0010044010123237967,
+            "cosine": 0.04711069166660309
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0002272434940095991,
+            "cosine": 0.019089609384536743
+          },
+          {
+            "choice": "country",
+            "probability": 8.701485785422847e-05,
+            "cosine": 0.0009897499112412333
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "rock",
+            "probability": 0.3946494162082672,
+            "cosine": 0.16276893019676208
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2936084568500519,
+            "cosine": 0.15719252824783325
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.13084787130355835,
+            "cosine": 0.14195357263088226
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08354397118091583,
+            "cosine": 0.13349398970603943
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.04776531085371971,
+            "cosine": 0.12295258045196533
+          },
+          {
+            "choice": "country",
+            "probability": 0.040137529373168945,
+            "cosine": 0.1196720153093338
+          },
+          {
+            "choice": "blues",
+            "probability": 0.00520352041348815,
+            "cosine": 0.08115141838788986
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.001731972792185843,
+            "cosine": 0.060409367084503174
+          },
+          {
+            "choice": "folk",
+            "probability": 0.001566876657307148,
+            "cosine": 0.058520521968603134
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.000692650384735316,
+            "cosine": 0.04312880337238312
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00025245745200663805,
+            "cosine": 0.024098645895719528
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.4019365906715393
+      }
+    },
+    {
+      "model_id": "fma_training_parent",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.6681303977966309,
+            "cosine": 0.17333926260471344
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.11003559082746506,
+            "cosine": 0.1393306404352188
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.10641124844551086,
+            "cosine": 0.13869912922382355
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05367593094706535,
+            "cosine": 0.12579567730426788
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.023299800232052803,
+            "cosine": 0.1100606918334961
+          },
+          {
+            "choice": "country",
+            "probability": 0.022524168714880943,
+            "cosine": 0.10942233353853226
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.008105774410068989,
+            "cosine": 0.09015215933322906
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0027685402892529964,
+            "cosine": 0.06989689916372299
+          },
+          {
+            "choice": "blues",
+            "probability": 0.002592738252133131,
+            "cosine": 0.06865990161895752
+          },
+          {
+            "choice": "folk",
+            "probability": 0.0023170416243374348,
+            "cosine": 0.06654013693332672
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00013871405099052936,
+            "cosine": 0.013451014645397663
+          }
+        ],
+        "silence": [
+          {
+            "choice": "soul rnb",
+            "probability": 0.39458760619163513,
+            "cosine": 0.17114336788654327
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.26932209730148315,
+            "cosine": 0.16394197940826416
+          },
+          {
+            "choice": "pop",
+            "probability": 0.16943687200546265,
+            "cosine": 0.15520398318767548
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.08661027997732162,
+            "cosine": 0.1425510197877884
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07512687891721725,
+            "cosine": 0.1398690640926361
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0033619715832173824,
+            "cosine": 0.08129273355007172
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0010246752062812448,
+            "cosine": 0.058889973908662796
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00024945824407041073,
+            "cosine": 0.03225068747997284
+          },
+          {
+            "choice": "country",
+            "probability": 0.0001325375196756795,
+            "cosine": 0.020326217636466026
+          },
+          {
+            "choice": "folk",
+            "probability": 0.00011591138172661886,
+            "cosine": 0.01779886893928051
+          },
+          {
+            "choice": "rock",
+            "probability": 3.1793839298188686e-05,
+            "cosine": -0.006591241806745529
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "experimental",
+            "probability": 0.3467567563056946,
+            "cosine": 0.1446531116962433
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.3306746184825897,
+            "cosine": 0.14375770092010498
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10270080715417862,
+            "cosine": 0.12171011418104172
+          },
+          {
+            "choice": "pop",
+            "probability": 0.0707547664642334,
+            "cosine": 0.11468468606472015
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05563892424106598,
+            "cosine": 0.11015310138463974
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.05305342748761177,
+            "cosine": 0.10925590991973877
+          },
+          {
+            "choice": "country",
+            "probability": 0.03202873840928078,
+            "cosine": 0.09974036365747452
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003476525889709592,
+            "cosine": 0.05787064507603645
+          },
+          {
+            "choice": "folk",
+            "probability": 0.002802786650136113,
+            "cosine": 0.05380889028310776
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0020656404085457325,
+            "cosine": 0.04805478826165199
+          },
+          {
+            "choice": "classical",
+            "probability": 4.7015477321110666e-05,
+            "cosine": -0.023268891498446465
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.47096145153045654
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.370270699262619,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3019843101501465,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "classic",
+            "probability": 0.2435937076807022,
+            "cosine": 0.12582945823669434
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.06958099454641342,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "rock",
+            "probability": 0.014570283703505993,
+            "cosine": 0.051486048847436905
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.40480777621269226,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2543453574180603,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.1850004941225052,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "classic",
+            "probability": 0.1512891948223114,
+            "cosine": 0.10841350257396698
+          },
+          {
+            "choice": "rock",
+            "probability": 0.00455712852999568,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.3693636357784271,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2960728406906128,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "classic",
+            "probability": 0.28201842308044434,
+            "cosine": 0.12635117769241333
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.04561350494623184,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.006931566167622805,
+            "cosine": 0.02853243611752987
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5840049982070923
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.466278612613678,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.38028615713119507,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.087622731924057,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04746425151824951,
+            "cosine": 0.07657349109649658
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01834823004901409,
+            "cosine": 0.051486048847436905
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.46884685754776,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2945818603038788,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.21426688134670258,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "classical",
+            "probability": 0.01702628843486309,
+            "cosine": 0.04687769338488579
+          },
+          {
+            "choice": "rock",
+            "probability": 0.005278049502521753,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop",
+            "probability": 0.48263081908226013,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.3868650197982788,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "classical",
+            "probability": 0.06184585392475128,
+            "cosine": 0.07924054563045502
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.059601109474897385,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.009057165123522282,
+            "cosine": 0.02853243611752987
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5840049982070923
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop music",
+            "probability": 0.49082013964653015,
+            "cosine": 0.1679813116788864
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.40194985270500183,
+            "cosine": 0.1627088040113449
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.054528236389160156,
+            "cosine": 0.10998091846704483
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.036604344844818115,
+            "cosine": 0.09946093708276749
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.016097355633974075,
+            "cosine": 0.0777767151594162
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.472596675157547,
+            "cosine": 0.1559564620256424
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.41519713401794434,
+            "cosine": 0.15253853797912598
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.07696501165628433,
+            "cosine": 0.10805149376392365
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.023439472541213036,
+            "cosine": 0.07666908949613571
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0118017653003335,
+            "cosine": 0.05855723097920418
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop music",
+            "probability": 0.6908866763114929,
+            "cosine": 0.17130132019519806
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.2207385152578354,
+            "cosine": 0.14118413627147675
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.034067586064338684,
+            "cosine": 0.09186062961816788
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.02847711741924286,
+            "cosine": 0.08712935447692871
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.025830091908574104,
+            "cosine": 0.08455419540405273
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5840049982070923
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "electronic",
+            "probability": 0.5730974078178406,
+            "cosine": 0.1569463461637497
+          },
+          {
+            "choice": "pop",
+            "probability": 0.20565050840377808,
+            "cosine": 0.1298941820859909
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.11954665929079056,
+            "cosine": 0.11557537317276001
+          },
+          {
+            "choice": "rock",
+            "probability": 0.08432429283857346,
+            "cosine": 0.10636237263679504
+          },
+          {
+            "choice": "classical",
+            "probability": 0.017381176352500916,
+            "cosine": 0.06467641890048981
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.9479933381080627,
+            "cosine": 0.20408086478710175
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.021883834153413773,
+            "cosine": 0.10460678488016129
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01156948134303093,
+            "cosine": 0.08778288215398788
+          },
+          {
+            "choice": "pop",
+            "probability": 0.011498341336846352,
+            "cosine": 0.0876200720667839
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0070550101809203625,
+            "cosine": 0.07472680509090424
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "electronic",
+            "probability": 0.6584778428077698,
+            "cosine": 0.1518748700618744
+          },
+          {
+            "choice": "pop",
+            "probability": 0.23585055768489838,
+            "cosine": 0.12477374821901321
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06841468811035156,
+            "cosine": 0.09210638701915741
+          },
+          {
+            "choice": "classical",
+            "probability": 0.01908530481159687,
+            "cosine": 0.05840805917978287
+          },
+          {
+            "choice": "rock",
+            "probability": 0.018171552568674088,
+            "cosine": 0.05711306631565094
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.6459351181983948
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.6765009760856628,
+            "cosine": 0.1379576176404953
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1629311889410019,
+            "cosine": 0.10038082301616669
+          },
+          {
+            "choice": "classical",
+            "probability": 0.08021878451108932,
+            "cosine": 0.08167774975299835
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.05423692241311073,
+            "cosine": 0.07134666293859482
+          },
+          {
+            "choice": "rock",
+            "probability": 0.026112085208296776,
+            "cosine": 0.05205250531435013
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.6022498607635498,
+            "cosine": 0.14253932237625122
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.248752161860466,
+            "cosine": 0.11920002102851868
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.09000283479690552,
+            "cosine": 0.09236592799425125
+          },
+          {
+            "choice": "classical",
+            "probability": 0.05612528696656227,
+            "cosine": 0.07990052551031113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0028697801753878593,
+            "cosine": 0.001417421386577189
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.5442341566085815,
+            "cosine": 0.12109412252902985
+          },
+          {
+            "choice": "pop",
+            "probability": 0.22168363630771637,
+            "cosine": 0.09738757461309433
+          },
+          {
+            "choice": "classical",
+            "probability": 0.16354775428771973,
+            "cosine": 0.08935948461294174
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.040835440158843994,
+            "cosine": 0.05273427814245224
+          },
+          {
+            "choice": "rock",
+            "probability": 0.02969900332391262,
+            "cosine": 0.044328976422548294
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.23859751224517822,
+        "state_cosine": 0.6187739968299866
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.6385866403579712,
+            "cosine": 0.14787757396697998
+          },
+          {
+            "choice": "pop",
+            "probability": 0.18903562426567078,
+            "cosine": 0.11574576050043106
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.08445814996957779,
+            "cosine": 0.09447944164276123
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04541086032986641,
+            "cosine": 0.07810090482234955
+          },
+          {
+            "choice": "rock",
+            "probability": 0.042508795857429504,
+            "cosine": 0.07635773718357086
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.47196537256240845,
+            "cosine": 0.1588880717754364
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2815669775009155,
+            "cosine": 0.14525386691093445
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1911279261112213,
+            "cosine": 0.13502752780914307
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04549098387360573,
+            "cosine": 0.0971386581659317
+          },
+          {
+            "choice": "rock",
+            "probability": 0.009848681278526783,
+            "cosine": 0.056748874485492706
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.5787677764892578,
+            "cosine": 0.14125876128673553
+          },
+          {
+            "choice": "pop",
+            "probability": 0.20254085958003998,
+            "cosine": 0.11354455351829529
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.12499392777681351,
+            "cosine": 0.10080406069755554
+          },
+          {
+            "choice": "classical",
+            "probability": 0.06992705911397934,
+            "cosine": 0.08547322452068329
+          },
+          {
+            "choice": "rock",
+            "probability": 0.02377041056752205,
+            "cosine": 0.05699217692017555
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.21857483685016632,
+        "state_cosine": 0.6222555041313171
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "experimental",
+            "probability": 0.38130250573158264,
+            "cosine": 0.18860432505607605
+          },
+          {
+            "choice": "blues",
+            "probability": 0.33581703901290894,
+            "cosine": 0.1852513998746872
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11491844058036804,
+            "cosine": 0.1569463461637497
+          },
+          {
+            "choice": "pop",
+            "probability": 0.04123738035559654,
+            "cosine": 0.1298941820859909
+          },
+          {
+            "choice": "country",
+            "probability": 0.03962639346718788,
+            "cosine": 0.1288423240184784
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.02976192906498909,
+            "cosine": 0.12128620594739914
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.023971693590283394,
+            "cosine": 0.11557537317276001
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01690884865820408,
+            "cosine": 0.10636237263679504
+          },
+          {
+            "choice": "folk",
+            "probability": 0.008570834062993526,
+            "cosine": 0.08842736482620239
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.004399570170789957,
+            "cosine": 0.07082530856132507
+          },
+          {
+            "choice": "classical",
+            "probability": 0.003485302207991481,
+            "cosine": 0.06467641890048981
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.3716142773628235,
+            "cosine": 0.20773370563983917
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.32358691096305847,
+            "cosine": 0.20408086478710175
+          },
+          {
+            "choice": "blues",
+            "probability": 0.2514433264732361,
+            "cosine": 0.197422593832016
+          },
+          {
+            "choice": "folk",
+            "probability": 0.02494618110358715,
+            "cosine": 0.136435866355896
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.007469802629202604,
+            "cosine": 0.10460678488016129
+          },
+          {
+            "choice": "country",
+            "probability": 0.006185498554259539,
+            "cosine": 0.09962698072195053
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.004246806260198355,
+            "cosine": 0.08970120549201965
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003949113190174103,
+            "cosine": 0.08778288215398788
+          },
+          {
+            "choice": "pop",
+            "probability": 0.003924830351024866,
+            "cosine": 0.0876200720667839
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0024081487208604813,
+            "cosine": 0.07472680509090424
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0002251221885671839,
+            "cosine": 0.012170243076980114
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "blues",
+            "probability": 0.3073241710662842,
+            "cosine": 0.16252700984477997
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.27576038241386414,
+            "cosine": 0.159666508436203
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.20527374744415283,
+            "cosine": 0.1518748700618744
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07352400571107864,
+            "cosine": 0.12477374821901321
+          },
+          {
+            "choice": "country",
+            "probability": 0.05340363457798958,
+            "cosine": 0.1163342297077179
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.030666301026940346,
+            "cosine": 0.10169225931167603
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.021327583119273186,
+            "cosine": 0.09210638701915741
+          },
+          {
+            "choice": "folk",
+            "probability": 0.019112901762127876,
+            "cosine": 0.08921244740486145
+          },
+          {
+            "choice": "classical",
+            "probability": 0.005949648562818766,
+            "cosine": 0.05840805917978287
+          },
+          {
+            "choice": "rock",
+            "probability": 0.005664795637130737,
+            "cosine": 0.05711306631565094
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.001992845442146063,
+            "cosine": 0.029537485912442207
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.28136715292930603,
+        "state_cosine": 0.6459351181983948
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "Umbrella",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "experimental",
+            "probability": 0.577663242816925,
+            "cosine": 0.19133031368255615
+          },
+          {
+            "choice": "country",
+            "probability": 0.11556493490934372,
+            "cosine": 0.1488557606935501
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07342083752155304,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.05988035723567009,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05284710228443146,
+            "cosine": 0.1282031387090683
+          },
+          {
+            "choice": "folk",
+            "probability": 0.04755495488643646,
+            "cosine": 0.12541796267032623
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.04541632533073425,
+            "cosine": 0.1242033913731575
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.01379719004034996,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00747378496453166,
+            "cosine": 0.07657349109649658
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0034921125043183565,
+            "cosine": 0.05648930370807648
+          },
+          {
+            "choice": "rock",
+            "probability": 0.002889135619625449,
+            "cosine": 0.051486048847436905
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.47621920704841614,
+            "cosine": 0.1735941469669342
+          },
+          {
+            "choice": "country",
+            "probability": 0.17726752161979675,
+            "cosine": 0.1475096344947815
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10784690827131271,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.06776144355535507,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.06353995949029922,
+            "cosine": 0.12042807787656784
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.04928692430257797,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "folk",
+            "probability": 0.04538111016154289,
+            "cosine": 0.11154405772686005
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005616238806396723,
+            "cosine": 0.056392401456832886
+          },
+          {
+            "choice": "classical",
+            "probability": 0.003916487563401461,
+            "cosine": 0.04687769338488579
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0019501321949064732,
+            "cosine": 0.028472168371081352
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0012140878243371844,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "experimental",
+            "probability": 0.5696876049041748,
+            "cosine": 0.18602818250656128
+          },
+          {
+            "choice": "country",
+            "probability": 0.12654466927051544,
+            "cosine": 0.14631633460521698
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07779057323932648,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "folk",
+            "probability": 0.06831783056259155,
+            "cosine": 0.13004548847675323
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06235501542687416,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05569543316960335,
+            "cosine": 0.12465360760688782
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.015302738174796104,
+            "cosine": 0.0905541479587555
+          },
+          {
+            "choice": "classical",
+            "probability": 0.009968332946300507,
+            "cosine": 0.07924054563045502
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.009606526233255863,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0032714763656258583,
+            "cosine": 0.049831412732601166
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0014598367270082235,
+            "cosine": 0.02853243611752987
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.20438072085380554,
+        "state_cosine": 0.5840049982070923
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classic"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.3693636357784271,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2960728406906128,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "classic",
+            "probability": 0.28201842308044434,
+            "cosine": 0.12635117769241333
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.04561350494623184,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.006931566167622805,
+            "cosine": 0.02853243611752987
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.40480777621269226,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2543453574180603,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.1850004941225052,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "classic",
+            "probability": 0.1512891948223114,
+            "cosine": 0.10841350257396698
+          },
+          {
+            "choice": "rock",
+            "probability": 0.00455712852999568,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.370270699262619,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.3019843101501465,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "classic",
+            "probability": 0.2435937076807022,
+            "cosine": 0.12582945823669434
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.06958099454641342,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "rock",
+            "probability": 0.014570283703505993,
+            "cosine": 0.051486048847436905
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5995216369628906
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "classical_spelling",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.48263081908226013,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.3868650197982788,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "classical",
+            "probability": 0.06184585392475128,
+            "cosine": 0.07924054563045502
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.059601109474897385,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.009057165123522282,
+            "cosine": 0.02853243611752987
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.46884685754776,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.2945818603038788,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.21426688134670258,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "classical",
+            "probability": 0.01702628843486309,
+            "cosine": 0.04687769338488579
+          },
+          {
+            "choice": "rock",
+            "probability": 0.005278049502521753,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.466278612613678,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.38028615713119507,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.087622731924057,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04746425151824951,
+            "cosine": 0.07657349109649658
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01834823004901409,
+            "cosine": 0.051486048847436905
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5995216369628906
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_question_alias_choices",
+      "question": "what is genre of music?",
+      "choices": [
+        "pop music",
+        "rap hiphop",
+        "rock music",
+        "electronic music",
+        "classical music"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop music",
+            "probability": 0.6908866763114929,
+            "cosine": 0.17130132019519806
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.2207385152578354,
+            "cosine": 0.14118413627147675
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.034067586064338684,
+            "cosine": 0.09186062961816788
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.02847711741924286,
+            "cosine": 0.08712935447692871
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.025830091908574104,
+            "cosine": 0.08455419540405273
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic music",
+            "probability": 0.472596675157547,
+            "cosine": 0.1559564620256424
+          },
+          {
+            "choice": "pop music",
+            "probability": 0.41519713401794434,
+            "cosine": 0.15253853797912598
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.07696501165628433,
+            "cosine": 0.10805149376392365
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.023439472541213036,
+            "cosine": 0.07666908949613571
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.0118017653003335,
+            "cosine": 0.05855723097920418
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "pop music",
+            "probability": 0.49082013964653015,
+            "cosine": 0.1679813116788864
+          },
+          {
+            "choice": "rock music",
+            "probability": 0.40194985270500183,
+            "cosine": 0.1627088040113449
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.054528236389160156,
+            "cosine": 0.10998091846704483
+          },
+          {
+            "choice": "electronic music",
+            "probability": 0.036604344844818115,
+            "cosine": 0.09946093708276749
+          },
+          {
+            "choice": "classical music",
+            "probability": 0.016097355633974075,
+            "cosine": 0.0777767151594162
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5995216369628906
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "electronic",
+            "probability": 0.6584778428077698,
+            "cosine": 0.1518748700618744
+          },
+          {
+            "choice": "pop",
+            "probability": 0.23585055768489838,
+            "cosine": 0.12477374821901321
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06841468811035156,
+            "cosine": 0.09210638701915741
+          },
+          {
+            "choice": "classical",
+            "probability": 0.01908530481159687,
+            "cosine": 0.05840805917978287
+          },
+          {
+            "choice": "rock",
+            "probability": 0.018171552568674088,
+            "cosine": 0.05711306631565094
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.9479933381080627,
+            "cosine": 0.20408086478710175
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.021883834153413773,
+            "cosine": 0.10460678488016129
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01156948134303093,
+            "cosine": 0.08778288215398788
+          },
+          {
+            "choice": "pop",
+            "probability": 0.011498341336846352,
+            "cosine": 0.0876200720667839
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0070550101809203625,
+            "cosine": 0.07472680509090424
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "electronic",
+            "probability": 0.5730974078178406,
+            "cosine": 0.1569463461637497
+          },
+          {
+            "choice": "pop",
+            "probability": 0.20565050840377808,
+            "cosine": 0.1298941820859909
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.11954665929079056,
+            "cosine": 0.11557537317276001
+          },
+          {
+            "choice": "rock",
+            "probability": 0.08432429283857346,
+            "cosine": 0.10636237263679504
+          },
+          {
+            "choice": "classical",
+            "probability": 0.017381176352500916,
+            "cosine": 0.06467641890048981
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.6485472917556763
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "trained_short_question",
+      "question": "what is music genre?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.5442341566085815,
+            "cosine": 0.12109412252902985
+          },
+          {
+            "choice": "pop",
+            "probability": 0.22168363630771637,
+            "cosine": 0.09738757461309433
+          },
+          {
+            "choice": "classical",
+            "probability": 0.16354775428771973,
+            "cosine": 0.08935948461294174
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.040835440158843994,
+            "cosine": 0.05273427814245224
+          },
+          {
+            "choice": "rock",
+            "probability": 0.02969900332391262,
+            "cosine": 0.044328976422548294
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.6022498607635498,
+            "cosine": 0.14253932237625122
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.248752161860466,
+            "cosine": 0.11920002102851868
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.09000283479690552,
+            "cosine": 0.09236592799425125
+          },
+          {
+            "choice": "classical",
+            "probability": 0.05612528696656227,
+            "cosine": 0.07990052551031113
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0028697801753878593,
+            "cosine": 0.001417421386577189
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.6765009760856628,
+            "cosine": 0.1379576176404953
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1629311889410019,
+            "cosine": 0.10038082301616669
+          },
+          {
+            "choice": "classical",
+            "probability": 0.08021878451108932,
+            "cosine": 0.08167774975299835
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.05423692241311073,
+            "cosine": 0.07134666293859482
+          },
+          {
+            "choice": "rock",
+            "probability": 0.026112085208296776,
+            "cosine": 0.05205250531435013
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25329524278640747,
+        "state_cosine": 0.6015400886535645
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "trained_third_question",
+      "question": "What genre is this music?",
+      "choices": [
+        "pop",
+        "hip hop",
+        "rock",
+        "electronic",
+        "classical"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "hip hop",
+            "probability": 0.5787677764892578,
+            "cosine": 0.14125876128673553
+          },
+          {
+            "choice": "pop",
+            "probability": 0.20254085958003998,
+            "cosine": 0.11354455351829529
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.12499392777681351,
+            "cosine": 0.10080406069755554
+          },
+          {
+            "choice": "classical",
+            "probability": 0.06992705911397934,
+            "cosine": 0.08547322452068329
+          },
+          {
+            "choice": "rock",
+            "probability": 0.02377041056752205,
+            "cosine": 0.05699217692017555
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.47196537256240845,
+            "cosine": 0.1588880717754364
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2815669775009155,
+            "cosine": 0.14525386691093445
+          },
+          {
+            "choice": "pop",
+            "probability": 0.1911279261112213,
+            "cosine": 0.13502752780914307
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04549098387360573,
+            "cosine": 0.0971386581659317
+          },
+          {
+            "choice": "rock",
+            "probability": 0.009848681278526783,
+            "cosine": 0.056748874485492706
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "hip hop",
+            "probability": 0.6385866403579712,
+            "cosine": 0.14787757396697998
+          },
+          {
+            "choice": "pop",
+            "probability": 0.18903562426567078,
+            "cosine": 0.11574576050043106
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.08445814996957779,
+            "cosine": 0.09447944164276123
+          },
+          {
+            "choice": "classical",
+            "probability": 0.04541086032986641,
+            "cosine": 0.07810090482234955
+          },
+          {
+            "choice": "rock",
+            "probability": 0.042508795857429504,
+            "cosine": 0.07635773718357086
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.2107650339603424,
+        "state_cosine": 0.6694387197494507
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "canonical_all_eleven",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "blues",
+            "probability": 0.3073241710662842,
+            "cosine": 0.16252700984477997
+          },
+          {
+            "choice": "experimental",
+            "probability": 0.27576038241386414,
+            "cosine": 0.159666508436203
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.20527374744415283,
+            "cosine": 0.1518748700618744
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07352400571107864,
+            "cosine": 0.12477374821901321
+          },
+          {
+            "choice": "country",
+            "probability": 0.05340363457798958,
+            "cosine": 0.1163342297077179
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.030666301026940346,
+            "cosine": 0.10169225931167603
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.021327583119273186,
+            "cosine": 0.09210638701915741
+          },
+          {
+            "choice": "folk",
+            "probability": 0.019112901762127876,
+            "cosine": 0.08921244740486145
+          },
+          {
+            "choice": "classical",
+            "probability": 0.005949648562818766,
+            "cosine": 0.05840805917978287
+          },
+          {
+            "choice": "rock",
+            "probability": 0.005664795637130737,
+            "cosine": 0.05711306631565094
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.001992845442146063,
+            "cosine": 0.029537485912442207
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.3716142773628235,
+            "cosine": 0.20773370563983917
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.32358691096305847,
+            "cosine": 0.20408086478710175
+          },
+          {
+            "choice": "blues",
+            "probability": 0.2514433264732361,
+            "cosine": 0.197422593832016
+          },
+          {
+            "choice": "folk",
+            "probability": 0.02494618110358715,
+            "cosine": 0.136435866355896
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.007469802629202604,
+            "cosine": 0.10460678488016129
+          },
+          {
+            "choice": "country",
+            "probability": 0.006185498554259539,
+            "cosine": 0.09962698072195053
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.004246806260198355,
+            "cosine": 0.08970120549201965
+          },
+          {
+            "choice": "rock",
+            "probability": 0.003949113190174103,
+            "cosine": 0.08778288215398788
+          },
+          {
+            "choice": "pop",
+            "probability": 0.003924830351024866,
+            "cosine": 0.0876200720667839
+          },
+          {
+            "choice": "classical",
+            "probability": 0.0024081487208604813,
+            "cosine": 0.07472680509090424
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0002251221885671839,
+            "cosine": 0.012170243076980114
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "experimental",
+            "probability": 0.38130250573158264,
+            "cosine": 0.18860432505607605
+          },
+          {
+            "choice": "blues",
+            "probability": 0.33581703901290894,
+            "cosine": 0.1852513998746872
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11491844058036804,
+            "cosine": 0.1569463461637497
+          },
+          {
+            "choice": "pop",
+            "probability": 0.04123738035559654,
+            "cosine": 0.1298941820859909
+          },
+          {
+            "choice": "country",
+            "probability": 0.03962639346718788,
+            "cosine": 0.1288423240184784
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.02976192906498909,
+            "cosine": 0.12128620594739914
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.023971693590283394,
+            "cosine": 0.11557537317276001
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01690884865820408,
+            "cosine": 0.10636237263679504
+          },
+          {
+            "choice": "folk",
+            "probability": 0.008570834062993526,
+            "cosine": 0.08842736482620239
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.004399570170789957,
+            "cosine": 0.07082530856132507
+          },
+          {
+            "choice": "classical",
+            "probability": 0.003485302207991481,
+            "cosine": 0.06467641890048981
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.25668737292289734,
+        "state_cosine": 0.6485472917556763
+      }
+    },
+    {
+      "model_id": "common",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "track": "No White Flag (user filename)",
+      "case": "screenshot_all_eleven",
+      "question": "what is genre of music?",
+      "choices": [
+        "blues",
+        "classical",
+        "country",
+        "electronic",
+        "experimental",
+        "folk",
+        "hip hop",
+        "jazz",
+        "pop",
+        "rock",
+        "soul rnb"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "experimental",
+            "probability": 0.5696876049041748,
+            "cosine": 0.18602818250656128
+          },
+          {
+            "choice": "country",
+            "probability": 0.12654466927051544,
+            "cosine": 0.14631633460521698
+          },
+          {
+            "choice": "pop",
+            "probability": 0.07779057323932648,
+            "cosine": 0.13347293436527252
+          },
+          {
+            "choice": "folk",
+            "probability": 0.06831783056259155,
+            "cosine": 0.13004548847675323
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.06235501542687416,
+            "cosine": 0.12763488292694092
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05569543316960335,
+            "cosine": 0.12465360760688782
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.015302738174796104,
+            "cosine": 0.0905541479587555
+          },
+          {
+            "choice": "classical",
+            "probability": 0.009968332946300507,
+            "cosine": 0.07924054563045502
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.009606526233255863,
+            "cosine": 0.07826468348503113
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0032714763656258583,
+            "cosine": 0.049831412732601166
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0014598367270082235,
+            "cosine": 0.02853243611752987
+          }
+        ],
+        "silence": [
+          {
+            "choice": "experimental",
+            "probability": 0.47621920704841614,
+            "cosine": 0.1735941469669342
+          },
+          {
+            "choice": "country",
+            "probability": 0.17726752161979675,
+            "cosine": 0.1475096344947815
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.10784690827131271,
+            "cosine": 0.13439245522022247
+          },
+          {
+            "choice": "pop",
+            "probability": 0.06776144355535507,
+            "cosine": 0.12212595343589783
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.06353995949029922,
+            "cosine": 0.12042807787656784
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.04928692430257797,
+            "cosine": 0.11372335255146027
+          },
+          {
+            "choice": "folk",
+            "probability": 0.04538111016154289,
+            "cosine": 0.11154405772686005
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005616238806396723,
+            "cosine": 0.056392401456832886
+          },
+          {
+            "choice": "classical",
+            "probability": 0.003916487563401461,
+            "cosine": 0.04687769338488579
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0019501321949064732,
+            "cosine": 0.028472168371081352
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0012140878243371844,
+            "cosine": 0.015963232144713402
+          }
+        ],
+        "other_audio": [
+          {
+            "choice": "experimental",
+            "probability": 0.577663242816925,
+            "cosine": 0.19133031368255615
+          },
+          {
+            "choice": "country",
+            "probability": 0.11556493490934372,
+            "cosine": 0.1488557606935501
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.07342083752155304,
+            "cosine": 0.13688211143016815
+          },
+          {
+            "choice": "pop",
+            "probability": 0.05988035723567009,
+            "cosine": 0.13150113821029663
+          },
+          {
+            "choice": "soul rnb",
+            "probability": 0.05284710228443146,
+            "cosine": 0.1282031387090683
+          },
+          {
+            "choice": "folk",
+            "probability": 0.04755495488643646,
+            "cosine": 0.12541796267032623
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.04541632533073425,
+            "cosine": 0.1242033913731575
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.01379719004034996,
+            "cosine": 0.09275561571121216
+          },
+          {
+            "choice": "classical",
+            "probability": 0.00747378496453166,
+            "cosine": 0.07657349109649658
+          },
+          {
+            "choice": "blues",
+            "probability": 0.0034921125043183565,
+            "cosine": 0.05648930370807648
+          },
+          {
+            "choice": "rock",
+            "probability": 0.002889135619625449,
+            "cosine": 0.051486048847436905
+          }
+        ]
+      },
+      "audio_sensitivity": {
+        "hidden_relative_l2": 0.18594834208488464,
+        "state_cosine": 0.5995216369628906
+      }
+    }
+  ],
+  "path_audit": [
+    {
+      "track": "Umbrella",
+      "prefill_shape": [
+        1,
+        61,
+        960
+      ],
+      "native_vs_our_hidden_max_abs_error": 0.0,
+      "native_vs_our_hidden_relative_l2": 0.0,
+      "native_vs_our_hidden_cosine": 0.9999998807907104,
+      "head_input_l2_norm": 1.0,
+      "same_adapter_both_paths": true,
+      "adapter_receives_expected_hidden": true
+    },
+    {
+      "track": "No White Flag (user filename)",
+      "prefill_shape": [
+        1,
+        61,
+        960
+      ],
+      "native_vs_our_hidden_max_abs_error": 0.0,
+      "native_vs_our_hidden_relative_l2": 0.0,
+      "native_vs_our_hidden_cosine": 0.9999998807907104,
+      "head_input_l2_norm": 1.0000001192092896,
+      "same_adapter_both_paths": true,
+      "adapter_receives_expected_hidden": true
+    }
+  ],
+  "native": [
+    {
+      "track": "Umbrella",
+      "prompt": "describe",
+      "response": "a female vocalist sings a pop song with a medium tempo, featuring strong bass, steady drums, and harmonious keyboards and guitars.",
+      "seconds": 4.467969218996586
+    },
+    {
+      "track": "Umbrella",
+      "prompt": "What genre is this music?",
+      "response": "this music is classified as pop, which is a genre characterized by catchy melodies, simple chord progressions, and a strong beat. pop music often incorporates elements from other genres, such as rock, r&b, and electronic dance music.",
+      "seconds": 12.001752252996084
+    },
+    {
+      "track": "No White Flag (user filename)",
+      "prompt": "describe",
+      "response": "a female vocalist sings a pop song with a medium tempo, accompanied by guitar, bass, and drums.",
+      "seconds": 10.487285445007728
+    },
+    {
+      "track": "No White Flag (user filename)",
+      "prompt": "What genre is this music?",
+      "response": "this music is likely a pop song, as it features a catchy melody, a strong beat, and a clear verse-chorus structure. the use of electronic instruments and production techniques is also common in pop music.",
+      "seconds": 5.97958323500643
+    },
+    {
+      "track": "silence",
+      "prompt": "describe",
+      "response": "the audio clip features a continuous, steady-state sound with a consistent frequency and amplitude, indicating a constant sound source, likely a single instrument or voice.",
+      "seconds": 6.834697024009074
+    },
+    {
+      "track": "silence",
+      "prompt": "What genre is this music?",
+      "response": "this music is classified as 'unclassifiable', which means it does not fit into any specific genre category. it may be a unique or experimental piece of music that defies easy categorization.",
+      "seconds": 8.695348157008993
+    }
+  ],
+  "head_updates": {
+    "adapter.": {
+      "total_parameters": 3936256,
+      "changed_parameters": 3936252,
+      "relative_l2": 0.0651392936706543
+    },
+    "state_head.": {
+      "total_parameters": 9443840,
+      "changed_parameters": 9443747,
+      "relative_l2": 0.0023487736470997334
+    },
+    "action_head.": {
+      "total_parameters": 9443840,
+      "changed_parameters": 9443712,
+      "relative_l2": 0.0015683436067774892
+    }
+  },
+  "feature_provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1"
+  },
+  "encoder_class": "Samsone356M",
+  "transformer_class": "LlamaModel",
+  "samsone_frozen": true,
+  "source_module": "/opt/samsone-clm/src/samsone_clm/infer.py"
+}

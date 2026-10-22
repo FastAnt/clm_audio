@@ -1,0 +1,764 @@
+{
+  "status": "completed",
+  "stage": 4,
+  "diagnostic": false,
+  "train_samples": 181592,
+  "initial_validation": {
+    "correct": {
+      "overall": {
+        "samples": 2048,
+        "top1": 0.65185546875,
+        "top2": 0.8349609375,
+        "loss": 1.142808198928833,
+        "mean_correct_probability": 0.6217445135116577,
+        "ece": 0.16728864335163962,
+        "bins": 15
+      },
+      "music": {
+        "samples": 512,
+        "top1": 0.708984375,
+        "top2": 0.892578125,
+        "loss": 1.0562148094177246,
+        "mean_correct_probability": 0.6955294609069824,
+        "ece": 0.18728631548583508,
+        "bins": 15
+      },
+      "sound": {
+        "samples": 512,
+        "top1": 0.6875,
+        "top2": 0.8515625,
+        "loss": 1.1214250326156616,
+        "mean_correct_probability": 0.6476563811302185,
+        "ece": 0.15620391338597983,
+        "bins": 15
+      },
+      "speech": {
+        "samples": 512,
+        "top1": 0.7265625,
+        "top2": 0.87109375,
+        "loss": 0.8751542568206787,
+        "mean_correct_probability": 0.6987071633338928,
+        "ece": 0.13095252646598965,
+        "bins": 15
+      },
+      "temporal": {
+        "samples": 512,
+        "top1": 0.484375,
+        "top2": 0.724609375,
+        "loss": 1.518438458442688,
+        "mean_correct_probability": 0.44508519768714905,
+        "ece": 0.2119023445993662,
+        "bins": 15
+      }
+    },
+    "ablation_correct": {
+      "overall": {
+        "samples": 2048,
+        "top1": 0.65185546875,
+        "top2": 0.8349609375,
+        "loss": 1.142808198928833,
+        "mean_correct_probability": 0.6217445135116577,
+        "ece": 0.16728864335163962,
+        "bins": 15
+      },
+      "music": {
+        "samples": 512,
+        "top1": 0.708984375,
+        "top2": 0.892578125,
+        "loss": 1.0562148094177246,
+        "mean_correct_probability": 0.6955294609069824,
+        "ece": 0.18728631548583508,
+        "bins": 15
+      },
+      "sound": {
+        "samples": 512,
+        "top1": 0.6875,
+        "top2": 0.8515625,
+        "loss": 1.1214250326156616,
+        "mean_correct_probability": 0.6476563811302185,
+        "ece": 0.15620391338597983,
+        "bins": 15
+      },
+      "speech": {
+        "samples": 512,
+        "top1": 0.7265625,
+        "top2": 0.87109375,
+        "loss": 0.8751542568206787,
+        "mean_correct_probability": 0.6987071633338928,
+        "ece": 0.13095252646598965,
+        "bins": 15
+      },
+      "temporal": {
+        "samples": 512,
+        "top1": 0.484375,
+        "top2": 0.724609375,
+        "loss": 1.518438458442688,
+        "mean_correct_probability": 0.44508519768714905,
+        "ece": 0.2119023445993662,
+        "bins": 15
+      }
+    },
+    "random": {
+      "overall": {
+        "samples": 2048,
+        "top1": 0.5966796875,
+        "top2": 0.80810546875,
+        "loss": 1.4110924005508423,
+        "mean_correct_probability": 0.5721688270568848,
+        "ece": 0.21040685707703233,
+        "bins": 15
+      },
+      "music": {
+        "samples": 512,
+        "top1": 0.634765625,
+        "top2": 0.857421875,
+        "loss": 1.426871418952942,
+        "mean_correct_probability": 0.6208584308624268,
+        "ece": 0.22439074458088726,
+        "bins": 15
+      },
+      "sound": {
+        "samples": 512,
+        "top1": 0.642578125,
+        "top2": 0.841796875,
+        "loss": 1.2540349960327148,
+        "mean_correct_probability": 0.6193229556083679,
+        "ece": 0.19530304241925478,
+        "bins": 15
+      },
+      "speech": {
+        "samples": 512,
+        "top1": 0.625,
+        "top2": 0.841796875,
+        "loss": 1.3904660940170288,
+        "mean_correct_probability": 0.6111444234848022,
+        "ece": 0.21872453426476568,
+        "bins": 15
+      },
+      "temporal": {
+        "samples": 512,
+        "top1": 0.484375,
+        "top2": 0.69140625,
+        "loss": 1.572996973991394,
+        "mean_correct_probability": 0.43734949827194214,
+        "ece": 0.20320905605331063,
+        "bins": 15
+      }
+    },
+    "silence": {
+      "overall": {
+        "samples": 2048,
+        "top1": 0.580078125,
+        "top2": 0.798828125,
+        "loss": 1.4050064086914062,
+        "mean_correct_probability": 0.5603213310241699,
+        "ece": 0.221020961063914,
+        "bins": 15
+      },
+      "music": {
+        "samples": 512,
+        "top1": 0.61328125,
+        "top2": 0.84375,
+        "loss": 1.433234453201294,
+        "mean_correct_probability": 0.5964745283126831,
+        "ece": 0.23198519193101674,
+        "bins": 15
+      },
+      "sound": {
+        "samples": 512,
+        "top1": 0.66015625,
+        "top2": 0.837890625,
+        "loss": 1.1712201833724976,
+        "mean_correct_probability": 0.625974178314209,
+        "ece": 0.17785050970269367,
+        "bins": 15
+      },
+      "speech": {
+        "samples": 512,
+        "top1": 0.603515625,
+        "top2": 0.8125,
+        "loss": 1.412017822265625,
+        "mean_correct_probability": 0.5855851769447327,
+        "ece": 0.22333151288330555,
+        "bins": 15
+      },
+      "temporal": {
+        "samples": 512,
+        "top1": 0.443359375,
+        "top2": 0.701171875,
+        "loss": 1.6035534143447876,
+        "mean_correct_probability": 0.4332512617111206,
+        "ece": 0.2566363741643727,
+        "bins": 15
+      }
+    },
+    "audio_top1_gaps": {
+      "random": 0.05517578125,
+      "silence": 0.07177734375
+    }
+  },
+  "evaluations": {
+    "train": {
+      "correct": {
+        "overall": {
+          "samples": 181592,
+          "top1": 0.9508458375930786,
+          "top2": 0.984525740146637,
+          "loss": 0.1429189294576645,
+          "mean_correct_probability": 0.914924144744873,
+          "ece": 0.01911515092024274,
+          "bins": 15
+        },
+        "music": {
+          "samples": 11623,
+          "top1": 0.9961283802986145,
+          "top2": 0.999569833278656,
+          "loss": 0.02564956434071064,
+          "mean_correct_probability": 0.9789367318153381,
+          "ece": 0.016028245625420823,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 44046,
+          "top1": 0.9876266121864319,
+          "top2": 0.9983199834823608,
+          "loss": 0.05776907131075859,
+          "mean_correct_probability": 0.9562737345695496,
+          "ece": 0.02711136717334739,
+          "bins": 15
+        },
+        "speech": {
+          "samples": 106380,
+          "top1": 0.9711412191390991,
+          "top2": 0.9946137070655823,
+          "loss": 0.09839791804552078,
+          "mean_correct_probability": 0.938105046749115,
+          "ece": 0.021551466222263116,
+          "bins": 15
+        },
+        "temporal": {
+          "samples": 19543,
+          "top1": 0.7305428981781006,
+          "top2": 0.88957679271698,
+          "loss": 0.646919310092926,
+          "mean_correct_probability": 0.6574777364730835,
+          "ece": 0.017146015936305048,
+          "bins": 15
+        }
+      },
+      "random": {
+        "overall": {
+          "samples": 0
+        },
+        "reason": "Audio ablation was not precomputed for this split"
+      },
+      "silence": {
+        "overall": {
+          "samples": 0
+        },
+        "reason": "Audio ablation was not precomputed for this split"
+      },
+      "audio_top1_gaps": {}
+    },
+    "validation": {
+      "correct": {
+        "overall": {
+          "samples": 2048,
+          "top1": 0.64306640625,
+          "top2": 0.83447265625,
+          "loss": 1.3082481622695923,
+          "mean_correct_probability": 0.6264057159423828,
+          "ece": 0.20574539553490467,
+          "bins": 15
+        },
+        "music": {
+          "samples": 512,
+          "top1": 0.716796875,
+          "top2": 0.900390625,
+          "loss": 1.230841040611267,
+          "mean_correct_probability": 0.7098360061645508,
+          "ece": 0.20406430901493877,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 512,
+          "top1": 0.66796875,
+          "top2": 0.849609375,
+          "loss": 1.3366460800170898,
+          "mean_correct_probability": 0.6511904001235962,
+          "ece": 0.20398082619067281,
+          "bins": 15
+        },
+        "speech": {
+          "samples": 512,
+          "top1": 0.72265625,
+          "top2": 0.875,
+          "loss": 0.9697364568710327,
+          "mean_correct_probability": 0.7142124176025391,
+          "ece": 0.17482999654021114,
+          "bins": 15
+        },
+        "temporal": {
+          "samples": 512,
+          "top1": 0.46484375,
+          "top2": 0.712890625,
+          "loss": 1.6957690715789795,
+          "mean_correct_probability": 0.43038395047187805,
+          "ece": 0.24441330845002085,
+          "bins": 15
+        }
+      },
+      "ablation_correct": {
+        "overall": {
+          "samples": 2048,
+          "top1": 0.64306640625,
+          "top2": 0.83447265625,
+          "loss": 1.3082481622695923,
+          "mean_correct_probability": 0.6264057159423828,
+          "ece": 0.20574539553490467,
+          "bins": 15
+        },
+        "music": {
+          "samples": 512,
+          "top1": 0.716796875,
+          "top2": 0.900390625,
+          "loss": 1.230841040611267,
+          "mean_correct_probability": 0.7098360061645508,
+          "ece": 0.20406430901493877,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 512,
+          "top1": 0.66796875,
+          "top2": 0.849609375,
+          "loss": 1.3366460800170898,
+          "mean_correct_probability": 0.6511904001235962,
+          "ece": 0.20398082619067281,
+          "bins": 15
+        },
+        "speech": {
+          "samples": 512,
+          "top1": 0.72265625,
+          "top2": 0.875,
+          "loss": 0.9697364568710327,
+          "mean_correct_probability": 0.7142124176025391,
+          "ece": 0.17482999654021114,
+          "bins": 15
+        },
+        "temporal": {
+          "samples": 512,
+          "top1": 0.46484375,
+          "top2": 0.712890625,
+          "loss": 1.6957690715789795,
+          "mean_correct_probability": 0.43038395047187805,
+          "ece": 0.24441330845002085,
+          "bins": 15
+        }
+      },
+      "random": {
+        "overall": {
+          "samples": 2048,
+          "top1": 0.59130859375,
+          "top2": 0.8046875,
+          "loss": 1.6174085140228271,
+          "mean_correct_probability": 0.5786837339401245,
+          "ece": 0.24779359577223659,
+          "bins": 15
+        },
+        "music": {
+          "samples": 512,
+          "top1": 0.64453125,
+          "top2": 0.84765625,
+          "loss": 1.654606580734253,
+          "mean_correct_probability": 0.6348592638969421,
+          "ece": 0.24608260887907818,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 512,
+          "top1": 0.640625,
+          "top2": 0.837890625,
+          "loss": 1.5209710597991943,
+          "mean_correct_probability": 0.6215288043022156,
+          "ece": 0.2307679804507643,
+          "bins": 15
+        },
+        "speech": {
+          "samples": 512,
+          "top1": 0.6484375,
+          "top2": 0.841796875,
+          "loss": 1.5238890647888184,
+          "mean_correct_probability": 0.6383117437362671,
+          "ece": 0.22990441048750654,
+          "bins": 15
+        },
+        "temporal": {
+          "samples": 512,
+          "top1": 0.431640625,
+          "top2": 0.69140625,
+          "loss": 1.7701671123504639,
+          "mean_correct_probability": 0.42003509402275085,
+          "ece": 0.28657374158501625,
+          "bins": 15
+        }
+      },
+      "silence": {
+        "overall": {
+          "samples": 2048,
+          "top1": 0.59033203125,
+          "top2": 0.80908203125,
+          "loss": 1.5904582738876343,
+          "mean_correct_probability": 0.5756970643997192,
+          "ece": 0.24921782474848442,
+          "bins": 15
+        },
+        "music": {
+          "samples": 512,
+          "top1": 0.640625,
+          "top2": 0.841796875,
+          "loss": 1.6701939105987549,
+          "mean_correct_probability": 0.6257766485214233,
+          "ece": 0.24733128730440512,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 512,
+          "top1": 0.650390625,
+          "top2": 0.8515625,
+          "loss": 1.414001226425171,
+          "mean_correct_probability": 0.6337356567382812,
+          "ece": 0.23062351654516533,
+          "bins": 15
+        },
+        "speech": {
+          "samples": 512,
+          "top1": 0.626953125,
+          "top2": 0.833984375,
+          "loss": 1.4718586206436157,
+          "mean_correct_probability": 0.6149699091911316,
+          "ece": 0.24066664197016507,
+          "bins": 15
+        },
+        "temporal": {
+          "samples": 512,
+          "top1": 0.443359375,
+          "top2": 0.708984375,
+          "loss": 1.8057790994644165,
+          "mean_correct_probability": 0.42830610275268555,
+          "ece": 0.2863374389708042,
+          "bins": 15
+        }
+      },
+      "audio_top1_gaps": {
+        "random": 0.0517578125,
+        "silence": 0.052734375
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 2838,
+      "epoch": 1,
+      "train_loss": 0.22359105448475167,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.63916015625,
+        "top2": 0.83056640625,
+        "loss": 1.2713348865509033,
+        "mean_correct_probability": 0.6231938004493713,
+        "ece": 0.20835647254716605,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.04931640625,
+        "silence": 0.04736328125
+      },
+      "elapsed_s": 68.66478519327939,
+      "objective_means": {
+        "main_ce": 0.2071764483067127,
+        "infonce": 0.0,
+        "pair_ce": 0.027771575126154115,
+        "swap_loss": 0.002528818882816147
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        9.980906508550231e-05,
+        4.990453254275116e-05,
+        4.990453254275116e-05,
+        0.0009980906508550232
+      ],
+      "pair_updates": 2838,
+      "pair_samples_seen": 181632
+    },
+    {
+      "step": 5676,
+      "epoch": 2,
+      "train_loss": 0.19628928766121312,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.64306640625,
+        "top2": 0.83447265625,
+        "loss": 1.3082481622695923,
+        "mean_correct_probability": 0.6264057159423828,
+        "ece": 0.20574539553490467,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.0517578125,
+        "silence": 0.052734375
+      },
+      "elapsed_s": 137.52368266135454,
+      "objective_means": {
+        "main_ce": 0.18326449095631722,
+        "infonce": 0.0,
+        "pair_ce": 0.02223726969040053,
+        "swap_loss": 0.0019061615708036632
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        9.32974528274937e-05,
+        4.664872641374685e-05,
+        4.664872641374685e-05,
+        0.0009329745282749369
+      ],
+      "pair_updates": 5676,
+      "pair_samples_seen": 363264
+    },
+    {
+      "step": 8514,
+      "epoch": 3,
+      "train_loss": 0.16454239641012003,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.63720703125,
+        "top2": 0.82763671875,
+        "loss": 1.3539239168167114,
+        "mean_correct_probability": 0.6271504163742065,
+        "ece": 0.21784926747204736,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.04345703125,
+        "silence": 0.05419921875
+      },
+      "elapsed_s": 206.48797377943993,
+      "objective_means": {
+        "main_ce": 0.1542464022790237,
+        "infonce": 0.0,
+        "pair_ce": 0.017422817732654326,
+        "swap_loss": 0.0015845850209016527
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        7.867260970420198e-05,
+        3.933630485210099e-05,
+        3.933630485210099e-05,
+        0.0007867260970420198
+      ],
+      "pair_updates": 8514,
+      "pair_samples_seen": 544896
+    },
+    {
+      "step": 11352,
+      "epoch": 4,
+      "train_loss": 0.13653416217818987,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.64501953125,
+        "top2": 0.83056640625,
+        "loss": 1.43080735206604,
+        "mean_correct_probability": 0.6290789842605591,
+        "ece": 0.2229938255622983,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.04052734375,
+        "silence": 0.06640625
+      },
+      "elapsed_s": 275.1104396749288,
+      "objective_means": {
+        "main_ce": 0.128808358859377,
+        "infonce": 0.0,
+        "pair_ce": 0.012908924242131282,
+        "swap_loss": 0.001271340982153983
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        5.8675003548553226e-05,
+        2.9337501774276613e-05,
+        2.9337501774276613e-05,
+        0.0005867500354855322
+      ],
+      "pair_updates": 11352,
+      "pair_samples_seen": 726528
+    },
+    {
+      "step": 14190,
+      "epoch": 5,
+      "train_loss": 0.11222302516174557,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.63671875,
+        "top2": 0.82421875,
+        "loss": 1.474222183227539,
+        "mean_correct_probability": 0.6302461624145508,
+        "ece": 0.23484803960309364,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.041015625,
+        "silence": 0.05419921875
+      },
+      "elapsed_s": 344.3636818435043,
+      "objective_means": {
+        "main_ce": 0.10720532458984378,
+        "infonce": 0.0,
+        "pair_ce": 0.008065325582794953,
+        "swap_loss": 0.00098503771559093
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        3.7051874309931936e-05,
+        1.8525937154965968e-05,
+        1.8525937154965968e-05,
+        0.00037051874309931935
+      ],
+      "pair_updates": 14190,
+      "pair_samples_seen": 908160
+    },
+    {
+      "step": 17028,
+      "epoch": 6,
+      "train_loss": 0.09207958505778639,
+      "validation": {
+        "samples": 2048,
+        "top1": 0.63916015625,
+        "top2": 0.82666015625,
+        "loss": 1.4954153299331665,
+        "mean_correct_probability": 0.6297131180763245,
+        "ece": 0.23319110048760194,
+        "bins": 15
+      },
+      "audio_top1_gaps": {
+        "random": 0.04345703125,
+        "silence": 0.052734375
+      },
+      "elapsed_s": 413.1870282869786,
+      "objective_means": {
+        "main_ce": 0.08877900289250573,
+        "infonce": 0.0,
+        "pair_ce": 0.005128128661440654,
+        "swap_loss": 0.0007365177873305573
+      },
+      "score_scale": 99.9990005493164,
+      "learning_rates": [
+        1.7855059647456005e-05,
+        8.927529823728003e-06,
+        8.927529823728003e-06,
+        0.00017855059647456004
+      ],
+      "pair_updates": 17028,
+      "pair_samples_seen": 1089792
+    }
+  ],
+  "best_step": 5676,
+  "last_step": 17028,
+  "seconds": 419.1486645452678,
+  "first_gradients": {
+    "adapter": 1.0096702240407467,
+    "state_head": 0.21769337798468769,
+    "action_head": 0.24321127636358142
+  },
+  "trained_heads_changed": {
+    "state": true,
+    "action": true
+  },
+  "encoder_calls_during_training": 0,
+  "model": {
+    "samsone_width": 960,
+    "input_width": 4096,
+    "projection_width": 512,
+    "bottleneck": 960,
+    "clm_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+    "clm_cfg": {
+      "model": "Qwen/Qwen3-8B",
+      "hidden_size": 4096,
+      "projection_dim": 512,
+      "width": 1536,
+      "depth": 3,
+      "activation": "gelu",
+      "layernorm": true,
+      "residual": false
+    },
+    "score": "cosine",
+    "temperature": 0.01,
+    "score_scale": 100.0,
+    "checkpoint_logit_scale": 4.613248825073242,
+    "head_input_l2": true,
+    "adapter_kind": "linear",
+    "contract_version": 2,
+    "head_matmul_precision": "fp32",
+    "learnable_scale": true
+  },
+  "feature_provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1",
+    "dataset_semantic_sha256": "238ae0c3c9df3900065d37e5b06b9fa3ce1aa2e2f81533072d2a48052936d5bd",
+    "choices_sha256": "76256727ae0de7460f6b6bdcb1d67cfd51e3ff88cc16c13774f422a486a1d481",
+    "random_recipe": "same-split identity-group derangement v2",
+    "ablation_splits": [
+      "test",
+      "validation"
+    ]
+  },
+  "feature_manifest": "517bbcd399aa6e79d27818eb82c5a6ce4156403a1ec65bc3eabfbb7bd090033d",
+  "configuration": {
+    "stage": 4,
+    "overfit": false,
+    "samples": 181592,
+    "steps": 0,
+    "batch_size": 64,
+    "evaluate_every": 2838,
+    "lr": 0.0001,
+    "bottleneck": null,
+    "adapter_kind": "linear",
+    "run_root": "/home/ubuntu/dev_clm/data/runs/remote-stage4",
+    "seed": 42,
+    "device": "cuda",
+    "out": "/home/ubuntu/dev_clm/data/runs/remote-stage4/stage4",
+    "feature_manifest": "/home/ubuntu/dev_clm/data/features/spike-a86e057eae695e43/manifest.json",
+    "diagnostic": false,
+    "init_checkpoint": null,
+    "continue_checkpoint": "/home/ubuntu/dev_clm/data/models/samsone_clm_common/best.pt",
+    "resume": null,
+    "epochs": 8,
+    "loss": "ce",
+    "infonce_weight": 1.0,
+    "learnable_scale": true,
+    "scale_lr": 0.001,
+    "weight_decay": 0.01,
+    "scheduler": "onecycle",
+    "patience": 4,
+    "selection_metric": "audio-grounded",
+    "head_lr": 5e-05,
+    "audio_swap_weight": 1.0,
+    "audio_swap_margin": 0.05,
+    "audio_pair_batch_size": 32,
+    "audio_pair_ce_weight": 0.5,
+    "audio_pair_mode": "reciprocal-answers"
+  },
+  "supervised_audio_pair_rows": 4955,
+  "auxiliary_train_samples": 0,
+  "total_train_samples": 181592,
+  "pair_updates": 17028,
+  "pair_samples_seen": 1089792,
+  "score_scale": 99.9990005493164,
+  "stopped_early": true,
+  "audio_dependence_gate_passed": true
+}

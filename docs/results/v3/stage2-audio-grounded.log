@@ -1,0 +1,1 @@
+{"selected_checkpoint": "/srv/data/samsone_clm/runs/v3/stage2-audio-grounded/best.pt", "validation": {"samples": 2048, "top1": 0.62646484375, "top2": 0.81640625, "loss": 1.5415399074554443, "mean_correct_probability": 0.6053045392036438, "ece": 0.21558190157520585, "bins": 15}, "audio_gaps": {"random": 0.0615234375, "silence": 0.05908203125}}

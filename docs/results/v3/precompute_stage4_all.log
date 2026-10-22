@@ -1,0 +1,1902 @@
+Reusable representations: 508992 from 7 validated feature stores
+action hidden 512/401701
+action hidden 1024/401701
+action hidden 1536/401701
+action hidden 2048/401701
+action hidden 2560/401701
+action hidden 3072/401701
+action hidden 3584/401701
+action hidden 4096/401701
+action hidden 4608/401701
+action hidden 5120/401701
+action hidden 5632/401701
+action hidden 6144/401701
+action hidden 6656/401701
+action hidden 7168/401701
+action hidden 7680/401701
+action hidden 8192/401701
+action hidden 8704/401701
+action hidden 9216/401701
+action hidden 9728/401701
+action hidden 10240/401701
+action hidden 10752/401701
+action hidden 11264/401701
+action hidden 11776/401701
+action hidden 12288/401701
+action hidden 12800/401701
+action hidden 13312/401701
+action hidden 13824/401701
+action hidden 14336/401701
+action hidden 14848/401701
+action hidden 15360/401701
+action hidden 15872/401701
+action hidden 16384/401701
+action hidden 16896/401701
+action hidden 17408/401701
+action hidden 17920/401701
+action hidden 18432/401701
+action hidden 18944/401701
+action hidden 19456/401701
+action hidden 19968/401701
+action hidden 20480/401701
+action hidden 20992/401701
+action hidden 21504/401701
+action hidden 22016/401701
+action hidden 22528/401701
+action hidden 23040/401701
+action hidden 23552/401701
+action hidden 24064/401701
+action hidden 24576/401701
+action hidden 25088/401701
+action hidden 25600/401701
+action hidden 26112/401701
+action hidden 26624/401701
+action hidden 27136/401701
+action hidden 27648/401701
+action hidden 28160/401701
+action hidden 28672/401701
+action hidden 29184/401701
+action hidden 29696/401701
+action hidden 30208/401701
+action hidden 30720/401701
+action hidden 31232/401701
+action hidden 31744/401701
+action hidden 32256/401701
+action hidden 32768/401701
+action hidden 33280/401701
+action hidden 33792/401701
+action hidden 34304/401701
+action hidden 34816/401701
+action hidden 35328/401701
+action hidden 35840/401701
+action hidden 36352/401701
+action hidden 36864/401701
+action hidden 37376/401701
+action hidden 37888/401701
+action hidden 38400/401701
+action hidden 38912/401701
+action hidden 39424/401701
+action hidden 39936/401701
+action hidden 40448/401701
+action hidden 40960/401701
+action hidden 41472/401701
+action hidden 41984/401701
+action hidden 42496/401701
+action hidden 43008/401701
+action hidden 43520/401701
+action hidden 44032/401701
+action hidden 44544/401701
+action hidden 45056/401701
+action hidden 45568/401701
+action hidden 46080/401701
+action hidden 46592/401701
+action hidden 47104/401701
+action hidden 47616/401701
+action hidden 48128/401701
+action hidden 48640/401701
+action hidden 49152/401701
+action hidden 49664/401701
+action hidden 50176/401701
+action hidden 50688/401701
+action hidden 51200/401701
+action hidden 51712/401701
+action hidden 52224/401701
+action hidden 52736/401701
+action hidden 53248/401701
+action hidden 53760/401701
+action hidden 54272/401701
+action hidden 54784/401701
+action hidden 55296/401701
+action hidden 55808/401701
+action hidden 56320/401701
+action hidden 56832/401701
+action hidden 57344/401701
+action hidden 57856/401701
+action hidden 58368/401701
+action hidden 58880/401701
+action hidden 59392/401701
+action hidden 59904/401701
+action hidden 60416/401701
+action hidden 60928/401701
+action hidden 61440/401701
+action hidden 61952/401701
+action hidden 62464/401701
+action hidden 62976/401701
+action hidden 63488/401701
+action hidden 64000/401701
+action hidden 64512/401701
+action hidden 65024/401701
+action hidden 65536/401701
+action hidden 66048/401701
+action hidden 66560/401701
+action hidden 67072/401701
+action hidden 67584/401701
+action hidden 68096/401701
+action hidden 68608/401701
+action hidden 69120/401701
+action hidden 69632/401701
+action hidden 70144/401701
+action hidden 70656/401701
+action hidden 71168/401701
+action hidden 71680/401701
+action hidden 72192/401701
+action hidden 72704/401701
+action hidden 73216/401701
+action hidden 73728/401701
+action hidden 74240/401701
+action hidden 74752/401701
+action hidden 75264/401701
+action hidden 75776/401701
+action hidden 76288/401701
+action hidden 76800/401701
+action hidden 77312/401701
+action hidden 77824/401701
+action hidden 78336/401701
+action hidden 78848/401701
+action hidden 79360/401701
+action hidden 79872/401701
+action hidden 80384/401701
+action hidden 80896/401701
+action hidden 81408/401701
+action hidden 81920/401701
+action hidden 82432/401701
+action hidden 82944/401701
+action hidden 83456/401701
+action hidden 83968/401701
+action hidden 84480/401701
+action hidden 84992/401701
+action hidden 85504/401701
+action hidden 86016/401701
+action hidden 86528/401701
+action hidden 87040/401701
+action hidden 87552/401701
+action hidden 88064/401701
+action hidden 88576/401701
+action hidden 89088/401701
+action hidden 89600/401701
+action hidden 90112/401701
+action hidden 90624/401701
+action hidden 91136/401701
+action hidden 91648/401701
+action hidden 92160/401701
+action hidden 92672/401701
+action hidden 93184/401701
+action hidden 93696/401701
+action hidden 94208/401701
+action hidden 94720/401701
+action hidden 95232/401701
+action hidden 95744/401701
+action hidden 96256/401701
+action hidden 96768/401701
+action hidden 97280/401701
+action hidden 97792/401701
+action hidden 98304/401701
+action hidden 98816/401701
+action hidden 99328/401701
+action hidden 99840/401701
+action hidden 100352/401701
+action hidden 100864/401701
+action hidden 101376/401701
+action hidden 101888/401701
+action hidden 102400/401701
+action hidden 102912/401701
+action hidden 103424/401701
+action hidden 103936/401701
+action hidden 104448/401701
+action hidden 104960/401701
+action hidden 105472/401701
+action hidden 105984/401701
+action hidden 106496/401701
+action hidden 107008/401701
+action hidden 107520/401701
+action hidden 108032/401701
+action hidden 108544/401701
+action hidden 109056/401701
+action hidden 109568/401701
+action hidden 110080/401701
+action hidden 110592/401701
+action hidden 111104/401701
+action hidden 111616/401701
+action hidden 112128/401701
+action hidden 112640/401701
+action hidden 113152/401701
+action hidden 113664/401701
+action hidden 114176/401701
+action hidden 114688/401701
+action hidden 115200/401701
+action hidden 115712/401701
+action hidden 116224/401701
+action hidden 116736/401701
+action hidden 117248/401701
+action hidden 117760/401701
+action hidden 118272/401701
+action hidden 118784/401701
+action hidden 119296/401701
+action hidden 119808/401701
+action hidden 120320/401701
+action hidden 120832/401701
+action hidden 121344/401701
+action hidden 121856/401701
+action hidden 122368/401701
+action hidden 122880/401701
+action hidden 123392/401701
+action hidden 123904/401701
+action hidden 124416/401701
+action hidden 124928/401701
+action hidden 125440/401701
+action hidden 125952/401701
+action hidden 126464/401701
+action hidden 126976/401701
+action hidden 127488/401701
+action hidden 128000/401701
+action hidden 128512/401701
+action hidden 129024/401701
+action hidden 129536/401701
+action hidden 130048/401701
+action hidden 130560/401701
+action hidden 131072/401701
+action hidden 131584/401701
+action hidden 132096/401701
+action hidden 132608/401701
+action hidden 133120/401701
+action hidden 133632/401701
+action hidden 134144/401701
+action hidden 134656/401701
+action hidden 135168/401701
+action hidden 135680/401701
+action hidden 136192/401701
+action hidden 136704/401701
+action hidden 137216/401701
+action hidden 137728/401701
+action hidden 138240/401701
+action hidden 138752/401701
+action hidden 139264/401701
+action hidden 139776/401701
+action hidden 140288/401701
+action hidden 140800/401701
+action hidden 141312/401701
+action hidden 141824/401701
+action hidden 142336/401701
+action hidden 142848/401701
+action hidden 143360/401701
+action hidden 143872/401701
+action hidden 144384/401701
+action hidden 144896/401701
+action hidden 145408/401701
+action hidden 145920/401701
+action hidden 146432/401701
+action hidden 146944/401701
+action hidden 147456/401701
+action hidden 147968/401701
+action hidden 148480/401701
+action hidden 148992/401701
+action hidden 149504/401701
+action hidden 150016/401701
+action hidden 150528/401701
+action hidden 151040/401701
+action hidden 151552/401701
+action hidden 152064/401701
+action hidden 152576/401701
+action hidden 153088/401701
+action hidden 153600/401701
+action hidden 154112/401701
+action hidden 154624/401701
+action hidden 155136/401701
+action hidden 155648/401701
+action hidden 156160/401701
+action hidden 156672/401701
+action hidden 157184/401701
+action hidden 157696/401701
+action hidden 158208/401701
+action hidden 158720/401701
+action hidden 159232/401701
+action hidden 159744/401701
+action hidden 160256/401701
+action hidden 160768/401701
+action hidden 161280/401701
+action hidden 161792/401701
+action hidden 162304/401701
+action hidden 162816/401701
+action hidden 163328/401701
+action hidden 163840/401701
+action hidden 164352/401701
+action hidden 164864/401701
+action hidden 165376/401701
+action hidden 165888/401701
+action hidden 166400/401701
+action hidden 166912/401701
+action hidden 167424/401701
+action hidden 167936/401701
+action hidden 168448/401701
+action hidden 168960/401701
+action hidden 169472/401701
+action hidden 169984/401701
+action hidden 170496/401701
+action hidden 171008/401701
+action hidden 171520/401701
+action hidden 172032/401701
+action hidden 172544/401701
+action hidden 173056/401701
+action hidden 173568/401701
+action hidden 174080/401701
+action hidden 174592/401701
+action hidden 175104/401701
+action hidden 175616/401701
+action hidden 176128/401701
+action hidden 176640/401701
+action hidden 177152/401701
+action hidden 177664/401701
+action hidden 178176/401701
+action hidden 178688/401701
+action hidden 179200/401701
+action hidden 179712/401701
+action hidden 180224/401701
+action hidden 180736/401701
+action hidden 181248/401701
+action hidden 181760/401701
+action hidden 182272/401701
+action hidden 182784/401701
+action hidden 183296/401701
+action hidden 183808/401701
+action hidden 184320/401701
+action hidden 184832/401701
+action hidden 185344/401701
+action hidden 185856/401701
+action hidden 186368/401701
+action hidden 186880/401701
+action hidden 187392/401701
+action hidden 187904/401701
+action hidden 188416/401701
+action hidden 188928/401701
+action hidden 189440/401701
+action hidden 189952/401701
+action hidden 190464/401701
+action hidden 190976/401701
+action hidden 191488/401701
+action hidden 192000/401701
+action hidden 192512/401701
+action hidden 193024/401701
+action hidden 193536/401701
+action hidden 194048/401701
+action hidden 194560/401701
+action hidden 195072/401701
+action hidden 195584/401701
+action hidden 196096/401701
+action hidden 196608/401701
+action hidden 197120/401701
+action hidden 197632/401701
+action hidden 198144/401701
+action hidden 198656/401701
+action hidden 199168/401701
+action hidden 199680/401701
+action hidden 200192/401701
+action hidden 200704/401701
+action hidden 201216/401701
+action hidden 201728/401701
+action hidden 202240/401701
+action hidden 202752/401701
+action hidden 203264/401701
+action hidden 203776/401701
+action hidden 204288/401701
+action hidden 204800/401701
+action hidden 205312/401701
+action hidden 205824/401701
+action hidden 206336/401701
+action hidden 206848/401701
+action hidden 207360/401701
+action hidden 207872/401701
+action hidden 208384/401701
+action hidden 208896/401701
+action hidden 209408/401701
+action hidden 209920/401701
+action hidden 210432/401701
+action hidden 210944/401701
+action hidden 211456/401701
+action hidden 211968/401701
+action hidden 212480/401701
+action hidden 212992/401701
+action hidden 213504/401701
+action hidden 214016/401701
+action hidden 214528/401701
+action hidden 215040/401701
+action hidden 215552/401701
+action hidden 216064/401701
+action hidden 216576/401701
+action hidden 217088/401701
+action hidden 217600/401701
+action hidden 218112/401701
+action hidden 218624/401701
+action hidden 219136/401701
+action hidden 219648/401701
+action hidden 220160/401701
+action hidden 220672/401701
+action hidden 221184/401701
+action hidden 221696/401701
+action hidden 222208/401701
+action hidden 222720/401701
+action hidden 223232/401701
+action hidden 223744/401701
+action hidden 224256/401701
+action hidden 224768/401701
+action hidden 225280/401701
+action hidden 225792/401701
+action hidden 226304/401701
+action hidden 226816/401701
+action hidden 227328/401701
+action hidden 227840/401701
+action hidden 228352/401701
+action hidden 228864/401701
+action hidden 229376/401701
+action hidden 229888/401701
+action hidden 230400/401701
+action hidden 230912/401701
+action hidden 231424/401701
+action hidden 231936/401701
+action hidden 232448/401701
+action hidden 232960/401701
+action hidden 233472/401701
+action hidden 233984/401701
+action hidden 234496/401701
+action hidden 235008/401701
+action hidden 235520/401701
+action hidden 236032/401701
+action hidden 236544/401701
+action hidden 237056/401701
+action hidden 237568/401701
+action hidden 238080/401701
+action hidden 238592/401701
+action hidden 239104/401701
+action hidden 239616/401701
+action hidden 240128/401701
+action hidden 240640/401701
+action hidden 241152/401701
+action hidden 241664/401701
+action hidden 242176/401701
+action hidden 242688/401701
+action hidden 243200/401701
+action hidden 243712/401701
+action hidden 244224/401701
+action hidden 244736/401701
+action hidden 245248/401701
+action hidden 245760/401701
+action hidden 246272/401701
+action hidden 246784/401701
+action hidden 247296/401701
+action hidden 247808/401701
+action hidden 248320/401701
+action hidden 248832/401701
+action hidden 249344/401701
+action hidden 249856/401701
+action hidden 250368/401701
+action hidden 250880/401701
+action hidden 251392/401701
+action hidden 251904/401701
+action hidden 252416/401701
+action hidden 252928/401701
+action hidden 253440/401701
+action hidden 253952/401701
+action hidden 254464/401701
+action hidden 254976/401701
+action hidden 255488/401701
+action hidden 256000/401701
+action hidden 256512/401701
+action hidden 257024/401701
+action hidden 257536/401701
+action hidden 258048/401701
+action hidden 258560/401701
+action hidden 259072/401701
+action hidden 259584/401701
+action hidden 260096/401701
+action hidden 260608/401701
+action hidden 261120/401701
+action hidden 261632/401701
+action hidden 262144/401701
+action hidden 262656/401701
+action hidden 263168/401701
+action hidden 263680/401701
+action hidden 264192/401701
+action hidden 264704/401701
+action hidden 265216/401701
+action hidden 265728/401701
+action hidden 266240/401701
+action hidden 266752/401701
+action hidden 267264/401701
+action hidden 267776/401701
+action hidden 268288/401701
+action hidden 268800/401701
+action hidden 269312/401701
+action hidden 269824/401701
+action hidden 270336/401701
+action hidden 270848/401701
+action hidden 271360/401701
+action hidden 271872/401701
+action hidden 272384/401701
+action hidden 272896/401701
+action hidden 273408/401701
+action hidden 273920/401701
+action hidden 274432/401701
+action hidden 274944/401701
+action hidden 275456/401701
+action hidden 275968/401701
+action hidden 276480/401701
+action hidden 276992/401701
+action hidden 277504/401701
+action hidden 278016/401701
+action hidden 278528/401701
+action hidden 279040/401701
+action hidden 279552/401701
+action hidden 280064/401701
+action hidden 280576/401701
+action hidden 281088/401701
+action hidden 281600/401701
+action hidden 282112/401701
+action hidden 282624/401701
+action hidden 283136/401701
+action hidden 283648/401701
+action hidden 284160/401701
+action hidden 284672/401701
+action hidden 285184/401701
+action hidden 285696/401701
+action hidden 286208/401701
+action hidden 286720/401701
+action hidden 287232/401701
+action hidden 287744/401701
+action hidden 288256/401701
+action hidden 288768/401701
+action hidden 289280/401701
+action hidden 289792/401701
+action hidden 290304/401701
+action hidden 290816/401701
+action hidden 291328/401701
+action hidden 291840/401701
+action hidden 292352/401701
+action hidden 292864/401701
+action hidden 293376/401701
+action hidden 293888/401701
+action hidden 294400/401701
+action hidden 294912/401701
+action hidden 295424/401701
+action hidden 295936/401701
+action hidden 296448/401701
+action hidden 296960/401701
+action hidden 297472/401701
+action hidden 297984/401701
+action hidden 298496/401701
+action hidden 299008/401701
+action hidden 299520/401701
+action hidden 300032/401701
+action hidden 300544/401701
+action hidden 301056/401701
+action hidden 301568/401701
+action hidden 302080/401701
+action hidden 302592/401701
+action hidden 303104/401701
+action hidden 303616/401701
+action hidden 304128/401701
+action hidden 304640/401701
+action hidden 305152/401701
+action hidden 305664/401701
+action hidden 306176/401701
+action hidden 306688/401701
+action hidden 307200/401701
+action hidden 307712/401701
+action hidden 308224/401701
+action hidden 308736/401701
+action hidden 309248/401701
+action hidden 309760/401701
+action hidden 310272/401701
+action hidden 310784/401701
+action hidden 311296/401701
+action hidden 311808/401701
+action hidden 312320/401701
+action hidden 312832/401701
+action hidden 313344/401701
+action hidden 313856/401701
+action hidden 314368/401701
+action hidden 314880/401701
+action hidden 315392/401701
+action hidden 315904/401701
+action hidden 316416/401701
+action hidden 316928/401701
+action hidden 317440/401701
+action hidden 317952/401701
+action hidden 318464/401701
+action hidden 318976/401701
+action hidden 319488/401701
+action hidden 320000/401701
+action hidden 320512/401701
+action hidden 321024/401701
+action hidden 321536/401701
+action hidden 322048/401701
+action hidden 322560/401701
+action hidden 323072/401701
+action hidden 323584/401701
+action hidden 324096/401701
+action hidden 324608/401701
+action hidden 325120/401701
+action hidden 325632/401701
+action hidden 326144/401701
+action hidden 326656/401701
+action hidden 327168/401701
+action hidden 327680/401701
+action hidden 328192/401701
+action hidden 328704/401701
+action hidden 329216/401701
+action hidden 329728/401701
+action hidden 330240/401701
+action hidden 330752/401701
+action hidden 331264/401701
+action hidden 331776/401701
+action hidden 332288/401701
+action hidden 332800/401701
+action hidden 333312/401701
+action hidden 333824/401701
+action hidden 334336/401701
+action hidden 334848/401701
+action hidden 335360/401701
+action hidden 335872/401701
+action hidden 336384/401701
+action hidden 336896/401701
+action hidden 337408/401701
+action hidden 337920/401701
+action hidden 338432/401701
+action hidden 338944/401701
+action hidden 339456/401701
+action hidden 339968/401701
+action hidden 340480/401701
+action hidden 340992/401701
+action hidden 341504/401701
+action hidden 342016/401701
+action hidden 342528/401701
+action hidden 343040/401701
+action hidden 343552/401701
+action hidden 344064/401701
+action hidden 344576/401701
+action hidden 345088/401701
+action hidden 345600/401701
+action hidden 346112/401701
+action hidden 346624/401701
+action hidden 347136/401701
+action hidden 347648/401701
+action hidden 348160/401701
+action hidden 348672/401701
+action hidden 349184/401701
+action hidden 349696/401701
+action hidden 350208/401701
+action hidden 350720/401701
+action hidden 351232/401701
+action hidden 351744/401701
+action hidden 352256/401701
+action hidden 352768/401701
+action hidden 353280/401701
+action hidden 353792/401701
+action hidden 354304/401701
+action hidden 354816/401701
+action hidden 355328/401701
+action hidden 355840/401701
+action hidden 356352/401701
+action hidden 356864/401701
+action hidden 357376/401701
+action hidden 357888/401701
+action hidden 358400/401701
+action hidden 358912/401701
+action hidden 359424/401701
+action hidden 359936/401701
+action hidden 360448/401701
+action hidden 360960/401701
+action hidden 361472/401701
+action hidden 361984/401701
+action hidden 362496/401701
+action hidden 363008/401701
+action hidden 363520/401701
+action hidden 364032/401701
+action hidden 364544/401701
+action hidden 365056/401701
+action hidden 365568/401701
+action hidden 366080/401701
+action hidden 366592/401701
+action hidden 367104/401701
+action hidden 367616/401701
+action hidden 368128/401701
+action hidden 368640/401701
+action hidden 369152/401701
+action hidden 369664/401701
+action hidden 370176/401701
+action hidden 370688/401701
+action hidden 371200/401701
+action hidden 371712/401701
+action hidden 372224/401701
+action hidden 372736/401701
+action hidden 373248/401701
+action hidden 373760/401701
+action hidden 374272/401701
+action hidden 374784/401701
+action hidden 375296/401701
+action hidden 375808/401701
+action hidden 376320/401701
+action hidden 376832/401701
+action hidden 377344/401701
+action hidden 377856/401701
+action hidden 378368/401701
+action hidden 378880/401701
+action hidden 379392/401701
+action hidden 379904/401701
+action hidden 380416/401701
+action hidden 380928/401701
+action hidden 381440/401701
+action hidden 381952/401701
+action hidden 382464/401701
+action hidden 382976/401701
+action hidden 383488/401701
+action hidden 384000/401701
+action hidden 384512/401701
+action hidden 385024/401701
+action hidden 385536/401701
+action hidden 386048/401701
+action hidden 386560/401701
+action hidden 387072/401701
+action hidden 387584/401701
+action hidden 388096/401701
+action hidden 388608/401701
+action hidden 389120/401701
+action hidden 389632/401701
+action hidden 390144/401701
+action hidden 390656/401701
+action hidden 391168/401701
+action hidden 391680/401701
+action hidden 392192/401701
+action hidden 392704/401701
+action hidden 393216/401701
+action hidden 393728/401701
+action hidden 394240/401701
+action hidden 394752/401701
+action hidden 395264/401701
+action hidden 395776/401701
+action hidden 396288/401701
+action hidden 396800/401701
+action hidden 397312/401701
+action hidden 397824/401701
+action hidden 398336/401701
+action hidden 398848/401701
+action hidden 399360/401701
+action hidden 399872/401701
+action hidden 400384/401701
+action hidden 400896/401701
+action hidden 401408/401701
+action hidden 401701/401701
+correct hidden 512/185688, elapsed=177.6s
+correct hidden 1024/185688, elapsed=178.6s
+correct hidden 1536/185688, elapsed=179.6s
+correct hidden 2048/185688, elapsed=180.7s
+correct hidden 2560/185688, elapsed=181.7s
+correct hidden 3072/185688, elapsed=182.7s
+correct hidden 3584/185688, elapsed=183.8s
+correct hidden 4096/185688, elapsed=184.8s
+correct hidden 4608/185688, elapsed=185.8s
+correct hidden 5120/185688, elapsed=186.7s
+correct hidden 5632/185688, elapsed=187.7s
+correct hidden 6144/185688, elapsed=188.7s
+correct hidden 6656/185688, elapsed=189.7s
+correct hidden 7168/185688, elapsed=190.7s
+correct hidden 7680/185688, elapsed=191.7s
+correct hidden 8192/185688, elapsed=192.7s
+correct hidden 8704/185688, elapsed=193.6s
+correct hidden 9216/185688, elapsed=194.6s
+correct hidden 9728/185688, elapsed=195.5s
+correct hidden 10240/185688, elapsed=196.4s
+correct hidden 10752/185688, elapsed=197.3s
+correct hidden 11264/185688, elapsed=198.3s
+correct hidden 11776/185688, elapsed=199.2s
+correct hidden 12288/185688, elapsed=200.1s
+correct hidden 12800/185688, elapsed=201.1s
+correct hidden 13312/185688, elapsed=202.0s
+correct hidden 13824/185688, elapsed=202.9s
+correct hidden 14336/185688, elapsed=203.8s
+correct hidden 14848/185688, elapsed=204.8s
+correct hidden 15360/185688, elapsed=205.6s
+correct hidden 15872/185688, elapsed=206.5s
+correct hidden 16384/185688, elapsed=206.9s
+correct hidden 16896/185688, elapsed=207.3s
+correct hidden 17408/185688, elapsed=207.7s
+correct hidden 17920/185688, elapsed=208.1s
+correct hidden 18432/185688, elapsed=208.4s
+correct hidden 18944/185688, elapsed=208.8s
+correct hidden 19456/185688, elapsed=209.2s
+correct hidden 19968/185688, elapsed=209.6s
+correct hidden 20480/185688, elapsed=209.9s
+correct hidden 20992/185688, elapsed=210.3s
+correct hidden 21504/185688, elapsed=210.6s
+correct hidden 22016/185688, elapsed=210.9s
+correct hidden 22528/185688, elapsed=211.3s
+correct hidden 23040/185688, elapsed=211.7s
+correct hidden 23552/185688, elapsed=212.1s
+correct hidden 24064/185688, elapsed=212.4s
+correct hidden 24576/185688, elapsed=212.8s
+correct hidden 25088/185688, elapsed=213.1s
+correct hidden 25600/185688, elapsed=213.5s
+correct hidden 26112/185688, elapsed=214.0s
+correct hidden 26624/185688, elapsed=214.6s
+correct hidden 27136/185688, elapsed=215.0s
+correct hidden 27648/185688, elapsed=215.5s
+correct hidden 28160/185688, elapsed=215.9s
+correct hidden 28672/185688, elapsed=216.4s
+correct hidden 29184/185688, elapsed=216.8s
+correct hidden 29696/185688, elapsed=217.2s
+correct hidden 30208/185688, elapsed=217.7s
+correct hidden 30720/185688, elapsed=218.1s
+correct hidden 31232/185688, elapsed=218.5s
+correct hidden 31744/185688, elapsed=218.9s
+correct hidden 32256/185688, elapsed=219.3s
+correct hidden 32768/185688, elapsed=219.7s
+correct hidden 33280/185688, elapsed=220.1s
+correct hidden 33792/185688, elapsed=220.5s
+correct hidden 34304/185688, elapsed=220.9s
+correct hidden 34816/185688, elapsed=221.3s
+correct hidden 35328/185688, elapsed=221.7s
+correct hidden 35840/185688, elapsed=222.1s
+correct hidden 36352/185688, elapsed=222.5s
+correct hidden 36864/185688, elapsed=222.9s
+correct hidden 37376/185688, elapsed=223.2s
+correct hidden 37888/185688, elapsed=223.6s
+correct hidden 38400/185688, elapsed=224.0s
+correct hidden 38912/185688, elapsed=224.3s
+correct hidden 39424/185688, elapsed=224.7s
+correct hidden 39936/185688, elapsed=225.0s
+correct hidden 40448/185688, elapsed=225.4s
+correct hidden 40960/185688, elapsed=225.8s
+correct hidden 41472/185688, elapsed=226.2s
+correct hidden 41984/185688, elapsed=226.5s
+correct hidden 42496/185688, elapsed=226.9s
+correct hidden 43008/185688, elapsed=227.2s
+correct hidden 43520/185688, elapsed=227.6s
+correct hidden 44032/185688, elapsed=228.0s
+correct hidden 44544/185688, elapsed=228.3s
+correct hidden 45056/185688, elapsed=228.7s
+correct hidden 45568/185688, elapsed=229.1s
+correct hidden 46080/185688, elapsed=229.4s
+correct hidden 46592/185688, elapsed=229.8s
+correct hidden 47104/185688, elapsed=230.1s
+correct hidden 47616/185688, elapsed=230.4s
+correct hidden 48128/185688, elapsed=230.7s
+correct hidden 48640/185688, elapsed=231.0s
+correct hidden 49152/185688, elapsed=231.3s
+correct hidden 49664/185688, elapsed=231.6s
+correct hidden 50176/185688, elapsed=231.9s
+correct hidden 50688/185688, elapsed=232.2s
+correct hidden 51200/185688, elapsed=232.5s
+correct hidden 51712/185688, elapsed=232.7s
+correct hidden 52224/185688, elapsed=233.0s
+correct hidden 52736/185688, elapsed=233.2s
+correct hidden 53248/185688, elapsed=233.6s
+correct hidden 53760/185688, elapsed=233.8s
+correct hidden 54272/185688, elapsed=234.2s
+correct hidden 54784/185688, elapsed=234.5s
+correct hidden 55296/185688, elapsed=234.9s
+correct hidden 55808/185688, elapsed=235.3s
+correct hidden 56320/185688, elapsed=235.7s
+correct hidden 56832/185688, elapsed=236.0s
+correct hidden 57344/185688, elapsed=236.3s
+correct hidden 57856/185688, elapsed=236.7s
+correct hidden 58368/185688, elapsed=237.0s
+correct hidden 58880/185688, elapsed=237.3s
+correct hidden 59392/185688, elapsed=237.7s
+correct hidden 59904/185688, elapsed=238.1s
+correct hidden 60416/185688, elapsed=238.5s
+correct hidden 60928/185688, elapsed=239.2s
+correct hidden 61440/185688, elapsed=239.9s
+correct hidden 61952/185688, elapsed=240.4s
+correct hidden 62464/185688, elapsed=240.8s
+correct hidden 62976/185688, elapsed=241.3s
+correct hidden 63488/185688, elapsed=241.7s
+correct hidden 64000/185688, elapsed=242.1s
+correct hidden 64512/185688, elapsed=242.7s
+correct hidden 65024/185688, elapsed=243.8s
+correct hidden 65536/185688, elapsed=244.9s
+correct hidden 66048/185688, elapsed=246.0s
+correct hidden 66560/185688, elapsed=247.1s
+correct hidden 67072/185688, elapsed=248.3s
+correct hidden 67584/185688, elapsed=249.4s
+correct hidden 68096/185688, elapsed=250.5s
+correct hidden 68608/185688, elapsed=251.6s
+correct hidden 69120/185688, elapsed=252.7s
+correct hidden 69632/185688, elapsed=253.8s
+correct hidden 70144/185688, elapsed=254.9s
+correct hidden 70656/185688, elapsed=256.4s
+correct hidden 71168/185688, elapsed=257.9s
+correct hidden 71680/185688, elapsed=259.4s
+correct hidden 72192/185688, elapsed=260.8s
+correct hidden 72704/185688, elapsed=262.3s
+correct hidden 73216/185688, elapsed=263.8s
+correct hidden 73728/185688, elapsed=265.3s
+correct hidden 74240/185688, elapsed=266.9s
+correct hidden 74752/185688, elapsed=268.3s
+correct hidden 75264/185688, elapsed=269.7s
+correct hidden 75776/185688, elapsed=271.1s
+correct hidden 76288/185688, elapsed=272.5s
+correct hidden 76800/185688, elapsed=274.0s
+correct hidden 77312/185688, elapsed=275.4s
+correct hidden 77824/185688, elapsed=276.8s
+correct hidden 78336/185688, elapsed=278.3s
+correct hidden 78848/185688, elapsed=279.7s
+correct hidden 79360/185688, elapsed=281.2s
+correct hidden 79872/185688, elapsed=282.7s
+correct hidden 80384/185688, elapsed=284.1s
+correct hidden 80896/185688, elapsed=285.6s
+correct hidden 81408/185688, elapsed=287.0s
+correct hidden 81920/185688, elapsed=288.5s
+correct hidden 82432/185688, elapsed=290.0s
+correct hidden 82944/185688, elapsed=291.5s
+correct hidden 83456/185688, elapsed=293.0s
+correct hidden 83968/185688, elapsed=294.4s
+correct hidden 84480/185688, elapsed=295.9s
+correct hidden 84992/185688, elapsed=297.3s
+correct hidden 85504/185688, elapsed=298.7s
+correct hidden 86016/185688, elapsed=300.2s
+correct hidden 86528/185688, elapsed=301.7s
+correct hidden 87040/185688, elapsed=303.2s
+correct hidden 87552/185688, elapsed=304.7s
+correct hidden 88064/185688, elapsed=306.2s
+correct hidden 88576/185688, elapsed=307.6s
+correct hidden 89088/185688, elapsed=309.1s
+correct hidden 89600/185688, elapsed=310.5s
+correct hidden 90112/185688, elapsed=311.9s
+correct hidden 90624/185688, elapsed=313.4s
+correct hidden 91136/185688, elapsed=314.7s
+correct hidden 91648/185688, elapsed=316.0s
+correct hidden 92160/185688, elapsed=317.5s
+correct hidden 92672/185688, elapsed=318.8s
+correct hidden 93184/185688, elapsed=320.2s
+correct hidden 93696/185688, elapsed=321.6s
+correct hidden 94208/185688, elapsed=323.0s
+correct hidden 94720/185688, elapsed=324.4s
+correct hidden 95232/185688, elapsed=325.7s
+correct hidden 95744/185688, elapsed=327.2s
+correct hidden 96256/185688, elapsed=328.7s
+correct hidden 96768/185688, elapsed=330.0s
+correct hidden 97280/185688, elapsed=331.3s
+correct hidden 97792/185688, elapsed=332.7s
+correct hidden 98304/185688, elapsed=334.0s
+correct hidden 98816/185688, elapsed=335.5s
+correct hidden 99328/185688, elapsed=337.0s
+correct hidden 99840/185688, elapsed=338.5s
+correct hidden 100352/185688, elapsed=339.9s
+correct hidden 100864/185688, elapsed=341.3s
+correct hidden 101376/185688, elapsed=342.7s
+correct hidden 101888/185688, elapsed=344.0s
+correct hidden 102400/185688, elapsed=345.3s
+correct hidden 102912/185688, elapsed=346.6s
+correct hidden 103424/185688, elapsed=348.0s
+correct hidden 103936/185688, elapsed=349.4s
+correct hidden 104448/185688, elapsed=350.7s
+correct hidden 104960/185688, elapsed=352.0s
+correct hidden 105472/185688, elapsed=353.4s
+correct hidden 105984/185688, elapsed=354.8s
+correct hidden 106496/185688, elapsed=356.2s
+correct hidden 107008/185688, elapsed=357.5s
+correct hidden 107520/185688, elapsed=358.9s
+correct hidden 108032/185688, elapsed=360.3s
+correct hidden 108544/185688, elapsed=361.8s
+correct hidden 109056/185688, elapsed=363.2s
+correct hidden 109568/185688, elapsed=364.6s
+correct hidden 110080/185688, elapsed=366.0s
+correct hidden 110592/185688, elapsed=367.4s
+correct hidden 111104/185688, elapsed=368.9s
+correct hidden 111616/185688, elapsed=370.2s
+correct hidden 112128/185688, elapsed=371.7s
+correct hidden 112640/185688, elapsed=373.1s
+correct hidden 113152/185688, elapsed=374.6s
+correct hidden 113664/185688, elapsed=376.0s
+correct hidden 114176/185688, elapsed=377.5s
+correct hidden 114688/185688, elapsed=378.9s
+correct hidden 115200/185688, elapsed=380.3s
+correct hidden 115712/185688, elapsed=381.7s
+correct hidden 116224/185688, elapsed=383.2s
+correct hidden 116736/185688, elapsed=384.7s
+correct hidden 117248/185688, elapsed=386.1s
+correct hidden 117760/185688, elapsed=387.6s
+correct hidden 118272/185688, elapsed=389.0s
+correct hidden 118784/185688, elapsed=390.4s
+correct hidden 119296/185688, elapsed=391.8s
+correct hidden 119808/185688, elapsed=393.3s
+correct hidden 120320/185688, elapsed=394.8s
+correct hidden 120832/185688, elapsed=396.2s
+correct hidden 121344/185688, elapsed=397.7s
+correct hidden 121856/185688, elapsed=399.2s
+correct hidden 122368/185688, elapsed=400.6s
+correct hidden 122880/185688, elapsed=402.1s
+correct hidden 123392/185688, elapsed=403.6s
+correct hidden 123904/185688, elapsed=405.1s
+correct hidden 124416/185688, elapsed=406.5s
+correct hidden 124928/185688, elapsed=407.9s
+correct hidden 125440/185688, elapsed=409.3s
+correct hidden 125952/185688, elapsed=410.8s
+correct hidden 126464/185688, elapsed=412.1s
+correct hidden 126976/185688, elapsed=413.4s
+correct hidden 127488/185688, elapsed=414.7s
+correct hidden 128000/185688, elapsed=416.0s
+correct hidden 128512/185688, elapsed=417.3s
+correct hidden 129024/185688, elapsed=418.7s
+correct hidden 129536/185688, elapsed=420.2s
+correct hidden 130048/185688, elapsed=421.5s
+correct hidden 130560/185688, elapsed=422.9s
+correct hidden 131072/185688, elapsed=424.2s
+correct hidden 131584/185688, elapsed=425.6s
+correct hidden 132096/185688, elapsed=426.9s
+correct hidden 132608/185688, elapsed=428.2s
+correct hidden 133120/185688, elapsed=429.5s
+correct hidden 133632/185688, elapsed=430.9s
+correct hidden 134144/185688, elapsed=432.2s
+correct hidden 134656/185688, elapsed=433.5s
+correct hidden 135168/185688, elapsed=434.9s
+correct hidden 135680/185688, elapsed=436.2s
+correct hidden 136192/185688, elapsed=437.5s
+correct hidden 136704/185688, elapsed=438.8s
+correct hidden 137216/185688, elapsed=440.0s
+correct hidden 137728/185688, elapsed=441.3s
+correct hidden 138240/185688, elapsed=442.8s
+correct hidden 138752/185688, elapsed=444.1s
+correct hidden 139264/185688, elapsed=445.3s
+correct hidden 139776/185688, elapsed=446.6s
+correct hidden 140288/185688, elapsed=447.9s
+correct hidden 140800/185688, elapsed=449.2s
+correct hidden 141312/185688, elapsed=450.5s
+correct hidden 141824/185688, elapsed=451.8s
+correct hidden 142336/185688, elapsed=453.1s
+correct hidden 142848/185688, elapsed=454.5s
+correct hidden 143360/185688, elapsed=455.7s
+correct hidden 143872/185688, elapsed=457.1s
+correct hidden 144384/185688, elapsed=458.4s
+correct hidden 144896/185688, elapsed=459.7s
+correct hidden 145408/185688, elapsed=461.1s
+correct hidden 145920/185688, elapsed=462.5s
+correct hidden 146432/185688, elapsed=463.8s
+correct hidden 146944/185688, elapsed=465.2s
+correct hidden 147456/185688, elapsed=466.7s
+correct hidden 147968/185688, elapsed=468.1s
+correct hidden 148480/185688, elapsed=469.5s
+correct hidden 148992/185688, elapsed=470.8s
+correct hidden 149504/185688, elapsed=472.1s
+correct hidden 150016/185688, elapsed=475.4s
+correct hidden 150528/185688, elapsed=511.5s
+correct hidden 151040/185688, elapsed=545.6s
+correct hidden 151552/185688, elapsed=580.5s
+correct hidden 152064/185688, elapsed=615.4s
+correct hidden 152576/185688, elapsed=649.6s
+correct hidden 153088/185688, elapsed=685.5s
+correct hidden 153600/185688, elapsed=719.8s
+correct hidden 154112/185688, elapsed=754.3s
+correct hidden 154624/185688, elapsed=789.0s
+correct hidden 155136/185688, elapsed=823.6s
+correct hidden 155648/185688, elapsed=858.8s
+correct hidden 156160/185688, elapsed=893.7s
+correct hidden 156672/185688, elapsed=928.4s
+correct hidden 157184/185688, elapsed=963.1s
+correct hidden 157696/185688, elapsed=998.4s
+correct hidden 158208/185688, elapsed=1032.5s
+correct hidden 158720/185688, elapsed=1067.9s
+correct hidden 159232/185688, elapsed=1102.9s
+correct hidden 159744/185688, elapsed=1136.9s
+correct hidden 160256/185688, elapsed=1171.1s
+correct hidden 160768/185688, elapsed=1205.4s
+correct hidden 161280/185688, elapsed=1240.5s
+correct hidden 161792/185688, elapsed=1275.5s
+correct hidden 162304/185688, elapsed=1310.7s
+correct hidden 162816/185688, elapsed=1345.8s
+correct hidden 163328/185688, elapsed=1380.7s
+correct hidden 163840/185688, elapsed=1416.0s
+correct hidden 164352/185688, elapsed=1450.9s
+correct hidden 164864/185688, elapsed=1486.2s
+correct hidden 165376/185688, elapsed=1521.1s
+correct hidden 165888/185688, elapsed=1556.3s
+correct hidden 166400/185688, elapsed=1591.3s
+correct hidden 166912/185688, elapsed=1625.7s
+correct hidden 167424/185688, elapsed=1661.3s
+correct hidden 167936/185688, elapsed=1696.3s
+correct hidden 168448/185688, elapsed=1731.6s
+correct hidden 168960/185688, elapsed=1765.9s
+correct hidden 169472/185688, elapsed=1801.6s
+correct hidden 169984/185688, elapsed=1836.3s
+correct hidden 170496/185688, elapsed=1870.8s
+correct hidden 171008/185688, elapsed=1905.0s
+correct hidden 171520/185688, elapsed=1939.2s
+correct hidden 172032/185688, elapsed=1974.2s
+correct hidden 172544/185688, elapsed=2009.2s
+correct hidden 173056/185688, elapsed=2044.2s
+correct hidden 173568/185688, elapsed=2079.3s
+correct hidden 174080/185688, elapsed=2114.3s
+correct hidden 174592/185688, elapsed=2149.4s
+correct hidden 175104/185688, elapsed=2184.0s
+correct hidden 175616/185688, elapsed=2218.4s
+correct hidden 176128/185688, elapsed=2253.1s
+correct hidden 176640/185688, elapsed=2288.1s
+correct hidden 177152/185688, elapsed=2323.0s
+correct hidden 177664/185688, elapsed=2357.6s
+correct hidden 178176/185688, elapsed=2392.3s
+correct hidden 178688/185688, elapsed=2427.5s
+correct hidden 179200/185688, elapsed=2462.6s
+correct hidden 179712/185688, elapsed=2498.6s
+correct hidden 180224/185688, elapsed=2534.4s
+correct hidden 180736/185688, elapsed=2569.1s
+correct hidden 181248/185688, elapsed=2604.1s
+correct hidden 181760/185688, elapsed=2627.9s
+correct hidden 182272/185688, elapsed=2629.1s
+correct hidden 182784/185688, elapsed=2630.2s
+correct hidden 183296/185688, elapsed=2631.2s
+correct hidden 183808/185688, elapsed=2632.8s
+correct hidden 184320/185688, elapsed=2635.8s
+correct hidden 184832/185688, elapsed=2638.6s
+correct hidden 185344/185688, elapsed=2641.2s
+correct hidden 185688/185688, elapsed=2643.0s
+random hidden 512/185688, elapsed=2643.0s
+random hidden 1024/185688, elapsed=2643.0s
+random hidden 1536/185688, elapsed=2643.0s
+random hidden 2048/185688, elapsed=2643.0s
+random hidden 2560/185688, elapsed=2643.0s
+random hidden 3072/185688, elapsed=2643.0s
+random hidden 3584/185688, elapsed=2643.0s
+random hidden 4096/185688, elapsed=2643.0s
+random hidden 4608/185688, elapsed=2643.0s
+random hidden 5120/185688, elapsed=2643.1s
+random hidden 5632/185688, elapsed=2643.1s
+random hidden 6144/185688, elapsed=2643.1s
+random hidden 6656/185688, elapsed=2643.1s
+random hidden 7168/185688, elapsed=2643.1s
+random hidden 7680/185688, elapsed=2643.1s
+random hidden 8192/185688, elapsed=2643.1s
+random hidden 8704/185688, elapsed=2643.1s
+random hidden 9216/185688, elapsed=2643.1s
+random hidden 9728/185688, elapsed=2643.1s
+random hidden 10240/185688, elapsed=2643.1s
+random hidden 10752/185688, elapsed=2643.1s
+random hidden 11264/185688, elapsed=2643.1s
+random hidden 11776/185688, elapsed=2643.1s
+random hidden 12288/185688, elapsed=2643.1s
+random hidden 12800/185688, elapsed=2643.1s
+random hidden 13312/185688, elapsed=2643.1s
+random hidden 13824/185688, elapsed=2643.1s
+random hidden 14336/185688, elapsed=2643.1s
+random hidden 14848/185688, elapsed=2643.1s
+random hidden 15360/185688, elapsed=2643.1s
+random hidden 15872/185688, elapsed=2643.1s
+random hidden 16384/185688, elapsed=2643.1s
+random hidden 16896/185688, elapsed=2643.1s
+random hidden 17408/185688, elapsed=2643.1s
+random hidden 17920/185688, elapsed=2643.1s
+random hidden 18432/185688, elapsed=2643.1s
+random hidden 18944/185688, elapsed=2643.1s
+random hidden 19456/185688, elapsed=2643.1s
+random hidden 19968/185688, elapsed=2643.1s
+random hidden 20480/185688, elapsed=2643.1s
+random hidden 20992/185688, elapsed=2643.1s
+random hidden 21504/185688, elapsed=2643.1s
+random hidden 22016/185688, elapsed=2643.1s
+random hidden 22528/185688, elapsed=2643.1s
+random hidden 23040/185688, elapsed=2643.1s
+random hidden 23552/185688, elapsed=2643.1s
+random hidden 24064/185688, elapsed=2643.1s
+random hidden 24576/185688, elapsed=2643.1s
+random hidden 25088/185688, elapsed=2643.1s
+random hidden 25600/185688, elapsed=2643.2s
+random hidden 26112/185688, elapsed=2643.2s
+random hidden 26624/185688, elapsed=2643.2s
+random hidden 27136/185688, elapsed=2643.2s
+random hidden 27648/185688, elapsed=2643.2s
+random hidden 28160/185688, elapsed=2643.2s
+random hidden 28672/185688, elapsed=2643.2s
+random hidden 29184/185688, elapsed=2643.2s
+random hidden 29696/185688, elapsed=2643.2s
+random hidden 30208/185688, elapsed=2643.2s
+random hidden 30720/185688, elapsed=2643.2s
+random hidden 31232/185688, elapsed=2643.2s
+random hidden 31744/185688, elapsed=2643.2s
+random hidden 32256/185688, elapsed=2643.2s
+random hidden 32768/185688, elapsed=2643.2s
+random hidden 33280/185688, elapsed=2643.2s
+random hidden 33792/185688, elapsed=2643.2s
+random hidden 34304/185688, elapsed=2643.2s
+random hidden 34816/185688, elapsed=2643.2s
+random hidden 35328/185688, elapsed=2643.2s
+random hidden 35840/185688, elapsed=2643.2s
+random hidden 36352/185688, elapsed=2643.2s
+random hidden 36864/185688, elapsed=2643.2s
+random hidden 37376/185688, elapsed=2643.2s
+random hidden 37888/185688, elapsed=2643.2s
+random hidden 38400/185688, elapsed=2643.2s
+random hidden 38912/185688, elapsed=2643.2s
+random hidden 39424/185688, elapsed=2643.2s
+random hidden 39936/185688, elapsed=2643.2s
+random hidden 40448/185688, elapsed=2643.2s
+random hidden 40960/185688, elapsed=2643.2s
+random hidden 41472/185688, elapsed=2643.2s
+random hidden 41984/185688, elapsed=2643.2s
+random hidden 42496/185688, elapsed=2643.2s
+random hidden 43008/185688, elapsed=2643.2s
+random hidden 43520/185688, elapsed=2643.2s
+random hidden 44032/185688, elapsed=2643.2s
+random hidden 44544/185688, elapsed=2643.2s
+random hidden 45056/185688, elapsed=2643.2s
+random hidden 45568/185688, elapsed=2643.2s
+random hidden 46080/185688, elapsed=2643.3s
+random hidden 46592/185688, elapsed=2643.3s
+random hidden 47104/185688, elapsed=2643.3s
+random hidden 47616/185688, elapsed=2643.3s
+random hidden 48128/185688, elapsed=2643.3s
+random hidden 48640/185688, elapsed=2643.3s
+random hidden 49152/185688, elapsed=2643.3s
+random hidden 49664/185688, elapsed=2643.3s
+random hidden 50176/185688, elapsed=2643.3s
+random hidden 50688/185688, elapsed=2643.3s
+random hidden 51200/185688, elapsed=2643.3s
+random hidden 51712/185688, elapsed=2643.3s
+random hidden 52224/185688, elapsed=2643.3s
+random hidden 52736/185688, elapsed=2643.3s
+random hidden 53248/185688, elapsed=2643.3s
+random hidden 53760/185688, elapsed=2643.3s
+random hidden 54272/185688, elapsed=2643.3s
+random hidden 54784/185688, elapsed=2643.3s
+random hidden 55296/185688, elapsed=2643.3s
+random hidden 55808/185688, elapsed=2643.3s
+random hidden 56320/185688, elapsed=2643.3s
+random hidden 56832/185688, elapsed=2643.3s
+random hidden 57344/185688, elapsed=2643.3s
+random hidden 57856/185688, elapsed=2643.3s
+random hidden 58368/185688, elapsed=2643.3s
+random hidden 58880/185688, elapsed=2643.3s
+random hidden 59392/185688, elapsed=2643.3s
+random hidden 59904/185688, elapsed=2643.3s
+random hidden 60416/185688, elapsed=2643.3s
+random hidden 60928/185688, elapsed=2643.3s
+random hidden 61440/185688, elapsed=2643.3s
+random hidden 61952/185688, elapsed=2643.3s
+random hidden 62464/185688, elapsed=2643.3s
+random hidden 62976/185688, elapsed=2643.3s
+random hidden 63488/185688, elapsed=2643.3s
+random hidden 64000/185688, elapsed=2643.3s
+random hidden 64512/185688, elapsed=2643.3s
+random hidden 65024/185688, elapsed=2643.3s
+random hidden 65536/185688, elapsed=2643.3s
+random hidden 66048/185688, elapsed=2643.3s
+random hidden 66560/185688, elapsed=2643.4s
+random hidden 67072/185688, elapsed=2643.4s
+random hidden 67584/185688, elapsed=2643.4s
+random hidden 68096/185688, elapsed=2643.4s
+random hidden 68608/185688, elapsed=2643.4s
+random hidden 69120/185688, elapsed=2643.4s
+random hidden 69632/185688, elapsed=2643.4s
+random hidden 70144/185688, elapsed=2643.4s
+random hidden 70656/185688, elapsed=2643.4s
+random hidden 71168/185688, elapsed=2643.4s
+random hidden 71680/185688, elapsed=2643.4s
+random hidden 72192/185688, elapsed=2643.4s
+random hidden 72704/185688, elapsed=2643.4s
+random hidden 73216/185688, elapsed=2643.4s
+random hidden 73728/185688, elapsed=2643.4s
+random hidden 74240/185688, elapsed=2643.4s
+random hidden 74752/185688, elapsed=2643.4s
+random hidden 75264/185688, elapsed=2643.4s
+random hidden 75776/185688, elapsed=2643.4s
+random hidden 76288/185688, elapsed=2643.4s
+random hidden 76800/185688, elapsed=2643.4s
+random hidden 77312/185688, elapsed=2643.4s
+random hidden 77824/185688, elapsed=2643.4s
+random hidden 78336/185688, elapsed=2643.4s
+random hidden 78848/185688, elapsed=2643.4s
+random hidden 79360/185688, elapsed=2643.4s
+random hidden 79872/185688, elapsed=2643.4s
+random hidden 80384/185688, elapsed=2643.4s
+random hidden 80896/185688, elapsed=2643.4s
+random hidden 81408/185688, elapsed=2643.4s
+random hidden 81920/185688, elapsed=2643.4s
+random hidden 82432/185688, elapsed=2643.4s
+random hidden 82944/185688, elapsed=2643.4s
+random hidden 83456/185688, elapsed=2643.4s
+random hidden 83968/185688, elapsed=2643.4s
+random hidden 84480/185688, elapsed=2643.4s
+random hidden 84992/185688, elapsed=2643.4s
+random hidden 85504/185688, elapsed=2643.4s
+random hidden 86016/185688, elapsed=2643.4s
+random hidden 86528/185688, elapsed=2643.4s
+random hidden 87040/185688, elapsed=2643.5s
+random hidden 87552/185688, elapsed=2643.5s
+random hidden 88064/185688, elapsed=2643.5s
+random hidden 88576/185688, elapsed=2643.5s
+random hidden 89088/185688, elapsed=2643.5s
+random hidden 89600/185688, elapsed=2643.5s
+random hidden 90112/185688, elapsed=2643.5s
+random hidden 90624/185688, elapsed=2643.5s
+random hidden 91136/185688, elapsed=2643.5s
+random hidden 91648/185688, elapsed=2643.5s
+random hidden 92160/185688, elapsed=2643.5s
+random hidden 92672/185688, elapsed=2643.5s
+random hidden 93184/185688, elapsed=2643.5s
+random hidden 93696/185688, elapsed=2643.5s
+random hidden 94208/185688, elapsed=2643.5s
+random hidden 94720/185688, elapsed=2643.5s
+random hidden 95232/185688, elapsed=2643.5s
+random hidden 95744/185688, elapsed=2643.5s
+random hidden 96256/185688, elapsed=2643.5s
+random hidden 96768/185688, elapsed=2643.5s
+random hidden 97280/185688, elapsed=2643.5s
+random hidden 97792/185688, elapsed=2643.5s
+random hidden 98304/185688, elapsed=2643.5s
+random hidden 98816/185688, elapsed=2643.5s
+random hidden 99328/185688, elapsed=2643.5s
+random hidden 99840/185688, elapsed=2643.5s
+random hidden 100352/185688, elapsed=2643.5s
+random hidden 100864/185688, elapsed=2643.5s
+random hidden 101376/185688, elapsed=2643.5s
+random hidden 101888/185688, elapsed=2643.5s
+random hidden 102400/185688, elapsed=2643.5s
+random hidden 102912/185688, elapsed=2643.5s
+random hidden 103424/185688, elapsed=2643.5s
+random hidden 103936/185688, elapsed=2643.5s
+random hidden 104448/185688, elapsed=2643.5s
+random hidden 104960/185688, elapsed=2643.5s
+random hidden 105472/185688, elapsed=2643.5s
+random hidden 105984/185688, elapsed=2643.5s
+random hidden 106496/185688, elapsed=2643.5s
+random hidden 107008/185688, elapsed=2643.6s
+random hidden 107520/185688, elapsed=2643.6s
+random hidden 108032/185688, elapsed=2643.6s
+random hidden 108544/185688, elapsed=2643.6s
+random hidden 109056/185688, elapsed=2643.6s
+random hidden 109568/185688, elapsed=2643.6s
+random hidden 110080/185688, elapsed=2643.6s
+random hidden 110592/185688, elapsed=2643.6s
+random hidden 111104/185688, elapsed=2643.6s
+random hidden 111616/185688, elapsed=2643.6s
+random hidden 112128/185688, elapsed=2643.6s
+random hidden 112640/185688, elapsed=2643.6s
+random hidden 113152/185688, elapsed=2643.6s
+random hidden 113664/185688, elapsed=2643.6s
+random hidden 114176/185688, elapsed=2643.6s
+random hidden 114688/185688, elapsed=2643.6s
+random hidden 115200/185688, elapsed=2643.6s
+random hidden 115712/185688, elapsed=2643.6s
+random hidden 116224/185688, elapsed=2643.6s
+random hidden 116736/185688, elapsed=2643.6s
+random hidden 117248/185688, elapsed=2643.6s
+random hidden 117760/185688, elapsed=2643.6s
+random hidden 118272/185688, elapsed=2643.6s
+random hidden 118784/185688, elapsed=2643.6s
+random hidden 119296/185688, elapsed=2643.6s
+random hidden 119808/185688, elapsed=2643.6s
+random hidden 120320/185688, elapsed=2643.6s
+random hidden 120832/185688, elapsed=2643.6s
+random hidden 121344/185688, elapsed=2643.6s
+random hidden 121856/185688, elapsed=2643.6s
+random hidden 122368/185688, elapsed=2643.6s
+random hidden 122880/185688, elapsed=2643.6s
+random hidden 123392/185688, elapsed=2643.6s
+random hidden 123904/185688, elapsed=2643.6s
+random hidden 124416/185688, elapsed=2643.6s
+random hidden 124928/185688, elapsed=2643.6s
+random hidden 125440/185688, elapsed=2643.6s
+random hidden 125952/185688, elapsed=2643.6s
+random hidden 126464/185688, elapsed=2643.6s
+random hidden 126976/185688, elapsed=2643.6s
+random hidden 127488/185688, elapsed=2643.7s
+random hidden 128000/185688, elapsed=2643.7s
+random hidden 128512/185688, elapsed=2643.7s
+random hidden 129024/185688, elapsed=2643.7s
+random hidden 129536/185688, elapsed=2643.7s
+random hidden 130048/185688, elapsed=2643.7s
+random hidden 130560/185688, elapsed=2643.7s
+random hidden 131072/185688, elapsed=2643.7s
+random hidden 131584/185688, elapsed=2643.7s
+random hidden 132096/185688, elapsed=2643.7s
+random hidden 132608/185688, elapsed=2643.7s
+random hidden 133120/185688, elapsed=2643.7s
+random hidden 133632/185688, elapsed=2643.7s
+random hidden 134144/185688, elapsed=2643.7s
+random hidden 134656/185688, elapsed=2643.7s
+random hidden 135168/185688, elapsed=2643.7s
+random hidden 135680/185688, elapsed=2643.7s
+random hidden 136192/185688, elapsed=2643.7s
+random hidden 136704/185688, elapsed=2643.7s
+random hidden 137216/185688, elapsed=2643.7s
+random hidden 137728/185688, elapsed=2643.7s
+random hidden 138240/185688, elapsed=2643.7s
+random hidden 138752/185688, elapsed=2643.7s
+random hidden 139264/185688, elapsed=2643.7s
+random hidden 139776/185688, elapsed=2643.7s
+random hidden 140288/185688, elapsed=2643.7s
+random hidden 140800/185688, elapsed=2643.7s
+random hidden 141312/185688, elapsed=2643.7s
+random hidden 141824/185688, elapsed=2643.7s
+random hidden 142336/185688, elapsed=2643.7s
+random hidden 142848/185688, elapsed=2643.7s
+random hidden 143360/185688, elapsed=2643.7s
+random hidden 143872/185688, elapsed=2643.7s
+random hidden 144384/185688, elapsed=2643.7s
+random hidden 144896/185688, elapsed=2643.7s
+random hidden 145408/185688, elapsed=2643.7s
+random hidden 145920/185688, elapsed=2643.7s
+random hidden 146432/185688, elapsed=2643.7s
+random hidden 146944/185688, elapsed=2643.7s
+random hidden 147456/185688, elapsed=2643.7s
+random hidden 147968/185688, elapsed=2643.7s
+random hidden 148480/185688, elapsed=2643.8s
+random hidden 148992/185688, elapsed=2643.8s
+random hidden 149504/185688, elapsed=2643.8s
+random hidden 150016/185688, elapsed=2643.8s
+random hidden 150528/185688, elapsed=2643.8s
+random hidden 151040/185688, elapsed=2643.8s
+random hidden 151552/185688, elapsed=2643.8s
+random hidden 152064/185688, elapsed=2643.8s
+random hidden 152576/185688, elapsed=2643.8s
+random hidden 153088/185688, elapsed=2643.8s
+random hidden 153600/185688, elapsed=2643.8s
+random hidden 154112/185688, elapsed=2643.8s
+random hidden 154624/185688, elapsed=2643.8s
+random hidden 155136/185688, elapsed=2643.8s
+random hidden 155648/185688, elapsed=2643.8s
+random hidden 156160/185688, elapsed=2643.8s
+random hidden 156672/185688, elapsed=2643.8s
+random hidden 157184/185688, elapsed=2643.8s
+random hidden 157696/185688, elapsed=2643.8s
+random hidden 158208/185688, elapsed=2643.8s
+random hidden 158720/185688, elapsed=2643.8s
+random hidden 159232/185688, elapsed=2643.8s
+random hidden 159744/185688, elapsed=2643.8s
+random hidden 160256/185688, elapsed=2643.8s
+random hidden 160768/185688, elapsed=2643.8s
+random hidden 161280/185688, elapsed=2643.8s
+random hidden 161792/185688, elapsed=2643.8s
+random hidden 162304/185688, elapsed=2643.8s
+random hidden 162816/185688, elapsed=2643.8s
+random hidden 163328/185688, elapsed=2643.8s
+random hidden 163840/185688, elapsed=2643.8s
+random hidden 164352/185688, elapsed=2643.8s
+random hidden 164864/185688, elapsed=2643.8s
+random hidden 165376/185688, elapsed=2643.8s
+random hidden 165888/185688, elapsed=2643.8s
+random hidden 166400/185688, elapsed=2643.8s
+random hidden 166912/185688, elapsed=2643.8s
+random hidden 167424/185688, elapsed=2643.8s
+random hidden 167936/185688, elapsed=2643.8s
+random hidden 168448/185688, elapsed=2643.8s
+random hidden 168960/185688, elapsed=2643.9s
+random hidden 169472/185688, elapsed=2643.9s
+random hidden 169984/185688, elapsed=2643.9s
+random hidden 170496/185688, elapsed=2643.9s
+random hidden 171008/185688, elapsed=2643.9s
+random hidden 171520/185688, elapsed=2643.9s
+random hidden 172032/185688, elapsed=2643.9s
+random hidden 172544/185688, elapsed=2643.9s
+random hidden 173056/185688, elapsed=2643.9s
+random hidden 173568/185688, elapsed=2643.9s
+random hidden 174080/185688, elapsed=2643.9s
+random hidden 174592/185688, elapsed=2643.9s
+random hidden 175104/185688, elapsed=2643.9s
+random hidden 175616/185688, elapsed=2643.9s
+random hidden 176128/185688, elapsed=2643.9s
+random hidden 176640/185688, elapsed=2643.9s
+random hidden 177152/185688, elapsed=2643.9s
+random hidden 177664/185688, elapsed=2643.9s
+random hidden 178176/185688, elapsed=2643.9s
+random hidden 178688/185688, elapsed=2643.9s
+random hidden 179200/185688, elapsed=2643.9s
+random hidden 179712/185688, elapsed=2643.9s
+random hidden 180224/185688, elapsed=2643.9s
+random hidden 180736/185688, elapsed=2643.9s
+random hidden 181248/185688, elapsed=2643.9s
+random hidden 181760/185688, elapsed=2643.9s
+random hidden 182272/185688, elapsed=2643.9s
+random hidden 182784/185688, elapsed=2643.9s
+random hidden 183296/185688, elapsed=2643.9s
+random hidden 183808/185688, elapsed=2643.9s
+random hidden 184320/185688, elapsed=2643.9s
+random hidden 184832/185688, elapsed=2643.9s
+random hidden 185344/185688, elapsed=2643.9s
+random hidden 185688/185688, elapsed=2643.9s
+silence hidden 512/185688, elapsed=2643.9s
+silence hidden 1024/185688, elapsed=2643.9s
+silence hidden 1536/185688, elapsed=2643.9s
+silence hidden 2048/185688, elapsed=2643.9s
+silence hidden 2560/185688, elapsed=2643.9s
+silence hidden 3072/185688, elapsed=2644.0s
+silence hidden 3584/185688, elapsed=2644.0s
+silence hidden 4096/185688, elapsed=2644.0s
+silence hidden 4608/185688, elapsed=2644.0s
+silence hidden 5120/185688, elapsed=2644.0s
+silence hidden 5632/185688, elapsed=2644.0s
+silence hidden 6144/185688, elapsed=2644.0s
+silence hidden 6656/185688, elapsed=2644.0s
+silence hidden 7168/185688, elapsed=2644.0s
+silence hidden 7680/185688, elapsed=2644.0s
+silence hidden 8192/185688, elapsed=2644.0s
+silence hidden 8704/185688, elapsed=2644.0s
+silence hidden 9216/185688, elapsed=2644.0s
+silence hidden 9728/185688, elapsed=2644.0s
+silence hidden 10240/185688, elapsed=2644.0s
+silence hidden 10752/185688, elapsed=2644.0s
+silence hidden 11264/185688, elapsed=2644.0s
+silence hidden 11776/185688, elapsed=2644.0s
+silence hidden 12288/185688, elapsed=2644.0s
+silence hidden 12800/185688, elapsed=2644.0s
+silence hidden 13312/185688, elapsed=2644.0s
+silence hidden 13824/185688, elapsed=2644.0s
+silence hidden 14336/185688, elapsed=2644.0s
+silence hidden 14848/185688, elapsed=2644.0s
+silence hidden 15360/185688, elapsed=2644.0s
+silence hidden 15872/185688, elapsed=2644.0s
+silence hidden 16384/185688, elapsed=2644.0s
+silence hidden 16896/185688, elapsed=2644.0s
+silence hidden 17408/185688, elapsed=2644.0s
+silence hidden 17920/185688, elapsed=2644.0s
+silence hidden 18432/185688, elapsed=2644.0s
+silence hidden 18944/185688, elapsed=2644.0s
+silence hidden 19456/185688, elapsed=2644.0s
+silence hidden 19968/185688, elapsed=2644.0s
+silence hidden 20480/185688, elapsed=2644.0s
+silence hidden 20992/185688, elapsed=2644.0s
+silence hidden 21504/185688, elapsed=2644.0s
+silence hidden 22016/185688, elapsed=2644.1s
+silence hidden 22528/185688, elapsed=2644.1s
+silence hidden 23040/185688, elapsed=2644.1s
+silence hidden 23552/185688, elapsed=2644.1s
+silence hidden 24064/185688, elapsed=2644.1s
+silence hidden 24576/185688, elapsed=2644.1s
+silence hidden 25088/185688, elapsed=2644.1s
+silence hidden 25600/185688, elapsed=2644.1s
+silence hidden 26112/185688, elapsed=2644.1s
+silence hidden 26624/185688, elapsed=2644.1s
+silence hidden 27136/185688, elapsed=2644.1s
+silence hidden 27648/185688, elapsed=2644.1s
+silence hidden 28160/185688, elapsed=2644.1s
+silence hidden 28672/185688, elapsed=2644.1s
+silence hidden 29184/185688, elapsed=2644.1s
+silence hidden 29696/185688, elapsed=2644.1s
+silence hidden 30208/185688, elapsed=2644.1s
+silence hidden 30720/185688, elapsed=2644.1s
+silence hidden 31232/185688, elapsed=2644.1s
+silence hidden 31744/185688, elapsed=2644.1s
+silence hidden 32256/185688, elapsed=2644.1s
+silence hidden 32768/185688, elapsed=2644.1s
+silence hidden 33280/185688, elapsed=2644.1s
+silence hidden 33792/185688, elapsed=2644.1s
+silence hidden 34304/185688, elapsed=2644.1s
+silence hidden 34816/185688, elapsed=2644.1s
+silence hidden 35328/185688, elapsed=2644.1s
+silence hidden 35840/185688, elapsed=2644.2s
+silence hidden 36352/185688, elapsed=2644.2s
+silence hidden 36864/185688, elapsed=2644.2s
+silence hidden 37376/185688, elapsed=2644.2s
+silence hidden 37888/185688, elapsed=2644.2s
+silence hidden 38400/185688, elapsed=2644.2s
+silence hidden 38912/185688, elapsed=2644.2s
+silence hidden 39424/185688, elapsed=2644.2s
+silence hidden 39936/185688, elapsed=2644.2s
+silence hidden 40448/185688, elapsed=2644.2s
+silence hidden 40960/185688, elapsed=2644.2s
+silence hidden 41472/185688, elapsed=2644.2s
+silence hidden 41984/185688, elapsed=2644.2s
+silence hidden 42496/185688, elapsed=2644.2s
+silence hidden 43008/185688, elapsed=2644.2s
+silence hidden 43520/185688, elapsed=2644.2s
+silence hidden 44032/185688, elapsed=2644.2s
+silence hidden 44544/185688, elapsed=2644.2s
+silence hidden 45056/185688, elapsed=2644.2s
+silence hidden 45568/185688, elapsed=2644.2s
+silence hidden 46080/185688, elapsed=2644.2s
+silence hidden 46592/185688, elapsed=2644.2s
+silence hidden 47104/185688, elapsed=2644.2s
+silence hidden 47616/185688, elapsed=2644.2s
+silence hidden 48128/185688, elapsed=2644.2s
+silence hidden 48640/185688, elapsed=2644.2s
+silence hidden 49152/185688, elapsed=2644.2s
+silence hidden 49664/185688, elapsed=2644.2s
+silence hidden 50176/185688, elapsed=2644.3s
+silence hidden 50688/185688, elapsed=2644.3s
+silence hidden 51200/185688, elapsed=2644.3s
+silence hidden 51712/185688, elapsed=2644.3s
+silence hidden 52224/185688, elapsed=2644.3s
+silence hidden 52736/185688, elapsed=2644.3s
+silence hidden 53248/185688, elapsed=2644.3s
+silence hidden 53760/185688, elapsed=2644.3s
+silence hidden 54272/185688, elapsed=2644.3s
+silence hidden 54784/185688, elapsed=2644.3s
+silence hidden 55296/185688, elapsed=2644.3s
+silence hidden 55808/185688, elapsed=2644.3s
+silence hidden 56320/185688, elapsed=2644.3s
+silence hidden 56832/185688, elapsed=2644.3s
+silence hidden 57344/185688, elapsed=2644.3s
+silence hidden 57856/185688, elapsed=2644.3s
+silence hidden 58368/185688, elapsed=2644.3s
+silence hidden 58880/185688, elapsed=2644.3s
+silence hidden 59392/185688, elapsed=2644.3s
+silence hidden 59904/185688, elapsed=2644.3s
+silence hidden 60416/185688, elapsed=2644.3s
+silence hidden 60928/185688, elapsed=2644.3s
+silence hidden 61440/185688, elapsed=2644.3s
+silence hidden 61952/185688, elapsed=2644.3s
+silence hidden 62464/185688, elapsed=2644.3s
+silence hidden 62976/185688, elapsed=2644.3s
+silence hidden 63488/185688, elapsed=2644.3s
+silence hidden 64000/185688, elapsed=2644.3s
+silence hidden 64512/185688, elapsed=2644.3s
+silence hidden 65024/185688, elapsed=2644.3s
+silence hidden 65536/185688, elapsed=2644.3s
+silence hidden 66048/185688, elapsed=2644.3s
+silence hidden 66560/185688, elapsed=2644.3s
+silence hidden 67072/185688, elapsed=2644.3s
+silence hidden 67584/185688, elapsed=2644.3s
+silence hidden 68096/185688, elapsed=2644.4s
+silence hidden 68608/185688, elapsed=2644.4s
+silence hidden 69120/185688, elapsed=2644.4s
+silence hidden 69632/185688, elapsed=2644.4s
+silence hidden 70144/185688, elapsed=2644.4s
+silence hidden 70656/185688, elapsed=2644.4s
+silence hidden 71168/185688, elapsed=2644.4s
+silence hidden 71680/185688, elapsed=2644.4s
+silence hidden 72192/185688, elapsed=2644.4s
+silence hidden 72704/185688, elapsed=2644.4s
+silence hidden 73216/185688, elapsed=2644.4s
+silence hidden 73728/185688, elapsed=2644.4s
+silence hidden 74240/185688, elapsed=2644.4s
+silence hidden 74752/185688, elapsed=2644.4s
+silence hidden 75264/185688, elapsed=2644.4s
+silence hidden 75776/185688, elapsed=2644.4s
+silence hidden 76288/185688, elapsed=2644.4s
+silence hidden 76800/185688, elapsed=2644.4s
+silence hidden 77312/185688, elapsed=2644.4s
+silence hidden 77824/185688, elapsed=2644.4s
+silence hidden 78336/185688, elapsed=2644.4s
+silence hidden 78848/185688, elapsed=2644.4s
+silence hidden 79360/185688, elapsed=2644.4s
+silence hidden 79872/185688, elapsed=2644.4s
+silence hidden 80384/185688, elapsed=2644.4s
+silence hidden 80896/185688, elapsed=2644.4s
+silence hidden 81408/185688, elapsed=2644.4s
+silence hidden 81920/185688, elapsed=2644.4s
+silence hidden 82432/185688, elapsed=2644.4s
+silence hidden 82944/185688, elapsed=2644.4s
+silence hidden 83456/185688, elapsed=2644.4s
+silence hidden 83968/185688, elapsed=2644.4s
+silence hidden 84480/185688, elapsed=2644.4s
+silence hidden 84992/185688, elapsed=2644.4s
+silence hidden 85504/185688, elapsed=2644.4s
+silence hidden 86016/185688, elapsed=2644.4s
+silence hidden 86528/185688, elapsed=2644.5s
+silence hidden 87040/185688, elapsed=2644.5s
+silence hidden 87552/185688, elapsed=2644.5s
+silence hidden 88064/185688, elapsed=2644.5s
+silence hidden 88576/185688, elapsed=2644.5s
+silence hidden 89088/185688, elapsed=2644.5s
+silence hidden 89600/185688, elapsed=2644.5s
+silence hidden 90112/185688, elapsed=2644.5s
+silence hidden 90624/185688, elapsed=2644.5s
+silence hidden 91136/185688, elapsed=2644.5s
+silence hidden 91648/185688, elapsed=2644.5s
+silence hidden 92160/185688, elapsed=2644.5s
+silence hidden 92672/185688, elapsed=2644.5s
+silence hidden 93184/185688, elapsed=2644.5s
+silence hidden 93696/185688, elapsed=2644.5s
+silence hidden 94208/185688, elapsed=2644.5s
+silence hidden 94720/185688, elapsed=2644.5s
+silence hidden 95232/185688, elapsed=2644.5s
+silence hidden 95744/185688, elapsed=2644.5s
+silence hidden 96256/185688, elapsed=2644.5s
+silence hidden 96768/185688, elapsed=2644.5s
+silence hidden 97280/185688, elapsed=2644.5s
+silence hidden 97792/185688, elapsed=2644.5s
+silence hidden 98304/185688, elapsed=2644.5s
+silence hidden 98816/185688, elapsed=2644.5s
+silence hidden 99328/185688, elapsed=2644.5s
+silence hidden 99840/185688, elapsed=2644.5s
+silence hidden 100352/185688, elapsed=2644.5s
+silence hidden 100864/185688, elapsed=2644.5s
+silence hidden 101376/185688, elapsed=2644.5s
+silence hidden 101888/185688, elapsed=2644.5s
+silence hidden 102400/185688, elapsed=2644.5s
+silence hidden 102912/185688, elapsed=2644.5s
+silence hidden 103424/185688, elapsed=2644.5s
+silence hidden 103936/185688, elapsed=2644.5s
+silence hidden 104448/185688, elapsed=2644.5s
+silence hidden 104960/185688, elapsed=2644.6s
+silence hidden 105472/185688, elapsed=2644.6s
+silence hidden 105984/185688, elapsed=2644.6s
+silence hidden 106496/185688, elapsed=2644.6s
+silence hidden 107008/185688, elapsed=2644.6s
+silence hidden 107520/185688, elapsed=2644.6s
+silence hidden 108032/185688, elapsed=2644.6s
+silence hidden 108544/185688, elapsed=2644.6s
+silence hidden 109056/185688, elapsed=2644.6s
+silence hidden 109568/185688, elapsed=2644.6s
+silence hidden 110080/185688, elapsed=2644.6s
+silence hidden 110592/185688, elapsed=2644.6s
+silence hidden 111104/185688, elapsed=2644.6s
+silence hidden 111616/185688, elapsed=2644.6s
+silence hidden 112128/185688, elapsed=2644.6s
+silence hidden 112640/185688, elapsed=2644.6s
+silence hidden 113152/185688, elapsed=2644.6s
+silence hidden 113664/185688, elapsed=2644.6s
+silence hidden 114176/185688, elapsed=2644.6s
+silence hidden 114688/185688, elapsed=2644.6s
+silence hidden 115200/185688, elapsed=2644.6s
+silence hidden 115712/185688, elapsed=2644.6s
+silence hidden 116224/185688, elapsed=2644.6s
+silence hidden 116736/185688, elapsed=2644.6s
+silence hidden 117248/185688, elapsed=2644.6s
+silence hidden 117760/185688, elapsed=2644.6s
+silence hidden 118272/185688, elapsed=2644.6s
+silence hidden 118784/185688, elapsed=2644.6s
+silence hidden 119296/185688, elapsed=2644.6s
+silence hidden 119808/185688, elapsed=2644.6s
+silence hidden 120320/185688, elapsed=2644.6s
+silence hidden 120832/185688, elapsed=2644.6s
+silence hidden 121344/185688, elapsed=2644.6s
+silence hidden 121856/185688, elapsed=2644.6s
+silence hidden 122368/185688, elapsed=2644.6s
+silence hidden 122880/185688, elapsed=2644.6s
+silence hidden 123392/185688, elapsed=2644.6s
+silence hidden 123904/185688, elapsed=2644.7s
+silence hidden 124416/185688, elapsed=2644.7s
+silence hidden 124928/185688, elapsed=2644.7s
+silence hidden 125440/185688, elapsed=2644.7s
+silence hidden 125952/185688, elapsed=2644.7s
+silence hidden 126464/185688, elapsed=2644.7s
+silence hidden 126976/185688, elapsed=2644.7s
+silence hidden 127488/185688, elapsed=2644.7s
+silence hidden 128000/185688, elapsed=2644.7s
+silence hidden 128512/185688, elapsed=2644.7s
+silence hidden 129024/185688, elapsed=2644.7s
+silence hidden 129536/185688, elapsed=2644.7s
+silence hidden 130048/185688, elapsed=2644.7s
+silence hidden 130560/185688, elapsed=2644.7s
+silence hidden 131072/185688, elapsed=2644.7s
+silence hidden 131584/185688, elapsed=2644.7s
+silence hidden 132096/185688, elapsed=2644.7s
+silence hidden 132608/185688, elapsed=2644.7s
+silence hidden 133120/185688, elapsed=2644.7s
+silence hidden 133632/185688, elapsed=2644.7s
+silence hidden 134144/185688, elapsed=2644.7s
+silence hidden 134656/185688, elapsed=2644.7s
+silence hidden 135168/185688, elapsed=2644.7s
+silence hidden 135680/185688, elapsed=2644.7s
+silence hidden 136192/185688, elapsed=2644.7s
+silence hidden 136704/185688, elapsed=2644.7s
+silence hidden 137216/185688, elapsed=2644.7s
+silence hidden 137728/185688, elapsed=2644.7s
+silence hidden 138240/185688, elapsed=2644.7s
+silence hidden 138752/185688, elapsed=2644.7s
+silence hidden 139264/185688, elapsed=2644.7s
+silence hidden 139776/185688, elapsed=2644.7s
+silence hidden 140288/185688, elapsed=2644.7s
+silence hidden 140800/185688, elapsed=2644.7s
+silence hidden 141312/185688, elapsed=2644.7s
+silence hidden 141824/185688, elapsed=2644.7s
+silence hidden 142336/185688, elapsed=2644.7s
+silence hidden 142848/185688, elapsed=2644.8s
+silence hidden 143360/185688, elapsed=2644.8s
+silence hidden 143872/185688, elapsed=2644.8s
+silence hidden 144384/185688, elapsed=2644.8s
+silence hidden 144896/185688, elapsed=2644.8s
+silence hidden 145408/185688, elapsed=2644.8s
+silence hidden 145920/185688, elapsed=2644.8s
+silence hidden 146432/185688, elapsed=2644.8s
+silence hidden 146944/185688, elapsed=2644.8s
+silence hidden 147456/185688, elapsed=2644.8s
+silence hidden 147968/185688, elapsed=2644.8s
+silence hidden 148480/185688, elapsed=2644.8s
+silence hidden 148992/185688, elapsed=2644.8s
+silence hidden 149504/185688, elapsed=2644.8s
+silence hidden 150016/185688, elapsed=2644.8s
+silence hidden 150528/185688, elapsed=2644.8s
+silence hidden 151040/185688, elapsed=2644.8s
+silence hidden 151552/185688, elapsed=2644.8s
+silence hidden 152064/185688, elapsed=2644.8s
+silence hidden 152576/185688, elapsed=2644.8s
+silence hidden 153088/185688, elapsed=2644.8s
+silence hidden 153600/185688, elapsed=2644.8s
+silence hidden 154112/185688, elapsed=2644.8s
+silence hidden 154624/185688, elapsed=2644.8s
+silence hidden 155136/185688, elapsed=2644.8s
+silence hidden 155648/185688, elapsed=2644.8s
+silence hidden 156160/185688, elapsed=2644.8s
+silence hidden 156672/185688, elapsed=2644.8s
+silence hidden 157184/185688, elapsed=2644.8s
+silence hidden 157696/185688, elapsed=2644.8s
+silence hidden 158208/185688, elapsed=2644.8s
+silence hidden 158720/185688, elapsed=2644.8s
+silence hidden 159232/185688, elapsed=2644.8s
+silence hidden 159744/185688, elapsed=2644.8s
+silence hidden 160256/185688, elapsed=2644.8s
+silence hidden 160768/185688, elapsed=2644.9s
+silence hidden 161280/185688, elapsed=2644.9s
+silence hidden 161792/185688, elapsed=2644.9s
+silence hidden 162304/185688, elapsed=2644.9s
+silence hidden 162816/185688, elapsed=2644.9s
+silence hidden 163328/185688, elapsed=2644.9s
+silence hidden 163840/185688, elapsed=2644.9s
+silence hidden 164352/185688, elapsed=2644.9s
+silence hidden 164864/185688, elapsed=2644.9s
+silence hidden 165376/185688, elapsed=2644.9s
+silence hidden 165888/185688, elapsed=2644.9s
+silence hidden 166400/185688, elapsed=2644.9s
+silence hidden 166912/185688, elapsed=2644.9s
+silence hidden 167424/185688, elapsed=2644.9s
+silence hidden 167936/185688, elapsed=2644.9s
+silence hidden 168448/185688, elapsed=2644.9s
+silence hidden 168960/185688, elapsed=2644.9s
+silence hidden 169472/185688, elapsed=2644.9s
+silence hidden 169984/185688, elapsed=2644.9s
+silence hidden 170496/185688, elapsed=2644.9s
+silence hidden 171008/185688, elapsed=2644.9s
+silence hidden 171520/185688, elapsed=2644.9s
+silence hidden 172032/185688, elapsed=2644.9s
+silence hidden 172544/185688, elapsed=2644.9s
+silence hidden 173056/185688, elapsed=2644.9s
+silence hidden 173568/185688, elapsed=2644.9s
+silence hidden 174080/185688, elapsed=2644.9s
+silence hidden 174592/185688, elapsed=2644.9s
+silence hidden 175104/185688, elapsed=2644.9s
+silence hidden 175616/185688, elapsed=2644.9s
+silence hidden 176128/185688, elapsed=2644.9s
+silence hidden 176640/185688, elapsed=2644.9s
+silence hidden 177152/185688, elapsed=2644.9s
+silence hidden 177664/185688, elapsed=2644.9s
+silence hidden 178176/185688, elapsed=2644.9s
+silence hidden 178688/185688, elapsed=2644.9s
+silence hidden 179200/185688, elapsed=2644.9s
+silence hidden 179712/185688, elapsed=2645.0s
+silence hidden 180224/185688, elapsed=2645.0s
+silence hidden 180736/185688, elapsed=2645.0s
+silence hidden 181248/185688, elapsed=2645.0s
+silence hidden 181760/185688, elapsed=2645.0s
+silence hidden 182272/185688, elapsed=2645.0s
+silence hidden 182784/185688, elapsed=2645.0s
+silence hidden 183296/185688, elapsed=2645.0s
+silence hidden 183808/185688, elapsed=2645.0s
+silence hidden 184320/185688, elapsed=2645.0s
+silence hidden 184832/185688, elapsed=2645.0s
+silence hidden 185344/185688, elapsed=2645.0s
+silence hidden 185688/185688, elapsed=2645.0s
+{
+  "frozen_parameters": true,
+  "total_parameters": 356883264,
+  "state_shape": [
+    185688,
+    960
+  ],
+  "audio_changed_mean_l2": 9.845766067504883,
+  "nonfinite": 0,
+  "provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1",
+    "dataset_semantic_sha256": "238ae0c3c9df3900065d37e5b06b9fa3ce1aa2e2f81533072d2a48052936d5bd",
+    "choices_sha256": "76256727ae0de7460f6b6bdcb1d67cfd51e3ff88cc16c13774f422a486a1d481",
+    "random_recipe": "same-split identity-group derangement v2",
+    "ablation_splits": [
+      "test",
+      "validation"
+    ]
+  }
+}

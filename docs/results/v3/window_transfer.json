@@ -1,0 +1,2088 @@
+{
+  "checkpoint": "/srv/data/samsone_clm/runs/v3/stage4/calibrated.pt",
+  "samples": 40,
+  "prediction_change_rate": 0.075,
+  "scope": "Prediction stability only: original full-clip labels can become invalid after cropping or shifting temporal coordinates; window accuracy is not claimed",
+  "cases": [
+    {
+      "sample_id": "3279d2e16c1848c6cad0f6707475580c1a6619ea5c4823fe4ebba6bbb8df8f72",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "The traditional folk melody",
+          "probability": 0.4966566264629364
+        },
+        {
+          "choice": "The electronic rhythm track",
+          "probability": 0.1807698905467987
+        },
+        {
+          "choice": "The live string section",
+          "probability": 0.17239776253700256
+        },
+        {
+          "choice": "The acoustic jazz trio",
+          "probability": 0.1501757651567459
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "The traditional folk melody",
+          "probability": 0.4966566264629364
+        },
+        {
+          "choice": "The electronic rhythm track",
+          "probability": 0.1807698905467987
+        },
+        {
+          "choice": "The live string section",
+          "probability": 0.17239776253700256
+        },
+        {
+          "choice": "The acoustic jazz trio",
+          "probability": 0.1501757651567459
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "366bda77ed0099d0d5619ddf44a7e231e9650b8e7e70260d526848031efc8dc6",
+      "question_type": "music",
+      "duration_s": 29.124,
+      "analyzed_window": {
+        "position_s": 14.562,
+        "requested_start_s": 9.562,
+        "requested_end_s": 19.562,
+        "source_start_s": 9.562,
+        "source_end_s": 19.562,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "A calming atmosphere",
+          "probability": 0.5278722047805786
+        },
+        {
+          "choice": "A dramatic buildup",
+          "probability": 0.46834349632263184
+        },
+        {
+          "choice": "An energetic rhythm",
+          "probability": 0.003343194955959916
+        },
+        {
+          "choice": "A tense transition",
+          "probability": 0.0004410522524267435
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "A calming atmosphere",
+          "probability": 0.8415091037750244
+        },
+        {
+          "choice": "A dramatic buildup",
+          "probability": 0.14001257717609406
+        },
+        {
+          "choice": "An energetic rhythm",
+          "probability": 0.01673048362135887
+        },
+        {
+          "choice": "A tense transition",
+          "probability": 0.001747848466038704
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "cc1acd2398e54a089eaa48903d72c556ed71941737d460e49525df08bcd258d6",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Upbeat and cheerful atmosphere",
+          "probability": 0.9175359010696411
+        },
+        {
+          "choice": "Dark and mysterious ambiance",
+          "probability": 0.041291914880275726
+        },
+        {
+          "choice": "Calm and relaxing environment",
+          "probability": 0.02978901006281376
+        },
+        {
+          "choice": "Tense and suspenseful mood",
+          "probability": 0.01138314139097929
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Upbeat and cheerful atmosphere",
+          "probability": 0.9175359010696411
+        },
+        {
+          "choice": "Dark and mysterious ambiance",
+          "probability": 0.041291914880275726
+        },
+        {
+          "choice": "Calm and relaxing environment",
+          "probability": 0.02978901006281376
+        },
+        {
+          "choice": "Tense and suspenseful mood",
+          "probability": 0.01138314139097929
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "d07599fcc0662b53175a5f55254909ad4f7a465f645be00faafc3d10f03e71de",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Energetic and uplifting",
+          "probability": 0.8951720595359802
+        },
+        {
+          "choice": "Slow and melancholic",
+          "probability": 0.050415560603141785
+        },
+        {
+          "choice": "Calm and relaxing",
+          "probability": 0.03918617218732834
+        },
+        {
+          "choice": "Dark and mysterious",
+          "probability": 0.015226233750581741
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Energetic and uplifting",
+          "probability": 0.8951720595359802
+        },
+        {
+          "choice": "Slow and melancholic",
+          "probability": 0.050415560603141785
+        },
+        {
+          "choice": "Calm and relaxing",
+          "probability": 0.03918617218732834
+        },
+        {
+          "choice": "Dark and mysterious",
+          "probability": 0.015226233750581741
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "53040e7d48eaea339271f1b7ae463e09f23798ff27f2c9ce83f48d8d5bfa4e6d",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "The music is cheerful",
+          "probability": 0.9534206986427307
+        },
+        {
+          "choice": "The music is somber",
+          "probability": 0.033269286155700684
+        },
+        {
+          "choice": "The music is mysterious",
+          "probability": 0.00951058603823185
+        },
+        {
+          "choice": "The music is tense",
+          "probability": 0.0037994247395545244
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "The music is cheerful",
+          "probability": 0.9534206986427307
+        },
+        {
+          "choice": "The music is somber",
+          "probability": 0.033269286155700684
+        },
+        {
+          "choice": "The music is mysterious",
+          "probability": 0.00951058603823185
+        },
+        {
+          "choice": "The music is tense",
+          "probability": 0.0037994247395545244
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "8e5ed40087fd799f2ef141a70910757aba52677c058bcec8a1e4ed3c1c45a0c9",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "A throbbing melody with a strong beat",
+          "probability": 0.5120747685432434
+        },
+        {
+          "choice": "A soft rhythm with gentle strings",
+          "probability": 0.33966341614723206
+        },
+        {
+          "choice": "A slow pace with deep brass tones",
+          "probability": 0.09805616736412048
+        },
+        {
+          "choice": "A fast tempo with acoustic guitars",
+          "probability": 0.050205640494823456
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "A throbbing melody with a strong beat",
+          "probability": 0.5120747685432434
+        },
+        {
+          "choice": "A soft rhythm with gentle strings",
+          "probability": 0.33966341614723206
+        },
+        {
+          "choice": "A slow pace with deep brass tones",
+          "probability": 0.09805616736412048
+        },
+        {
+          "choice": "A fast tempo with acoustic guitars",
+          "probability": 0.050205640494823456
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "c302821a78547df692db1524b6aaab475660caf06d8fca4308e27683f84491f0",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "To frame the presentation formally",
+          "probability": 0.9272764325141907
+        },
+        {
+          "choice": "To accompany audience applause",
+          "probability": 0.043156955391168594
+        },
+        {
+          "choice": "To entertain the audience briefly",
+          "probability": 0.022525599226355553
+        },
+        {
+          "choice": "To demonstrate audio quality",
+          "probability": 0.007041041739284992
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "To frame the presentation formally",
+          "probability": 0.9272764325141907
+        },
+        {
+          "choice": "To accompany audience applause",
+          "probability": 0.043156955391168594
+        },
+        {
+          "choice": "To entertain the audience briefly",
+          "probability": 0.022525599226355553
+        },
+        {
+          "choice": "To demonstrate audio quality",
+          "probability": 0.007041041739284992
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "bb7dee4c6ff117021b2418d29880d1461ffa26afc6f8afc3d1c05c49f04b7db1",
+      "question_type": "music",
+      "duration_s": 29.124,
+      "analyzed_window": {
+        "position_s": 14.562,
+        "requested_start_s": 9.562,
+        "requested_end_s": 19.562,
+        "source_start_s": 9.562,
+        "source_end_s": 19.562,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "A pop song with electronic beats and synthesizers",
+          "probability": 0.7751498818397522
+        },
+        {
+          "choice": "A fast spanish influenced track with indian percussion",
+          "probability": 0.1306253969669342
+        },
+        {
+          "choice": "A classical symphony with dramatic string sections",
+          "probability": 0.06317739188671112
+        },
+        {
+          "choice": "A slow jazz piece with soft brass instruments",
+          "probability": 0.031047280877828598
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "A pop song with electronic beats and synthesizers",
+          "probability": 0.6734601855278015
+        },
+        {
+          "choice": "A classical symphony with dramatic string sections",
+          "probability": 0.18562735617160797
+        },
+        {
+          "choice": "A fast spanish influenced track with indian percussion",
+          "probability": 0.09145183861255646
+        },
+        {
+          "choice": "A slow jazz piece with soft brass instruments",
+          "probability": 0.04946069419384003
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "cfa4f9d68ad0a62b3e3f65301a8d12116e3e4a75c70d32b0f737be0fe8c1d73e",
+      "question_type": "music",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "It creates a joyful backdrop",
+          "probability": 0.5797406435012817
+        },
+        {
+          "choice": "It contrasts with tense atmosphere",
+          "probability": 0.2960323691368103
+        },
+        {
+          "choice": "It highlights character relief",
+          "probability": 0.06684020906686783
+        },
+        {
+          "choice": "It matches the scene's chaos",
+          "probability": 0.05738682672381401
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "It creates a joyful backdrop",
+          "probability": 0.5797406435012817
+        },
+        {
+          "choice": "It contrasts with tense atmosphere",
+          "probability": 0.2960323691368103
+        },
+        {
+          "choice": "It highlights character relief",
+          "probability": 0.06684020906686783
+        },
+        {
+          "choice": "It matches the scene's chaos",
+          "probability": 0.05738682672381401
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "37bc3dabdc37d0a90306e230f16d08e15947e7f532dd0c7a9f633058c94c9346",
+      "question_type": "music",
+      "duration_s": 29.124,
+      "analyzed_window": {
+        "position_s": 14.562,
+        "requested_start_s": 9.562,
+        "requested_end_s": 19.562,
+        "source_start_s": 9.562,
+        "source_end_s": 19.562,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Fast beat with electronic elements",
+          "probability": 0.8383729457855225
+        },
+        {
+          "choice": "Slow rhythm with acoustic guitar",
+          "probability": 0.11572001129388809
+        },
+        {
+          "choice": "Heavy bass with vocal samples",
+          "probability": 0.0445222333073616
+        },
+        {
+          "choice": "Moderate tempo with jazz influences",
+          "probability": 0.001384760602377355
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Fast beat with electronic elements",
+          "probability": 0.7668569684028625
+        },
+        {
+          "choice": "Slow rhythm with acoustic guitar",
+          "probability": 0.15975113213062286
+        },
+        {
+          "choice": "Heavy bass with vocal samples",
+          "probability": 0.06521376967430115
+        },
+        {
+          "choice": "Moderate tempo with jazz influences",
+          "probability": 0.008178090676665306
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "16a43d27458cd299fa31f35555eb939e2faf40d2adb894d3ecca00572dce0934",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "The relaxed pace of breathing",
+          "probability": 0.4791460335254669
+        },
+        {
+          "choice": "The constant hum of traffic",
+          "probability": 0.3822707533836365
+        },
+        {
+          "choice": "The sharp sound of typing",
+          "probability": 0.115987129509449
+        },
+        {
+          "choice": "The loud ticking of a clock",
+          "probability": 0.022596057504415512
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "The relaxed pace of breathing",
+          "probability": 0.4791460335254669
+        },
+        {
+          "choice": "The constant hum of traffic",
+          "probability": 0.3822707533836365
+        },
+        {
+          "choice": "The sharp sound of typing",
+          "probability": 0.115987129509449
+        },
+        {
+          "choice": "The loud ticking of a clock",
+          "probability": 0.022596057504415512
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "abc2142db511014f7ec8fc99cd30d17a3c2f655e3302e26b4161d9fc45beb9eb",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Windy conditions causing difficult driving",
+          "probability": 0.8770279884338379
+        },
+        {
+          "choice": "Rainy weather slowing traffic",
+          "probability": 0.1029479056596756
+        },
+        {
+          "choice": "Foggy environment reducing visibility",
+          "probability": 0.018728487193584442
+        },
+        {
+          "choice": "Snowy roads creating delays",
+          "probability": 0.0012955941492691636
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Windy conditions causing difficult driving",
+          "probability": 0.8770279884338379
+        },
+        {
+          "choice": "Rainy weather slowing traffic",
+          "probability": 0.1029479056596756
+        },
+        {
+          "choice": "Foggy environment reducing visibility",
+          "probability": 0.018728487193584442
+        },
+        {
+          "choice": "Snowy roads creating delays",
+          "probability": 0.0012955941492691636
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "82a50443561a59384fddd34724e22bfc8ebd25c7ca1808374beb27f26609f624",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Bird chirping steadily in the background",
+          "probability": 0.5426786541938782
+        },
+        {
+          "choice": "Distant traffic moving constantly",
+          "probability": 0.2896881699562073
+        },
+        {
+          "choice": "Insects buzzing near a microphone",
+          "probability": 0.15982575714588165
+        },
+        {
+          "choice": "A fan rotating continuously indoors",
+          "probability": 0.007807457819581032
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Bird chirping steadily in the background",
+          "probability": 0.5426786541938782
+        },
+        {
+          "choice": "Distant traffic moving constantly",
+          "probability": 0.2896881699562073
+        },
+        {
+          "choice": "Insects buzzing near a microphone",
+          "probability": 0.15982575714588165
+        },
+        {
+          "choice": "A fan rotating continuously indoors",
+          "probability": 0.007807457819581032
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "3b7e986d7b7120185326125f071df2d13f3f89046f49b227d0c118438f79d794",
+      "question_type": "sound",
+      "duration_s": 9.11325,
+      "analyzed_window": {
+        "position_s": 4.556625,
+        "requested_start_s": -0.443375,
+        "requested_end_s": 9.556625,
+        "source_start_s": 0.0,
+        "source_end_s": 9.11325,
+        "silence_before_s": 0.443375,
+        "silence_after_s": 0.443375,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Strong wind with sirens and loud construction",
+          "probability": 0.47192567586898804
+        },
+        {
+          "choice": "Gentle wind with occasional birds and distant cars",
+          "probability": 0.427705854177475
+        },
+        {
+          "choice": "Ocean waves with seagulls and children playing",
+          "probability": 0.08311735093593597
+        },
+        {
+          "choice": "Heavy rain with thunder and indoor talking",
+          "probability": 0.017251132056117058
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Strong wind with sirens and loud construction",
+          "probability": 0.505746066570282
+        },
+        {
+          "choice": "Gentle wind with occasional birds and distant cars",
+          "probability": 0.3971334993839264
+        },
+        {
+          "choice": "Ocean waves with seagulls and children playing",
+          "probability": 0.07901830226182938
+        },
+        {
+          "choice": "Heavy rain with thunder and indoor talking",
+          "probability": 0.01810215413570404
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "74816df65f22ddd0cb7a166f7ff832541b84c523e9a993526229797d8883d141",
+      "question_type": "sound",
+      "duration_s": 9.3935,
+      "analyzed_window": {
+        "position_s": 4.69675,
+        "requested_start_s": -0.30325,
+        "requested_end_s": 9.69675,
+        "source_start_s": 0.0,
+        "source_end_s": 9.3935,
+        "silence_before_s": 0.30325,
+        "silence_after_s": 0.30325,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Steady printer operating sound",
+          "probability": 0.6973339319229126
+        },
+        {
+          "choice": "Frequent door opening and closing",
+          "probability": 0.1995166838169098
+        },
+        {
+          "choice": "Intermittent beeping from monitors",
+          "probability": 0.09448853135108948
+        },
+        {
+          "choice": "Muffled conversation between staff",
+          "probability": 0.008660821244120598
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Steady printer operating sound",
+          "probability": 0.7274193167686462
+        },
+        {
+          "choice": "Frequent door opening and closing",
+          "probability": 0.17726410925388336
+        },
+        {
+          "choice": "Intermittent beeping from monitors",
+          "probability": 0.08792524039745331
+        },
+        {
+          "choice": "Muffled conversation between staff",
+          "probability": 0.007391338236629963
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "68250f5a79b5e0b29fd6b483e79da963a6eca9fde3ab65d2051fa9ced5a6c757",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "The use of kitchen appliances",
+          "probability": 0.6116114854812622
+        },
+        {
+          "choice": "The maintenance of garden tools",
+          "probability": 0.2505767345428467
+        },
+        {
+          "choice": "The operation of office equipment",
+          "probability": 0.0777834877371788
+        },
+        {
+          "choice": "The assembly of electronic devices",
+          "probability": 0.060028281062841415
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "The use of kitchen appliances",
+          "probability": 0.6116114854812622
+        },
+        {
+          "choice": "The maintenance of garden tools",
+          "probability": 0.2505767345428467
+        },
+        {
+          "choice": "The operation of office equipment",
+          "probability": 0.0777834877371788
+        },
+        {
+          "choice": "The assembly of electronic devices",
+          "probability": 0.060028281062841415
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "fca3a27cbd82c730727cfc93b18fcbd39c4254c3a2b3329afe71c4fee7ef0b63",
+      "question_type": "sound",
+      "duration_s": 9.8484375,
+      "analyzed_window": {
+        "position_s": 4.92421875,
+        "requested_start_s": -0.07575,
+        "requested_end_s": 9.92425,
+        "source_start_s": 0.0,
+        "source_end_s": 9.8484375,
+        "silence_before_s": 0.07575,
+        "silence_after_s": 0.0758125,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "A person is monitoring equipment",
+          "probability": 0.5091493725776672
+        },
+        {
+          "choice": "The air is humid",
+          "probability": 0.42264243960380554
+        },
+        {
+          "choice": "An animal is nearby",
+          "probability": 0.05923493951559067
+        },
+        {
+          "choice": "The microphone is faulty",
+          "probability": 0.008973270654678345
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "A person is monitoring equipment",
+          "probability": 0.5130308866500854
+        },
+        {
+          "choice": "The air is humid",
+          "probability": 0.4178888499736786
+        },
+        {
+          "choice": "An animal is nearby",
+          "probability": 0.059744808822870255
+        },
+        {
+          "choice": "The microphone is faulty",
+          "probability": 0.00933550950139761
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "79117bc2cd624e3b11cff4df3895e817474aa2d7f67b166608ffa37851753cde",
+      "question_type": "sound",
+      "duration_s": 26.914375,
+      "analyzed_window": {
+        "position_s": 13.4571875,
+        "requested_start_s": 8.4571875,
+        "requested_end_s": 18.4571875,
+        "source_start_s": 8.4571875,
+        "source_end_s": 18.4571875,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "An electronic device causes interference",
+          "probability": 0.9620381593704224
+        },
+        {
+          "choice": "A door slams loudly nearby",
+          "probability": 0.01974804326891899
+        },
+        {
+          "choice": "Music starts playing softly",
+          "probability": 0.011803335510194302
+        },
+        {
+          "choice": "A voice begins speaking clearly",
+          "probability": 0.006410474888980389
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "An electronic device causes interference",
+          "probability": 0.9680936336517334
+        },
+        {
+          "choice": "A door slams loudly nearby",
+          "probability": 0.013666924089193344
+        },
+        {
+          "choice": "Music starts playing softly",
+          "probability": 0.010158730670809746
+        },
+        {
+          "choice": "A voice begins speaking clearly",
+          "probability": 0.008080733008682728
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "c778c53f7f7ea1ec5bd93d74dd1d1d2809ecfc1da6c06df2648a9edfd571c09f",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Hydraulic spraying happening",
+          "probability": 0.9183589816093445
+        },
+        {
+          "choice": "Engine revving loudly",
+          "probability": 0.042031265795230865
+        },
+        {
+          "choice": "Wind blowing intermittently",
+          "probability": 0.02157527394592762
+        },
+        {
+          "choice": "Water dripping steadily",
+          "probability": 0.01803443767130375
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Hydraulic spraying happening",
+          "probability": 0.9183589816093445
+        },
+        {
+          "choice": "Engine revving loudly",
+          "probability": 0.042031265795230865
+        },
+        {
+          "choice": "Wind blowing intermittently",
+          "probability": 0.02157527394592762
+        },
+        {
+          "choice": "Water dripping steadily",
+          "probability": 0.01803443767130375
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "22e6f69007375736663509c9d29a3ae4c7e560b3da1554723402bbaaf221427f",
+      "question_type": "sound",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Enclosed area with hard surfaces",
+          "probability": 0.5658381581306458
+        },
+        {
+          "choice": "Small room with fabric walls",
+          "probability": 0.2136118859052658
+        },
+        {
+          "choice": "Large hall with soft materials",
+          "probability": 0.1117519959807396
+        },
+        {
+          "choice": "Open outdoor water stream",
+          "probability": 0.10879794508218765
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Enclosed area with hard surfaces",
+          "probability": 0.5658381581306458
+        },
+        {
+          "choice": "Small room with fabric walls",
+          "probability": 0.2136118859052658
+        },
+        {
+          "choice": "Large hall with soft materials",
+          "probability": 0.1117519959807396
+        },
+        {
+          "choice": "Open outdoor water stream",
+          "probability": 0.10879794508218765
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "628847c3241f1efea3af7cdf14c7e299c2fe337d6b82fe2146bfb09cdde67155",
+      "question_type": "speech",
+      "duration_s": 8.76,
+      "analyzed_window": {
+        "position_s": 4.38,
+        "requested_start_s": -0.62,
+        "requested_end_s": 9.38,
+        "source_start_s": 0.0,
+        "source_end_s": 8.76,
+        "silence_before_s": 0.62,
+        "silence_after_s": 0.62,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "He gave a speech at the conference",
+          "probability": 0.30929553508758545
+        },
+        {
+          "choice": "He organized the peace conference",
+          "probability": 0.2722190022468567
+        },
+        {
+          "choice": "He made progress possible at the conference",
+          "probability": 0.2682410478591919
+        },
+        {
+          "choice": "He invited all leaders to the conference",
+          "probability": 0.15024438500404358
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "He gave a speech at the conference",
+          "probability": 0.3077594041824341
+        },
+        {
+          "choice": "He organized the peace conference",
+          "probability": 0.2726697325706482
+        },
+        {
+          "choice": "He made progress possible at the conference",
+          "probability": 0.26853418350219727
+        },
+        {
+          "choice": "He invited all leaders to the conference",
+          "probability": 0.15103672444820404
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "7c6a66356120a2621f08bce99aae579685df8ceaa2789b44cb42d97559bb11e0",
+      "question_type": "speech",
+      "duration_s": 5.12,
+      "analyzed_window": {
+        "position_s": 2.56,
+        "requested_start_s": -2.44,
+        "requested_end_s": 7.56,
+        "source_start_s": 0.0,
+        "source_end_s": 5.12,
+        "silence_before_s": 2.44,
+        "silence_after_s": 2.44,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Voice carries quiet intensity",
+          "probability": 0.9238158464431763
+        },
+        {
+          "choice": "Tone remains flat and distant",
+          "probability": 0.04968331754207611
+        },
+        {
+          "choice": "Words delivered with loud excitement",
+          "probability": 0.016589852049946785
+        },
+        {
+          "choice": "Speech sounds rushed and unclear",
+          "probability": 0.00991106778383255
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Voice carries quiet intensity",
+          "probability": 0.917618453502655
+        },
+        {
+          "choice": "Tone remains flat and distant",
+          "probability": 0.05388399958610535
+        },
+        {
+          "choice": "Words delivered with loud excitement",
+          "probability": 0.018167803063988686
+        },
+        {
+          "choice": "Speech sounds rushed and unclear",
+          "probability": 0.01032980065792799
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "9071cd5b8e0596d96b4a67c6d6313993e76bcbbfd5ff59667b0fd99e2b27ee74",
+      "question_type": "speech",
+      "duration_s": 10.0,
+      "analyzed_window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "A weather observer documenting conditions",
+          "probability": 0.9629965424537659
+        },
+        {
+          "choice": "A teacher giving a lecture",
+          "probability": 0.016947437077760696
+        },
+        {
+          "choice": "A chef preparing food",
+          "probability": 0.013808458112180233
+        },
+        {
+          "choice": "A tourist describing sights",
+          "probability": 0.006247535347938538
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "A weather observer documenting conditions",
+          "probability": 0.9629965424537659
+        },
+        {
+          "choice": "A teacher giving a lecture",
+          "probability": 0.016947437077760696
+        },
+        {
+          "choice": "A chef preparing food",
+          "probability": 0.013808458112180233
+        },
+        {
+          "choice": "A tourist describing sights",
+          "probability": 0.006247535347938538
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "99fb4a6b86f7c0b6c045ebabd49ec9d1b7b315c42c5c6c4f2c7a9959674c85ad",
+      "question_type": "speech",
+      "duration_s": 6.12,
+      "analyzed_window": {
+        "position_s": 3.06,
+        "requested_start_s": -1.94,
+        "requested_end_s": 8.06,
+        "source_start_s": 0.0,
+        "source_end_s": 6.12,
+        "silence_before_s": 1.94,
+        "silence_after_s": 1.94,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Happiness through a calm tone",
+          "probability": 0.36786654591560364
+        },
+        {
+          "choice": "Confusion using high intensity",
+          "probability": 0.36261188983917236
+        },
+        {
+          "choice": "Anger with a loud delivery",
+          "probability": 0.22140878438949585
+        },
+        {
+          "choice": "Sadness in a fast rhythm",
+          "probability": 0.04811284318566322
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Confusion using high intensity",
+          "probability": 0.44639328122138977
+        },
+        {
+          "choice": "Happiness through a calm tone",
+          "probability": 0.27435922622680664
+        },
+        {
+          "choice": "Anger with a loud delivery",
+          "probability": 0.24273452162742615
+        },
+        {
+          "choice": "Sadness in a fast rhythm",
+          "probability": 0.03651288151741028
+        }
+      ],
+      "top1_changed": true
+    },
+    {
+      "sample_id": "60ab2d6214aa6e572bd79a3ae65d67d550bcd9db3c2832e426539cdae33bc071",
+      "question_type": "speech",
+      "duration_s": 6.84,
+      "analyzed_window": {
+        "position_s": 3.42,
+        "requested_start_s": -1.58,
+        "requested_end_s": 8.42,
+        "source_start_s": 0.0,
+        "source_end_s": 6.84,
+        "silence_before_s": 1.58,
+        "silence_after_s": 1.58,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Energetic and enthusiastic mood",
+          "probability": 0.8307790756225586
+        },
+        {
+          "choice": "Formal and serious delivery",
+          "probability": 0.12036367505788803
+        },
+        {
+          "choice": "Casual and relaxed tone",
+          "probability": 0.04828902706503868
+        },
+        {
+          "choice": "Monotone and disinterested voice",
+          "probability": 0.0005681942566297948
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Energetic and enthusiastic mood",
+          "probability": 0.8432738780975342
+        },
+        {
+          "choice": "Formal and serious delivery",
+          "probability": 0.10600648820400238
+        },
+        {
+          "choice": "Casual and relaxed tone",
+          "probability": 0.05033281445503235
+        },
+        {
+          "choice": "Monotone and disinterested voice",
+          "probability": 0.0003868006751872599
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "4b087a26283c3733f9ecbc504e1a60778854ba8e050c59848b289db69a62a9d3",
+      "question_type": "speech",
+      "duration_s": 5.52,
+      "analyzed_window": {
+        "position_s": 2.76,
+        "requested_start_s": -2.24,
+        "requested_end_s": 7.76,
+        "source_start_s": 0.0,
+        "source_end_s": 5.52,
+        "silence_before_s": 2.24,
+        "silence_after_s": 2.24,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Expressed sadness with intensity",
+          "probability": 0.9425421357154846
+        },
+        {
+          "choice": "Joyful and excited tone",
+          "probability": 0.026401003822684288
+        },
+        {
+          "choice": "Calmly retelling a story",
+          "probability": 0.017480995506048203
+        },
+        {
+          "choice": "Anger mixed with frustration",
+          "probability": 0.01357591338455677
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Expressed sadness with intensity",
+          "probability": 0.9383769035339355
+        },
+        {
+          "choice": "Joyful and excited tone",
+          "probability": 0.028530677780508995
+        },
+        {
+          "choice": "Calmly retelling a story",
+          "probability": 0.019778331741690636
+        },
+        {
+          "choice": "Anger mixed with frustration",
+          "probability": 0.013314105570316315
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "f3dc24f965190ba56a92fbea3cf331fc6cc35477682ecde37f55a8ed383dc5a4",
+      "question_type": "speech",
+      "duration_s": 3.28,
+      "analyzed_window": {
+        "position_s": 1.64,
+        "requested_start_s": -3.36,
+        "requested_end_s": 6.64,
+        "source_start_s": 0.0,
+        "source_end_s": 3.28,
+        "silence_before_s": 3.36,
+        "silence_after_s": 3.36,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Calm and deep sounding",
+          "probability": 0.6558580994606018
+        },
+        {
+          "choice": "Energetic and high pitched",
+          "probability": 0.2970043420791626
+        },
+        {
+          "choice": "Soft and whispery",
+          "probability": 0.04325485602021217
+        },
+        {
+          "choice": "Angry and raspy",
+          "probability": 0.003882707329466939
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Calm and deep sounding",
+          "probability": 0.6258696913719177
+        },
+        {
+          "choice": "Energetic and high pitched",
+          "probability": 0.328952431678772
+        },
+        {
+          "choice": "Soft and whispery",
+          "probability": 0.04178808256983757
+        },
+        {
+          "choice": "Angry and raspy",
+          "probability": 0.0033897869288921356
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "66f03805bd1e4ad01916b05d2ede50c095a418c4ce2a8a989edac54ab987e414",
+      "question_type": "speech",
+      "duration_s": 15.4001875,
+      "analyzed_window": {
+        "position_s": 7.70009375,
+        "requested_start_s": 2.700125,
+        "requested_end_s": 12.700125,
+        "source_start_s": 2.700125,
+        "source_end_s": 12.700125,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Fast and loud with energy",
+          "probability": 0.7766765356063843
+        },
+        {
+          "choice": "Slow and calm with pauses",
+          "probability": 0.12223945558071136
+        },
+        {
+          "choice": "Soft and hesitant throughout",
+          "probability": 0.09713892638683319
+        },
+        {
+          "choice": "Monotone with little variation",
+          "probability": 0.003945170436054468
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Fast and loud with energy",
+          "probability": 0.8669919371604919
+        },
+        {
+          "choice": "Slow and calm with pauses",
+          "probability": 0.0662381500005722
+        },
+        {
+          "choice": "Soft and hesitant throughout",
+          "probability": 0.06596877425909042
+        },
+        {
+          "choice": "Monotone with little variation",
+          "probability": 0.0008011969621293247
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "3e59886945b7fe681dc18a566502827e0e758c67680d6b3a31f474adef984e3c",
+      "question_type": "speech",
+      "duration_s": 3.44,
+      "analyzed_window": {
+        "position_s": 1.72,
+        "requested_start_s": -3.28,
+        "requested_end_s": 6.72,
+        "source_start_s": 0.0,
+        "source_end_s": 3.44,
+        "silence_before_s": 3.28,
+        "silence_after_s": 3.28,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "He spoke quietly and adjusted his coat",
+          "probability": 0.6049111485481262
+        },
+        {
+          "choice": "He moved his feet and touched his hat",
+          "probability": 0.2791142165660858
+        },
+        {
+          "choice": "He looked at the ground and smiled",
+          "probability": 0.09264915436506271
+        },
+        {
+          "choice": "He stood still and held a book",
+          "probability": 0.023325514048337936
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "He spoke quietly and adjusted his coat",
+          "probability": 0.6070392727851868
+        },
+        {
+          "choice": "He moved his feet and touched his hat",
+          "probability": 0.2972407341003418
+        },
+        {
+          "choice": "He looked at the ground and smiled",
+          "probability": 0.07348041236400604
+        },
+        {
+          "choice": "He stood still and held a book",
+          "probability": 0.022239556536078453
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "762aa871e3e2be5c46160aec56af61d24c576541eed7d6aeb22d6748ec613a5f",
+      "question_type": "speech",
+      "duration_s": 8.16,
+      "analyzed_window": {
+        "position_s": 4.08,
+        "requested_start_s": -0.92,
+        "requested_end_s": 9.08,
+        "source_start_s": 0.0,
+        "source_end_s": 8.16,
+        "silence_before_s": 0.92,
+        "silence_after_s": 0.92,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Confident self expression",
+          "probability": 0.9250935912132263
+        },
+        {
+          "choice": "Calm recollection",
+          "probability": 0.03730162978172302
+        },
+        {
+          "choice": "Frustrated explanation",
+          "probability": 0.03630751371383667
+        },
+        {
+          "choice": "Angry confrontation",
+          "probability": 0.0012972692493349314
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Confident self expression",
+          "probability": 0.9032883644104004
+        },
+        {
+          "choice": "Frustrated explanation",
+          "probability": 0.04764550179243088
+        },
+        {
+          "choice": "Calm recollection",
+          "probability": 0.04752601683139801
+        },
+        {
+          "choice": "Angry confrontation",
+          "probability": 0.0015400454867631197
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "81213a86435b35acd18ce3779c36c0170f25dafa0a09b892880a6a69bcde446c",
+      "question_type": "temporal",
+      "duration_s": 24.302875,
+      "analyzed_window": {
+        "position_s": 12.1514375,
+        "requested_start_s": 7.1514375,
+        "requested_end_s": 17.1514375,
+        "source_start_s": 7.1514375,
+        "source_end_s": 17.1514375,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Gentle rain falling",
+          "probability": 0.48697149753570557
+        },
+        {
+          "choice": "Heavy wind blowing",
+          "probability": 0.3944132328033447
+        },
+        {
+          "choice": "Distant thunder rumbling",
+          "probability": 0.07900194078683853
+        },
+        {
+          "choice": "Light footsteps walking",
+          "probability": 0.03961329534649849
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Heavy wind blowing",
+          "probability": 0.5103651285171509
+        },
+        {
+          "choice": "Gentle rain falling",
+          "probability": 0.3784044086933136
+        },
+        {
+          "choice": "Distant thunder rumbling",
+          "probability": 0.0896979570388794
+        },
+        {
+          "choice": "Light footsteps walking",
+          "probability": 0.021532487124204636
+        }
+      ],
+      "top1_changed": true
+    },
+    {
+      "sample_id": "6bd9183f090f122e6f0eef75d7d04b8ae90ea9c23a7ee90813689754e0e7f8a6",
+      "question_type": "temporal",
+      "duration_s": 27.1988125,
+      "analyzed_window": {
+        "position_s": 13.59940625,
+        "requested_start_s": 8.599375,
+        "requested_end_s": 18.599375,
+        "source_start_s": 8.599375,
+        "source_end_s": 18.599375,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Muffled dog barking",
+          "probability": 0.4685666263103485
+        },
+        {
+          "choice": "Fireworks exploding",
+          "probability": 0.30942848324775696
+        },
+        {
+          "choice": "Distant thunder rumbling",
+          "probability": 0.1164635717868805
+        },
+        {
+          "choice": "Nothing else can be heard",
+          "probability": 0.10554131865501404
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Muffled dog barking",
+          "probability": 0.5340626835823059
+        },
+        {
+          "choice": "Fireworks exploding",
+          "probability": 0.2587026357650757
+        },
+        {
+          "choice": "Distant thunder rumbling",
+          "probability": 0.12747202813625336
+        },
+        {
+          "choice": "Nothing else can be heard",
+          "probability": 0.07976268976926804
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "80967897428277e9b533f3f95f41a202de988e8d0cd1fddf21843d34ab31e4b1",
+      "question_type": "temporal",
+      "duration_s": 15.2754375,
+      "analyzed_window": {
+        "position_s": 7.63771875,
+        "requested_start_s": 2.63775,
+        "requested_end_s": 12.63775,
+        "source_start_s": 2.63775,
+        "source_end_s": 12.63775,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Piano",
+          "probability": 0.7552642822265625
+        },
+        {
+          "choice": "Flute",
+          "probability": 0.203877791762352
+        },
+        {
+          "choice": "Violin",
+          "probability": 0.0293565820902586
+        },
+        {
+          "choice": "Cello",
+          "probability": 0.011501334607601166
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Piano",
+          "probability": 0.7394550442695618
+        },
+        {
+          "choice": "Flute",
+          "probability": 0.22571727633476257
+        },
+        {
+          "choice": "Violin",
+          "probability": 0.020802542567253113
+        },
+        {
+          "choice": "Cello",
+          "probability": 0.014025124721229076
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "491eab3ce1cfb1a4409b3aa61fe0c654a03ba41869977550ca1c9afa21cb5a89",
+      "question_type": "temporal",
+      "duration_s": 22.699375,
+      "analyzed_window": {
+        "position_s": 11.3496875,
+        "requested_start_s": 6.3496875,
+        "requested_end_s": 16.3496875,
+        "source_start_s": 6.3496875,
+        "source_end_s": 16.3496875,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "19.5s",
+          "probability": 0.351864218711853
+        },
+        {
+          "choice": "22.7s",
+          "probability": 0.30098479986190796
+        },
+        {
+          "choice": "27.3s",
+          "probability": 0.22772204875946045
+        },
+        {
+          "choice": "14.8s",
+          "probability": 0.11942891776561737
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "19.5s",
+          "probability": 0.34897807240486145
+        },
+        {
+          "choice": "22.7s",
+          "probability": 0.29247692227363586
+        },
+        {
+          "choice": "27.3s",
+          "probability": 0.27600911259651184
+        },
+        {
+          "choice": "14.8s",
+          "probability": 0.08253590017557144
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "cd71a84c356da6c0afd08d1e95f8a4b45d76c87b2fe2275ab656658b0a2a942e",
+      "question_type": "temporal",
+      "duration_s": 21.9778125,
+      "analyzed_window": {
+        "position_s": 10.98890625,
+        "requested_start_s": 5.988875,
+        "requested_end_s": 15.988875,
+        "source_start_s": 5.988875,
+        "source_end_s": 15.988875,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "22.0s",
+          "probability": 0.7285999059677124
+        },
+        {
+          "choice": "18.7s",
+          "probability": 0.17372602224349976
+        },
+        {
+          "choice": "15.3s",
+          "probability": 0.062207773327827454
+        },
+        {
+          "choice": "10.5s",
+          "probability": 0.035466354340314865
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "22.0s",
+          "probability": 0.6811084151268005
+        },
+        {
+          "choice": "18.7s",
+          "probability": 0.20420783758163452
+        },
+        {
+          "choice": "15.3s",
+          "probability": 0.07960697263479233
+        },
+        {
+          "choice": "10.5s",
+          "probability": 0.03507676720619202
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "7522b426c34944fa23e6df970822ec762709431fe137fcdbde69d7bd88a6e510",
+      "question_type": "temporal",
+      "duration_s": 22.8615,
+      "analyzed_window": {
+        "position_s": 11.43075,
+        "requested_start_s": 6.43075,
+        "requested_end_s": 16.43075,
+        "source_start_s": 6.43075,
+        "source_end_s": 16.43075,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "Multiple dogs barking rhythmically",
+          "probability": 0.5624891519546509
+        },
+        {
+          "choice": "Another bird chirping loudly",
+          "probability": 0.2123260498046875
+        },
+        {
+          "choice": "Nothing else can be heard",
+          "probability": 0.16142132878303528
+        },
+        {
+          "choice": "Dog barking loudly outdoors",
+          "probability": 0.06376341730356216
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "Multiple dogs barking rhythmically",
+          "probability": 0.5114737153053284
+        },
+        {
+          "choice": "Nothing else can be heard",
+          "probability": 0.25451523065567017
+        },
+        {
+          "choice": "Another bird chirping loudly",
+          "probability": 0.17155693471431732
+        },
+        {
+          "choice": "Dog barking loudly outdoors",
+          "probability": 0.062454160302877426
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "88cecf21c1871c5c6b233f489c435836081c4fd98dd21422f609d5d261d8ea6c",
+      "question_type": "temporal",
+      "duration_s": 29.4645,
+      "analyzed_window": {
+        "position_s": 14.73225,
+        "requested_start_s": 9.73225,
+        "requested_end_s": 19.73225,
+        "source_start_s": 9.73225,
+        "source_end_s": 19.73225,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "16.9s",
+          "probability": 0.3318280577659607
+        },
+        {
+          "choice": "13.1s",
+          "probability": 0.2630150616168976
+        },
+        {
+          "choice": "7.0s",
+          "probability": 0.20461443066596985
+        },
+        {
+          "choice": "15.0s",
+          "probability": 0.20054243505001068
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "16.9s",
+          "probability": 0.36981961131095886
+        },
+        {
+          "choice": "13.1s",
+          "probability": 0.24336111545562744
+        },
+        {
+          "choice": "7.0s",
+          "probability": 0.21612147986888885
+        },
+        {
+          "choice": "15.0s",
+          "probability": 0.17069776356220245
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "db83ac627242568a94cc53802a431f6b1e05c42bc68e9f19a9e8ca414e1a9461",
+      "question_type": "temporal",
+      "duration_s": 26.8633125,
+      "analyzed_window": {
+        "position_s": 13.43165625,
+        "requested_start_s": 8.431625,
+        "requested_end_s": 18.431625,
+        "source_start_s": 8.431625,
+        "source_end_s": 18.431625,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "26.3s",
+          "probability": 0.33274832367897034
+        },
+        {
+          "choice": "25.7s",
+          "probability": 0.24090202152729034
+        },
+        {
+          "choice": "24.5s",
+          "probability": 0.21659408509731293
+        },
+        {
+          "choice": "25.1s",
+          "probability": 0.20975559949874878
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "26.3s",
+          "probability": 0.35545605421066284
+        },
+        {
+          "choice": "24.5s",
+          "probability": 0.23269963264465332
+        },
+        {
+          "choice": "25.7s",
+          "probability": 0.22717110812664032
+        },
+        {
+          "choice": "25.1s",
+          "probability": 0.1846732199192047
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "c6816d72c8675ce552c94f1033abc6bbebd8319f5d1e3cf47386a7592eb9140d",
+      "question_type": "temporal",
+      "duration_s": 27.30725,
+      "analyzed_window": {
+        "position_s": 13.653625,
+        "requested_start_s": 8.653625,
+        "requested_end_s": 18.653625,
+        "source_start_s": 8.653625,
+        "source_end_s": 18.653625,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "The faint mumbled voice",
+          "probability": 0.5235588550567627
+        },
+        {
+          "choice": "The faint muffled voice",
+          "probability": 0.22345487773418427
+        },
+        {
+          "choice": "Not enough information",
+          "probability": 0.16849587857723236
+        },
+        {
+          "choice": "They last the same",
+          "probability": 0.08449038118124008
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "The faint mumbled voice",
+          "probability": 0.4326287806034088
+        },
+        {
+          "choice": "The faint muffled voice",
+          "probability": 0.3134130537509918
+        },
+        {
+          "choice": "Not enough information",
+          "probability": 0.1718043088912964
+        },
+        {
+          "choice": "They last the same",
+          "probability": 0.08215384930372238
+        }
+      ],
+      "top1_changed": false
+    },
+    {
+      "sample_id": "41716bc5918d22afc6aa6deb9660cd96825aa83665162c5912716e0a0571cfd7",
+      "question_type": "temporal",
+      "duration_s": 18.23325,
+      "analyzed_window": {
+        "position_s": 9.116625,
+        "requested_start_s": 4.116625,
+        "requested_end_s": 14.116625,
+        "source_start_s": 4.116625,
+        "source_end_s": 14.116625,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "full_ranking": [
+        {
+          "choice": "4.7s",
+          "probability": 0.2683633267879486
+        },
+        {
+          "choice": "6.4s",
+          "probability": 0.25457051396369934
+        },
+        {
+          "choice": "8.9s",
+          "probability": 0.24155069887638092
+        },
+        {
+          "choice": "10.3s",
+          "probability": 0.23551547527313232
+        }
+      ],
+      "window_ranking": [
+        {
+          "choice": "6.4s",
+          "probability": 0.33822140097618103
+        },
+        {
+          "choice": "8.9s",
+          "probability": 0.30963149666786194
+        },
+        {
+          "choice": "10.3s",
+          "probability": 0.22145116329193115
+        },
+        {
+          "choice": "4.7s",
+          "probability": 0.1306958794593811
+        }
+      ],
+      "top1_changed": true
+    }
+  ]
+}

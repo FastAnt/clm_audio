@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "stage": 1,
+  "step": 150,
+  "target_steps": 2000,
+  "train_samples": 256,
+  "configuration": {
+    "stage": 1,
+    "overfit": true,
+    "samples": 256,
+    "steps": 2000,
+    "batch_size": 64,
+    "evaluate_every": 50,
+    "lr": 0.001,
+    "bottleneck": null,
+    "adapter_kind": "linear",
+    "run_root": "/srv/data/samsone_clm/runs/v3",
+    "seed": 42,
+    "device": "cuda",
+    "out": "/srv/data/samsone_clm/runs/v3/overfit-256-infonce",
+    "feature_manifest": "/srv/data/samsone_clm/features/spike-8ba4cd7c571baa8c/manifest.json",
+    "diagnostic": false,
+    "init_checkpoint": null,
+    "resume": null,
+    "epochs": 8,
+    "loss": "infonce",
+    "infonce_weight": 1.0,
+    "learnable_scale": true,
+    "scale_lr": 0.001,
+    "weight_decay": 0.0,
+    "scheduler": "constant",
+    "patience": 0,
+    "head_lr": 0.0001,
+    "audio_swap_weight": 0.0,
+    "audio_swap_margin": 0.05,
+    "audio_pair_batch_size": 0,
+    "audio_pair_ce_weight": 0.5,
+    "audio_pair_mode": "same-options"
+  },
+  "model": {
+    "samsone_width": 960,
+    "input_width": 4096,
+    "projection_width": 512,
+    "bottleneck": 960,
+    "clm_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+    "clm_cfg": {
+      "model": "Qwen/Qwen3-8B",
+      "hidden_size": 4096,
+      "projection_dim": 512,
+      "width": 1536,
+      "depth": 3,
+      "activation": "gelu",
+      "layernorm": true,
+      "residual": false
+    },
+    "score": "cosine",
+    "temperature": 0.01,
+    "score_scale": 100.0,
+    "checkpoint_logit_scale": 4.613248825073242,
+    "head_input_l2": true,
+    "adapter_kind": "linear",
+    "contract_version": 2,
+    "head_matmul_precision": "fp32",
+    "learnable_scale": true
+  },
+  "train_curve": [
+    {
+      "step": 0,
+      "loss": 3.4285545349121094
+    },
+    {
+      "step": 50,
+      "loss": 0.11550379544496536
+    },
+    {
+      "step": 100,
+      "loss": 0.07691974192857742
+    },
+    {
+      "step": 150,
+      "loss": 0.006207438185811043
+    }
+  ],
+  "encoder_calls_during_training": 0
+}

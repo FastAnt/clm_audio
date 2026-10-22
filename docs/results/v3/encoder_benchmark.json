@@ -1,0 +1,23 @@
+[
+  {
+    "batch_size": 16,
+    "seconds": 6.579505851999784,
+    "samples_per_second": 9.727174265001642,
+    "peak_gpu_gib": 1.770510196685791,
+    "max_relative_l2": 0.0
+  },
+  {
+    "batch_size": 32,
+    "seconds": 5.403729547999774,
+    "samples_per_second": 11.843671936485057,
+    "peak_gpu_gib": 2.197622299194336,
+    "max_relative_l2": 2.125231503669056e-06
+  },
+  {
+    "batch_size": 64,
+    "seconds": 5.202744633000293,
+    "samples_per_second": 12.301199561872942,
+    "peak_gpu_gib": 3.049832344055176,
+    "max_relative_l2": 2.0989821223338367e-06
+  }
+]

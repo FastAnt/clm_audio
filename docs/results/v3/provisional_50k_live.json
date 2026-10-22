@@ -1,0 +1,191 @@
+{
+  "checkpoint": "/srv/data/samsone_clm/runs/v3/stage2-audio-grounded/calibrated.pt",
+  "tested_real_audio_files": 4,
+  "encoder_frozen": true,
+  "architecture": {
+    "samsone_width": 960,
+    "input_width": 4096,
+    "projection_width": 512,
+    "bottleneck": 960,
+    "clm_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+    "clm_cfg": {
+      "model": "Qwen/Qwen3-8B",
+      "hidden_size": 4096,
+      "projection_dim": 512,
+      "width": 1536,
+      "depth": 3,
+      "activation": "gelu",
+      "layernorm": true,
+      "residual": false
+    },
+    "score": "cosine",
+    "temperature": 0.01,
+    "score_scale": 100.0,
+    "checkpoint_logit_scale": 4.613248825073242,
+    "head_input_l2": true,
+    "adapter_kind": "linear",
+    "contract_version": 2,
+    "head_matmul_precision": "fp32",
+    "learnable_scale": true
+  },
+  "cases": [
+    {
+      "category": "music",
+      "sample_id": "05596d21fa04e189b1d4408e9bbf2656535e64a1d5197af5b1ed1c4eb3a96a7f",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/d02d21e01515e02356df07f2.wav",
+      "question": "What can be concluded about the male voice heard in the audio?",
+      "choices": [
+        "Someone is speaking formally",
+        "Someone is singing live",
+        "Someone is practicing scales",
+        "Someone is recording a podcast"
+      ],
+      "answer_index": 1,
+      "live": [
+        {
+          "choice": "Someone is singing live",
+          "probability": 0.40546613931655884
+        },
+        {
+          "choice": "Someone is practicing scales",
+          "probability": 0.30791714787483215
+        },
+        {
+          "choice": "Someone is speaking formally",
+          "probability": 0.2184276282787323
+        },
+        {
+          "choice": "Someone is recording a podcast",
+          "probability": 0.06818907707929611
+        }
+      ],
+      "cached_probabilities": [
+        0.21843092143535614,
+        0.40545886754989624,
+        0.30792036652565,
+        0.06818993389606476
+      ],
+      "max_probability_error": 7.271766662597656e-06,
+      "latency_s": 1.9695422430013423
+    },
+    {
+      "category": "sound",
+      "sample_id": "b5ffa9189cc5825045a7e34e9fe55c4ee6ac13d5f9c7484124e79487f04475ec",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/52efb355076f7a99c30a2553.wav",
+      "question": "What is the most prominent combination of sounds heard in the audio?",
+      "choices": [
+        "Heavy rain with distant thunder",
+        "Light breeze with insect buzzing",
+        "Strong wind with bird activity",
+        "Ocean waves with seagull cries"
+      ],
+      "answer_index": 2,
+      "live": [
+        {
+          "choice": "Strong wind with bird activity",
+          "probability": 0.745172381401062
+        },
+        {
+          "choice": "Ocean waves with seagull cries",
+          "probability": 0.13207411766052246
+        },
+        {
+          "choice": "Light breeze with insect buzzing",
+          "probability": 0.07869541645050049
+        },
+        {
+          "choice": "Heavy rain with distant thunder",
+          "probability": 0.04405807703733444
+        }
+      ],
+      "cached_probabilities": [
+        0.04404934123158455,
+        0.07870716601610184,
+        0.745162844657898,
+        0.13208067417144775
+      ],
+      "max_probability_error": 1.1749565601348877e-05,
+      "latency_s": 0.5532586770004855
+    },
+    {
+      "category": "speech",
+      "sample_id": "bfc58f5bce9d0319727ab003a6e2dad4dc04f165c2d24f5a1f1f4185c5ab59d6",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/1b7c723bd3aea2a43dcc944f.wav",
+      "question": "What aspect of the speaker's delivery suggests a personal connection to the story?",
+      "choices": [
+        "Monotone delivery and hesitant pauses",
+        "Slow pacing with dramatic tone",
+        "High pitch and exaggerated tone",
+        "Fast pacing with natural expression"
+      ],
+      "answer_index": 3,
+      "live": [
+        {
+          "choice": "Fast pacing with natural expression",
+          "probability": 0.8520107269287109
+        },
+        {
+          "choice": "Slow pacing with dramatic tone",
+          "probability": 0.07996579259634018
+        },
+        {
+          "choice": "High pitch and exaggerated tone",
+          "probability": 0.0659215897321701
+        },
+        {
+          "choice": "Monotone delivery and hesitant pauses",
+          "probability": 0.0021019212435930967
+        }
+      ],
+      "cached_probabilities": [
+        0.002101867226883769,
+        0.07996629923582077,
+        0.06592176854610443,
+        0.8520100116729736
+      ],
+      "max_probability_error": 7.152557373046875e-07,
+      "latency_s": 0.4485574330010422
+    },
+    {
+      "category": "temporal",
+      "sample_id": "760c0df30f52a73458af65cb35e1e4138a4a64d5e046d9ff14efff463f0f01c9",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/3d47356bb9782a8186e63470.wav",
+      "question": "What is the total number of different sounds in the audio clip?",
+      "choices": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer_index": 1,
+      "live": [
+        {
+          "choice": "1",
+          "probability": 0.5965092182159424
+        },
+        {
+          "choice": "2",
+          "probability": 0.21031111478805542
+        },
+        {
+          "choice": "3",
+          "probability": 0.10825031250715256
+        },
+        {
+          "choice": "4",
+          "probability": 0.08492933958768845
+        }
+      ],
+      "cached_probabilities": [
+        0.5965141654014587,
+        0.10824907571077347,
+        0.21030856668949127,
+        0.0849282294511795
+      ],
+      "max_probability_error": 4.947185516357422e-06,
+      "latency_s": 0.7667201820004266
+    }
+  ],
+  "passed": true,
+  "scope": "Live/cache parity on four fixed validation examples; not an accuracy claim"
+}

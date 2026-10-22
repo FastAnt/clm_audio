@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "repository": "FastAnt/clm_audio",
+  "architecture": "frozen Samsone356M -> shared adapter -> original pretrained CLM state/action heads",
+  "models": {
+    "samsone_clm_common": {
+      "inference_checkpoint": "calibrated.pt",
+      "format": "inference-only; not an exact-resume checkpoint",
+      "files": [
+        {
+          "name": "calibrated.pt",
+          "path": "checkpoints/samsone_clm_common/calibrated.pt",
+          "storage": "git-lfs",
+          "bytes": 91302826,
+          "sha256": "3e27bb41bad690720837323178b41d8d393a1c2cd2a79c5c256bd85d17b5edae"
+        },
+        {
+          "name": "checksums.json",
+          "path": "checkpoints/samsone_clm_common/checksums.json",
+          "storage": "metadata",
+          "bytes": 90,
+          "sha256": "4385e74c54638b27a56f932605dd065d20e2d9dd7aa70338fb6f0f39ada20ac8"
+        }
+      ]
+    },
+    "samsone_clm_music": {
+      "inference_checkpoint": "calibrated.pt",
+      "format": "inference-only; not an exact-resume checkpoint",
+      "files": [
+        {
+          "name": "calibrated.pt",
+          "path": "checkpoints/samsone_clm_music/calibrated.pt",
+          "storage": "git-lfs",
+          "bytes": 91302826,
+          "sha256": "c854b88ddbf3f7ddf521e63e7a70fba219dde4b3cb7b1bdde05a8b5542319c03"
+        },
+        {
+          "name": "checksums.json",
+          "path": "checkpoints/samsone_clm_music/checksums.json",
+          "storage": "metadata",
+          "bytes": 90,
+          "sha256": "62cef130e334a1b6d2adb7812b535fb18958b9f14586afa0784c985f39a4b603"
+        }
+      ]
+    }
+  }
+}

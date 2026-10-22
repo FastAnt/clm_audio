@@ -1,0 +1,12 @@
+{
+  "best.pt": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78",
+  "last.pt": "e9b76ce5eb08d4ad14ed12def0c2f5ad137f0e67293ab45c2cd26c782fa41ce4",
+  "calibrated.pt": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+  "calibration.json": "c193fb03e4188d2a437be3b1a0175d0addc5439e21ee55534f12c14a981a7a66",
+  "training_metrics.json": "3963b3a37d8b167c728606f3e2e1653e9ee44803d654ca00bc14b3b31f8dde6f",
+  "raw_test.json": "d45caada40e9980e078ee15d3cc2ac2555e1c40ac55bb4cf6a3b979fd13938dc",
+  "calibrated_test.json": "f86b3060ee44a5e44ef8d55f67d856b06ece8b424525ab9a84103882a72cfcf3",
+  "paired_audio_evaluation.json": "cca8faf6e7f62c93de2fb28eaf35a4b6ad6507829bb216ee6daa7ee263502586",
+  "window_transfer.json": "ba94857f933322e8e9cdf0a97fca3cda655984a0ad1a51b48a962e9a66e3a063",
+  "live_inference.json": "51d7234db6b90854ab6df0abc5707bb1e11fb7bcaa9fc334f42389bc68f1639c"
+}

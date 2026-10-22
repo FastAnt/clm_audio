@@ -1,0 +1,395 @@
+{
+  "passed": true,
+  "health": {
+    "status": "ready",
+    "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+    "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+    "samsone_frozen": true,
+    "score": "cosine",
+    "score_scale": 53.035945892333984,
+    "head_input_l2": true,
+    "encoder_recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "adapter_kind": "linear"
+  },
+  "samples": 9,
+  "seek_range_verified": true,
+  "choice_permutation_verified": true,
+  "results": [
+    {
+      "task": "instrument_family",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/bc6aff30528e22898fe64235d7e82df3c9123b753e230e23aff4e620b952e112.wav",
+      "ranking": [
+        {
+          "choice": "vocal",
+          "probability": 0.7565788626670837
+        },
+        {
+          "choice": "organ",
+          "probability": 0.057117488235235214
+        },
+        {
+          "choice": "string",
+          "probability": 0.04711386561393738
+        },
+        {
+          "choice": "flute",
+          "probability": 0.0450572744011879
+        },
+        {
+          "choice": "bass",
+          "probability": 0.032644473016262054
+        },
+        {
+          "choice": "reed",
+          "probability": 0.027743948623538017
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.013192282058298588
+        },
+        {
+          "choice": "brass",
+          "probability": 0.011924514546990395
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.0063329050317406654
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.0018503278261050582
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.0004441138298716396
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 152.06295996904373,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "instrument_family",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/bc6aff30528e22898fe64235d7e82df3c9123b753e230e23aff4e620b952e112.wav",
+      "ranking": [
+        {
+          "choice": "reed",
+          "probability": 0.2506081461906433
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.20015600323677063
+        },
+        {
+          "choice": "string",
+          "probability": 0.18990552425384521
+        },
+        {
+          "choice": "brass",
+          "probability": 0.18093541264533997
+        },
+        {
+          "choice": "flute",
+          "probability": 0.11434924602508545
+        },
+        {
+          "choice": "organ",
+          "probability": 0.046818554401397705
+        },
+        {
+          "choice": "bass",
+          "probability": 0.007923958823084831
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.007043734192848206
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.001708321738988161
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.00032466085394844413
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.00022650814207736403
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 55.36644347012043,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "instrument_family",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/bc6aff30528e22898fe64235d7e82df3c9123b753e230e23aff4e620b952e112.wav",
+      "ranking": [
+        {
+          "choice": "brass",
+          "probability": 0.43270814418792725
+        },
+        {
+          "choice": "reed",
+          "probability": 0.1640235036611557
+        },
+        {
+          "choice": "flute",
+          "probability": 0.162805438041687
+        },
+        {
+          "choice": "keyboard",
+          "probability": 0.1033228263258934
+        },
+        {
+          "choice": "vocal",
+          "probability": 0.0640578493475914
+        },
+        {
+          "choice": "organ",
+          "probability": 0.03300859034061432
+        },
+        {
+          "choice": "string",
+          "probability": 0.025460775941610336
+        },
+        {
+          "choice": "bass",
+          "probability": 0.009462081827223301
+        },
+        {
+          "choice": "guitar",
+          "probability": 0.004027665592730045
+        },
+        {
+          "choice": "synth lead",
+          "probability": 0.000878526596352458
+        },
+        {
+          "choice": "mallet",
+          "probability": 0.0002445559948682785
+        }
+      ],
+      "window": {
+        "position_s": 10.0,
+        "requested_start_s": 5.0,
+        "requested_end_s": 15.0,
+        "source_start_s": 5.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 54.014652967453,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "vocals",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/750a6bb61084596306104758111b1eb9da6562fd4bd3288751a29f0ffab41b64.wav",
+      "ranking": [
+        {
+          "choice": "instrumental",
+          "probability": 0.8427614569664001
+        },
+        {
+          "choice": "voice",
+          "probability": 0.15723854303359985
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 88.25539983808994,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "vocals",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/750a6bb61084596306104758111b1eb9da6562fd4bd3288751a29f0ffab41b64.wav",
+      "ranking": [
+        {
+          "choice": "instrumental",
+          "probability": 0.8983636498451233
+        },
+        {
+          "choice": "voice",
+          "probability": 0.10163635015487671
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 55.335983633995056,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "vocals",
+      "source_audio": "/srv/data/samsone_clm/processed/music_windows/audio/test/750a6bb61084596306104758111b1eb9da6562fd4bd3288751a29f0ffab41b64.wav",
+      "ranking": [
+        {
+          "choice": "instrumental",
+          "probability": 0.9322287440299988
+        },
+        {
+          "choice": "voice",
+          "probability": 0.06777132302522659
+        }
+      ],
+      "window": {
+        "position_s": 10.0,
+        "requested_start_s": 5.0,
+        "requested_end_s": 15.0,
+        "source_start_s": 5.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 57.2845283895731,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "tempo",
+      "source_audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/qRLRLp-KTFs_5.wav",
+      "ranking": [
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.38640740513801575
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.26448479294776917
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.1882258504629135
+        },
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.160881906747818
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 94.82946805655956,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "tempo",
+      "source_audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/qRLRLp-KTFs_5.wav",
+      "ranking": [
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.5103817582130432
+        },
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.2670038938522339
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.16251663863658905
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.06009768322110176
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 57.19686113297939,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    },
+    {
+      "task": "tempo",
+      "source_audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/qRLRLp-KTFs_5.wav",
+      "ranking": [
+        {
+          "choice": "160 to 239 BPM",
+          "probability": 0.616044819355011
+        },
+        {
+          "choice": "120 to 159 BPM",
+          "probability": 0.22848458588123322
+        },
+        {
+          "choice": "80 to 119 BPM",
+          "probability": 0.11017606407403946
+        },
+        {
+          "choice": "40 to 79 BPM",
+          "probability": 0.045294538140296936
+        }
+      ],
+      "window": {
+        "position_s": 10.0,
+        "requested_start_s": 5.0,
+        "requested_end_s": 15.0,
+        "source_start_s": 5.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 5.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 51.85853876173496,
+      "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7"
+    }
+  ],
+  "scope": "Functional ten-second window checks; full-clip labels are not scored on cropped windows"
+}

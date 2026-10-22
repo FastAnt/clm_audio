@@ -1,0 +1,18 @@
+{
+  "repository": "FastAnt/clm_audio",
+  "release_tag": "common-2026-10-03",
+  "asset": "samsone_clm_common.tar",
+  "bytes": 921589760,
+  "sha256": "71b480c1c661a4e0cf5536bc9f0f5092242bc8ccd2b89a22477f7c5ca4d71acf",
+  "contents": [
+    "models/samsone_clm_common/*",
+    "processed/samsone_clm_common/card.json",
+    "processed/samsone_clm_common/checksums.json"
+  ],
+  "excluded": [
+    "canonical QA rows",
+    "source audio",
+    "precomputed features",
+    "official pretrained checkpoints"
+  ]
+}

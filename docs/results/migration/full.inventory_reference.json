@@ -1,0 +1,6 @@
+{
+  "path": "runs/migration/full.json",
+  "bytes": 50839907,
+  "sha256": "7e822560acb2d1a7bbb167198276b6d2368baecf14cee30b5e44b67a83ff1843",
+  "scope": "Full per-file inventory stays on data volume and travels with rsync; summary is committed"
+}

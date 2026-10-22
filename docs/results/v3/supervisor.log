@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 147, in <module>
+    raise
+          
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 117, in main
+    measurements=json.loads((RUN/'encoder_benchmark.json').read_text())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 68, in features
+    run([sys.executable,'scripts/precompute.py','--dataset',str(dataset),'--batch-size',str(batch),
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 43, in run
+    raise RuntimeError(f'{phase} exited {child.returncode}; log={RUN/name}')
+RuntimeError: precompute_stage2_50k exited 1; log=/srv/data/samsone_clm/runs/v3/precompute_stage2_50k.log
+Traceback (most recent call last):
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 221, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 181, in main
+    large=staged(2,manifest,chosen)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 128, in staged
+    run(command,directory.name+'.log','training_'+directory.name)
+  File "/opt/samsone-clm-backup/scripts/run_v3_pipeline.py", line 82, in run
+    raise RuntimeError(f'{phase} exited {child.returncode}; log={RUN/name}')
+RuntimeError: training_stage2 exited 1; log=/srv/data/samsone_clm/runs/v3/stage2.log

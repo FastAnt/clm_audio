@@ -1,0 +1,3822 @@
+{
+  "correct": {
+    "overall": {
+      "samples": 4984,
+      "top1": 0.6595104336738586,
+      "top2": 0.8250401020050049,
+      "loss": 0.9039629101753235,
+      "mean_correct_probability": 0.5816338062286377,
+      "ece": 0.02134049237065483,
+      "bins": 15
+    },
+    "music": {
+      "samples": 4984,
+      "top1": 0.6595104336738586,
+      "top2": 0.8250401020050049,
+      "loss": 0.9039629101753235,
+      "mean_correct_probability": 0.5816338062286377,
+      "ece": 0.02134049237065483,
+      "bins": 15
+    },
+    "sound": {
+      "samples": 0
+    },
+    "speech": {
+      "samples": 0
+    },
+    "temporal": {
+      "samples": 0
+    },
+    "music_tasks": {
+      "danceability": {
+        "samples": 256,
+        "top1": 0.8046875,
+        "top2": 1.0,
+        "loss": 0.38983383774757385,
+        "mean_correct_probability": 0.7543624639511108,
+        "ece": 0.037446412025019526,
+        "bins": 15,
+        "class_macro_top1": 0.8046875,
+        "semantic_class_counts": {
+          "danceable": 128,
+          "not danceable": 128
+        }
+      },
+      "electronic_genre": {
+        "samples": 44,
+        "top1": 0.9545454978942871,
+        "top2": 0.9545454978942871,
+        "loss": 0.2389533668756485,
+        "mean_correct_probability": 0.8663492202758789,
+        "ece": 0.07350204046815634,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "ambient": 42,
+          "trance": 2
+        }
+      },
+      "genre": {
+        "samples": 98,
+        "top1": 0.8877550959587097,
+        "top2": 0.9387754797935486,
+        "loss": 0.4455139636993408,
+        "mean_correct_probability": 0.734981119632721,
+        "ece": 0.13891117344610393,
+        "bins": 15,
+        "class_macro_top1": 0.7512820661067963,
+        "semantic_class_counts": {
+          "alternative": 2,
+          "electronic": 60,
+          "folk country": 2,
+          "pop": 4,
+          "rap hiphop": 4,
+          "rock": 26
+        }
+      },
+      "genre_gtzan": {
+        "samples": 82,
+        "top1": 0.8048779964447021,
+        "top2": 0.9634146094322205,
+        "loss": 0.4438426196575165,
+        "mean_correct_probability": 0.7378205060958862,
+        "ece": 0.06809159892145544,
+        "bins": 15,
+        "class_macro_top1": 0.6628787900720324,
+        "semantic_class_counts": {
+          "classical": 38,
+          "disco": 2,
+          "hip hop": 4,
+          "jazz": 2,
+          "metal": 6,
+          "pop": 8,
+          "rock": 22
+        }
+      },
+      "genre_rosamerica": {
+        "samples": 96,
+        "top1": 0.9270833730697632,
+        "top2": 1.0,
+        "loss": 0.2006618231534958,
+        "mean_correct_probability": 0.856563925743103,
+        "ece": 0.08124382398091257,
+        "bins": 15,
+        "class_macro_top1": 0.9416666626930237,
+        "semantic_class_counts": {
+          "classical": 38,
+          "dance": 10,
+          "hip hop": 4,
+          "pop": 8,
+          "rock": 36
+        }
+      },
+      "instrument_family": {
+        "samples": 1122,
+        "top1": 0.5436720252037048,
+        "top2": 0.7156862616539001,
+        "loss": 1.4219965934753418,
+        "mean_correct_probability": 0.4107211232185364,
+        "ece": 0.04114134784322232,
+        "bins": 15,
+        "class_macro_top1": 0.5294130250811577,
+        "semantic_class_counts": {
+          "bass": 128,
+          "brass": 78,
+          "flute": 128,
+          "guitar": 128,
+          "keyboard": 128,
+          "mallet": 128,
+          "organ": 128,
+          "reed": 72,
+          "string": 128,
+          "vocal": 76
+        }
+      },
+      "instrument_source": {
+        "samples": 384,
+        "top1": 0.5338541865348816,
+        "top2": 0.7604166865348816,
+        "loss": 1.0344032049179077,
+        "mean_correct_probability": 0.47546255588531494,
+        "ece": 0.14156764637300512,
+        "bins": 15,
+        "class_macro_top1": 0.5338541666666666,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "electronic": 128,
+          "synthetic": 128
+        }
+      },
+      "key_mode": {
+        "samples": 128,
+        "top1": 0.625,
+        "top2": 1.0,
+        "loss": 0.6544010639190674,
+        "mean_correct_probability": 0.5424183011054993,
+        "ece": 0.10077485535293818,
+        "bins": 15,
+        "class_macro_top1": 0.625,
+        "semantic_class_counts": {
+          "major": 64,
+          "minor": 64
+        }
+      },
+      "key_tonic": {
+        "samples": 512,
+        "top1": 0.169921875,
+        "top2": 0.3359375,
+        "loss": 2.316770315170288,
+        "mean_correct_probability": 0.11467896401882172,
+        "ece": 0.04145354137290269,
+        "bins": 15,
+        "class_macro_top1": 0.1622231937944889,
+        "semantic_class_counts": {
+          "A": 55,
+          "A flat": 40,
+          "B": 27,
+          "B flat": 41,
+          "C": 45,
+          "C sharp": 26,
+          "D": 50,
+          "E": 51,
+          "E flat": 38,
+          "F": 29,
+          "F sharp": 54,
+          "G": 56
+        }
+      },
+      "meter": {
+        "samples": 128,
+        "top1": 0.609375,
+        "top2": 1.0,
+        "loss": 0.7446459531784058,
+        "mean_correct_probability": 0.6037911772727966,
+        "ece": 0.18397370632737875,
+        "bins": 15,
+        "class_macro_top1": 0.609375,
+        "semantic_class_counts": {
+          "four beats per bar": 64,
+          "three beats per bar": 64
+        }
+      },
+      "mood_acoustic": {
+        "samples": 256,
+        "top1": 0.9140625,
+        "top2": 1.0,
+        "loss": 0.2291351854801178,
+        "mean_correct_probability": 0.8374806046485901,
+        "ece": 0.05253721377812326,
+        "bins": 15,
+        "class_macro_top1": 0.9140625,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "not acoustic": 128
+        }
+      },
+      "mood_aggressive": {
+        "samples": 158,
+        "top1": 0.8987342119216919,
+        "top2": 1.0,
+        "loss": 0.19160638749599457,
+        "mean_correct_probability": 0.8799782395362854,
+        "ece": 0.03869754314655438,
+        "bins": 15,
+        "class_macro_top1": 0.784375011920929,
+        "semantic_class_counts": {
+          "aggressive": 30,
+          "not aggressive": 128
+        }
+      },
+      "mood_electronic": {
+        "samples": 256,
+        "top1": 0.9453125,
+        "top2": 1.0,
+        "loss": 0.17371736466884613,
+        "mean_correct_probability": 0.8748948574066162,
+        "ece": 0.049826000817120075,
+        "bins": 15,
+        "class_macro_top1": 0.9453125,
+        "semantic_class_counts": {
+          "electronic": 128,
+          "not electronic": 128
+        }
+      },
+      "mood_happy": {
+        "samples": 222,
+        "top1": 0.792792797088623,
+        "top2": 1.0,
+        "loss": 0.41673746705055237,
+        "mean_correct_probability": 0.7240128517150879,
+        "ece": 0.08089641365222633,
+        "bins": 15,
+        "class_macro_top1": 0.7694481313228607,
+        "semantic_class_counts": {
+          "happy": 94,
+          "not happy": 128
+        }
+      },
+      "mood_party": {
+        "samples": 150,
+        "top1": 0.9600000381469727,
+        "top2": 1.0,
+        "loss": 0.12264890968799591,
+        "mean_correct_probability": 0.9107075333595276,
+        "ece": 0.04694212484173477,
+        "bins": 15,
+        "class_macro_top1": 0.9389204680919647,
+        "semantic_class_counts": {
+          "not party": 128,
+          "party": 22
+        }
+      },
+      "mood_relaxed": {
+        "samples": 256,
+        "top1": 0.89453125,
+        "top2": 1.0,
+        "loss": 0.2893775999546051,
+        "mean_correct_probability": 0.7920108437538147,
+        "ece": 0.06419292790815234,
+        "bins": 15,
+        "class_macro_top1": 0.89453125,
+        "semantic_class_counts": {
+          "not relaxed": 128,
+          "relaxed": 128
+        }
+      },
+      "mood_sad": {
+        "samples": 196,
+        "top1": 0.7806122303009033,
+        "top2": 1.0,
+        "loss": 0.4871335029602051,
+        "mean_correct_probability": 0.6911329627037048,
+        "ece": 0.04187947080936283,
+        "bins": 15,
+        "class_macro_top1": 0.735523909330368,
+        "semantic_class_counts": {
+          "not sad": 128,
+          "sad": 68
+        }
+      },
+      "tempo": {
+        "samples": 256,
+        "top1": 0.359375,
+        "top2": 0.625,
+        "loss": 1.3951525688171387,
+        "mean_correct_probability": 0.30519911646842957,
+        "ece": 0.09322198084555566,
+        "bins": 15,
+        "class_macro_top1": 0.359375,
+        "semantic_class_counts": {
+          "120 to 159 BPM": 64,
+          "160 to 239 BPM": 64,
+          "40 to 79 BPM": 64,
+          "80 to 119 BPM": 64
+        }
+      },
+      "vocals": {
+        "samples": 256,
+        "top1": 0.921875,
+        "top2": 1.0,
+        "loss": 0.20890846848487854,
+        "mean_correct_probability": 0.8922102451324463,
+        "ece": 0.01976146548986435,
+        "bins": 15,
+        "class_macro_top1": 0.921875,
+        "semantic_class_counts": {
+          "instrumental": 128,
+          "voice": 128
+        }
+      }
+    }
+  },
+  "ablation_correct": {
+    "overall": {
+      "samples": 4984,
+      "top1": 0.6595104336738586,
+      "top2": 0.8250401020050049,
+      "loss": 0.9039629101753235,
+      "mean_correct_probability": 0.5816338062286377,
+      "ece": 0.02134049237065483,
+      "bins": 15
+    },
+    "music": {
+      "samples": 4984,
+      "top1": 0.6595104336738586,
+      "top2": 0.8250401020050049,
+      "loss": 0.9039629101753235,
+      "mean_correct_probability": 0.5816338062286377,
+      "ece": 0.02134049237065483,
+      "bins": 15
+    },
+    "sound": {
+      "samples": 0
+    },
+    "speech": {
+      "samples": 0
+    },
+    "temporal": {
+      "samples": 0
+    },
+    "music_tasks": {
+      "danceability": {
+        "samples": 256,
+        "top1": 0.8046875,
+        "top2": 1.0,
+        "loss": 0.38983383774757385,
+        "mean_correct_probability": 0.7543624639511108,
+        "ece": 0.037446412025019526,
+        "bins": 15,
+        "class_macro_top1": 0.8046875,
+        "semantic_class_counts": {
+          "danceable": 128,
+          "not danceable": 128
+        }
+      },
+      "electronic_genre": {
+        "samples": 44,
+        "top1": 0.9545454978942871,
+        "top2": 0.9545454978942871,
+        "loss": 0.2389533668756485,
+        "mean_correct_probability": 0.8663492202758789,
+        "ece": 0.07350204046815634,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "ambient": 42,
+          "trance": 2
+        }
+      },
+      "genre": {
+        "samples": 98,
+        "top1": 0.8877550959587097,
+        "top2": 0.9387754797935486,
+        "loss": 0.4455139636993408,
+        "mean_correct_probability": 0.734981119632721,
+        "ece": 0.13891117344610393,
+        "bins": 15,
+        "class_macro_top1": 0.7512820661067963,
+        "semantic_class_counts": {
+          "alternative": 2,
+          "electronic": 60,
+          "folk country": 2,
+          "pop": 4,
+          "rap hiphop": 4,
+          "rock": 26
+        }
+      },
+      "genre_gtzan": {
+        "samples": 82,
+        "top1": 0.8048779964447021,
+        "top2": 0.9634146094322205,
+        "loss": 0.4438426196575165,
+        "mean_correct_probability": 0.7378205060958862,
+        "ece": 0.06809159892145544,
+        "bins": 15,
+        "class_macro_top1": 0.6628787900720324,
+        "semantic_class_counts": {
+          "classical": 38,
+          "disco": 2,
+          "hip hop": 4,
+          "jazz": 2,
+          "metal": 6,
+          "pop": 8,
+          "rock": 22
+        }
+      },
+      "genre_rosamerica": {
+        "samples": 96,
+        "top1": 0.9270833730697632,
+        "top2": 1.0,
+        "loss": 0.2006618231534958,
+        "mean_correct_probability": 0.856563925743103,
+        "ece": 0.08124382398091257,
+        "bins": 15,
+        "class_macro_top1": 0.9416666626930237,
+        "semantic_class_counts": {
+          "classical": 38,
+          "dance": 10,
+          "hip hop": 4,
+          "pop": 8,
+          "rock": 36
+        }
+      },
+      "instrument_family": {
+        "samples": 1122,
+        "top1": 0.5436720252037048,
+        "top2": 0.7156862616539001,
+        "loss": 1.4219965934753418,
+        "mean_correct_probability": 0.4107211232185364,
+        "ece": 0.04114134784322232,
+        "bins": 15,
+        "class_macro_top1": 0.5294130250811577,
+        "semantic_class_counts": {
+          "bass": 128,
+          "brass": 78,
+          "flute": 128,
+          "guitar": 128,
+          "keyboard": 128,
+          "mallet": 128,
+          "organ": 128,
+          "reed": 72,
+          "string": 128,
+          "vocal": 76
+        }
+      },
+      "instrument_source": {
+        "samples": 384,
+        "top1": 0.5338541865348816,
+        "top2": 0.7604166865348816,
+        "loss": 1.0344032049179077,
+        "mean_correct_probability": 0.47546255588531494,
+        "ece": 0.14156764637300512,
+        "bins": 15,
+        "class_macro_top1": 0.5338541666666666,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "electronic": 128,
+          "synthetic": 128
+        }
+      },
+      "key_mode": {
+        "samples": 128,
+        "top1": 0.625,
+        "top2": 1.0,
+        "loss": 0.6544010639190674,
+        "mean_correct_probability": 0.5424183011054993,
+        "ece": 0.10077485535293818,
+        "bins": 15,
+        "class_macro_top1": 0.625,
+        "semantic_class_counts": {
+          "major": 64,
+          "minor": 64
+        }
+      },
+      "key_tonic": {
+        "samples": 512,
+        "top1": 0.169921875,
+        "top2": 0.3359375,
+        "loss": 2.316770315170288,
+        "mean_correct_probability": 0.11467896401882172,
+        "ece": 0.04145354137290269,
+        "bins": 15,
+        "class_macro_top1": 0.1622231937944889,
+        "semantic_class_counts": {
+          "A": 55,
+          "A flat": 40,
+          "B": 27,
+          "B flat": 41,
+          "C": 45,
+          "C sharp": 26,
+          "D": 50,
+          "E": 51,
+          "E flat": 38,
+          "F": 29,
+          "F sharp": 54,
+          "G": 56
+        }
+      },
+      "meter": {
+        "samples": 128,
+        "top1": 0.609375,
+        "top2": 1.0,
+        "loss": 0.7446459531784058,
+        "mean_correct_probability": 0.6037911772727966,
+        "ece": 0.18397370632737875,
+        "bins": 15,
+        "class_macro_top1": 0.609375,
+        "semantic_class_counts": {
+          "four beats per bar": 64,
+          "three beats per bar": 64
+        }
+      },
+      "mood_acoustic": {
+        "samples": 256,
+        "top1": 0.9140625,
+        "top2": 1.0,
+        "loss": 0.2291351854801178,
+        "mean_correct_probability": 0.8374806046485901,
+        "ece": 0.05253721377812326,
+        "bins": 15,
+        "class_macro_top1": 0.9140625,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "not acoustic": 128
+        }
+      },
+      "mood_aggressive": {
+        "samples": 158,
+        "top1": 0.8987342119216919,
+        "top2": 1.0,
+        "loss": 0.19160638749599457,
+        "mean_correct_probability": 0.8799782395362854,
+        "ece": 0.03869754314655438,
+        "bins": 15,
+        "class_macro_top1": 0.784375011920929,
+        "semantic_class_counts": {
+          "aggressive": 30,
+          "not aggressive": 128
+        }
+      },
+      "mood_electronic": {
+        "samples": 256,
+        "top1": 0.9453125,
+        "top2": 1.0,
+        "loss": 0.17371736466884613,
+        "mean_correct_probability": 0.8748948574066162,
+        "ece": 0.049826000817120075,
+        "bins": 15,
+        "class_macro_top1": 0.9453125,
+        "semantic_class_counts": {
+          "electronic": 128,
+          "not electronic": 128
+        }
+      },
+      "mood_happy": {
+        "samples": 222,
+        "top1": 0.792792797088623,
+        "top2": 1.0,
+        "loss": 0.41673746705055237,
+        "mean_correct_probability": 0.7240128517150879,
+        "ece": 0.08089641365222633,
+        "bins": 15,
+        "class_macro_top1": 0.7694481313228607,
+        "semantic_class_counts": {
+          "happy": 94,
+          "not happy": 128
+        }
+      },
+      "mood_party": {
+        "samples": 150,
+        "top1": 0.9600000381469727,
+        "top2": 1.0,
+        "loss": 0.12264890968799591,
+        "mean_correct_probability": 0.9107075333595276,
+        "ece": 0.04694212484173477,
+        "bins": 15,
+        "class_macro_top1": 0.9389204680919647,
+        "semantic_class_counts": {
+          "not party": 128,
+          "party": 22
+        }
+      },
+      "mood_relaxed": {
+        "samples": 256,
+        "top1": 0.89453125,
+        "top2": 1.0,
+        "loss": 0.2893775999546051,
+        "mean_correct_probability": 0.7920108437538147,
+        "ece": 0.06419292790815234,
+        "bins": 15,
+        "class_macro_top1": 0.89453125,
+        "semantic_class_counts": {
+          "not relaxed": 128,
+          "relaxed": 128
+        }
+      },
+      "mood_sad": {
+        "samples": 196,
+        "top1": 0.7806122303009033,
+        "top2": 1.0,
+        "loss": 0.4871335029602051,
+        "mean_correct_probability": 0.6911329627037048,
+        "ece": 0.04187947080936283,
+        "bins": 15,
+        "class_macro_top1": 0.735523909330368,
+        "semantic_class_counts": {
+          "not sad": 128,
+          "sad": 68
+        }
+      },
+      "tempo": {
+        "samples": 256,
+        "top1": 0.359375,
+        "top2": 0.625,
+        "loss": 1.3951525688171387,
+        "mean_correct_probability": 0.30519911646842957,
+        "ece": 0.09322198084555566,
+        "bins": 15,
+        "class_macro_top1": 0.359375,
+        "semantic_class_counts": {
+          "120 to 159 BPM": 64,
+          "160 to 239 BPM": 64,
+          "40 to 79 BPM": 64,
+          "80 to 119 BPM": 64
+        }
+      },
+      "vocals": {
+        "samples": 256,
+        "top1": 0.921875,
+        "top2": 1.0,
+        "loss": 0.20890846848487854,
+        "mean_correct_probability": 0.8922102451324463,
+        "ece": 0.01976146548986435,
+        "bins": 15,
+        "class_macro_top1": 0.921875,
+        "semantic_class_counts": {
+          "instrumental": 128,
+          "voice": 128
+        }
+      }
+    }
+  },
+  "random": {
+    "overall": {
+      "samples": 4984,
+      "top1": 0.35292938351631165,
+      "top2": 0.6558988690376282,
+      "loss": 2.185706853866577,
+      "mean_correct_probability": 0.35320281982421875,
+      "ece": 0.3109990376397036,
+      "bins": 15
+    },
+    "music": {
+      "samples": 4984,
+      "top1": 0.35292938351631165,
+      "top2": 0.6558988690376282,
+      "loss": 2.185706853866577,
+      "mean_correct_probability": 0.35320281982421875,
+      "ece": 0.3109990376397036,
+      "bins": 15
+    },
+    "sound": {
+      "samples": 0
+    },
+    "speech": {
+      "samples": 0
+    },
+    "temporal": {
+      "samples": 0
+    },
+    "music_tasks": {
+      "danceability": {
+        "samples": 256,
+        "top1": 0.51953125,
+        "top2": 1.0,
+        "loss": 1.048363208770752,
+        "mean_correct_probability": 0.549329400062561,
+        "ece": 0.3411508910357952,
+        "bins": 15,
+        "class_macro_top1": 0.51953125,
+        "semantic_class_counts": {
+          "danceable": 128,
+          "not danceable": 128
+        }
+      },
+      "electronic_genre": {
+        "samples": 44,
+        "top1": 0.7954545617103577,
+        "top2": 0.9090909361839294,
+        "loss": 0.6019455790519714,
+        "mean_correct_probability": 0.7096044421195984,
+        "ece": 0.167825763579458,
+        "bins": 15,
+        "class_macro_top1": 0.4166666865348816,
+        "semantic_class_counts": {
+          "ambient": 42,
+          "trance": 2
+        }
+      },
+      "genre": {
+        "samples": 98,
+        "top1": 0.3979591727256775,
+        "top2": 0.5204081535339355,
+        "loss": 2.4910194873809814,
+        "mean_correct_probability": 0.3415985703468323,
+        "ece": 0.31366320862434804,
+        "bins": 15,
+        "class_macro_top1": 0.15811966607968012,
+        "semantic_class_counts": {
+          "alternative": 2,
+          "electronic": 60,
+          "folk country": 2,
+          "pop": 4,
+          "rap hiphop": 4,
+          "rock": 26
+        }
+      },
+      "genre_gtzan": {
+        "samples": 82,
+        "top1": 0.2073170691728592,
+        "top2": 0.30487802624702454,
+        "loss": 3.61533784866333,
+        "mean_correct_probability": 0.2037830501794815,
+        "ece": 0.4494651057757437,
+        "bins": 15,
+        "class_macro_top1": 0.08074162900447845,
+        "semantic_class_counts": {
+          "classical": 38,
+          "disco": 2,
+          "hip hop": 4,
+          "jazz": 2,
+          "metal": 6,
+          "pop": 8,
+          "rock": 22
+        }
+      },
+      "genre_rosamerica": {
+        "samples": 96,
+        "top1": 0.25,
+        "top2": 0.4166666865348816,
+        "loss": 3.5844485759735107,
+        "mean_correct_probability": 0.21945151686668396,
+        "ece": 0.45966555969789624,
+        "bins": 15,
+        "class_macro_top1": 0.18198830634355545,
+        "semantic_class_counts": {
+          "classical": 38,
+          "dance": 10,
+          "hip hop": 4,
+          "pop": 8,
+          "rock": 36
+        }
+      },
+      "instrument_family": {
+        "samples": 1122,
+        "top1": 0.10071300715208054,
+        "top2": 0.2130124717950821,
+        "loss": 4.089667797088623,
+        "mean_correct_probability": 0.11041266471147537,
+        "ece": 0.45625358540564775,
+        "bins": 15,
+        "class_macro_top1": 0.08989049149677157,
+        "semantic_class_counts": {
+          "bass": 128,
+          "brass": 78,
+          "flute": 128,
+          "guitar": 128,
+          "keyboard": 128,
+          "mallet": 128,
+          "organ": 128,
+          "reed": 72,
+          "string": 128,
+          "vocal": 76
+        }
+      },
+      "instrument_source": {
+        "samples": 384,
+        "top1": 0.3932291865348816,
+        "top2": 0.71875,
+        "loss": 1.5225015878677368,
+        "mean_correct_probability": 0.3733569085597992,
+        "ece": 0.27727277018129826,
+        "bins": 15,
+        "class_macro_top1": 0.3932291666666667,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "electronic": 128,
+          "synthetic": 128
+        }
+      },
+      "key_mode": {
+        "samples": 128,
+        "top1": 0.4765625,
+        "top2": 1.0,
+        "loss": 0.804269015789032,
+        "mean_correct_probability": 0.4794522225856781,
+        "ece": 0.1735654603689909,
+        "bins": 15,
+        "class_macro_top1": 0.4765625,
+        "semantic_class_counts": {
+          "major": 64,
+          "minor": 64
+        }
+      },
+      "key_tonic": {
+        "samples": 512,
+        "top1": 0.083984375,
+        "top2": 0.185546875,
+        "loss": 2.724158763885498,
+        "mean_correct_probability": 0.08978350460529327,
+        "ece": 0.11038589163217694,
+        "bins": 15,
+        "class_macro_top1": 0.08548593862603109,
+        "semantic_class_counts": {
+          "A": 55,
+          "A flat": 40,
+          "B": 27,
+          "B flat": 41,
+          "C": 45,
+          "C sharp": 26,
+          "D": 50,
+          "E": 51,
+          "E flat": 38,
+          "F": 29,
+          "F sharp": 54,
+          "G": 56
+        }
+      },
+      "meter": {
+        "samples": 128,
+        "top1": 0.515625,
+        "top2": 1.0,
+        "loss": 0.9771079421043396,
+        "mean_correct_probability": 0.512808084487915,
+        "ece": 0.25216632476076484,
+        "bins": 15,
+        "class_macro_top1": 0.515625,
+        "semantic_class_counts": {
+          "four beats per bar": 64,
+          "three beats per bar": 64
+        }
+      },
+      "mood_acoustic": {
+        "samples": 256,
+        "top1": 0.4453125,
+        "top2": 1.0,
+        "loss": 1.6036399602890015,
+        "mean_correct_probability": 0.453355073928833,
+        "ece": 0.41191601217724383,
+        "bins": 15,
+        "class_macro_top1": 0.4453125,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "not acoustic": 128
+        }
+      },
+      "mood_aggressive": {
+        "samples": 158,
+        "top1": 0.746835470199585,
+        "top2": 1.0,
+        "loss": 0.9096447825431824,
+        "mean_correct_probability": 0.7182627320289612,
+        "ece": 0.1995943314395845,
+        "bins": 15,
+        "class_macro_top1": 0.49921875447034836,
+        "semantic_class_counts": {
+          "aggressive": 30,
+          "not aggressive": 128
+        }
+      },
+      "mood_electronic": {
+        "samples": 256,
+        "top1": 0.484375,
+        "top2": 1.0,
+        "loss": 1.5049974918365479,
+        "mean_correct_probability": 0.4800534248352051,
+        "ece": 0.39743794687092304,
+        "bins": 15,
+        "class_macro_top1": 0.484375,
+        "semantic_class_counts": {
+          "electronic": 128,
+          "not electronic": 128
+        }
+      },
+      "mood_happy": {
+        "samples": 222,
+        "top1": 0.5540540814399719,
+        "top2": 1.0,
+        "loss": 1.101802945137024,
+        "mean_correct_probability": 0.5161926746368408,
+        "ece": 0.26984712679404765,
+        "bins": 15,
+        "class_macro_top1": 0.5101396217942238,
+        "semantic_class_counts": {
+          "happy": 94,
+          "not happy": 128
+        }
+      },
+      "mood_party": {
+        "samples": 150,
+        "top1": 0.7733333706855774,
+        "top2": 1.0,
+        "loss": 0.5981871485710144,
+        "mean_correct_probability": 0.768790066242218,
+        "ece": 0.15846133485320024,
+        "bins": 15,
+        "class_macro_top1": 0.49076704680919647,
+        "semantic_class_counts": {
+          "not party": 128,
+          "party": 22
+        }
+      },
+      "mood_relaxed": {
+        "samples": 256,
+        "top1": 0.48046875,
+        "top2": 1.0,
+        "loss": 1.133163332939148,
+        "mean_correct_probability": 0.4987916946411133,
+        "ece": 0.3251818553544581,
+        "bins": 15,
+        "class_macro_top1": 0.48046875,
+        "semantic_class_counts": {
+          "not relaxed": 128,
+          "relaxed": 128
+        }
+      },
+      "mood_sad": {
+        "samples": 196,
+        "top1": 0.545918345451355,
+        "top2": 1.0,
+        "loss": 0.8084511160850525,
+        "mean_correct_probability": 0.5711051821708679,
+        "ece": 0.21804725885158405,
+        "bins": 15,
+        "class_macro_top1": 0.49034926295280457,
+        "semantic_class_counts": {
+          "not sad": 128,
+          "sad": 68
+        }
+      },
+      "tempo": {
+        "samples": 256,
+        "top1": 0.2265625,
+        "top2": 0.515625,
+        "loss": 1.6911568641662598,
+        "mean_correct_probability": 0.2486967146396637,
+        "ece": 0.2138161645270884,
+        "bins": 15,
+        "class_macro_top1": 0.2265625,
+        "semantic_class_counts": {
+          "120 to 159 BPM": 64,
+          "160 to 239 BPM": 64,
+          "40 to 79 BPM": 64,
+          "80 to 119 BPM": 64
+        }
+      },
+      "vocals": {
+        "samples": 256,
+        "top1": 0.45703125,
+        "top2": 1.0,
+        "loss": 2.422560691833496,
+        "mean_correct_probability": 0.454792320728302,
+        "ece": 0.4924720642156899,
+        "bins": 15,
+        "class_macro_top1": 0.45703125,
+        "semantic_class_counts": {
+          "instrumental": 128,
+          "voice": 128
+        }
+      }
+    }
+  },
+  "silence": {
+    "overall": {
+      "samples": 4984,
+      "top1": 0.37961477041244507,
+      "top2": 0.6544944047927856,
+      "loss": 1.8116801977157593,
+      "mean_correct_probability": 0.36415258049964905,
+      "ece": 0.27413266197254416,
+      "bins": 15
+    },
+    "music": {
+      "samples": 4984,
+      "top1": 0.37961477041244507,
+      "top2": 0.6544944047927856,
+      "loss": 1.8116801977157593,
+      "mean_correct_probability": 0.36415258049964905,
+      "ece": 0.27413266197254416,
+      "bins": 15
+    },
+    "sound": {
+      "samples": 0
+    },
+    "speech": {
+      "samples": 0
+    },
+    "temporal": {
+      "samples": 0
+    },
+    "music_tasks": {
+      "danceability": {
+        "samples": 256,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 1.852219820022583,
+        "mean_correct_probability": 0.5,
+        "ece": 0.4747483730316162,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "danceable": 128,
+          "not danceable": 128
+        }
+      },
+      "electronic_genre": {
+        "samples": 44,
+        "top1": 0.9545454978942871,
+        "top2": 0.9545454978942871,
+        "loss": 0.4048392176628113,
+        "mean_correct_probability": 0.9447895884513855,
+        "ece": 0.03522604703903198,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "ambient": 42,
+          "trance": 2
+        }
+      },
+      "genre": {
+        "samples": 98,
+        "top1": 0.6122449040412903,
+        "top2": 0.6122449040412903,
+        "loss": 1.7144522666931152,
+        "mean_correct_probability": 0.41141825914382935,
+        "ece": 0.04112929105758667,
+        "bins": 15,
+        "class_macro_top1": 0.16666666666666666,
+        "semantic_class_counts": {
+          "alternative": 2,
+          "electronic": 60,
+          "folk country": 2,
+          "pop": 4,
+          "rap hiphop": 4,
+          "rock": 26
+        }
+      },
+      "genre_gtzan": {
+        "samples": 82,
+        "top1": 0.46341460943222046,
+        "top2": 0.5609756112098694,
+        "loss": 2.2876715660095215,
+        "mean_correct_probability": 0.22596104443073273,
+        "ece": 0.07775824517011642,
+        "bins": 15,
+        "class_macro_top1": 0.14285714285714285,
+        "semantic_class_counts": {
+          "classical": 38,
+          "disco": 2,
+          "hip hop": 4,
+          "jazz": 2,
+          "metal": 6,
+          "pop": 8,
+          "rock": 22
+        }
+      },
+      "genre_rosamerica": {
+        "samples": 96,
+        "top1": 0.3958333432674408,
+        "top2": 0.4375,
+        "loss": 2.61051869392395,
+        "mean_correct_probability": 0.25248944759368896,
+        "ece": 0.17481288313865662,
+        "bins": 15,
+        "class_macro_top1": 0.2,
+        "semantic_class_counts": {
+          "classical": 38,
+          "dance": 10,
+          "hip hop": 4,
+          "pop": 8,
+          "rock": 36
+        }
+      },
+      "instrument_family": {
+        "samples": 1122,
+        "top1": 0.11408199369907379,
+        "top2": 0.22816398739814758,
+        "loss": 3.2255115509033203,
+        "mean_correct_probability": 0.10955282300710678,
+        "ece": 0.4204981327056885,
+        "bins": 15,
+        "class_macro_top1": 0.1,
+        "semantic_class_counts": {
+          "bass": 128,
+          "brass": 78,
+          "flute": 128,
+          "guitar": 128,
+          "keyboard": 128,
+          "mallet": 128,
+          "organ": 128,
+          "reed": 72,
+          "string": 128,
+          "vocal": 76
+        }
+      },
+      "instrument_source": {
+        "samples": 384,
+        "top1": 0.3333333432674408,
+        "top2": 0.6666666865348816,
+        "loss": 1.1710268259048462,
+        "mean_correct_probability": 0.3333333134651184,
+        "ece": 0.18433085083961487,
+        "bins": 15,
+        "class_macro_top1": 0.3333333333333333,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "electronic": 128,
+          "synthetic": 128
+        }
+      },
+      "key_mode": {
+        "samples": 128,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 0.6944432258605957,
+        "mean_correct_probability": 0.5,
+        "ece": 0.025439739227294922,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "major": 64,
+          "minor": 64
+        }
+      },
+      "key_tonic": {
+        "samples": 512,
+        "top1": 0.07421875,
+        "top2": 0.125,
+        "loss": 2.6946866512298584,
+        "mean_correct_probability": 0.08028743416070938,
+        "ece": 0.16233037412166595,
+        "bins": 15,
+        "class_macro_top1": 0.08333333333333333,
+        "semantic_class_counts": {
+          "A": 55,
+          "A flat": 40,
+          "B": 27,
+          "B flat": 41,
+          "C": 45,
+          "C sharp": 26,
+          "D": 50,
+          "E": 51,
+          "E flat": 38,
+          "F": 29,
+          "F sharp": 54,
+          "G": 56
+        }
+      },
+      "meter": {
+        "samples": 128,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 0.6962791681289673,
+        "mean_correct_probability": 0.5000003576278687,
+        "ece": 0.03951573371887207,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "four beats per bar": 64,
+          "three beats per bar": 64
+        }
+      },
+      "mood_acoustic": {
+        "samples": 256,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 0.8982045650482178,
+        "mean_correct_probability": 0.5,
+        "ece": 0.2900111675262451,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "acoustic": 128,
+          "not acoustic": 128
+        }
+      },
+      "mood_aggressive": {
+        "samples": 158,
+        "top1": 0.8101266026496887,
+        "top2": 1.0,
+        "loss": 0.583659827709198,
+        "mean_correct_probability": 0.7727332711219788,
+        "ece": 0.12958621978759766,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "aggressive": 30,
+          "not aggressive": 128
+        }
+      },
+      "mood_electronic": {
+        "samples": 256,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 0.8027949333190918,
+        "mean_correct_probability": 0.5,
+        "ece": 0.22187590599060059,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "electronic": 128,
+          "not electronic": 128
+        }
+      },
+      "mood_happy": {
+        "samples": 222,
+        "top1": 0.5765765905380249,
+        "top2": 1.0,
+        "loss": 0.7565325498580933,
+        "mean_correct_probability": 0.5388864278793335,
+        "ece": 0.17732900381088257,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "happy": 94,
+          "not happy": 128
+        }
+      },
+      "mood_party": {
+        "samples": 150,
+        "top1": 0.8533333539962769,
+        "top2": 1.0,
+        "loss": 0.6822100281715393,
+        "mean_correct_probability": 0.8461743593215942,
+        "ece": 0.13653606176376343,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "not party": 128,
+          "party": 22
+        }
+      },
+      "mood_relaxed": {
+        "samples": 256,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 1.0366473197937012,
+        "mean_correct_probability": 0.5,
+        "ece": 0.35246169567108154,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "not relaxed": 128,
+          "relaxed": 128
+        }
+      },
+      "mood_sad": {
+        "samples": 196,
+        "top1": 0.6530612111091614,
+        "top2": 1.0,
+        "loss": 1.2497437000274658,
+        "mean_correct_probability": 0.6442431211471558,
+        "ece": 0.31813323497772217,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "not sad": 128,
+          "sad": 68
+        }
+      },
+      "tempo": {
+        "samples": 256,
+        "top1": 0.25,
+        "top2": 0.5,
+        "loss": 1.5658085346221924,
+        "mean_correct_probability": 0.2500000298023224,
+        "ece": 0.28724801540374756,
+        "bins": 15,
+        "class_macro_top1": 0.25,
+        "semantic_class_counts": {
+          "120 to 159 BPM": 64,
+          "160 to 239 BPM": 64,
+          "40 to 79 BPM": 64,
+          "80 to 119 BPM": 64
+        }
+      },
+      "vocals": {
+        "samples": 256,
+        "top1": 0.5,
+        "top2": 1.0,
+        "loss": 1.7043484449386597,
+        "mean_correct_probability": 0.5,
+        "ece": 0.4657421112060547,
+        "bins": 15,
+        "class_macro_top1": 0.5,
+        "semantic_class_counts": {
+          "instrumental": 128,
+          "voice": 128
+        }
+      }
+    }
+  },
+  "audio_top1_gaps": {
+    "random": 0.306581050157547,
+    "silence": 0.2798956632614136
+  },
+  "music_macro": {
+    "top1": 0.6169191842702325,
+    "loss": 0.6203603794177374,
+    "ece": 0.07347551371842403,
+    "selection_tasks": [
+      "danceability",
+      "genre",
+      "genre_gtzan",
+      "genre_rosamerica",
+      "instrument_family",
+      "instrument_source",
+      "key_mode",
+      "key_tonic",
+      "meter",
+      "mood_acoustic",
+      "mood_aggressive",
+      "mood_electronic",
+      "mood_happy",
+      "mood_party",
+      "mood_relaxed",
+      "mood_sad",
+      "tempo",
+      "vocals"
+    ],
+    "family_top1": {
+      "perception": 0.7948450700918428,
+      "structure": 0.4389932984486222
+    },
+    "audio_top1_gaps": {
+      "random": 0.26527673852705985,
+      "silence": 0.255864762501525
+    },
+    "family_audio_top1_gaps": {
+      "perception": {
+        "random": 0.41761916326200527,
+        "silence": 0.40606955988776117
+      },
+      "structure": {
+        "random": 0.11293431379211445,
+        "silence": 0.1056599651152889
+      }
+    }
+  },
+  "music_views": {
+    "full": {
+      "correct": {
+        "overall": {
+          "samples": 3068,
+          "top1": 0.6108213663101196,
+          "top2": 0.7910690903663635,
+          "loss": 1.0113590955734253,
+          "mean_correct_probability": 0.5493111610412598,
+          "ece": 0.0378390799742192,
+          "bins": 15
+        },
+        "music": {
+          "samples": 3068,
+          "top1": 0.6108213663101196,
+          "top2": 0.7910690903663635,
+          "loss": 1.0113590955734253,
+          "mean_correct_probability": 0.5493111610412598,
+          "ece": 0.0378390799742192,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.8359375,
+            "top2": 1.0,
+            "loss": 0.33859848976135254,
+            "mean_correct_probability": 0.7755390405654907,
+            "ece": 0.04138982482254505,
+            "bins": 15,
+            "class_macro_top1": 0.8359375,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.21587175130844116,
+            "mean_correct_probability": 0.9154311418533325,
+            "ece": 0.0542533858679235,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.9795918464660645,
+            "top2": 1.0,
+            "loss": 0.18824684619903564,
+            "mean_correct_probability": 0.8554730415344238,
+            "ece": 0.13205155916512012,
+            "bins": 15,
+            "class_macro_top1": 0.9944444497426351,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.8048779964447021,
+            "top2": 0.9756097197532654,
+            "loss": 0.33071091771125793,
+            "mean_correct_probability": 0.8020395040512085,
+            "ece": 0.11222808342427015,
+            "bins": 15,
+            "class_macro_top1": 0.7088744640350342,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.9791666865348816,
+            "top2": 1.0,
+            "loss": 0.07711148262023926,
+            "mean_correct_probability": 0.9413326978683472,
+            "ece": 0.055114930495619774,
+            "bins": 15,
+            "class_macro_top1": 0.95,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.5508021116256714,
+            "top2": 0.7379679083824158,
+            "loss": 1.404720664024353,
+            "mean_correct_probability": 0.43897294998168945,
+            "ece": 0.06853306476841681,
+            "bins": 15,
+            "class_macro_top1": 0.5384144470095634,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.5208333730697632,
+            "top2": 0.78125,
+            "loss": 1.034849762916565,
+            "mean_correct_probability": 0.49434399604797363,
+            "ece": 0.2052579988958314,
+            "bins": 15,
+            "class_macro_top1": 0.5208333333333334,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "key_mode": {
+            "samples": 128,
+            "top1": 0.625,
+            "top2": 1.0,
+            "loss": 0.6544010639190674,
+            "mean_correct_probability": 0.5424183011054993,
+            "ece": 0.10077485535293818,
+            "bins": 15,
+            "class_macro_top1": 0.625,
+            "semantic_class_counts": {
+              "major": 64,
+              "minor": 64
+            }
+          },
+          "key_tonic": {
+            "samples": 512,
+            "top1": 0.169921875,
+            "top2": 0.3359375,
+            "loss": 2.316770315170288,
+            "mean_correct_probability": 0.11467896401882172,
+            "ece": 0.04145354137290269,
+            "bins": 15,
+            "class_macro_top1": 0.1622231937944889,
+            "semantic_class_counts": {
+              "A": 55,
+              "A flat": 40,
+              "B": 27,
+              "B flat": 41,
+              "C": 45,
+              "C sharp": 26,
+              "D": 50,
+              "E": 51,
+              "E flat": 38,
+              "F": 29,
+              "F sharp": 54,
+              "G": 56
+            }
+          },
+          "meter": {
+            "samples": 128,
+            "top1": 0.609375,
+            "top2": 1.0,
+            "loss": 0.7446459531784058,
+            "mean_correct_probability": 0.6037911772727966,
+            "ece": 0.18397370632737875,
+            "bins": 15,
+            "class_macro_top1": 0.609375,
+            "semantic_class_counts": {
+              "four beats per bar": 64,
+              "three beats per bar": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.921875,
+            "top2": 1.0,
+            "loss": 0.1864202618598938,
+            "mean_correct_probability": 0.8670475482940674,
+            "ece": 0.05795931722968817,
+            "bins": 15,
+            "class_macro_top1": 0.921875,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.9113924503326416,
+            "top2": 1.0,
+            "loss": 0.15311755239963531,
+            "mean_correct_probability": 0.8987064957618713,
+            "ece": 0.0543756544648204,
+            "bins": 15,
+            "class_macro_top1": 0.8177083432674408,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.9609375,
+            "top2": 1.0,
+            "loss": 0.1346333622932434,
+            "mean_correct_probability": 0.8943012356758118,
+            "ece": 0.057826888747513294,
+            "bins": 15,
+            "class_macro_top1": 0.9609375,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.8018018007278442,
+            "top2": 1.0,
+            "loss": 0.37773311138153076,
+            "mean_correct_probability": 0.7374722361564636,
+            "ece": 0.08215830498374999,
+            "bins": 15,
+            "class_macro_top1": 0.7744348347187042,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.9600000381469727,
+            "top2": 1.0,
+            "loss": 0.11068558692932129,
+            "mean_correct_probability": 0.9189032316207886,
+            "ece": 0.05782156786881387,
+            "bins": 15,
+            "class_macro_top1": 0.9389204680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.890625,
+            "top2": 1.0,
+            "loss": 0.2681517004966736,
+            "mean_correct_probability": 0.8060613870620728,
+            "ece": 0.08251127786934376,
+            "bins": 15,
+            "class_macro_top1": 0.890625,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.7653061151504517,
+            "top2": 1.0,
+            "loss": 0.4474160075187683,
+            "mean_correct_probability": 0.7010589241981506,
+            "ece": 0.04816123936325312,
+            "bins": 15,
+            "class_macro_top1": 0.7169117629528046,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "tempo": {
+            "samples": 256,
+            "top1": 0.359375,
+            "top2": 0.625,
+            "loss": 1.3951525688171387,
+            "mean_correct_probability": 0.30519911646842957,
+            "ece": 0.09322198084555566,
+            "bins": 15,
+            "class_macro_top1": 0.359375,
+            "semantic_class_counts": {
+              "120 to 159 BPM": 64,
+              "160 to 239 BPM": 64,
+              "40 to 79 BPM": 64,
+              "80 to 119 BPM": 64
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.9375,
+            "top2": 1.0,
+            "loss": 0.18962103128433228,
+            "mean_correct_probability": 0.9180582761764526,
+            "ece": 0.03589717438444495,
+            "bins": 15,
+            "class_macro_top1": 0.9375,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "ablation_correct": {
+        "overall": {
+          "samples": 3068,
+          "top1": 0.6108213663101196,
+          "top2": 0.7910690903663635,
+          "loss": 1.0113590955734253,
+          "mean_correct_probability": 0.5493111610412598,
+          "ece": 0.0378390799742192,
+          "bins": 15
+        },
+        "music": {
+          "samples": 3068,
+          "top1": 0.6108213663101196,
+          "top2": 0.7910690903663635,
+          "loss": 1.0113590955734253,
+          "mean_correct_probability": 0.5493111610412598,
+          "ece": 0.0378390799742192,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.8359375,
+            "top2": 1.0,
+            "loss": 0.33859848976135254,
+            "mean_correct_probability": 0.7755390405654907,
+            "ece": 0.04138982482254505,
+            "bins": 15,
+            "class_macro_top1": 0.8359375,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.21587175130844116,
+            "mean_correct_probability": 0.9154311418533325,
+            "ece": 0.0542533858679235,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.9795918464660645,
+            "top2": 1.0,
+            "loss": 0.18824684619903564,
+            "mean_correct_probability": 0.8554730415344238,
+            "ece": 0.13205155916512012,
+            "bins": 15,
+            "class_macro_top1": 0.9944444497426351,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.8048779964447021,
+            "top2": 0.9756097197532654,
+            "loss": 0.33071091771125793,
+            "mean_correct_probability": 0.8020395040512085,
+            "ece": 0.11222808342427015,
+            "bins": 15,
+            "class_macro_top1": 0.7088744640350342,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.9791666865348816,
+            "top2": 1.0,
+            "loss": 0.07711148262023926,
+            "mean_correct_probability": 0.9413326978683472,
+            "ece": 0.055114930495619774,
+            "bins": 15,
+            "class_macro_top1": 0.95,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.5508021116256714,
+            "top2": 0.7379679083824158,
+            "loss": 1.404720664024353,
+            "mean_correct_probability": 0.43897294998168945,
+            "ece": 0.06853306476841681,
+            "bins": 15,
+            "class_macro_top1": 0.5384144470095634,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.5208333730697632,
+            "top2": 0.78125,
+            "loss": 1.034849762916565,
+            "mean_correct_probability": 0.49434399604797363,
+            "ece": 0.2052579988958314,
+            "bins": 15,
+            "class_macro_top1": 0.5208333333333334,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "key_mode": {
+            "samples": 128,
+            "top1": 0.625,
+            "top2": 1.0,
+            "loss": 0.6544010639190674,
+            "mean_correct_probability": 0.5424183011054993,
+            "ece": 0.10077485535293818,
+            "bins": 15,
+            "class_macro_top1": 0.625,
+            "semantic_class_counts": {
+              "major": 64,
+              "minor": 64
+            }
+          },
+          "key_tonic": {
+            "samples": 512,
+            "top1": 0.169921875,
+            "top2": 0.3359375,
+            "loss": 2.316770315170288,
+            "mean_correct_probability": 0.11467896401882172,
+            "ece": 0.04145354137290269,
+            "bins": 15,
+            "class_macro_top1": 0.1622231937944889,
+            "semantic_class_counts": {
+              "A": 55,
+              "A flat": 40,
+              "B": 27,
+              "B flat": 41,
+              "C": 45,
+              "C sharp": 26,
+              "D": 50,
+              "E": 51,
+              "E flat": 38,
+              "F": 29,
+              "F sharp": 54,
+              "G": 56
+            }
+          },
+          "meter": {
+            "samples": 128,
+            "top1": 0.609375,
+            "top2": 1.0,
+            "loss": 0.7446459531784058,
+            "mean_correct_probability": 0.6037911772727966,
+            "ece": 0.18397370632737875,
+            "bins": 15,
+            "class_macro_top1": 0.609375,
+            "semantic_class_counts": {
+              "four beats per bar": 64,
+              "three beats per bar": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.921875,
+            "top2": 1.0,
+            "loss": 0.1864202618598938,
+            "mean_correct_probability": 0.8670475482940674,
+            "ece": 0.05795931722968817,
+            "bins": 15,
+            "class_macro_top1": 0.921875,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.9113924503326416,
+            "top2": 1.0,
+            "loss": 0.15311755239963531,
+            "mean_correct_probability": 0.8987064957618713,
+            "ece": 0.0543756544648204,
+            "bins": 15,
+            "class_macro_top1": 0.8177083432674408,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.9609375,
+            "top2": 1.0,
+            "loss": 0.1346333622932434,
+            "mean_correct_probability": 0.8943012356758118,
+            "ece": 0.057826888747513294,
+            "bins": 15,
+            "class_macro_top1": 0.9609375,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.8018018007278442,
+            "top2": 1.0,
+            "loss": 0.37773311138153076,
+            "mean_correct_probability": 0.7374722361564636,
+            "ece": 0.08215830498374999,
+            "bins": 15,
+            "class_macro_top1": 0.7744348347187042,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.9600000381469727,
+            "top2": 1.0,
+            "loss": 0.11068558692932129,
+            "mean_correct_probability": 0.9189032316207886,
+            "ece": 0.05782156786881387,
+            "bins": 15,
+            "class_macro_top1": 0.9389204680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.890625,
+            "top2": 1.0,
+            "loss": 0.2681517004966736,
+            "mean_correct_probability": 0.8060613870620728,
+            "ece": 0.08251127786934376,
+            "bins": 15,
+            "class_macro_top1": 0.890625,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.7653061151504517,
+            "top2": 1.0,
+            "loss": 0.4474160075187683,
+            "mean_correct_probability": 0.7010589241981506,
+            "ece": 0.04816123936325312,
+            "bins": 15,
+            "class_macro_top1": 0.7169117629528046,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "tempo": {
+            "samples": 256,
+            "top1": 0.359375,
+            "top2": 0.625,
+            "loss": 1.3951525688171387,
+            "mean_correct_probability": 0.30519911646842957,
+            "ece": 0.09322198084555566,
+            "bins": 15,
+            "class_macro_top1": 0.359375,
+            "semantic_class_counts": {
+              "120 to 159 BPM": 64,
+              "160 to 239 BPM": 64,
+              "40 to 79 BPM": 64,
+              "80 to 119 BPM": 64
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.9375,
+            "top2": 1.0,
+            "loss": 0.18962103128433228,
+            "mean_correct_probability": 0.9180582761764526,
+            "ece": 0.03589717438444495,
+            "bins": 15,
+            "class_macro_top1": 0.9375,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "random": {
+        "overall": {
+          "samples": 3068,
+          "top1": 0.3422425091266632,
+          "top2": 0.6365710496902466,
+          "loss": 2.179368495941162,
+          "mean_correct_probability": 0.3418908417224884,
+          "ece": 0.29458394937682897,
+          "bins": 15
+        },
+        "music": {
+          "samples": 3068,
+          "top1": 0.3422425091266632,
+          "top2": 0.6365710496902466,
+          "loss": 2.179368495941162,
+          "mean_correct_probability": 0.3418908417224884,
+          "ece": 0.29458394937682897,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.515625,
+            "top2": 1.0,
+            "loss": 1.0000355243682861,
+            "mean_correct_probability": 0.5354809165000916,
+            "ece": 0.33756144903600216,
+            "bins": 15,
+            "class_macro_top1": 0.515625,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.7272727489471436,
+            "top2": 0.9090909361839294,
+            "loss": 0.6690032482147217,
+            "mean_correct_probability": 0.6976844668388367,
+            "ece": 0.18715109932236373,
+            "bins": 15,
+            "class_macro_top1": 0.380952388048172,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.36734694242477417,
+            "top2": 0.5102040767669678,
+            "loss": 2.8061275482177734,
+            "mean_correct_probability": 0.3587374985218048,
+            "ece": 0.415681105107069,
+            "bins": 15,
+            "class_macro_top1": 0.11452992012103398,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.19512194395065308,
+            "top2": 0.24390242993831635,
+            "loss": 3.9528064727783203,
+            "mean_correct_probability": 0.16473545134067535,
+            "ece": 0.585832160199061,
+            "bins": 15,
+            "class_macro_top1": 0.06561859164919172,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.25,
+            "top2": 0.3958333432674408,
+            "loss": 3.824829339981079,
+            "mean_correct_probability": 0.20414762198925018,
+            "ece": 0.48654245492070913,
+            "bins": 15,
+            "class_macro_top1": 0.1964327499270439,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.15864527225494385,
+            "top2": 0.2745097875595093,
+            "loss": 3.955902338027954,
+            "mean_correct_probability": 0.14835552871227264,
+            "ece": 0.43840125761926174,
+            "bins": 15,
+            "class_macro_top1": 0.14006410259753466,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.3385416865348816,
+            "top2": 0.6770833730697632,
+            "loss": 1.8376379013061523,
+            "mean_correct_probability": 0.35009464621543884,
+            "ece": 0.3915102565661073,
+            "bins": 15,
+            "class_macro_top1": 0.3385416666666667,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "key_mode": {
+            "samples": 128,
+            "top1": 0.4765625,
+            "top2": 1.0,
+            "loss": 0.804269015789032,
+            "mean_correct_probability": 0.4794522225856781,
+            "ece": 0.1735654603689909,
+            "bins": 15,
+            "class_macro_top1": 0.4765625,
+            "semantic_class_counts": {
+              "major": 64,
+              "minor": 64
+            }
+          },
+          "key_tonic": {
+            "samples": 512,
+            "top1": 0.083984375,
+            "top2": 0.185546875,
+            "loss": 2.724158763885498,
+            "mean_correct_probability": 0.08978350460529327,
+            "ece": 0.11038589163217694,
+            "bins": 15,
+            "class_macro_top1": 0.08548593862603109,
+            "semantic_class_counts": {
+              "A": 55,
+              "A flat": 40,
+              "B": 27,
+              "B flat": 41,
+              "C": 45,
+              "C sharp": 26,
+              "D": 50,
+              "E": 51,
+              "E flat": 38,
+              "F": 29,
+              "F sharp": 54,
+              "G": 56
+            }
+          },
+          "meter": {
+            "samples": 128,
+            "top1": 0.515625,
+            "top2": 1.0,
+            "loss": 0.9771079421043396,
+            "mean_correct_probability": 0.512808084487915,
+            "ece": 0.25216632476076484,
+            "bins": 15,
+            "class_macro_top1": 0.515625,
+            "semantic_class_counts": {
+              "four beats per bar": 64,
+              "three beats per bar": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.3984375,
+            "top2": 1.0,
+            "loss": 2.0908970832824707,
+            "mean_correct_probability": 0.3997744619846344,
+            "ece": 0.5133189461193979,
+            "bins": 15,
+            "class_macro_top1": 0.3984375,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.7721519470214844,
+            "top2": 1.0,
+            "loss": 0.9007570147514343,
+            "mean_correct_probability": 0.7370375394821167,
+            "ece": 0.19056799967074767,
+            "bins": 15,
+            "class_macro_top1": 0.5531250089406967,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.484375,
+            "top2": 1.0,
+            "loss": 1.70204496383667,
+            "mean_correct_probability": 0.47991645336151123,
+            "ece": 0.438105383887887,
+            "bins": 15,
+            "class_macro_top1": 0.484375,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.5495495796203613,
+            "top2": 1.0,
+            "loss": 1.1768697500228882,
+            "mean_correct_probability": 0.5230950713157654,
+            "ece": 0.29395100750843994,
+            "bins": 15,
+            "class_macro_top1": 0.49916888028383255,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.7866666913032532,
+            "top2": 1.0,
+            "loss": 0.4603724777698517,
+            "mean_correct_probability": 0.7885045409202576,
+            "ece": 0.1521351425908506,
+            "bins": 15,
+            "class_macro_top1": 0.49857954680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.5390625,
+            "top2": 1.0,
+            "loss": 1.0490319728851318,
+            "mean_correct_probability": 0.5316317677497864,
+            "ece": 0.2607327764853835,
+            "bins": 15,
+            "class_macro_top1": 0.5390625,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.5408163070678711,
+            "top2": 1.0,
+            "loss": 0.7806002497673035,
+            "mean_correct_probability": 0.5791146159172058,
+            "ece": 0.2330534467473626,
+            "bins": 15,
+            "class_macro_top1": 0.4967830926179886,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "tempo": {
+            "samples": 256,
+            "top1": 0.2265625,
+            "top2": 0.515625,
+            "loss": 1.6911568641662598,
+            "mean_correct_probability": 0.2486967146396637,
+            "ece": 0.2138161645270884,
+            "bins": 15,
+            "class_macro_top1": 0.2265625,
+            "semantic_class_counts": {
+              "120 to 159 BPM": 64,
+              "160 to 239 BPM": 64,
+              "40 to 79 BPM": 64,
+              "80 to 119 BPM": 64
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.4296875,
+            "top2": 1.0,
+            "loss": 2.7934796810150146,
+            "mean_correct_probability": 0.4376831352710724,
+            "ece": 0.5411854623816907,
+            "bins": 15,
+            "class_macro_top1": 0.4296875,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "silence": {
+        "overall": {
+          "samples": 3068,
+          "top1": 0.3582138121128082,
+          "top2": 0.6219034790992737,
+          "loss": 1.8166475296020508,
+          "mean_correct_probability": 0.34539952874183655,
+          "ece": 0.25365752674406394,
+          "bins": 15
+        },
+        "music": {
+          "samples": 3068,
+          "top1": 0.3582138121128082,
+          "top2": 0.6219034790992737,
+          "loss": 1.8166475296020508,
+          "mean_correct_probability": 0.34539952874183655,
+          "ece": 0.25365752674406394,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.8523038625717163,
+            "mean_correct_probability": 0.5,
+            "ece": 0.4747527241706848,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.40484246611595154,
+            "mean_correct_probability": 0.9447914958000183,
+            "ece": 0.03522801399230957,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.6122449040412903,
+            "top2": 0.6122449040412903,
+            "loss": 1.7144522666931152,
+            "mean_correct_probability": 0.41141819953918457,
+            "ece": 0.04112929105758667,
+            "bins": 15,
+            "class_macro_top1": 0.16666666666666666,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.46341460943222046,
+            "top2": 0.5609756112098694,
+            "loss": 2.2876715660095215,
+            "mean_correct_probability": 0.22596104443073273,
+            "ece": 0.07775821536779404,
+            "bins": 15,
+            "class_macro_top1": 0.14285714285714285,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.3958333432674408,
+            "top2": 0.4375,
+            "loss": 2.61051869392395,
+            "mean_correct_probability": 0.25248944759368896,
+            "ece": 0.17481288313865662,
+            "bins": 15,
+            "class_macro_top1": 0.2,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.11408199369907379,
+            "top2": 0.22816398739814758,
+            "loss": 3.2251687049865723,
+            "mean_correct_probability": 0.10954983532428741,
+            "ece": 0.4204337000846863,
+            "bins": 15,
+            "class_macro_top1": 0.1,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.3333333432674408,
+            "top2": 0.6666666865348816,
+            "loss": 1.1710269451141357,
+            "mean_correct_probability": 0.3333333432674408,
+            "ece": 0.18433085083961487,
+            "bins": 15,
+            "class_macro_top1": 0.3333333333333333,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "key_mode": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.6944432258605957,
+            "mean_correct_probability": 0.5,
+            "ece": 0.025439739227294922,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "major": 64,
+              "minor": 64
+            }
+          },
+          "key_tonic": {
+            "samples": 512,
+            "top1": 0.07421875,
+            "top2": 0.125,
+            "loss": 2.6946866512298584,
+            "mean_correct_probability": 0.08028743416070938,
+            "ece": 0.16233037412166595,
+            "bins": 15,
+            "class_macro_top1": 0.08333333333333333,
+            "semantic_class_counts": {
+              "A": 55,
+              "A flat": 40,
+              "B": 27,
+              "B flat": 41,
+              "C": 45,
+              "C sharp": 26,
+              "D": 50,
+              "E": 51,
+              "E flat": 38,
+              "F": 29,
+              "F sharp": 54,
+              "G": 56
+            }
+          },
+          "meter": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.6962791681289673,
+            "mean_correct_probability": 0.5000003576278687,
+            "ece": 0.03951573371887207,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "four beats per bar": 64,
+              "three beats per bar": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.8982045650482178,
+            "mean_correct_probability": 0.5,
+            "ece": 0.2900111675262451,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.8101266026496887,
+            "top2": 1.0,
+            "loss": 0.5836597681045532,
+            "mean_correct_probability": 0.7727332711219788,
+            "ece": 0.12958621978759766,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.8027946949005127,
+            "mean_correct_probability": 0.5,
+            "ece": 0.22187578678131104,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.5765765905380249,
+            "top2": 1.0,
+            "loss": 0.75653475522995,
+            "mean_correct_probability": 0.5388867855072021,
+            "ece": 0.17733120918273926,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.8533333539962769,
+            "top2": 1.0,
+            "loss": 0.6822100877761841,
+            "mean_correct_probability": 0.8461743593215942,
+            "ece": 0.13653606176376343,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.036596417427063,
+            "mean_correct_probability": 0.5,
+            "ece": 0.35244351625442505,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.6530612111091614,
+            "top2": 1.0,
+            "loss": 1.2497375011444092,
+            "mean_correct_probability": 0.6442429423332214,
+            "ece": 0.3181326389312744,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "tempo": {
+            "samples": 256,
+            "top1": 0.25,
+            "top2": 0.5,
+            "loss": 1.5658085346221924,
+            "mean_correct_probability": 0.2500000298023224,
+            "ece": 0.28724801540374756,
+            "bins": 15,
+            "class_macro_top1": 0.25,
+            "semantic_class_counts": {
+              "120 to 159 BPM": 64,
+              "160 to 239 BPM": 64,
+              "40 to 79 BPM": 64,
+              "80 to 119 BPM": 64
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.7043193578720093,
+            "mean_correct_probability": 0.5,
+            "ece": 0.4657400846481323,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "audio_top1_gaps": {
+        "random": 0.2685788571834564,
+        "silence": 0.2526075541973114
+      },
+      "music_macro": {
+        "top1": 0.6219556578322116,
+        "loss": 0.6504611621300379,
+        "ece": 0.08075442648647974,
+        "selection_tasks": [
+          "danceability",
+          "instrument_family",
+          "instrument_source",
+          "key_mode",
+          "key_tonic",
+          "meter",
+          "mood_acoustic",
+          "mood_aggressive",
+          "mood_electronic",
+          "mood_happy",
+          "mood_party",
+          "mood_relaxed",
+          "mood_sad",
+          "tempo",
+          "vocals"
+        ],
+        "family_top1": {
+          "perception": 0.804918017215801,
+          "structure": 0.4389932984486222
+        },
+        "audio_top1_gaps": {
+          "random": 0.23649662923505246,
+          "silence": 0.23104656692312073
+        },
+        "family_audio_top1_gaps": {
+          "perception": {
+            "random": 0.3600589446779905,
+            "silence": 0.35643316873095254
+          },
+          "structure": {
+            "random": 0.11293431379211445,
+            "silence": 0.1056599651152889
+          }
+        }
+      }
+    },
+    "serving-window": {
+      "correct": {
+        "overall": {
+          "samples": 1916,
+          "top1": 0.7374739050865173,
+          "top2": 0.8794363737106323,
+          "loss": 0.7319945096969604,
+          "mean_correct_probability": 0.6333903670310974,
+          "ece": 0.03796199770295061,
+          "bins": 15
+        },
+        "music": {
+          "samples": 1916,
+          "top1": 0.7374739050865173,
+          "top2": 0.8794363737106323,
+          "loss": 0.7319945096969604,
+          "mean_correct_probability": 0.6333903670310974,
+          "ece": 0.03796199770295061,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.7734375,
+            "top2": 1.0,
+            "loss": 0.4410691559314728,
+            "mean_correct_probability": 0.7331859469413757,
+            "ece": 0.07570462627336383,
+            "bins": 15,
+            "class_macro_top1": 0.7734375,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.26203498244285583,
+            "mean_correct_probability": 0.8172673583030701,
+            "ece": 0.128549643792212,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.795918345451355,
+            "top2": 0.8775510191917419,
+            "loss": 0.7027811408042908,
+            "mean_correct_probability": 0.6144891381263733,
+            "ece": 0.1951180452015251,
+            "bins": 15,
+            "class_macro_top1": 0.50811967253685,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.8048779964447021,
+            "top2": 0.9512194991111755,
+            "loss": 0.5569742918014526,
+            "mean_correct_probability": 0.6736015677452087,
+            "ece": 0.12566015566699207,
+            "bins": 15,
+            "class_macro_top1": 0.6168831246239799,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.875,
+            "top2": 1.0,
+            "loss": 0.32421213388442993,
+            "mean_correct_probability": 0.7717951536178589,
+            "ece": 0.12052049324847758,
+            "bins": 15,
+            "class_macro_top1": 0.9333333373069763,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.5365418791770935,
+            "top2": 0.6934046149253845,
+            "loss": 1.4392725229263306,
+            "mean_correct_probability": 0.3824692964553833,
+            "ece": 0.05353408510563895,
+            "bins": 15,
+            "class_macro_top1": 0.5204116046428681,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.546875,
+            "top2": 0.7395833730697632,
+            "loss": 1.033956527709961,
+            "mean_correct_probability": 0.45658111572265625,
+            "ece": 0.08528944454155862,
+            "bins": 15,
+            "class_macro_top1": 0.546875,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.90625,
+            "top2": 1.0,
+            "loss": 0.2718500792980194,
+            "mean_correct_probability": 0.8079136610031128,
+            "ece": 0.06960916053503752,
+            "bins": 15,
+            "class_macro_top1": 0.90625,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.8860759735107422,
+            "top2": 1.0,
+            "loss": 0.2300952523946762,
+            "mean_correct_probability": 0.861250102519989,
+            "ece": 0.06668850861024112,
+            "bins": 15,
+            "class_macro_top1": 0.7510416805744171,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.9296875,
+            "top2": 1.0,
+            "loss": 0.21280135214328766,
+            "mean_correct_probability": 0.8554884195327759,
+            "ece": 0.05177159933373332,
+            "bins": 15,
+            "class_macro_top1": 0.9296875,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.7837837934494019,
+            "top2": 1.0,
+            "loss": 0.455741822719574,
+            "mean_correct_probability": 0.7105535864830017,
+            "ece": 0.10377204557880759,
+            "bins": 15,
+            "class_macro_top1": 0.7644614279270172,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.9600000381469727,
+            "top2": 1.0,
+            "loss": 0.13461220264434814,
+            "mean_correct_probability": 0.9025118350982666,
+            "ece": 0.06539664953015745,
+            "bins": 15,
+            "class_macro_top1": 0.9389204680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.8984375,
+            "top2": 1.0,
+            "loss": 0.3106034994125366,
+            "mean_correct_probability": 0.7779603004455566,
+            "ece": 0.08129648910835385,
+            "bins": 15,
+            "class_macro_top1": 0.8984375,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.795918345451355,
+            "top2": 1.0,
+            "loss": 0.5268509387969971,
+            "mean_correct_probability": 0.681207001209259,
+            "ece": 0.10544801270589232,
+            "bins": 15,
+            "class_macro_top1": 0.7541360259056091,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.90625,
+            "top2": 1.0,
+            "loss": 0.22819596529006958,
+            "mean_correct_probability": 0.8663622140884399,
+            "ece": 0.039317508693784475,
+            "bins": 15,
+            "class_macro_top1": 0.90625,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "ablation_correct": {
+        "overall": {
+          "samples": 1916,
+          "top1": 0.7374739050865173,
+          "top2": 0.8794363737106323,
+          "loss": 0.7319945096969604,
+          "mean_correct_probability": 0.6333903670310974,
+          "ece": 0.03796199770295061,
+          "bins": 15
+        },
+        "music": {
+          "samples": 1916,
+          "top1": 0.7374739050865173,
+          "top2": 0.8794363737106323,
+          "loss": 0.7319945096969604,
+          "mean_correct_probability": 0.6333903670310974,
+          "ece": 0.03796199770295061,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.7734375,
+            "top2": 1.0,
+            "loss": 0.4410691559314728,
+            "mean_correct_probability": 0.7331859469413757,
+            "ece": 0.07570462627336383,
+            "bins": 15,
+            "class_macro_top1": 0.7734375,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.26203498244285583,
+            "mean_correct_probability": 0.8172673583030701,
+            "ece": 0.128549643792212,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.795918345451355,
+            "top2": 0.8775510191917419,
+            "loss": 0.7027811408042908,
+            "mean_correct_probability": 0.6144891381263733,
+            "ece": 0.1951180452015251,
+            "bins": 15,
+            "class_macro_top1": 0.50811967253685,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.8048779964447021,
+            "top2": 0.9512194991111755,
+            "loss": 0.5569742918014526,
+            "mean_correct_probability": 0.6736015677452087,
+            "ece": 0.12566015566699207,
+            "bins": 15,
+            "class_macro_top1": 0.6168831246239799,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.875,
+            "top2": 1.0,
+            "loss": 0.32421213388442993,
+            "mean_correct_probability": 0.7717951536178589,
+            "ece": 0.12052049324847758,
+            "bins": 15,
+            "class_macro_top1": 0.9333333373069763,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.5365418791770935,
+            "top2": 0.6934046149253845,
+            "loss": 1.4392725229263306,
+            "mean_correct_probability": 0.3824692964553833,
+            "ece": 0.05353408510563895,
+            "bins": 15,
+            "class_macro_top1": 0.5204116046428681,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.546875,
+            "top2": 0.7395833730697632,
+            "loss": 1.033956527709961,
+            "mean_correct_probability": 0.45658111572265625,
+            "ece": 0.08528944454155862,
+            "bins": 15,
+            "class_macro_top1": 0.546875,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.90625,
+            "top2": 1.0,
+            "loss": 0.2718500792980194,
+            "mean_correct_probability": 0.8079136610031128,
+            "ece": 0.06960916053503752,
+            "bins": 15,
+            "class_macro_top1": 0.90625,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.8860759735107422,
+            "top2": 1.0,
+            "loss": 0.2300952523946762,
+            "mean_correct_probability": 0.861250102519989,
+            "ece": 0.06668850861024112,
+            "bins": 15,
+            "class_macro_top1": 0.7510416805744171,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.9296875,
+            "top2": 1.0,
+            "loss": 0.21280135214328766,
+            "mean_correct_probability": 0.8554884195327759,
+            "ece": 0.05177159933373332,
+            "bins": 15,
+            "class_macro_top1": 0.9296875,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.7837837934494019,
+            "top2": 1.0,
+            "loss": 0.455741822719574,
+            "mean_correct_probability": 0.7105535864830017,
+            "ece": 0.10377204557880759,
+            "bins": 15,
+            "class_macro_top1": 0.7644614279270172,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.9600000381469727,
+            "top2": 1.0,
+            "loss": 0.13461220264434814,
+            "mean_correct_probability": 0.9025118350982666,
+            "ece": 0.06539664953015745,
+            "bins": 15,
+            "class_macro_top1": 0.9389204680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.8984375,
+            "top2": 1.0,
+            "loss": 0.3106034994125366,
+            "mean_correct_probability": 0.7779603004455566,
+            "ece": 0.08129648910835385,
+            "bins": 15,
+            "class_macro_top1": 0.8984375,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.795918345451355,
+            "top2": 1.0,
+            "loss": 0.5268509387969971,
+            "mean_correct_probability": 0.681207001209259,
+            "ece": 0.10544801270589232,
+            "bins": 15,
+            "class_macro_top1": 0.7541360259056091,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.90625,
+            "top2": 1.0,
+            "loss": 0.22819596529006958,
+            "mean_correct_probability": 0.8663622140884399,
+            "ece": 0.039317508693784475,
+            "bins": 15,
+            "class_macro_top1": 0.90625,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "random": {
+        "overall": {
+          "samples": 1916,
+          "top1": 0.37004175782203674,
+          "top2": 0.6868476271629333,
+          "loss": 2.1958558559417725,
+          "mean_correct_probability": 0.37131616473197937,
+          "ece": 0.3372836713679135,
+          "bins": 15
+        },
+        "music": {
+          "samples": 1916,
+          "top1": 0.37004175782203674,
+          "top2": 0.6868476271629333,
+          "loss": 2.1958558559417725,
+          "mean_correct_probability": 0.37131616473197937,
+          "ece": 0.3372836713679135,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.5234375,
+            "top2": 1.0,
+            "loss": 1.0966908931732178,
+            "mean_correct_probability": 0.5631778240203857,
+            "ece": 0.34603148186579347,
+            "bins": 15,
+            "class_macro_top1": 0.5234375,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.8636363744735718,
+            "top2": 0.9090909361839294,
+            "loss": 0.534887969493866,
+            "mean_correct_probability": 0.7215244174003601,
+            "ece": 0.1931508956477046,
+            "bins": 15,
+            "class_macro_top1": 0.4523809552192688,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.4285714328289032,
+            "top2": 0.5306122303009033,
+            "loss": 2.1759116649627686,
+            "mean_correct_probability": 0.32445958256721497,
+            "ece": 0.2914713009959087,
+            "bins": 15,
+            "class_macro_top1": 0.20170941079656282,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.2195121943950653,
+            "top2": 0.3658536374568939,
+            "loss": 3.27786922454834,
+            "mean_correct_probability": 0.24283066391944885,
+            "ece": 0.37891181162558496,
+            "bins": 15,
+            "class_macro_top1": 0.09586466210229057,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.25,
+            "top2": 0.4375,
+            "loss": 3.3440678119659424,
+            "mean_correct_probability": 0.23475542664527893,
+            "ece": 0.4473787881433964,
+            "bins": 15,
+            "class_macro_top1": 0.16754386126995086,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.04278074949979782,
+            "top2": 0.1515151411294937,
+            "loss": 4.223433494567871,
+            "mean_correct_probability": 0.0724697858095169,
+            "ece": 0.4741059532389045,
+            "bins": 15,
+            "class_macro_top1": 0.03971688039600849,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.4479166865348816,
+            "top2": 0.7604166865348816,
+            "loss": 1.2073649168014526,
+            "mean_correct_probability": 0.3966190814971924,
+            "ece": 0.18639305233955383,
+            "bins": 15,
+            "class_macro_top1": 0.4479166666666667,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.4921875,
+            "top2": 1.0,
+            "loss": 1.1163828372955322,
+            "mean_correct_probability": 0.5069357752799988,
+            "ece": 0.33703462732955813,
+            "bins": 15,
+            "class_macro_top1": 0.4921875,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.7215189933776855,
+            "top2": 1.0,
+            "loss": 0.91853266954422,
+            "mean_correct_probability": 0.6994878649711609,
+            "ece": 0.20862072613090277,
+            "bins": 15,
+            "class_macro_top1": 0.4453125,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.484375,
+            "top2": 1.0,
+            "loss": 1.3079497814178467,
+            "mean_correct_probability": 0.4801904559135437,
+            "ece": 0.3617427824065089,
+            "bins": 15,
+            "class_macro_top1": 0.484375,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.5585585832595825,
+            "top2": 1.0,
+            "loss": 1.0267362594604492,
+            "mean_correct_probability": 0.509290337562561,
+            "ece": 0.2463786043226719,
+            "bins": 15,
+            "class_macro_top1": 0.5211103707551956,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.7599999904632568,
+            "top2": 1.0,
+            "loss": 0.7360017895698547,
+            "mean_correct_probability": 0.7490755319595337,
+            "ece": 0.17322414222871885,
+            "bins": 15,
+            "class_macro_top1": 0.48295454680919647,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.421875,
+            "top2": 1.0,
+            "loss": 1.217294692993164,
+            "mean_correct_probability": 0.4659516215324402,
+            "ece": 0.40924062207341194,
+            "bins": 15,
+            "class_macro_top1": 0.421875,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.5510203838348389,
+            "top2": 1.0,
+            "loss": 0.8363021016120911,
+            "mean_correct_probability": 0.5630956888198853,
+            "ece": 0.23612236976623535,
+            "bins": 15,
+            "class_macro_top1": 0.48391544818878174,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.484375,
+            "top2": 1.0,
+            "loss": 2.0516414642333984,
+            "mean_correct_probability": 0.47190147638320923,
+            "ece": 0.46144537860527635,
+            "bins": 15,
+            "class_macro_top1": 0.484375,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "silence": {
+        "overall": {
+          "samples": 1916,
+          "top1": 0.4138830900192261,
+          "top2": 0.7066805958747864,
+          "loss": 1.8037261962890625,
+          "mean_correct_probability": 0.3941809833049774,
+          "ece": 0.3069184715859592,
+          "bins": 15
+        },
+        "music": {
+          "samples": 1916,
+          "top1": 0.4138830900192261,
+          "top2": 0.7066805958747864,
+          "loss": 1.8037261962890625,
+          "mean_correct_probability": 0.3941809833049774,
+          "ece": 0.3069184715859592,
+          "bins": 15
+        },
+        "sound": {
+          "samples": 0
+        },
+        "speech": {
+          "samples": 0
+        },
+        "temporal": {
+          "samples": 0
+        },
+        "music_tasks": {
+          "danceability": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.8521356582641602,
+            "mean_correct_probability": 0.5,
+            "ece": 0.4747440218925476,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "danceable": 64,
+              "not danceable": 64
+            }
+          },
+          "electronic_genre": {
+            "samples": 22,
+            "top1": 0.9545454978942871,
+            "top2": 0.9545454978942871,
+            "loss": 0.404835969209671,
+            "mean_correct_probability": 0.9447876811027527,
+            "ece": 0.03522402048110962,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "ambient": 21,
+              "trance": 1
+            }
+          },
+          "genre": {
+            "samples": 49,
+            "top1": 0.6122449040412903,
+            "top2": 0.6122449040412903,
+            "loss": 1.7144522666931152,
+            "mean_correct_probability": 0.41141819953918457,
+            "ece": 0.04112929105758667,
+            "bins": 15,
+            "class_macro_top1": 0.16666666666666666,
+            "semantic_class_counts": {
+              "alternative": 1,
+              "electronic": 30,
+              "folk country": 1,
+              "pop": 2,
+              "rap hiphop": 2,
+              "rock": 13
+            }
+          },
+          "genre_gtzan": {
+            "samples": 41,
+            "top1": 0.46341460943222046,
+            "top2": 0.5609756112098694,
+            "loss": 2.2876715660095215,
+            "mean_correct_probability": 0.22596104443073273,
+            "ece": 0.07775824517011642,
+            "bins": 15,
+            "class_macro_top1": 0.14285714285714285,
+            "semantic_class_counts": {
+              "classical": 19,
+              "disco": 1,
+              "hip hop": 2,
+              "jazz": 1,
+              "metal": 3,
+              "pop": 4,
+              "rock": 11
+            }
+          },
+          "genre_rosamerica": {
+            "samples": 48,
+            "top1": 0.3958333432674408,
+            "top2": 0.4375,
+            "loss": 2.61051869392395,
+            "mean_correct_probability": 0.25248944759368896,
+            "ece": 0.17481288313865662,
+            "bins": 15,
+            "class_macro_top1": 0.2,
+            "semantic_class_counts": {
+              "classical": 19,
+              "dance": 5,
+              "hip hop": 2,
+              "pop": 4,
+              "rock": 18
+            }
+          },
+          "instrument_family": {
+            "samples": 561,
+            "top1": 0.11408199369907379,
+            "top2": 0.22816398739814758,
+            "loss": 3.225853681564331,
+            "mean_correct_probability": 0.10955581068992615,
+            "ece": 0.4205625057220459,
+            "bins": 15,
+            "class_macro_top1": 0.1,
+            "semantic_class_counts": {
+              "bass": 64,
+              "brass": 39,
+              "flute": 64,
+              "guitar": 64,
+              "keyboard": 64,
+              "mallet": 64,
+              "organ": 64,
+              "reed": 36,
+              "string": 64,
+              "vocal": 38
+            }
+          },
+          "instrument_source": {
+            "samples": 192,
+            "top1": 0.3333333432674408,
+            "top2": 0.6666666865348816,
+            "loss": 1.1710269451141357,
+            "mean_correct_probability": 0.3333333432674408,
+            "ece": 0.18433085083961487,
+            "bins": 15,
+            "class_macro_top1": 0.3333333333333333,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "electronic": 64,
+              "synthetic": 64
+            }
+          },
+          "mood_acoustic": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.898204505443573,
+            "mean_correct_probability": 0.5,
+            "ece": 0.2900111675262451,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "acoustic": 64,
+              "not acoustic": 64
+            }
+          },
+          "mood_aggressive": {
+            "samples": 79,
+            "top1": 0.8101266026496887,
+            "top2": 1.0,
+            "loss": 0.5836597681045532,
+            "mean_correct_probability": 0.7727332711219788,
+            "ece": 0.12958621978759766,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "aggressive": 15,
+              "not aggressive": 64
+            }
+          },
+          "mood_electronic": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 0.8027950525283813,
+            "mean_correct_probability": 0.5,
+            "ece": 0.22187602519989014,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "electronic": 64,
+              "not electronic": 64
+            }
+          },
+          "mood_happy": {
+            "samples": 111,
+            "top1": 0.5765765905380249,
+            "top2": 1.0,
+            "loss": 0.7565303444862366,
+            "mean_correct_probability": 0.5388860702514648,
+            "ece": 0.17732667922973633,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "happy": 47,
+              "not happy": 64
+            }
+          },
+          "mood_party": {
+            "samples": 75,
+            "top1": 0.8533333539962769,
+            "top2": 1.0,
+            "loss": 0.6822100281715393,
+            "mean_correct_probability": 0.8461743593215942,
+            "ece": 0.13653606176376343,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not party": 64,
+              "party": 11
+            }
+          },
+          "mood_relaxed": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.036698341369629,
+            "mean_correct_probability": 0.5,
+            "ece": 0.3524799346923828,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not relaxed": 64,
+              "relaxed": 64
+            }
+          },
+          "mood_sad": {
+            "samples": 98,
+            "top1": 0.6530612111091614,
+            "top2": 1.0,
+            "loss": 1.2497498989105225,
+            "mean_correct_probability": 0.6442433595657349,
+            "ece": 0.3181336522102356,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "not sad": 64,
+              "sad": 34
+            }
+          },
+          "vocals": {
+            "samples": 128,
+            "top1": 0.5,
+            "top2": 1.0,
+            "loss": 1.7043777704238892,
+            "mean_correct_probability": 0.5000000596046448,
+            "ece": 0.4657442569732666,
+            "bins": 15,
+            "class_macro_top1": 0.5,
+            "semantic_class_counts": {
+              "instrumental": 64,
+              "voice": 64
+            }
+          }
+        }
+      },
+      "audio_top1_gaps": {
+        "random": 0.3674321472644806,
+        "silence": 0.32359081506729126
+      },
+      "music_macro": {
+        "top1": 0.7899917006492615,
+        "loss": 0.48045902902429755,
+        "ece": 0.07252983000150627,
+        "selection_tasks": [
+          "danceability",
+          "instrument_family",
+          "instrument_source",
+          "mood_acoustic",
+          "mood_aggressive",
+          "mood_electronic",
+          "mood_happy",
+          "mood_party",
+          "mood_relaxed",
+          "mood_sad",
+          "vocals"
+        ],
+        "family_top1": {
+          "perception": 0.7899917006492615
+        },
+        "audio_top1_gaps": {
+          "random": 0.3511574813023661,
+          "silence": 0.341506852164413
+        },
+        "family_audio_top1_gaps": {
+          "perception": {
+            "random": 0.3511574813023661,
+            "silence": 0.341506852164413
+          }
+        }
+      }
+    }
+  }
+}

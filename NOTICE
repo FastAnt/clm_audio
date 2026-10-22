@@ -1,0 +1,13 @@
+Samsone–CLM Audio System 1
+
+Project-owned source code and documentation are licensed under Apache-2.0.
+This grant excludes third-party code, model weights, source datasets, and audio.
+
+This project uses the official SamsungLabs Samsone encoder and the official
+Contrastive-LM CLM state/action heads. Their authors retain their rights.
+CLM is Apache-2.0; preserve its upstream notices when using its code or weights.
+No license for Samsone is inferred from its public availability. Check upstream
+terms before use or redistribution. No affiliation or endorsement is claimed.
+
+The third-party repositories are referenced as pinned submodules; their contents
+are not relicensed by this project. See THIRD_PARTY.md.

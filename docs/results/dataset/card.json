@@ -1,0 +1,10 @@
+{
+  "name": "samsone_clm_common",
+  "source": "inclusionAI/AudioMCQ",
+  "filter": "audio_contribution == strong",
+  "train_samples": 181592,
+  "canonical_samples": 227353,
+  "split_policy": "Existing immutable audio-disjoint train/validation/test; source audio is referenced, not copied",
+  "feature_manifest": "/srv/data/samsone_clm/features/spike-a86e057eae695e43/manifest.json",
+  "feature_manifest_sha256": "3d9caa1a4fe27f971b2eb5ef6937c541403c160c242282cb303cb404d2340c09"
+}

@@ -1,0 +1,15 @@
+{
+  "worker.pid": "027de4cf76814e2802fa32d1554b9ffdc942ec53b238f353aa853af15fe6c261",
+  "training.log": "258507f5ea82bbef62ee4688faa351688a6e15e735ccc74fc8c43ea0081b2e44",
+  "batch_benchmark.json": "5451078560f7360820d85eba6ffb95230f75a52cdbb5891225baa5647c8e1b73",
+  "batch_benchmark_stable.json": "13f3c95ddc363af067ec6c17317d2068a571a758e0c106edc586709c15cf5f95",
+  "stage4/best.pt": "2ce5f014f4b492b620efb7ff652d3e50121417028c7599466e1472e7a443a9e3",
+  "stage4/best.pt.info.json": "34a68c905ece481f017765bafb67553640f1e65eeba26320c40cfdbb86170475",
+  "stage4/progress.json": "71dd26945e9613633c4d27f38b5f7e285c1c5f8e16f944ebadb6c18775fff1c0",
+  "stage4/metrics.json": "c33bedaa007daac4977bb070fd3d82e5a340050f5f5e0d43a7c11851a7cc3727",
+  "stage4/last.pt": "c576a69de39efc6c820a2c63453f7f7a274796163392f1abc95795ca5b357c8a",
+  "stage4/last.pt.info.json": "8ed706bf6c34e66432d34e5284b79892f06a033a3dcddb30b73c9d83299166f0",
+  "stage4/calibrated.pt": "ec09e0304e9e92383cb6f20ffc48b0cf5a4225f9a028b926003b8d9b2cf4a6ce",
+  "stage4/calibrated.json": "53d1c0c12a3886677395d5654b977972de2ad6c969495facefe716b11293cd6f",
+  "stage4/evaluation_test.json": "16b10f73c6a5a38bb52e6618c3a9aabf4c5024243cd03d842aaadf7cea2e575f"
+}

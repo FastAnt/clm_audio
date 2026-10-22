@@ -1,0 +1,21 @@
+{
+  "verified": true,
+  "audio_files": 73450,
+  "datasets": {
+    "nsynth": {
+      "qa": 42344,
+      "canonical_sha256": "d145510a8a3af11512578ee983f74ecf478d566e68243c97b569b52b55677bb5",
+      "split_leaks": 0
+    },
+    "jamendo": {
+      "qa": 60981,
+      "canonical_sha256": "dfa244e48b27a78d9ba18dfd8376ad36333de5614496ff6914ddb779b48a91d4",
+      "split_leaks": 0
+    },
+    "musicbench": {
+      "qa": 111561,
+      "canonical_sha256": "b135085b91184e9bea015f02289ae1b38e86c2071b70983d7031d95e94f9170c",
+      "split_leaks": 0
+    }
+  }
+}

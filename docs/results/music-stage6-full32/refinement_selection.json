@@ -1,0 +1,34 @@
+{
+  "selection": "validation only: family audio gates, equal-family accuracy, minimum gap, CE",
+  "baseline_key": [
+    1,
+    0.6310976364607499,
+    0.1018786692681412,
+    -0.6478643963734309
+  ],
+  "candidate_key": [
+    1,
+    0.6350721626606008,
+    0.10558860772289336,
+    -0.6675886864463488
+  ],
+  "selected_run": "/home/ubuntu/dev_clm/data/runs/music/stage6-full32",
+  "selected_best_sha256": "18d568e067ea0a6bf4497e415284afdb11c89cce03dbeb6e20b3680701ad397e",
+  "baseline_best_sha256": "0c8362478011dfe0e245fae82721b4e0b1747a007e54c420017fed6306aaec88",
+  "candidate_best_sha256": "18d568e067ea0a6bf4497e415284afdb11c89cce03dbeb6e20b3680701ad397e",
+  "configuration_differences": {
+    "out": [
+      "/home/ubuntu/dev_clm/data/runs/music/stage6",
+      "/home/ubuntu/dev_clm/data/runs/music/stage6-full32"
+    ],
+    "patience": [
+      5,
+      0
+    ]
+  },
+  "test_used_for_selection": false,
+  "common_sha256": "4f4137e03975054ffe725ec635589afa31c8ddfd11b1d71db20e863a43710e78",
+  "candidate_epochs": 32,
+  "candidate_best_step": 8940,
+  "candidate_last_step": 23840
+}

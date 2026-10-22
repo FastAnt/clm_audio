@@ -1,0 +1,44 @@
+{
+  "dataset": "FMA medium",
+  "samples": 166806,
+  "unique_recordings": 21958,
+  "unique_train_recordings": 17529,
+  "split_counts": {
+    "train": 140232,
+    "validation": 13224,
+    "test": 13350
+  },
+  "genre_train_qa": {
+    "folk": 9712,
+    "pop": 7560,
+    "hip hop": 14024,
+    "rock": 45408,
+    "classical": 3960,
+    "electronic": 40376,
+    "experimental": 14392,
+    "jazz": 2448,
+    "country": 1136,
+    "soul rnb": 752,
+    "blues": 464
+  },
+  "split_leaks": 0,
+  "excluded_source_pcm_groups": 2,
+  "excluded_window_pcm_groups": 0,
+  "sha256": "0d01d51d46829312c6018962cbfd2ae283147963687803528b93688d5b125afb",
+  "architecture": "Frozen Samsone356M, same shared adapter and original CLM heads",
+  "training_questions": 4,
+  "heldout_questions": 6,
+  "unseen_question_ids": [
+    "4",
+    "5"
+  ],
+  "file_sha256_verified": true,
+  "official_archive": {
+    "official_url": "https://os.unil.cloud.switch.ch/fma/fma_medium.zip",
+    "bytes": 23825005356,
+    "sha1": "c67b69ea232021025fca9231fc1c7c1a063ab50b",
+    "sha256": "54517eedebd06ef2de6d99a4afaac225150931b8bbd8b02e29da1cbd7c9aefd1",
+    "verified": true
+  },
+  "excluded_error_recordings": 21
+}

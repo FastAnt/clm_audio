@@ -1,0 +1,600 @@
+{
+  "scope": "Single uploaded file diagnostic; no known genre label; no training/checkpoint selection",
+  "audio_sha256": "aa7efbcee76a5cd60b3e7e009d71803811ac67f2e293afc6582323a3c6f58b7d",
+  "duration_s": 229.9961875,
+  "window": {
+    "position_s": 163.71,
+    "requested_start_s": 158.71,
+    "requested_end_s": 168.71,
+    "source_start_s": 158.71,
+    "source_end_s": 168.71,
+    "silence_before_s": 0.0,
+    "silence_after_s": 0.0,
+    "total_seconds": 10.0
+  },
+  "source_path": "data/cache/web_uploads/60ffa27699d8443f911427279dc2aa79.mp3",
+  "rankings": [
+    {
+      "checkpoint_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db",
+      "checkpoint": "data/runs/music-window/stage6-window/calibrated.pt",
+      "case": "user",
+      "question": "what is music genre?",
+      "choices": [
+        "rock",
+        "hip hop",
+        "classic instrumental"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.5957725644111633
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.366152822971344
+          },
+          {
+            "choice": "rock",
+            "probability": 0.03807460144162178
+          }
+        ],
+        "silence": [
+          {
+            "choice": "hip hop",
+            "probability": 0.9558334946632385
+          },
+          {
+            "choice": "classic instrumental",
+            "probability": 0.04198073595762253
+          },
+          {
+            "choice": "rock",
+            "probability": 0.002185759600251913
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db",
+      "checkpoint": "data/runs/music-window/stage6-window/calibrated.pt",
+      "case": "same_choices_canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "rock",
+        "hip hop",
+        "classic instrumental"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.44297561049461365
+          },
+          {
+            "choice": "rock",
+            "probability": 0.33533403277397156
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.2216903418302536
+          }
+        ],
+        "silence": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.9856855869293213
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01374146994203329
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0005729241529479623
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db",
+      "checkpoint": "data/runs/music-window/stage6-window/calibrated.pt",
+      "case": "expanded_choices_user_question",
+      "question": "what is music genre?",
+      "choices": [
+        "alternative",
+        "blues",
+        "electronic",
+        "folk country",
+        "funk soul rnb",
+        "jazz",
+        "pop",
+        "rap hiphop",
+        "rock"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rap hiphop",
+            "probability": 0.44523143768310547
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.19742606580257416
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.1372300237417221
+          },
+          {
+            "choice": "pop",
+            "probability": 0.12987573444843292
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.07772793620824814
+          },
+          {
+            "choice": "rock",
+            "probability": 0.009524312801659107
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.002033389173448086
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.0008357587503269315
+          },
+          {
+            "choice": "blues",
+            "probability": 0.00011536072997841984
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.5975647568702698
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.17027045786380768
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.11054769158363342
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.09183169156312943
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.012067386880517006
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.008810697123408318
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005455998703837395
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0031244365964084864
+          },
+          {
+            "choice": "rock",
+            "probability": 0.000326880079228431
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d9f1ded6b3080f9c5c6a6d23d4b0552c8f43123a57659a93950a18453e6e15db",
+      "checkpoint": "data/runs/music-window/stage6-window/calibrated.pt",
+      "case": "canonical",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "alternative",
+        "blues",
+        "electronic",
+        "folk country",
+        "funk soul rnb",
+        "jazz",
+        "pop",
+        "rap hiphop",
+        "rock"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.5564217567443848
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.16601525247097015
+          },
+          {
+            "choice": "rock",
+            "probability": 0.08221129328012466
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.0625000074505806
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.0553278923034668
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.041200608015060425
+          },
+          {
+            "choice": "blues",
+            "probability": 0.028302954509854317
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0059266467578709126
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0020935330539941788
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.6533487439155579
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.13675454258918762
+          },
+          {
+            "choice": "blues",
+            "probability": 0.1035718023777008
+          },
+          {
+            "choice": "rock",
+            "probability": 0.034894246608018875
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.031965628266334534
+          },
+          {
+            "choice": "pop",
+            "probability": 0.03158172592520714
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0033757828641682863
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.003065184224396944
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0014423626707866788
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "checkpoint": "data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "case": "user",
+      "question": "what is music genre?",
+      "choices": [
+        "rock",
+        "hip hop",
+        "classic instrumental"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.5774734020233154
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.3949607014656067
+          },
+          {
+            "choice": "rock",
+            "probability": 0.027565864846110344
+          }
+        ],
+        "silence": [
+          {
+            "choice": "hip hop",
+            "probability": 0.9694203734397888
+          },
+          {
+            "choice": "classic instrumental",
+            "probability": 0.02806284837424755
+          },
+          {
+            "choice": "rock",
+            "probability": 0.002516693202778697
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "checkpoint": "data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "case": "same_choices_canonical_question",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "rock",
+        "hip hop",
+        "classic instrumental"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.4790426194667816
+          },
+          {
+            "choice": "rock",
+            "probability": 0.3219265341758728
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.19903084635734558
+          }
+        ],
+        "silence": [
+          {
+            "choice": "classic instrumental",
+            "probability": 0.9837659597396851
+          },
+          {
+            "choice": "rock",
+            "probability": 0.01503236684948206
+          },
+          {
+            "choice": "hip hop",
+            "probability": 0.0012015333632007241
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "checkpoint": "data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "case": "expanded_choices_user_question",
+      "question": "what is music genre?",
+      "choices": [
+        "alternative",
+        "blues",
+        "electronic",
+        "folk country",
+        "funk soul rnb",
+        "jazz",
+        "pop",
+        "rap hiphop",
+        "rock"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "rap hiphop",
+            "probability": 0.6058262586593628
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.12127981334924698
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.09497580677270889
+          },
+          {
+            "choice": "pop",
+            "probability": 0.09421243518590927
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.07340145111083984
+          },
+          {
+            "choice": "rock",
+            "probability": 0.008207815699279308
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.001247444306500256
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.0007928513223305345
+          },
+          {
+            "choice": "blues",
+            "probability": 5.606301056104712e-05
+          }
+        ],
+        "silence": [
+          {
+            "choice": "pop",
+            "probability": 0.5641161799430847
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.19251573085784912
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.13452324271202087
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.07643333077430725
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.014973356388509274
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.007596117444336414
+          },
+          {
+            "choice": "blues",
+            "probability": 0.005087540950626135
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0042987908236682415
+          },
+          {
+            "choice": "rock",
+            "probability": 0.00045573728857561946
+          }
+        ]
+      }
+    },
+    {
+      "checkpoint_sha256": "d6219a325a26a45b9e2c7abe2eef1f7e68adb44cc58529287d1e5cc0485fb2c7",
+      "checkpoint": "data/runs/music-window/stage6-window-lowlr/calibrated.pt",
+      "case": "canonical",
+      "question": "Which broad musical genre best describes this excerpt?",
+      "choices": [
+        "alternative",
+        "blues",
+        "electronic",
+        "folk country",
+        "funk soul rnb",
+        "jazz",
+        "pop",
+        "rap hiphop",
+        "rock"
+      ],
+      "modes": {
+        "correct": [
+          {
+            "choice": "pop",
+            "probability": 0.5342984199523926
+          },
+          {
+            "choice": "electronic",
+            "probability": 0.2144385427236557
+          },
+          {
+            "choice": "rock",
+            "probability": 0.11117324978113174
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.061272282153367996
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.04586106538772583
+          },
+          {
+            "choice": "blues",
+            "probability": 0.020848045125603676
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.008121253922581673
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0028792275115847588
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.0011078957468271255
+          }
+        ],
+        "silence": [
+          {
+            "choice": "electronic",
+            "probability": 0.8229241371154785
+          },
+          {
+            "choice": "blues",
+            "probability": 0.07408814132213593
+          },
+          {
+            "choice": "rock",
+            "probability": 0.0351828895509243
+          },
+          {
+            "choice": "funk soul rnb",
+            "probability": 0.028679613023996353
+          },
+          {
+            "choice": "pop",
+            "probability": 0.017337338998913765
+          },
+          {
+            "choice": "alternative",
+            "probability": 0.017013048753142357
+          },
+          {
+            "choice": "rap hiphop",
+            "probability": 0.0035907889250665903
+          },
+          {
+            "choice": "folk country",
+            "probability": 0.0007725405157543719
+          },
+          {
+            "choice": "jazz",
+            "probability": 0.00041147161391563714
+          }
+        ]
+      }
+    }
+  ],
+  "native_captions": [
+    {
+      "mode": "correct",
+      "prompt": "Caption the audio",
+      "response": "the audio",
+      "seconds": 0.11247772723436356
+    },
+    {
+      "mode": "silence",
+      "prompt": "Caption the audio",
+      "response": "the audio",
+      "seconds": 0.09955091588199139
+    },
+    {
+      "mode": "correct",
+      "prompt": "Describe the music heard.",
+      "response": "the music is a pop song characterized by a catchy melody, upbeat rhythm, and prominent use of synthesizers.",
+      "seconds": 0.6441475711762905
+    },
+    {
+      "mode": "silence",
+      "prompt": "Describe the music heard.",
+      "response": "the music heard is likely a fast-paced, energetic track with a strong beat and a mix of electronic and acoustic elements. the genre could be electronic dance music (edm), techno, or house, given the fast tempo and the use of synthesizers and drum machines.",
+      "seconds": 1.5074722152203321
+    },
+    {
+      "mode": "correct",
+      "prompt": "Does this music contain singing or voice, or is it instrumental?",
+      "response": "this music contains singing, as evidenced by the presence of a vocalist. the instrumental elements, such as the drums, bass, and synthesizers, are not explicitly audible in the clip.",
+      "seconds": 1.0762282647192478
+    },
+    {
+      "mode": "silence",
+      "prompt": "Does this music contain singing or voice, or is it instrumental?",
+      "response": "this music is primarily instrumental, with no discernible singing or voice. the focus is on the rhythmic and harmonic elements, which are likely generated by electronic instruments or synthesizers.",
+      "seconds": 1.0576542001217604
+    }
+  ]
+}

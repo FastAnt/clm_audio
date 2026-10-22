@@ -1,0 +1,23 @@
+{
+  "dataset": "/srv/data/samsone_clm/processed/v3/stage2_50k_audio_contrast_reciprocal.jsonl",
+  "dataset_sha256": "aaf7a89cf38222e4253062d5a869ce7473fca1d115a8bcef6b326353959bd607",
+  "canonical_sha256": "13bb5746af85af80308355e33aed00925518449c5f5cd502cc8ab044f2abb5b5",
+  "base_dataset_sha256": "859524cea84fb058e76f099120b16a9e94d2cdb60f3b4263f37b1002c6d41e64",
+  "main_train_samples": 50000,
+  "auxiliary_train_samples": 3841,
+  "total_train_samples": 53841,
+  "directed_paired_rows": 4955,
+  "paired_types": {
+    "speech": 3968,
+    "temporal": 969,
+    "music": 14,
+    "sound": 4
+  },
+  "validation_samples": 2048,
+  "test_samples": 2048,
+  "heldout_unchanged": true,
+  "heldout_audio_overlap": 0,
+  "heldout_pcm_overlap": 0,
+  "pair_manifest": "/srv/data/samsone_clm/processed/v3/audio_contrast_pairs_stage2_50k_reciprocal.json",
+  "pair_mode": "reciprocal-answers"
+}

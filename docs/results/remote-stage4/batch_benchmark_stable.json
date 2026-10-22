@@ -1,0 +1,81 @@
+{
+  "device": "NVIDIA GeForce RTX 3090",
+  "precision": "FP32 heads, BF16 feature storage, TF32 disabled",
+  "resources": {
+    "available_ram_gib": 115.78797149658203,
+    "memory_limit_gib": 116.41532135009766,
+    "free_disk_gib": 484.1438751220703,
+    "swap_used_gib": 0.0
+  },
+  "fixed_pair_batch": false,
+  "checkpoint": "data/models/samsone_clm_common/best.pt",
+  "feature_manifest": "data/features/spike-a86e057eae695e43/manifest.json",
+  "results": [
+    {
+      "batch_size": 64,
+      "pair_count": 32,
+      "pair_endpoints": 64,
+      "steps": 200,
+      "elapsed_s": 4.551652463153005,
+      "step_ms": 22.758262315765023,
+      "main_samples_per_second": 2812.1654945362916,
+      "peak_allocated_gib": 2.171238422393799,
+      "peak_reserved_gib": 2.240234375,
+      "final_loss": 0.26137301325798035,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 128,
+      "pair_count": 64,
+      "pair_endpoints": 128,
+      "steps": 200,
+      "elapsed_s": 4.713215533643961,
+      "step_ms": 23.566077668219805,
+      "main_samples_per_second": 5431.5360325157235,
+      "peak_allocated_gib": 2.220585823059082,
+      "peak_reserved_gib": 2.29296875,
+      "final_loss": 0.20461945235729218,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 256,
+      "pair_count": 128,
+      "pair_endpoints": 256,
+      "steps": 200,
+      "elapsed_s": 4.533625924959779,
+      "step_ms": 22.668129624798894,
+      "main_samples_per_second": 11293.388746107064,
+      "peak_allocated_gib": 2.356832504272461,
+      "peak_reserved_gib": 2.46484375,
+      "final_loss": 0.17237481474876404,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 512,
+      "pair_count": 256,
+      "pair_endpoints": 512,
+      "steps": 200,
+      "elapsed_s": 7.673583995550871,
+      "step_ms": 38.367919977754354,
+      "main_samples_per_second": 13344.481543353317,
+      "peak_allocated_gib": 2.6094517707824707,
+      "peak_reserved_gib": 2.798828125,
+      "final_loss": 0.14412812888622284,
+      "encoder_calls": 0
+    },
+    {
+      "batch_size": 1024,
+      "pair_count": 512,
+      "pair_endpoints": 1024,
+      "steps": 200,
+      "elapsed_s": 14.171897787600756,
+      "step_ms": 70.85948893800378,
+      "main_samples_per_second": 14451.13442598938,
+      "peak_allocated_gib": 3.1866469383239746,
+      "peak_reserved_gib": 3.310546875,
+      "final_loss": 0.14990054070949554,
+      "encoder_calls": 0
+    }
+  ],
+  "disposable_weights": true
+}

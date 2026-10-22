@@ -1,0 +1,7 @@
+{
+  "stage": 6,
+  "step": 50560,
+  "epoch": 32,
+  "samples": 404473,
+  "checkpoint": "/home/ubuntu/dev_clm/data/runs/music-genre/iteration-v2/stage6-genre-v2/last.pt"
+}

@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1"
+  },
+  "frozen": true,
+  "native_single": "a low-pitched, sustained note is played, creating a sense of anticipation or tension.",
+  "native_multiclip": "the audio files differ in their acoustic properties, with the first audio file featuring a sustained, low-frequency sound with a slow attack and decay, while the second audio file is a brief, high-",
+  "results": [
+    {
+      "batch": 1,
+      "hidden_shape": [
+        1,
+        960
+      ],
+      "states_per_second": 7.837921894368209,
+      "seconds": 0.38275451585650444,
+      "peak_allocated_gib": 1.3707375526428223,
+      "finite": true
+    },
+    {
+      "batch": 2,
+      "hidden_shape": [
+        2,
+        960
+      ],
+      "states_per_second": 13.235532533431165,
+      "seconds": 0.45332516729831696,
+      "peak_allocated_gib": 1.3969359397888184,
+      "finite": true
+    },
+    {
+      "batch": 4,
+      "hidden_shape": [
+        4,
+        960
+      ],
+      "states_per_second": 23.10436948428962,
+      "seconds": 0.5193822756409645,
+      "peak_allocated_gib": 1.4530200958251953,
+      "finite": true
+    },
+    {
+      "batch": 8,
+      "hidden_shape": [
+        8,
+        960
+      ],
+      "states_per_second": 40.51738095202382,
+      "seconds": 0.5923383850604296,
+      "peak_allocated_gib": 1.5578393936157227,
+      "finite": true
+    },
+    {
+      "batch": 16,
+      "hidden_shape": [
+        16,
+        960
+      ],
+      "states_per_second": 49.54603941864461,
+      "seconds": 0.9687959030270576,
+      "peak_allocated_gib": 1.771334171295166,
+      "finite": true
+    }
+  ]
+}

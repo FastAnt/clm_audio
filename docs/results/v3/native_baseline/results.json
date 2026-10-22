@@ -1,0 +1,3411 @@
+{
+  "status": "completed",
+  "model": "Samsone356M",
+  "dtype": "float32",
+  "protocol": "explicit choices; letter or exact-choice parsing; invalid responses count as incorrect",
+  "samples": 100,
+  "cases": [
+    {
+      "sample_id": "f4495cfd06047f48913219f29065bcd90774f74a6e8e9efab35e55109534de53",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/2aa96e08d3222f17fdbacec2.wav",
+      "question": "What best describes the vocal arrangement heard in the music?",
+      "choices": [
+        "Two voices singing in alternating phrases",
+        "A large group singing in harmony",
+        "A choir performing in a single voice",
+        "A solo voice with instrumental backing"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. two voices singing in alternating phrases",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 1.3309762550002233
+        },
+        "random": {
+          "response": "a) two voices singing in alternating phrases",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.31343649200016444
+        },
+        "silence": {
+          "response": "a. two voices singing in alternating phrases",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.30495033399984095
+        }
+      }
+    },
+    {
+      "sample_id": "62b0962d6fdef27fa2193f6203a7f1755c57d515ed87e2b893ca9e72212b53e6",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/cdb2ef3101ff4ef5ce34e284.wav",
+      "question": "Based on the musical elements heard, what emotional intent is most likely conveyed by the performance?",
+      "choices": [
+        "A call to physical action or energy",
+        "A moment of deep personal doubt",
+        "An expression of romantic longing",
+        "A feeling of spiritual upliftment"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) a moment of deep personal doubt",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2957754250001017
+        },
+        "random": {
+          "response": "a. a call to physical action or energy",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.6302619070002038
+        },
+        "silence": {
+          "response": "b) a moment of deep personal doubt",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.33141448900005344
+        }
+      }
+    },
+    {
+      "sample_id": "3224c44193ca2dd87372d307efaae722b932c94af21f7ce1dcc37807b5ba968a",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/c91ff36f5ca87578d2a3e325.wav",
+      "question": "What best describes the overall feel of the music?",
+      "choices": [
+        "The track is highly energetic",
+        "The track is calming and soft",
+        "The track is slow and mellow",
+        "The track is dark and brooding"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. the track is highly energetic",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3061251969998011
+        },
+        "random": {
+          "response": "a. the track is highly energetic",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3137848610003857
+        },
+        "silence": {
+          "response": "a. the track is highly energetic",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.27438108600017586
+        }
+      }
+    },
+    {
+      "sample_id": "e0310da3c086957e97fab540a46cd478ca63c1ad30c9349ded485d0def7f140a",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/581ca831a8a047263ca51d52.wav",
+      "question": "Based on the tempo and instrumentation heard, how does the music shape the mood of the setting?",
+      "choices": [
+        "The quiet chords create a peaceful vibe",
+        "The classical tones encourage quiet reflection",
+        "The slow melody relaxes the audience",
+        "The upbeat rhythm energizes the crowd"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) the upbeat rhythm energizes the crowd",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.6438649379997514
+        },
+        "random": {
+          "response": "d) the upbeat rhythm energizes the crowd",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3327495599996837
+        },
+        "silence": {
+          "response": "d) the upbeat rhythm energizes the crowd",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.35722051700031443
+        }
+      }
+    },
+    {
+      "sample_id": "8caf6ba6c7fddda7d70c1b224505d4fc252ba1584c531edaea6dc52dfda7aecb",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/musiccaps/21c09fe36f57c3744993a118.wav",
+      "question": "What instrument is heard performing with strong vibrato?",
+      "choices": [
+        "A percussion instrument creating rhythmic beats",
+        "A brass instrument performing loud fanfares",
+        "A string instrument playing soft melodies",
+        "An electronic instrument producing high pitches"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) a brass instrument performing loud fanfares",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3538586039999245
+        },
+        "random": {
+          "response": "b) a brass instrument performing loud fanfares",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3464218690000962
+        },
+        "silence": {
+          "response": "b) a brass instrument performing loud fanfares",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.6614434170001005
+        }
+      }
+    },
+    {
+      "sample_id": "52178a1c8140f381737bd8459cac212fee174d45e81dbcc32b8e81862c6c5733",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/15df09d3c7a6fdf6165ae325.wav",
+      "question": "What activity is suggested by the presence of hip-hop music in the audio?",
+      "choices": [
+        "Dancing in a crowded club",
+        "Attending a formal meeting",
+        "Working out at a gym",
+        "Casual walking while listening to music"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) casual walking while listening to music",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.33465718899969943
+        },
+        "random": {
+          "response": "d) casual walking while listening to music",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3439782909999849
+        },
+        "silence": {
+          "response": "d) casual walking while listening to music",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.639441736000208
+        }
+      }
+    },
+    {
+      "sample_id": "f6a5b8e6fad7466f5cccdeec9dce2a535d2abdd23275c1f2b4409931fe62afa1",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/musiccaps/f1f9d45637b623fb0397d50d.wav",
+      "question": "What best describes the vocal elements in the background of this track?",
+      "choices": [
+        "The female voice repeats a phrase",
+        "The male voice sings a full chorus",
+        "The male voice repeats a word sample",
+        "The female voice reads a poem segment"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "b) the male voice sings a full chorus",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.31490907099987453
+        },
+        "random": {
+          "response": "b) the male voice sings a full chorus",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.6249725830002717
+        },
+        "silence": {
+          "response": "a. the female voice repeats a phrase",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.6224588939999194
+        }
+      }
+    },
+    {
+      "sample_id": "947dbd83a5d4ed374550242e1403b37dedc3ee86fb60adf772a858826bb1e23a",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/c17223a73f4f32a5ab9ce791.wav",
+      "question": "What audio characteristics most strongly indicate the genre of the music?",
+      "choices": [
+        "Piano chords and quiet beats",
+        "Soft melodies and slow rhythms",
+        "Distorted guitars and rapid drumming",
+        "Acoustic strumming and light percussion"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) distorted guitars and rapid drumming",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.30522757200014894
+        },
+        "random": {
+          "response": "b) soft melodies and slow rhythms",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2676400640002612
+        },
+        "silence": {
+          "response": "a) piano chords and quiet beats",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.27605201500000476
+        }
+      }
+    },
+    {
+      "sample_id": "264311cd2d194fd715df5a0d4ed9f921d5be4f9785fc3f7e9657efa90efbf6a7",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/bc8d94095a7d7f1203632e0f.wav",
+      "question": "What best describes the vocal quality heard in the music?",
+      "choices": [
+        "Loud rhythmic male chanting",
+        "Electronic synthesized tones",
+        "Instrumental jazz performance",
+        "Soft operatic female singing"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) soft operatic female singing",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.27676810899993143
+        },
+        "random": {
+          "response": "d) soft operatic female singing",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3167447969999557
+        },
+        "silence": {
+          "response": "d) soft operatic female singing",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.309861340000225
+        }
+      }
+    },
+    {
+      "sample_id": "7e27e9889660c7de8bafa1313241c95a34d8e26d6f296bcba117880085d16127",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/0ee949c87d64eb71b58aca69.wav",
+      "question": "What best describes the core rhythm and tempo of the music?",
+      "choices": [
+        "A slow rhythm with deep drum hits",
+        "A steady acoustic beat with soft strums",
+        "A varied tempo with frequent pauses",
+        "A driving techno beat with quick tempo"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) a driving techno beat with quick tempo",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.6453966909998599
+        },
+        "random": {
+          "response": "b) a steady acoustic beat with soft strums",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.33802237100007915
+        },
+        "silence": {
+          "response": "d) a driving techno beat with quick tempo",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3227670900000703
+        }
+      }
+    },
+    {
+      "sample_id": "c54c55c38a193a26e85198541d437af2b1fc0f0f3f42a748b59acbe028cec258",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/154f7013c420b4bf912b90d1.wav",
+      "question": "What instruments play the main melodies in this piece?",
+      "choices": [
+        "Violin and cello",
+        "Guitar and harp",
+        "Piano and flute",
+        "Trumpet and drums"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. violin and cello",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.23450298099987776
+        },
+        "random": {
+          "response": "a. violin and cello",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2576546469999812
+        },
+        "silence": {
+          "response": "a. violin and cello",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2590224349996788
+        }
+      }
+    },
+    {
+      "sample_id": "e9bf5fa62612ecb7c708dfaeeb157b3b2fc7d239fe3d3697872fc0178001962f",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/162fcb15e38e92957649fb20.wav",
+      "question": "What instrument contributes a dreamy quality to the melody?",
+      "choices": [
+        "The flute",
+        "The piano",
+        "The harp",
+        "The violin"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. the flute",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.21366185600027165
+        },
+        "random": {
+          "response": "a) the flute",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.21477201400011836
+        },
+        "silence": {
+          "response": "a. the flute",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.19569029200010846
+        }
+      }
+    },
+    {
+      "sample_id": "9ab9e6a46441c187c73fb619bc93680c53da088d62ed708a7f3be15b04ef7a6d",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/1c18f63d03784a45628a326a.wav",
+      "question": "What emotion does the music primarily convey?",
+      "choices": [
+        "A feeling of restless urgency",
+        "A sense of timeless majesty",
+        "A mood of playful excitement",
+        "An atmosphere of deep sorrow"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) a sense of timeless majesty",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.2723813689999588
+        },
+        "random": {
+          "response": "b) a sense of timeless majesty",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.2702688929998658
+        },
+        "silence": {
+          "response": "a. a feeling of restless urgency",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3123563610001838
+        }
+      }
+    },
+    {
+      "sample_id": "b890c9ff908d5a14da189da4d4ce816e8064b1ef85853d38d4017e79db13cad4",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/0868476507c35b9757b90d13.wav",
+      "question": "What best describes the main melody of the piece?",
+      "choices": [
+        "A bright violin dances in fast tempo",
+        "A bold trumpet leads a triumphant march",
+        "An ethereal flute carries a haunting tune",
+        "A deep cello plays a somber lament"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c. an ethereal flute carries a haunting tune",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.41468544999997903
+        },
+        "random": {
+          "response": "c. an ethereal flute carries a haunting tune",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.4022969960001319
+        },
+        "silence": {
+          "response": "a. a bright violin dances in fast tempo",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.664999713999805
+        }
+      }
+    },
+    {
+      "sample_id": "324cab6dfe01d3a7f6e16f6e2af9951267788e1d0f4541825a873fdd0c14e6e6",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/2d5ba2d1b212f0a7a47d2e48.wav",
+      "question": "What instruments are featured in this piece?",
+      "choices": [
+        "A trumpet and cello with soft clapping",
+        "A piano and violin with light percussion",
+        "A sitar and guitar with drum accompaniment",
+        "A flute and harp with rhythmic tapping"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) sitar and guitar with light percussion",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3086062420002236
+        },
+        "random": {
+          "response": "d) a flute and harp with rhythmic tapping",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.32092264899984
+        },
+        "silence": {
+          "response": "d) a flute and harp with rhythmic tapping",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.6526584289999846
+        }
+      }
+    },
+    {
+      "sample_id": "13214bd10a79ed10fe405cc45653e7970c5cdc3abd51158fc5c5fb2b9a0ba3e3",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/d16c541d08bb87b099ddac58.wav",
+      "question": "What best describes the main instrument and mood of the music?",
+      "choices": [
+        "A drum kit playing quickly and loudly",
+        "An electric guitar playing quickly and loudly",
+        "A piano playing slowly and softly",
+        "An acoustic guitar playing slowly and softly"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) an acoustic guitar playing slowly and softly",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3084537470003852
+        },
+        "random": {
+          "response": "b) an electric guitar playing quickly and loudly",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3154396850000012
+        },
+        "silence": {
+          "response": "b) an electric guitar playing quickly and loudly",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.29869751099977293
+        }
+      }
+    },
+    {
+      "sample_id": "8ab6ec87c33ab36cc097c1556dd2d57a0511d4b2dd4eceec0e72aefefd867410",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/957631c3060979efacc39279.wav",
+      "question": "What is the main characteristic of the guitar work in this song?",
+      "choices": [
+        "It creates a calming and peaceful mood",
+        "It takes listeners on an exhilarating journey",
+        "It features fast-paced drum rhythms",
+        "It includes repetitive and simple melodies"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) it takes listeners on an exhilarating journey",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.3648003710000012
+        },
+        "random": {
+          "response": "b) it takes listeners on an exhilarating journey",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.37461929499977487
+        },
+        "silence": {
+          "response": "b) it takes listeners on an exhilarating journey",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.3842720749998989
+        }
+      }
+    },
+    {
+      "sample_id": "c1e4cd3175fc2e59c0f26230abd45699b2f78eb8a4674d836e84e9f469922358",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/fe3055f352012552a012739e.wav",
+      "question": "What instruments and vocal elements are prominently featured in the music?",
+      "choices": [
+        "Guitar and drums",
+        "Piano and solo singer",
+        "Violins and a choir",
+        "Trumpets and spoken voice"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) violins and a choir",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.2679839739998897
+        },
+        "random": {
+          "response": "c) violins and a choir",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.5731913129998247
+        },
+        "silence": {
+          "response": "d) trumpets and spoken voice",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.2674708399999872
+        }
+      }
+    },
+    {
+      "sample_id": "2f7a2647d9374ca594563171b50f129b9567ec1171ea766398abd537fb43d2bc",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/ca7daa605235e1db8d719a16.wav",
+      "question": "What instruments can be clearly heard in this piece?",
+      "choices": [
+        "The trumpet drums piano and bass",
+        "The saxophone harp cello and guitar",
+        "The clarinet violins oboe and flute",
+        "The trombone organ drums and violin"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "b) the saxophone harp cello and guitar",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.35223618999998507
+        },
+        "random": {
+          "response": "a. the trumpet drums piano and bass",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.29917141599980823
+        },
+        "silence": {
+          "response": "b) the saxophone harp cello and guitar",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.34114995599975373
+        }
+      }
+    },
+    {
+      "sample_id": "59ada1c1ab82a23bb5f7e7425614830998ba0e8fb763df831033defe341850e6",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/3f9e5cb6f9276a30c697e0ae.wav",
+      "question": "What role does the background music play in shaping the scene's emotional tone?",
+      "choices": [
+        "The loud chords suggest aggression",
+        "The sudden silence builds tension",
+        "The upbeat rhythm creates excitement",
+        "The continuous melody adds solemnity"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "c) the upbeat rhythm creates excitement",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.28782316700016963
+        },
+        "random": {
+          "response": "c) the upbeat rhythm creates excitement",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.28968474799967225
+        },
+        "silence": {
+          "response": "c) the upbeat rhythm creates excitement",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.30298003400002926
+        }
+      }
+    },
+    {
+      "sample_id": "0485b896750e87b39628822b6841f19269cbd07d5f2e8d546ac96ed55f55e4af",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/853db8f4b1c4d5dbcad35ef8.wav",
+      "question": "What might the music in the background suggest about the environment, and how does it make the scene feel?",
+      "choices": [
+        "A radio broadcast with intermittent commercials",
+        "A private room playing soft instrumental tracks",
+        "A quiet café with relaxing melodies",
+        "An outdoor gathering creating energetic vibes"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) a private room playing soft instrumental tracks",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.35523154600014095
+        },
+        "random": {
+          "response": "b) a private room playing soft instrumental tracks",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.36550973200019143
+        },
+        "silence": {
+          "response": "b) private room playing soft instrumental tracks",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3098925489998692
+        }
+      }
+    },
+    {
+      "sample_id": "b5d60c93a123d5638da2f9585f54b9cc0d97d6efb9c9887f255f19efcd18aa3d",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/fb29cbae5a10d4a5c6b20584.wav",
+      "question": "Which best describes the emotional quality of the music based on the instruments heard?",
+      "choices": [
+        "A somber reflection",
+        "An intense conflict",
+        "A joyful celebration",
+        "A peaceful morning"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. somber reflection",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.541782293000324
+        },
+        "random": {
+          "response": "b) an intense conflict",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.22269531499978257
+        },
+        "silence": {
+          "response": "a. somber reflection",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2262371320002785
+        }
+      }
+    },
+    {
+      "sample_id": "9f642f906cb6b032f91705b8de336cb81418bc08a9019acc780637cfc2afab01",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/68bebad6ae85219c31374084.wav",
+      "question": "What best describes the overall character of the music?",
+      "choices": [
+        "The music is calm with soft acoustic melodies",
+        "The music is experimental with unusual sound effects",
+        "The music is intense with dominant electric guitars",
+        "The music is upbeat with cheerful vocal lines"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c. the music is intense with dominant electric guitars",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.6285419129999354
+        },
+        "random": {
+          "response": "b) the music is experimental with unusual sound effects",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3551316439998118
+        },
+        "silence": {
+          "response": "b) the music is experimental with unusual sound effects",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.6641147400000591
+        }
+      }
+    },
+    {
+      "sample_id": "42bb81c1cdc4a838d7ce9a95c525e3a38c2d5f9ab39a083f9289b5493c9948ae",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/f5025650200ef7a68dd8f254.wav",
+      "question": "When does the music begin and why is it significant to the scene's mood?",
+      "choices": [
+        "It plays from the beginning to set the tone",
+        "It follows the engine revving to calm the mood",
+        "It starts with the engine revving to build excitement",
+        "It pauses during loud engine sounds to avoid conflict"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a) it plays from the beginning to set the tone",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.4114382200000364
+        },
+        "random": {
+          "response": "a) it plays from the beginning to set the tone",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.44555708100006086
+        },
+        "silence": {
+          "response": "a) it plays from the beginning to set the tone",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.7035410319999755
+        }
+      }
+    },
+    {
+      "sample_id": "95645a0c8215a3a9a13cc86e1f9e170bf6e1af3922ca212dff01966ce5423197",
+      "question_type": "music",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/magnatagatune/43c3c8aef739cf827e68051e.wav",
+      "question": "What best describes the core elements of the music heard?",
+      "choices": [
+        "A soothing piano and string arrangement",
+        "A slow acoustic melody with vocals",
+        "A fast electronic beat with synths",
+        "An electrifying guitar and drum combination"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) an electrifying guitar and drum combination",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.31134757200015883
+        },
+        "random": {
+          "response": "a) a soothing piano and string arrangement",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.30210704799992527
+        },
+        "silence": {
+          "response": "b) a slow acoustic melody with vocals",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3161909560003551
+        }
+      }
+    },
+    {
+      "sample_id": "ea70ae7f08a061fe57ad59f751e6a0f61803f09b22a6e67aa0581fd1f0c788b9",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/a32d1fea49f6685dd20fba56.wav",
+      "question": "What environmental element is most prominent in the background of the audio?",
+      "choices": [
+        "The flowing water",
+        "The gentle wind",
+        "The rustling leaves",
+        "The distant thunder"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. the flowing water",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.23881901300001118
+        },
+        "random": {
+          "response": "b) the gentle wind",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.2399048679999396
+        },
+        "silence": {
+          "response": "a. the flowing water",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.23322772900019118
+        }
+      }
+    },
+    {
+      "sample_id": "995467678faff83a5896438668e46d0000ea082814cacdc7bcc768a9f1e6b741",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/e7f8270a0c4ceea465f73e1e.wav",
+      "question": "What specific natural elements heard in the audio suggest the time of year?",
+      "choices": [
+        "The rustling autumn leaves",
+        "The morning rainfall",
+        "The distant thunderstorm",
+        "The variety of birds and insects"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "a. the rustling autumn leaves",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.26483713800007536
+        },
+        "random": {
+          "response": "a. the rustling autumn leaves",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.27789013700021314
+        },
+        "silence": {
+          "response": "a. the rustling autumn leaves",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2625507269999616
+        }
+      }
+    },
+    {
+      "sample_id": "3bad4830d3568e9544c73768e8e2fdbdbfa56d2f9dc16227e1013c1105a1e0f8",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/52d43ce714aa702487343ba0.wav",
+      "question": "What specific action is suggested by the crinkling sound at the end of the audio?",
+      "choices": [
+        "He is handling a wrapped item",
+        "He is tearing a cardboard box",
+        "He is flipping through paper pages",
+        "He is walking on dry leaves"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. he is handling a wrapped item",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3206184209998355
+        },
+        "random": {
+          "response": "a. he is handling a wrapped item",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.33905046400013816
+        },
+        "silence": {
+          "response": "a. he is handling a wrapped item",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3366329649998079
+        }
+      }
+    },
+    {
+      "sample_id": "a6326254e69a0f29f39bbc764ab5ef8f4322844cd48015ce4c63a201f34dc8ad",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/8559880d23da9b71d6e212c3.wav",
+      "question": "What is the most likely activity associated with the repeated spray sound heard in the background?",
+      "choices": [
+        "A child playing with a water gun",
+        "A person cleaning windows inside",
+        "A gardener misting plants outdoors",
+        "An automatic sprinkler system"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) a gardener misting plants outdoors",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.6047185469997203
+        },
+        "random": {
+          "response": "c. a gardener misting plants outdoors",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.28355657500014786
+        },
+        "silence": {
+          "response": "d. an automatic sprinkler system",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.5749586229999295
+        }
+      }
+    },
+    {
+      "sample_id": "24aac5f2c724e7a3e2afa8d537e3315c224f2c40a3bfafa2f866c451572f6f85",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/76a4821db6ed1e715ce7fbc7.wav",
+      "question": "What specific sound might indicate the man's primary activity?",
+      "choices": [
+        "Music playing softly nearby",
+        "Distant traffic noise in background",
+        "Voice dictating into microphone",
+        "Sound of typing on keyboard"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) sound of typing on keyboard",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2798430630000439
+        },
+        "random": {
+          "response": "c) voice dictating into microphone",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.28356030299983104
+        },
+        "silence": {
+          "response": "c) voice dictating into microphone",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2683279670000047
+        }
+      }
+    },
+    {
+      "sample_id": "1c9057ff6921c0075a5a06ae5168c7c07a480a812d8d81c22d362422bc8b8c26",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/cd3e93affe5f4b03084f8e2e.wav",
+      "question": "What is the most consistent environmental sound heard throughout the audio clip?",
+      "choices": [
+        "A ticking clock nearby",
+        "Distant traffic noise in background",
+        "Hushed whispers from attendees",
+        "Wind blowing through trees"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) distant traffic noise in background",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.25720629199986433
+        },
+        "random": {
+          "response": "b) distant traffic noise in background",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.2733525319999899
+        },
+        "silence": {
+          "response": "b) distant traffic noise in background",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.2699868909999168
+        }
+      }
+    },
+    {
+      "sample_id": "3b401788bdfde9dfd83c4807ad66d76c170c73208e4af0c5db4e82337b904cca",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/3a8819f00f6809aac4ae3ab7.wav",
+      "question": "What is the second sound heard in the audio?",
+      "choices": [
+        "Fireworks exploding",
+        "Gunfire",
+        "Thunder rumbling",
+        "Sirens wailing"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. fireworks exploding",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.22313652000002548
+        },
+        "random": {
+          "response": "a. fireworks exploding",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5266303379999044
+        },
+        "silence": {
+          "response": "b) gunfire",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.22023114900002838
+        }
+      }
+    },
+    {
+      "sample_id": "9b870703315450dacc41630245a9b2cf682b9ea1e84aa903f06fb5bce08793a5",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/bf2a9def6d5133e6d34649cd.wav",
+      "question": "What is the most prominent human-produced sound occurring in the audio?",
+      "choices": [
+        "An adult male speaking",
+        "A woman singing softly",
+        "A group of people laughing",
+        "A child shouting loudly"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. an adult male speaking",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.24439118299960683
+        },
+        "random": {
+          "response": "a. an adult male speaking",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.2523469110001315
+        },
+        "silence": {
+          "response": "a. an adult male speaking",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.24314449700023033
+        }
+      }
+    },
+    {
+      "sample_id": "b45fcd591ea3ccb578192d73a57780e62e6c8141ca52031b5c94d06ef1cc67cb",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/d73c0436e5b2efc46040e7cc.wav",
+      "question": "What sequence of sounds occurs at the beginning of the audio?",
+      "choices": [
+        "The sound of a dog barking followed by a car engine",
+        "The sound of a horse walking followed by a man talking",
+        "The sound of a train passing followed by children laughing",
+        "The sound of a bird chirping followed by a phone ringing"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. the sound of a dog barking followed by a car engine",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.4101667280001493
+        },
+        "random": {
+          "response": "a. the sound of a dog barking followed by a car engine",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.44821114999967904
+        },
+        "silence": {
+          "response": "a) the sound of a dog barking followed by a car engine",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.44287130500015337
+        }
+      }
+    },
+    {
+      "sample_id": "f13c5004ef21855801e4e96ac007d098dc62eddc1b6eb4971971182b1ce894ab",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/cd65ae19f1d1ebf8f43f0d6b.wav",
+      "question": "What activity is most consistently represented by the repeated rustling noises heard throughout the audio?",
+      "choices": [
+        "Rolling dice",
+        "Flipping pages",
+        "Tearing paper",
+        "Playing card game"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) playing card game",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.22443826300013825
+        },
+        "random": {
+          "response": "d) playing card game",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.23002991600014866
+        },
+        "silence": {
+          "response": "d) playing card game",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.21598439199988206
+        }
+      }
+    },
+    {
+      "sample_id": "11f6f2ec8d1e2873c38cb715d8afa51408f5a72cddc6ba5ad4f0155961d1d3a4",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/8af8d492bd7a4e85d653188c.wav",
+      "question": "What specific action might have activated the security alarm according to the audio?",
+      "choices": [
+        "A window breaking suddenly",
+        "A motion detector activating",
+        "A sliding door being opened",
+        "A keypad code being entered"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "b) a motion detector activating",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.24524718199972995
+        },
+        "random": {
+          "response": "b) motion detector activating",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.26452028099993186
+        },
+        "silence": {
+          "response": "b) motion detector activating",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2558538809998936
+        }
+      }
+    },
+    {
+      "sample_id": "847a084a855cafc0e0ada1d175e56acac96521eda931856af87345b96f53a481",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/87a2f749b5de409cf7cc498c.wav",
+      "question": "What activity is suggested by the shuffling sounds heard near the end of the audio?",
+      "choices": [
+        "A group sitting quietly together",
+        "Someone walking alone slowly",
+        "An individual typing rapidly",
+        "People moving around energetically"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d. people moving around energetically",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3009331379998912
+        },
+        "random": {
+          "response": "d. people moving around energetically",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.29234358599978805
+        },
+        "silence": {
+          "response": "d. people moving around energetically",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.25862440499986405
+        }
+      }
+    },
+    {
+      "sample_id": "51ba7100588062322ab624f328df3f6f9d82f5f7bd5fe517d4f7141b6bdb3465",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/d50321d676a4fda386af8842.wav",
+      "question": "What is the primary sound heard in the audio?",
+      "choices": [
+        "Soft breeze with chirping",
+        "Heavy rain with thunder",
+        "Calm air with footsteps",
+        "Strong wind with rustling"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) strong wind with rustling",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2624663500000679
+        },
+        "random": {
+          "response": "d) strong wind with rustling",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2691228799999408
+        },
+        "silence": {
+          "response": "d) strong wind with rustling",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.26469856899984734
+        }
+      }
+    },
+    {
+      "sample_id": "2fbd423184ec62de4febf74dc3a82177a4e4cbd7e8ee14ab46bf81c132beb1c6",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/451f68bcde5d8b6fb704b82b.wav",
+      "question": "What is the most accurate description of the background sound?",
+      "choices": [
+        "A car engine revving",
+        "A train passing by",
+        "A helicopter engine operating",
+        "An airplane taking off"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) a helicopter engine operating",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.24715401200000997
+        },
+        "random": {
+          "response": "d) an airplane taking off",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.2628852769998957
+        },
+        "silence": {
+          "response": "c) a helicopter engine operating",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.25153270700002395
+        }
+      }
+    },
+    {
+      "sample_id": "1aad5109ddf5da72a3fa957e18b4f5993240b435028000669bb7784fec58ceca",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/7c268ccb107214e5910a9866.wav",
+      "question": "What emotion is most clearly expressed in the child's voice?",
+      "choices": [
+        "Joyful amusement",
+        "Frustrated crying",
+        "Angry shouting",
+        "Tired whimpering"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. joyful amusement",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.2047845430001871
+        },
+        "random": {
+          "response": "a. joyful amusement",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.5077184310002849
+        },
+        "silence": {
+          "response": "d) tired whimpering",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.5032048879998001
+        }
+      }
+    },
+    {
+      "sample_id": "02d408744cd5b98031901e69d01b4853cd6968374b82abf03cc30c6a73f7315c",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/fddf3bcd16d609775897a154.wav",
+      "question": "What specific sound effect is used repeatedly to simulate rapid gunfire in the background?",
+      "choices": [
+        "Frequent drumbeat patterns",
+        "Constant electrical buzzing",
+        "Continuous dropping of coins",
+        "Overlapping footsteps sounds"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a) frequent drumbeat patterns",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.28146216999994067
+        },
+        "random": {
+          "response": "a) frequent drumbeat patterns",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.29286677200025224
+        },
+        "silence": {
+          "response": "a) frequent drumbeat patterns",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.27423215199996775
+        }
+      }
+    },
+    {
+      "sample_id": "511538e67714dbad776ed71ad25f213aba862a3fe48b443dda36147f67c3cc15",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/112dfd75160f562f28b0f7e1.wav",
+      "question": "What activity is the man likely doing during pauses, based on the breathing sounds heard?",
+      "choices": [
+        "Drinking water",
+        "Writing notes",
+        "Looking away",
+        "Reading silently"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "c) looking away",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.19990484200025094
+        },
+        "random": {
+          "response": "c) looking away",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.19395067699997526
+        },
+        "silence": {
+          "response": "c) looking away",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.19917069899975104
+        }
+      }
+    },
+    {
+      "sample_id": "173bc6670464e4507e56db8e407b57dc264c2eec6f8dd6356685885435ca11e9",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/e94d87817bbb61cd7f5d0c2b.wav",
+      "question": "What environmental phenomenon is indicated by the continuous background noise in the audio?",
+      "choices": [
+        "A thunderstorm occurring outdoors",
+        "A windy day near ocean waves",
+        "A quiet evening with light rain",
+        "A busy street during heavy traffic"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. a thunderstorm occurring outdoors",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.2369217129999015
+        },
+        "random": {
+          "response": "b. a windy day near ocean waves",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.29080684100017606
+        },
+        "silence": {
+          "response": "b) a windy day near ocean waves",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.30468665499984127
+        }
+      }
+    },
+    {
+      "sample_id": "4a7e868cd5328ebb7a5c2d262c4e24e897fbf60efd4c8b02bc47d95c9f347b4f",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/aa59f91781323d6cb0ffc5f3.wav",
+      "question": "What is the primary continuous sound heard throughout the audio?",
+      "choices": [
+        "Leaves are rustling lightly",
+        "Wind is blowing gently",
+        "Water is flowing steadily",
+        "A person is humming softly"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) water is flowing steadily",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.2545034560002932
+        },
+        "random": {
+          "response": "c) water is flowing steadily",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.25813885700017636
+        },
+        "silence": {
+          "response": "b) wind is blowing gently",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2476413419999517
+        }
+      }
+    },
+    {
+      "sample_id": "c1633f8f90f0b55e81d7862ea760089ed6cde2f6c6be3825ee05b273169cf3ee",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/fa1006d979004ae7a89e9b79.wav",
+      "question": "What consistent sound can be heard throughout the audio?",
+      "choices": [
+        "Paper rustling softly",
+        "Rain on windowpane",
+        "Ice clinking in glass",
+        "Food frying in oil"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) food frying in oil",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.5675047029999405
+        },
+        "random": {
+          "response": "a. paper rustling softly",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5663685139998051
+        },
+        "silence": {
+          "response": "d) food frying in oil",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2840538799996466
+        }
+      }
+    },
+    {
+      "sample_id": "0c54c0e011115f19d8443f0f46998ac6c574799662e4a427dc06983dca9f3735",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/904dbbce3c266cca4d9e31ad.wav",
+      "question": "What is the most likely source of the rhythmic wind noise and intermittent impacts heard in the audio?",
+      "choices": [
+        "A fan oscillating and hitting furniture",
+        "Windy weather with occasional tree branches tapping",
+        "Someone breathing heavily and firing a cap gun",
+        "Someone snoring and shifting in bed"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) someone breathing heavily and firing a cap gun",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.37154306999991604
+        },
+        "random": {
+          "response": "a. a fan oscillating and hitting furniture",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.31084653200014145
+        },
+        "silence": {
+          "response": "a. a fan oscillating and hitting furniture",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3097554470000432
+        }
+      }
+    },
+    {
+      "sample_id": "9ceb6da6b289ae360dd060f3946f32b6646a5547bac1ee824a75aeb060896951",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/d237e5701c100dc1d830738a.wav",
+      "question": "What is the primary non-musical sound present in the audio?",
+      "choices": [
+        "A dog barking",
+        "A door creaking",
+        "A phone ringing",
+        "An infant crying"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) an infant crying",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.21520052599998962
+        },
+        "random": {
+          "response": "d) an infant crying",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.22554650600022796
+        },
+        "silence": {
+          "response": "d) an infant crying",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.230820895999841
+        }
+      }
+    },
+    {
+      "sample_id": "d9967f8bc79b822fb5ae52a8847db6c23a442551ece4a17034193dd106d6634b",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/46e81487232eaaf7344ae9eb.wav",
+      "question": "What specific combination of sounds occurs in the audio?",
+      "choices": [
+        "Bird chirping among wind gusts",
+        "Horse neighing with people talking",
+        "Dog barking near a crowd",
+        "Car engine with radio playing"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) horse neighing with people talking",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.30681870099988373
+        },
+        "random": {
+          "response": "d) car engine with radio playing",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.288531903999683
+        },
+        "silence": {
+          "response": "a. bird chirping among wind gusts",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.32348138899988044
+        }
+      }
+    },
+    {
+      "sample_id": "33abc019925458ac357b89168784227a5aa54cd273335d6d7600bb3556b3151b",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/c731219a0a18a46b9a50d8ab.wav",
+      "question": "What audio elements indicate movement is occurring in the scene?",
+      "choices": [
+        "Wind blowing and distant construction",
+        "Music playing and glass shattering",
+        "People talking and footsteps approaching",
+        "Vehicles passing and engine revving"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) vehicles passing and engine revving",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2957060190001357
+        },
+        "random": {
+          "response": "d) vehicles passing and engine revving",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2899684150002031
+        },
+        "silence": {
+          "response": "c) people talking and footsteps approaching",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.6137447639998754
+        }
+      }
+    },
+    {
+      "sample_id": "d39b8d25f6df3d3d877ac3da3ed8fb17133e5a664973e62c7fbe51fe7581a278",
+      "question_type": "sound",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/audiocaps/31d824f925f3369041803e2d.wav",
+      "question": "What two audio elements are clearly present in the recording?",
+      "choices": [
+        "A woman singing and a car engine revving",
+        "A person typing and a vacuum cleaner running",
+        "A man speaking and a drill motor running",
+        "A child laughing and a blender operating"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) a man speaking and a drill motor running",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3848245029998907
+        },
+        "random": {
+          "response": "c) a man speaking and a drill motor running",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.6759324370000286
+        },
+        "silence": {
+          "response": "c) a man speaking and a drill motor running",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3289979239998502
+        }
+      }
+    },
+    {
+      "sample_id": "1c7a27ff0b678845ab2f67b51703351191b8f1ab07fe955d83fed472bfc8dbe9",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/a825b6f453d4e50d7dbfe5a6.wav",
+      "question": "What best describes the speaker's age and gender?",
+      "choices": [
+        "An elderly female speaker",
+        "A young male speaker",
+        "A middle aged man",
+        "A teenage girl"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) a young male speaker",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.23422686000003523
+        },
+        "random": {
+          "response": "a. an elderly female speaker",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.25716043200009153
+        },
+        "silence": {
+          "response": "a. an elderly female speaker",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2598447620002844
+        }
+      }
+    },
+    {
+      "sample_id": "76b7f817fd2ac5990488aa3bac4089112586dd1f0c04b857719035844f3cc2db",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/8c5db4af47e1766721c80f23.wav",
+      "question": "What emotion most clearly comes through in the speaker's voice?",
+      "choices": [
+        "Angry frustration",
+        "Calm disappointment",
+        "Bored indifference",
+        "Excited enthusiasm"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) excited enthusiasm",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.6743428429999767
+        },
+        "random": {
+          "response": "d) excited enthusiasm",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.2032990479997352
+        },
+        "silence": {
+          "response": "d) excited enthusiasm",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.19073462400001517
+        }
+      }
+    },
+    {
+      "sample_id": "d9042ca1ffccf08345dcb3df7ebb6dc46ec4bf3299a042ab2c4b885cc97fa4a7",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/cc0c6cc593d6be7e5da83667.wav",
+      "question": "What is the speaker's age group and gender based on the voice?",
+      "choices": [
+        "Middle aged man",
+        "Teenage girl",
+        "Young male",
+        "Old female"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) young male",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.5348466809996353
+        },
+        "random": {
+          "response": "a. middle aged man",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2558798109998861
+        },
+        "silence": {
+          "response": "a. middle aged man",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.25708163299987064
+        }
+      }
+    },
+    {
+      "sample_id": "368e6e948194cd3dd123fa631ffa136fd8cdb982dd700957f25e748a11bc117b",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/55455a983ccf139995ccb190.wav",
+      "question": "What emotion does the speaker mainly show?",
+      "choices": [
+        "Sad disappointment",
+        "Angry frustration",
+        "Calm confidence",
+        "Excited enthusiasm"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) calm confidence",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.20792488000006415
+        },
+        "random": {
+          "response": "c) calm confidence",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.24875505699992573
+        },
+        "silence": {
+          "response": "d) excited enthusiasm",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.19199950299980628
+        }
+      }
+    },
+    {
+      "sample_id": "ad8166055622072977d68cfb61dfd52cf4eb55d42865376bd7848be09dd1123e",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/b2eb975ca06aebbab07992cd.wav",
+      "question": "What aspect of the person's description reveals how the speaker approaches the topic?",
+      "choices": [
+        "Describing colors seen over many years",
+        "Questioning the value of sight experience",
+        "Explaining a common visual misunderstanding",
+        "Contemplating implications of a modeled person"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) questioning the value of sight experience",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.28339363100030823
+        },
+        "random": {
+          "response": "b) questioning the value of sight experience",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.289058660000137
+        },
+        "silence": {
+          "response": "b) questioning the value of sight experience",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.28821507800012114
+        }
+      }
+    },
+    {
+      "sample_id": "4d405bf2c80d81b8338ab291a82d343db73b721058f7c3004e46cb03e491b154",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/a4909ecc97aa417fa05ff1fe.wav",
+      "question": "What best describes the speaker's vocal delivery?",
+      "choices": [
+        "Medium pitch clear speech",
+        "Low pitch fast speech",
+        "Low pitch soft speech",
+        "High pitch slow speech"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. medium pitch clear speech",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5655637289996776
+        },
+        "random": {
+          "response": "a. medium pitch clear speech",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.28900512500013065
+        },
+        "silence": {
+          "response": "a. medium pitch clear speech",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2562393160001193
+        }
+      }
+    },
+    {
+      "sample_id": "43b5f1ec61562ad1bd1cc286e68940d079c04d7a248488e35e249377ae0aee8d",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/e6d6493943eb94e46bae298b.wav",
+      "question": "What was the speaker's intention in mentioning Augustus?",
+      "choices": [
+        "To explain the king's decision",
+        "To describe a military failure",
+        "To praise the dutch government",
+        "To honor a historical figure"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. to explain the king's decision",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.2846718380001221
+        },
+        "random": {
+          "response": "a. to explain the king's decision",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.6325544339997577
+        },
+        "silence": {
+          "response": "b) to describe a military failure",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3240832030001002
+        }
+      }
+    },
+    {
+      "sample_id": "94068616aa871983f2af0d598bd25175f54a3c9ee8f1af47b88e95e1669c732d",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/62fd72d23f7f9508f4ccb778.wav",
+      "question": "What does the speaker say the soldiers are doing as they look at Gabriel Andersen?",
+      "choices": [
+        "Shouting orders at him",
+        "Looking at him with contempt",
+        "Riding away from him",
+        "Bowing their heads to him"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) looking at him with contempt",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.3098900620002496
+        },
+        "random": {
+          "response": "d) bowing their heads to him",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.3329768180001338
+        },
+        "silence": {
+          "response": "d) bowing their heads to him",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.29904253099994094
+        }
+      }
+    },
+    {
+      "sample_id": "b1b9c4f1b202216cfe58bdf82e014fad16f895afbafa77b2b541ef8fe1734e95",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/a8d1cee4320068ae33879760.wav",
+      "question": "What does the speaker say about the person's hair?",
+      "choices": [
+        "It was neatly combed back",
+        "It was cut very short",
+        "It had a strange color",
+        "It looked very pale and dry"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) it looked very pale and dry",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.284669311000016
+        },
+        "random": {
+          "response": "a. it was neatly combed back",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.28877483999986
+        },
+        "silence": {
+          "response": "a. it was neatly combed back",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3049891440000465
+        }
+      }
+    },
+    {
+      "sample_id": "b8f8c7d6880f62df2c3b284abbc09243b2def9731b9864c9c6befd34c18c2d7b",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/15f87c443ee071e0777114ff.wav",
+      "question": "What is the speaker's voice like during the dialogue?",
+      "choices": [
+        "Teen girl with varying volume",
+        "Young male with soft volume",
+        "Old woman with loud volume",
+        "Adult female with normal volume"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "a. teen girl with varying volume",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.27262218199985
+        },
+        "random": {
+          "response": "a. teen girl with varying volume",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.27712054199992053
+        },
+        "silence": {
+          "response": "a. teen girl with varying volume",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2575521160001699
+        }
+      }
+    },
+    {
+      "sample_id": "b05eae07e17f348446a59f3cfdb7c1afd6cb746038454150428ddbd7f3094ae3",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/9a8f87279fdd5df9d5f5fad4.wav",
+      "question": "What emphasis does the speaker use in the phrase about the commons?",
+      "choices": [
+        "They stress the word any who",
+        "They stress the word should be",
+        "They stress the word cried out",
+        "They stress the word rose up"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) they stress the word rose up",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.28324072299983527
+        },
+        "random": {
+          "response": "b) they stress the word should be",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.29274926500011134
+        },
+        "silence": {
+          "response": "d) they stress the word rose up",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.6646620110000185
+        }
+      }
+    },
+    {
+      "sample_id": "1c6c80268c647be493723dc7c12e183f5520b87e7803bd0f5cecddbd22051dac",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/d257c206c9fc0f9a76833c78.wav",
+      "question": "What best describes the speaker's voice in the recording?",
+      "choices": [
+        "Young female speaking loudly and fast",
+        "Young male speaking slowly and loudly",
+        "Old man speaking quickly and softly",
+        "Old woman speaking slowly and quietly"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "c) old man speaking quickly and softly",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.32918745100005253
+        },
+        "random": {
+          "response": "d) old woman speaking slowly and quietly",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.30581520899977477
+        },
+        "silence": {
+          "response": "a. young female speaking loudly and fast",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2954872609998347
+        }
+      }
+    },
+    {
+      "sample_id": "3715213abfb3b1cce527a898444c311909ce58eb039c7d1f96b6995263fe3f3b",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/706a16ec88bace0887e73a95.wav",
+      "question": "What detail about the speaker's voice is noticeable?",
+      "choices": [
+        "An older female voice with gentle tone",
+        "An older male voice with firm tone",
+        "A young female voice with soft tone",
+        "A young male voice with loud tone"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. an older female voice with gentle tone",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3099563370001306
+        },
+        "random": {
+          "response": "b) an older male voice with firm tone",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.315048840000145
+        },
+        "silence": {
+          "response": "a. an older female voice with gentle tone",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3282845109997652
+        }
+      }
+    },
+    {
+      "sample_id": "b65c6c94c145f542ffb24ebdd1b4402e69222a9359a79704845bcad36bff66db",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/compa_r/937c2e898b8dacb5d7e89437.wav",
+      "question": "What is the most likely role of the speaker based on the tone and rhythm of his speech?",
+      "choices": [
+        "Actor rehearsing for a play",
+        "Public speaker delivering a lecture",
+        "Teacher disciplining students",
+        "Chef giving cooking instructions"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. actor rehearsing for a play",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.29269857899998897
+        },
+        "random": {
+          "response": "a. actor rehearsing for a play",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3053612910002812
+        },
+        "silence": {
+          "response": "a. actor rehearsing for a play",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2846972829997867
+        }
+      }
+    },
+    {
+      "sample_id": "bd8ab881f009874f1792573ce31b37bb63efbf988104f6afc14d863f648e4b60",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/b61cc0a0b6733458d8bb018d.wav",
+      "question": "What is the speaker primarily talking about creating?",
+      "choices": [
+        "Components for electric wires",
+        "Parts for ceiling fans",
+        "Chemicals for cleaning solutions",
+        "Materials for light bulb filaments"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "a. components for electric wires",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.23918688899993867
+        },
+        "random": {
+          "response": "b) parts for ceiling fans",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2439593760000207
+        },
+        "silence": {
+          "response": "a. components for electric wires",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2733570319996943
+        }
+      }
+    },
+    {
+      "sample_id": "c6ad172b86d2ac4b469ad64977a52500812c6033785a73920f2bf2c094a3c6c3",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/ec181f827b1bb811d85cb12f.wav",
+      "question": "What key event does the speaker mention?",
+      "choices": [
+        "She returned in autumn",
+        "She left during springtime",
+        "She was let go near winter",
+        "She started working in summer"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) she was let go near winter",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3265426440002557
+        },
+        "random": {
+          "response": "c) she was let go near winter",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3350460030001159
+        },
+        "silence": {
+          "response": "a. she returned in autumn",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2657953190000626
+        }
+      }
+    },
+    {
+      "sample_id": "292c3e18dca54732a593292bc02b4c9124b6bf60291e8143c7c8c6c016507624",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/9bdb5d8f393277db9223f61d.wav",
+      "question": "What detail about the airship's movement does the speaker mention?",
+      "choices": [
+        "It collided with a nearby vessel",
+        "It spun rapidly in the heavy wind",
+        "It rose suddenly above the lake",
+        "It tilted forward into the lake water"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) it tilted forward into the lake water",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3071315450001748
+        },
+        "random": {
+          "response": "b. it spun rapidly in the heavy wind",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.31756475700012743
+        },
+        "silence": {
+          "response": "b) it spun rapidly in the heavy wind",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3080484400002206
+        }
+      }
+    },
+    {
+      "sample_id": "7af9c1f41013cf577dfe582dc9bb9338d021261b51ce434fbbca44dab92c1fd0",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/7cc1b5f6a823ce932174abdf.wav",
+      "question": "What key event happens after the casualties?",
+      "choices": [
+        "They lost contact with headquarters",
+        "They regrouped with headquarters",
+        "They celebrated a major victory",
+        "They received new orders"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "b) they regrouped with headquarters",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.2905501529999128
+        },
+        "random": {
+          "response": "b) they regrouped with headquarters",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.31510325899989766
+        },
+        "silence": {
+          "response": "b) they regrouped with headquarters",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.30298710600027334
+        }
+      }
+    },
+    {
+      "sample_id": "ef1ef8471687d129f0fa5821761415dda33d8c76e48b076b9798281bad321f64",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/8545c019e7148394a5b6976b.wav",
+      "question": "What key detail about Elizabeth Blackwell is mentioned in the speech?",
+      "choices": [
+        "She was born in London",
+        "She lived in Edinburgh",
+        "She moved to Manchester",
+        "She was born in Aberdeen"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) she lived in edinburgh",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.5873002480002469
+        },
+        "random": {
+          "response": "c. she moved to manchester",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2723864129998219
+        },
+        "silence": {
+          "response": "b) she lived in edinburgh",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.28657160200009457
+        }
+      }
+    },
+    {
+      "sample_id": "8f783e407f66efc3ad5a34ae1ee5f9e52216c8d7b24d0e0016f79519ae3f4811",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/96dadeac8b6052ea74f13997.wav",
+      "question": "What voice characteristic is heard when mentioning Mohammed's determination?",
+      "choices": [
+        "Deep male speaker with pauses",
+        "Low volume male speaker",
+        "Monotone female speaker",
+        "High volume female speaker"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "b) low volume male speaker",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.28040625299991007
+        },
+        "random": {
+          "response": "b) low volume male speaker",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.576240862999839
+        },
+        "silence": {
+          "response": "d) high volume female speaker",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.242417445999763
+        }
+      }
+    },
+    {
+      "sample_id": "5387b28d6167e3d8587c7b3e5a17b1fc5fddbe066bbdcf4a99fa76f3f938d515",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/dee4b653e8077ca33a018050.wav",
+      "question": "What emotion most strongly comes through in the speaker's voice?",
+      "choices": [
+        "Calm reassurance",
+        "Playful amusement",
+        "Detached indifference",
+        "Urgent concern"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) urgent concern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.19534396700009893
+        },
+        "random": {
+          "response": "d) urgent concern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.20788015099969925
+        },
+        "silence": {
+          "response": "d) urgent concern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.1953573430000688
+        }
+      }
+    },
+    {
+      "sample_id": "4c6206855a6332c8dfd42d76aa6a9bf4169f7163b703679d9db39a6e2f3bfda4",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/54820fc1cee9ab1d641e0eef.wav",
+      "question": "What does the speaker say about the task that must be completed?",
+      "choices": [
+        "It must be done by a child",
+        "It must be finished before dawn",
+        "It must not be forgotten at night",
+        "It must be repeated every day"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) it must be finished before dawn",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.29054391599993323
+        },
+        "random": {
+          "response": "b) it must be finished before dawn",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.3020525820002149
+        },
+        "silence": {
+          "response": "c) it must not be forgotten at night",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.9930163839999295
+        }
+      }
+    },
+    {
+      "sample_id": "54413be2a95bccc19313aee4fe33d0fe413cb95d96166d961f0291961a09bb28",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/4ad789b6832a72bfab9e0c94.wav",
+      "question": "What best describes the speaker's voice quality?",
+      "choices": [
+        "High energy adult speaker",
+        "Fast talking young child",
+        "Loud and deep sounding youth",
+        "Soft spoken elderly person"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "d) soft spoken elderly person",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.24458102700009476
+        },
+        "random": {
+          "response": "d) soft spoken elderly person",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.2573124430000462
+        },
+        "silence": {
+          "response": "a. high energy adult speaker",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.28996930999983306
+        }
+      }
+    },
+    {
+      "sample_id": "e9dac88ded6bc7ea1509204f08453d53f668cad214a2a10c0c7ca2eb02ca0de5",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/1e2a7430c09ad44254259de0.wav",
+      "question": "What aspect of the speaker's voice is most noticeable when discussing business visits?",
+      "choices": [
+        "Monotone and flat expression",
+        "Quick and excited delivery",
+        "Slow and deliberate speech",
+        "Soft and hesitant tone"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. monotone and flat expression",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3165233400000034
+        },
+        "random": {
+          "response": "a. monotone and flat expression",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5723611960002017
+        },
+        "silence": {
+          "response": "b) quick and excited delivery",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.24855439599969031
+        }
+      }
+    },
+    {
+      "sample_id": "6c62c3eff44bc397571b14a7112d1d3254f19eca79b1df79de82bce23bb0cd7e",
+      "question_type": "speech",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/libritts_r/8a946ed6c564168c42084c9c.wav",
+      "question": "What does the speaker's tone suggest about his emotional state?",
+      "choices": [
+        "He feels confused and uncertain",
+        "He speaks with playful excitement",
+        "He feels intense and determined",
+        "He sounds calm and relaxed"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c. he feels intense and determined",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.5555396750000909
+        },
+        "random": {
+          "response": "c) he feels intense and determined",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.2878394600002139
+        },
+        "silence": {
+          "response": "c. he feels intense and determined",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.28908115299964265
+        }
+      }
+    },
+    {
+      "sample_id": "ebc41a40c1606835c48cd215393a9e32a175f5b4260e9d3a8393dcea640f3c53",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/072d5df9bf97632151e72d31.wav",
+      "question": "Which sound starts at 9.5 seconds in the audio clip?",
+      "choices": [
+        "The fourth sound",
+        "The third sound",
+        "The second sound",
+        "The first sound"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a) the fourth sound",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2371470429998226
+        },
+        "random": {
+          "response": "d) the first sound",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.24610352299987426
+        },
+        "silence": {
+          "response": "d) the first sound",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.23141042999986894
+        }
+      }
+    },
+    {
+      "sample_id": "35999dd23645b92578faa6210a0a1e8ab245a5cad2d5517de37b13fad1ba410e",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/b4806c73052e5eb461e2299a.wav",
+      "question": "When does the sound end in the audio clip?",
+      "choices": [
+        "27.0s",
+        "23.8s",
+        "26.5s",
+        "25.2s"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "d) 25.2s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.300672828000188
+        },
+        "random": {
+          "response": "d) 25.2s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.2946253509999224
+        },
+        "silence": {
+          "response": "d) 25.2s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.6746167520000199
+        }
+      }
+    },
+    {
+      "sample_id": "f2f17390746b55622cd958779ae9a2d97aa6cce992f3cb34813ffe298b4ddeac",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/3f1396189312ef9027da7086.wav",
+      "question": "What is the duration of the longest sound in the audio?",
+      "choices": [
+        "9.0s",
+        "6.0s",
+        "8.3s",
+        "7.5s"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "d) 7.5s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.31551888099966163
+        },
+        "random": {
+          "response": "c) 8.3s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.287526822000018
+        },
+        "silence": {
+          "response": "a. 9.0s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.2727777610002704
+        }
+      }
+    },
+    {
+      "sample_id": "36f105dc8a9547081851a625ab7af91b16b56a8913f9cc18121913ba11bfa785",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/f355b4dcaf780081255c7837.wav",
+      "question": "Which sound ends at 8.9s?",
+      "choices": [
+        "The third sound of distant thunder rumbling repeatedly",
+        "The first sound of thunder rumbling in the distance",
+        "The second sound of thunder rumbling repeatedly",
+        "A background rain sound not described"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. the third sound of distant thunder rumbling repeatedly",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3603710060001504
+        },
+        "random": {
+          "response": "b) the first sound of thunder rumbling in the distance",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.729318092000085
+        },
+        "silence": {
+          "response": "a. the third sound of distant thunder rumbling repeatedly",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.37865001199998005
+        }
+      }
+    },
+    {
+      "sample_id": "20dc0ee2fa999588ef371856b5f767686c55fdd4b9f8341197aaa700e734d5f3",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/053d6304234eba9864bc1856.wav",
+      "question": "What sound overlaps with the speaking event?",
+      "choices": [
+        "A man whispering",
+        "A child laughing",
+        "A woman crying and sobbing loudly",
+        "A door closing"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "c) a woman crying and sobbing loudly",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.33496719799995844
+        },
+        "random": {
+          "response": "c) a woman crying and sobbing loudly",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.34833039000022836
+        },
+        "silence": {
+          "response": "c) a woman crying and sobbing loudly",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3449133239996627
+        }
+      }
+    },
+    {
+      "sample_id": "f99405ce84a26811f7781064eb93219dd9c6f4512890da48e57979bec16ceaf7",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/0202221131527408ec4ab4f4.wav",
+      "question": "What is the end time of the sound in the audio clip?",
+      "choices": [
+        "17.1s",
+        "10.3s",
+        "15.5s",
+        "12.7s"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. 17.1s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.33821924100038814
+        },
+        "random": {
+          "response": "a. 17.1s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3496095880000212
+        },
+        "silence": {
+          "response": "a. 17.1s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.32945989800009556
+        }
+      }
+    },
+    {
+      "sample_id": "d074d325d28b79896de7b0236607b6b1c75997eae5905e7e282794814c6761f6",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/7bd5ed17fc8c783d2f41669f.wav",
+      "question": "Are there any overlapping sound events in the audio?",
+      "choices": [
+        "No",
+        "Yes, they overlap for 3.8s",
+        "Yes, they overlap for 1.0s",
+        "Yes, they overlap for 0.5s"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "b) yes, they overlap for 3.8s",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3829149990001497
+        },
+        "random": {
+          "response": "b) yes, they overlap for 3.8s",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.38710382299996127
+        },
+        "silence": {
+          "response": "b) yes, they overlap for 3.8s",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3798682850001569
+        }
+      }
+    },
+    {
+      "sample_id": "cc968ae54d6bcb80358cc7542d38771206d6cedf9d1ce7f08bd9fa51eea79c1e",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/4889d5b2a9790c6cd5c1e1ab.wav",
+      "question": "How many different sounds are in the audio clip?",
+      "choices": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. 4",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2046108509998703
+        },
+        "random": {
+          "response": "a. 4",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.23101222599962057
+        },
+        "silence": {
+          "response": "a. 4",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.20668865600009667
+        }
+      }
+    },
+    {
+      "sample_id": "b741b5a26144399e5d1ff9389c47cfccf7c97afab333682a7193b9c7498fc629",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/17f598ff9abc4a89a95e8a25.wav",
+      "question": "How long does the children laughing outdoors event last?",
+      "choices": [
+        "2.7s",
+        "3.4s",
+        "1.8s",
+        "4.4s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. 2.7s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2838470080000661
+        },
+        "random": {
+          "response": "c) 1.8s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2690669559997332
+        },
+        "silence": {
+          "response": "c) 1.8s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2745934740000848
+        }
+      }
+    },
+    {
+      "sample_id": "31602b6e582e9d721f6592cb6a1abae3df75bb7135e1f4d2c9dad3c6b9bceeb8",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/0960f94f5a4bcf945c031e55.wav",
+      "question": "What is the time gap between the end of the first sound and the start of the second sound?",
+      "choices": [
+        "1.1s",
+        "0.9s",
+        "0.2s",
+        "0.5s"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "c) 0.2s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.276431039000272
+        },
+        "random": {
+          "response": "a) 1.1s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.6150303620001978
+        },
+        "silence": {
+          "response": "a) 1.1s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3016390239999964
+        }
+      }
+    },
+    {
+      "sample_id": "eb46a95d42c652e86616ab262c15803aba43e5b70f17ed13801c5b7768a93ea0",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/43259968a1f79bffc0f49006.wav",
+      "question": "Which sounds occur from 0.0s to 10.2s?",
+      "choices": [
+        "dog barking, soft rain, car horn",
+        "dog barking, dog barking, bird chirping",
+        "dog barking loudly and repeatedly in the distance with an angry echoing tone, dog barking loudly and repeatedly in the distance with an angry echoing tone, dog barking loudly and repeatedly in the distance with an angry echoing tone",
+        "dog barking, dog barking, soft thunder"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "b) dog barking, dog barking, bird chirping",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.39038878000019395
+        },
+        "random": {
+          "response": "b) dog barking, dog barking, bird chirping",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3907632109999213
+        },
+        "silence": {
+          "response": "b) dog barking, dog barking, bird chirping",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3819800920000489
+        }
+      }
+    },
+    {
+      "sample_id": "65ec04f41248181ca7e7c55df13e599ace999127a8446a084fb165f9999b34ae",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/24f8702dc229883c352da496.wav",
+      "question": "Which sound occurs from 15.0s to 16.5s?",
+      "choices": [
+        "Gentle stream water flow",
+        "Wind blowing through trees",
+        "Distant car engine",
+        "Birdsong with a rhythmic pattern"
+      ],
+      "answer_index": 3,
+      "modes": {
+        "correct": {
+          "response": "d) birdsong with a rhythmic pattern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.31053488099996684
+        },
+        "random": {
+          "response": "d) birdsong with a rhythmic pattern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.3204126059999908
+        },
+        "silence": {
+          "response": "d) birdsong with a rhythmic pattern",
+          "predicted_index": 3,
+          "correct": true,
+          "latency_s": 0.31556371999977273
+        }
+      }
+    },
+    {
+      "sample_id": "6d595b2768de549e44c2e6091b77c34b90fce0937c9f8b7a47d498b24ff20fad",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/6f5c53021b696f94919a4590.wav",
+      "question": "Are there any darbuka beats lasting longer than 1.0s in the audio clip?",
+      "choices": [
+        "Yes, both the fourth and seventh beats",
+        "No",
+        "Yes, only the seventh beat",
+        "Yes, only the fourth beat"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. yes",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.18164686300042376
+        },
+        "random": {
+          "response": "a. yes",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.1874886460000198
+        },
+        "silence": {
+          "response": "a. yes",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.49905822799973976
+        }
+      }
+    },
+    {
+      "sample_id": "6f3a058d7e10826fdf9b7da0dd527814eeb11576ed3d4ceb420c6d63b738c2e7",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/2dd0c3d9a83c15f1e355d37c.wav",
+      "question": "What is the duration of the first sound in the audio?",
+      "choices": [
+        "2.5s",
+        "3.8s",
+        "5.1s",
+        "1.9s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "d) 1.9s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.3140257879999808
+        },
+        "random": {
+          "response": "d) 1.9s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.3281889620002403
+        },
+        "silence": {
+          "response": "d) 1.9s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.303908942000362
+        }
+      }
+    },
+    {
+      "sample_id": "7511c937a4ca6bb18fa97de9a91cde178dd1bda5de26f4e23c535be781c5aca5",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/fdd70cd20160c4ba5226d2c6.wav",
+      "question": "When does the emergency sound end in the audio clip?",
+      "choices": [
+        "22.1s",
+        "20.3s",
+        "25.5s",
+        "24.0s"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. 22.1s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5838053860002219
+        },
+        "random": {
+          "response": "a. 22.1s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2898703609998847
+        },
+        "silence": {
+          "response": "d) 24.0s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.29236459599997033
+        }
+      }
+    },
+    {
+      "sample_id": "c641c42a80f98dc914adaf24eaef62cda24c8fbfad77e5494178c3155d477660",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/93b34c666815600b3960d3e4.wav",
+      "question": "When does the sound in the audio end?",
+      "choices": [
+        "17.2s",
+        "19.0s",
+        "18.1s",
+        "20.5s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "c) 18.1s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.30077664500004175
+        },
+        "random": {
+          "response": "c) 18.1s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3186512529996435
+        },
+        "silence": {
+          "response": "c) 18.1s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3120289120001871
+        }
+      }
+    },
+    {
+      "sample_id": "8911c9ff130d1e2b8ff79c517f9fa6836c2b46489616feecd9eba8ab8ac84376",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/442b18d5c961546a6ae653ec.wav",
+      "question": "Which sound occurs from 0.0s to 26.1s?",
+      "choices": [
+        "A continuous beeping sound",
+        "The soft clack of a pump being released",
+        "The rhythmic pumping of air into a tire",
+        "The loud whizz of air being released"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "b) the soft clack of a pump being released",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.36504396800000904
+        },
+        "random": {
+          "response": "c) the rhythmic pumping of air into a tire",
+          "predicted_index": 2,
+          "correct": true,
+          "latency_s": 0.3430802960001529
+        },
+        "silence": {
+          "response": "b) the soft clack of a pump being released",
+          "predicted_index": 1,
+          "correct": false,
+          "latency_s": 0.3986153779997039
+        }
+      }
+    },
+    {
+      "sample_id": "3c7e1ebc9c10f1c7debb8d30492568a78afa39043cd557f08492062b2b3f7622",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/0edc1d93db009bb299bd860b.wav",
+      "question": "How long does the sound of the circular saw being turned on last?",
+      "choices": [
+        "5.8s",
+        "3.3s",
+        "9.1s",
+        "3.7s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "d) 3.7s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.313860319000014
+        },
+        "random": {
+          "response": "d) 3.7s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.32506460200011134
+        },
+        "silence": {
+          "response": "d) 3.7s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.5791528709996783
+        }
+      }
+    },
+    {
+      "sample_id": "2617670eb47c1c169200824ca28cbed9bc95ee65235fc47d0c7d46f168dcea56",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/49e0d470207151f6cfd9c292.wav",
+      "question": "Can you identify any sound longer than 15 seconds in the audio? If yes, provide the timestamp of that sound",
+      "choices": [
+        "Quiet steady knocking - [1.5s, 17.0s]",
+        "Quiet steady knocking - [3.0s, 14.5s]",
+        "Quiet steady knocking - [0.0s, 25.5s]",
+        "None of the above"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. quiet steady knocking - [1.5s, 17.0s]",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5577512790000583
+        },
+        "random": {
+          "response": "a. quiet steady knocking - [1.5s, 17.0s)",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.590519876000144
+        },
+        "silence": {
+          "response": "a. quiet steady knocking - [1.5s, 17.0s]",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5983104699998876
+        }
+      }
+    },
+    {
+      "sample_id": "3364a8f9f737fb2daee060396be6e3a031235e8d06589d77b6f63ce5083fc888",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/84cfcf39092f6b73d9733f3e.wav",
+      "question": "What is the total number of different sounds present in the audio clip",
+      "choices": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "c) 2",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2091777919999913
+        },
+        "random": {
+          "response": "c) 2",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.48873540799968396
+        },
+        "silence": {
+          "response": "c) 2",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.2347492659996533
+        }
+      }
+    },
+    {
+      "sample_id": "a7f3ebf29e8c7a88694b970bcccbb7129393620f9eb033030037df902f28925b",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/42974d6227b4a83723cfcbc4.wav",
+      "question": "How long does the rhythmic beat last in the audio clip?",
+      "choices": [
+        "8.6s",
+        "5.7s",
+        "4.1s",
+        "2.7s"
+      ],
+      "answer_index": 0,
+      "modes": {
+        "correct": {
+          "response": "a. 8.6s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.31477123099966775
+        },
+        "random": {
+          "response": "a. 8.6s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.3324225110000043
+        },
+        "silence": {
+          "response": "a. 8.6s",
+          "predicted_index": 0,
+          "correct": true,
+          "latency_s": 0.5920369489999757
+        }
+      }
+    },
+    {
+      "sample_id": "f2db4cabade94ba693903e89564f27b7bdbdeafc82c6676837279881b518214d",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/ef23a99248c7da4a9741c94a.wav",
+      "question": "How long does the fourth sound last in the audio clip?",
+      "choices": [
+        "1.5s",
+        "0.9s",
+        "1.2s",
+        "0.6s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "a. 1.5s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2801292479998665
+        },
+        "random": {
+          "response": "a. 1.5s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.5890794189999724
+        },
+        "silence": {
+          "response": "a. 1.5s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.29186628200022824
+        }
+      }
+    },
+    {
+      "sample_id": "c7f2992f7b3db3995f71497a4ece3631aa9dab3ec46b39762431e824972e07ca",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/c8ba5e664283aad99873aa4f.wav",
+      "question": "Is there any sound longer than 15 seconds in the audio clip? If so, which one?",
+      "choices": [
+        "Yes, only the truck engine starting",
+        "Yes, only the truck engine humming",
+        "Yes, both the truck engine starting and humming",
+        "No"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "c) both the truck engine starting and humming",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3286271439997108
+        },
+        "random": {
+          "response": "c) both the truck engine starting and humming",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3296545180000976
+        },
+        "silence": {
+          "response": "c) yes, both the truck engine starting and humming",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3627144259999113
+        }
+      }
+    },
+    {
+      "sample_id": "062fa63f9f5b1096bb2996e0bc83ca01e69caa70859265cc6f77e48cd227edc2",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/957c0ff4cbfb0d2dab80243e.wav",
+      "question": "What is the start time of the third hammering sound?",
+      "choices": [
+        "19.0s",
+        "17.4s",
+        "16.1s",
+        "18.6s"
+      ],
+      "answer_index": 1,
+      "modes": {
+        "correct": {
+          "response": "b) 17.4s",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.29408211899999515
+        },
+        "random": {
+          "response": "b) 17.4s",
+          "predicted_index": 1,
+          "correct": true,
+          "latency_s": 0.6544522789999974
+        },
+        "silence": {
+          "response": "c) 16.1s",
+          "predicted_index": 2,
+          "correct": false,
+          "latency_s": 0.3440053250001256
+        }
+      }
+    },
+    {
+      "sample_id": "71b1cdc365fa0938b1fc71f22214f1208d0e14ceb3bc4be8e2496baa8e0f09f5",
+      "question_type": "temporal",
+      "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/1fa33abbee36ced753796959.wav",
+      "question": "What is the duration of the sound in the audio clip?",
+      "choices": [
+        "14.2s",
+        "12.3s",
+        "16.5s",
+        "18.7s"
+      ],
+      "answer_index": 2,
+      "modes": {
+        "correct": {
+          "response": "a. 14.2s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.3024646329999996
+        },
+        "random": {
+          "response": "d) 18.7s",
+          "predicted_index": 3,
+          "correct": false,
+          "latency_s": 0.29289045799987434
+        },
+        "silence": {
+          "response": "a. 14.2s",
+          "predicted_index": 0,
+          "correct": false,
+          "latency_s": 0.2946311919999971
+        }
+      }
+    }
+  ],
+  "frozen": true,
+  "extraction_proof": [
+    {
+      "sample_id": "f4495cfd06047f48913219f29065bcd90774f74a6e8e9efab35e55109534de53",
+      "native_hidden_max_error": 0.0
+    },
+    {
+      "sample_id": "ea70ae7f08a061fe57ad59f751e6a0f61803f09b22a6e67aa0581fd1f0c788b9",
+      "native_hidden_max_error": 0.0
+    },
+    {
+      "sample_id": "1c7a27ff0b678845ab2f67b51703351191b8f1ab07fe955d83fed472bfc8dbe9",
+      "native_hidden_max_error": 0.0
+    },
+    {
+      "sample_id": "ebc41a40c1606835c48cd215393a9e32a175f5b4260e9d3a8393dcea640f3c53",
+      "native_hidden_max_error": 0.0
+    }
+  ],
+  "summary": {
+    "correct": {
+      "overall": {
+        "samples": 100,
+        "accuracy": 0.5,
+        "parse_coverage": 1.0
+      },
+      "music": {
+        "samples": 25,
+        "accuracy": 0.56,
+        "parse_coverage": 1.0
+      },
+      "sound": {
+        "samples": 25,
+        "accuracy": 0.72,
+        "parse_coverage": 1.0
+      },
+      "speech": {
+        "samples": 25,
+        "accuracy": 0.52,
+        "parse_coverage": 1.0
+      },
+      "temporal": {
+        "samples": 25,
+        "accuracy": 0.2,
+        "parse_coverage": 1.0
+      }
+    },
+    "random": {
+      "overall": {
+        "samples": 100,
+        "accuracy": 0.34,
+        "parse_coverage": 1.0
+      },
+      "music": {
+        "samples": 25,
+        "accuracy": 0.32,
+        "parse_coverage": 1.0
+      },
+      "sound": {
+        "samples": 25,
+        "accuracy": 0.52,
+        "parse_coverage": 1.0
+      },
+      "speech": {
+        "samples": 25,
+        "accuracy": 0.28,
+        "parse_coverage": 1.0
+      },
+      "temporal": {
+        "samples": 25,
+        "accuracy": 0.24,
+        "parse_coverage": 1.0
+      }
+    },
+    "silence": {
+      "overall": {
+        "samples": 100,
+        "accuracy": 0.27,
+        "parse_coverage": 1.0
+      },
+      "music": {
+        "samples": 25,
+        "accuracy": 0.24,
+        "parse_coverage": 1.0
+      },
+      "sound": {
+        "samples": 25,
+        "accuracy": 0.44,
+        "parse_coverage": 1.0
+      },
+      "speech": {
+        "samples": 25,
+        "accuracy": 0.2,
+        "parse_coverage": 1.0
+      },
+      "temporal": {
+        "samples": 25,
+        "accuracy": 0.2,
+        "parse_coverage": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "name": "project.bundle",
+      "bytes": 8140384,
+      "sha256": "73e3f418a1e7764cbf87e82804326df90e2eee91b3553c168482b9f871785869"
+    },
+    {
+      "name": "vendor-CLM.bundle",
+      "bytes": 946076,
+      "sha256": "e39234cdb05f2c37850c97bffa428318c10eb7ab32ffff947af2679ef0ea2349"
+    },
+    {
+      "name": "vendor-samsone.bundle",
+      "bytes": 4615617,
+      "sha256": "45bb60532a217020730f99ae847eb04e1633299e637e9b68bd3a94aa71d7346b"
+    },
+    {
+      "name": "git_revisions.json",
+      "bytes": 226,
+      "sha256": "1dd1a8bbd2ebe43bd9d52ea6065d7fa059a47583cdda0595b712ba8eec40c151"
+    },
+    {
+      "name": "inventory.json",
+      "bytes": 78098,
+      "sha256": "bb4d94bfb90845278bb75fe687664c0ffcc3ff79c7936cc549de8ab26cb4a863"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 49770,
+      "sha256": "4473daf0bb3c20060d13df32cf700a957b2c0c5b2af54e59531b5ebbaf91842c"
+    }
+  ]
+}

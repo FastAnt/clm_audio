@@ -1,0 +1,89 @@
+{
+  "dataset": "/srv/data/samsone_clm/processed/v2/canonical.jsonl",
+  "unique_paths": 201205,
+  "mismatched_paths": 1,
+  "mismatched_rows": 3,
+  "types": {
+    "TACOS": 3
+  },
+  "mismatches": [
+    {
+      "path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+      "expected_hashes": [
+        "b217bd6a23061db5e9c609aaad63b9592490241438221554faa65ca4738a7bce"
+      ],
+      "actual_hash": "2057e2010b9b5ca9d7151c27d18e35d0c3826f48bbfe4553023e627745f9178b",
+      "error": null,
+      "source_dataset": "TACOS",
+      "source_audio_id": "367510.mp3",
+      "rows": [
+        {
+          "question": "How long does the thunder last in the audio recording?",
+          "choices": [
+            "3.5s",
+            "6.0s",
+            "4.8s",
+            "5.3s"
+          ],
+          "question_type": "temporal",
+          "source_dataset": "TACOS",
+          "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+          "answer_index": 2,
+          "pcm_identity": "pcm:4c966a25fcb6f98e24c7cf1afbea269e5b5bc479f637e1be8b4899a5a748a184",
+          "source_recording_id": "freesound:367510",
+          "source_audio_id": "367510.mp3",
+          "duration_s": 14.751375,
+          "audio_contribution": "strong",
+          "audio_sha256": "b217bd6a23061db5e9c609aaad63b9592490241438221554faa65ca4738a7bce",
+          "sample_id": "2606620b384347f927d510cc4e4321fa5e3c66fdf2e63db05a83c8b6f88df840",
+          "audio_identity": "freesound:367510",
+          "split": "train"
+        },
+        {
+          "question": "When does the person inhale sharply begin in the audio clip?",
+          "choices": [
+            "16.5s",
+            "18.1s",
+            "17.9s",
+            "17.4s"
+          ],
+          "question_type": "temporal",
+          "source_dataset": "TACOS",
+          "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+          "answer_index": 2,
+          "pcm_identity": "pcm:4c966a25fcb6f98e24c7cf1afbea269e5b5bc479f637e1be8b4899a5a748a184",
+          "source_recording_id": "freesound:367510",
+          "source_audio_id": "367510.mp3",
+          "duration_s": 14.751375,
+          "audio_contribution": "strong",
+          "audio_sha256": "b217bd6a23061db5e9c609aaad63b9592490241438221554faa65ca4738a7bce",
+          "sample_id": "def189fe1e8c431d1225419aeeff7eb2241ddc68d52e75fb1d54c4b8702aa784",
+          "audio_identity": "freesound:367510",
+          "split": "train"
+        },
+        {
+          "question": "At what time does the deep static noise start after the thunder ends?",
+          "choices": [
+            "11.3s",
+            "17.4s",
+            "18.0s",
+            "16.9s"
+          ],
+          "question_type": "temporal",
+          "source_dataset": "TACOS",
+          "audio_path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+          "answer_index": 1,
+          "pcm_identity": "pcm:4c966a25fcb6f98e24c7cf1afbea269e5b5bc479f637e1be8b4899a5a748a184",
+          "source_recording_id": "freesound:367510",
+          "source_audio_id": "367510.mp3",
+          "duration_s": 14.751375,
+          "audio_contribution": "strong",
+          "audio_sha256": "b217bd6a23061db5e9c609aaad63b9592490241438221554faa65ca4738a7bce",
+          "sample_id": "f9e55b8681405d9908f96852c13e951b52a2a1123d9c7bea0b05d190ef69bbba",
+          "audio_identity": "freesound:367510",
+          "split": "train"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "canonical_sha256": "13bb5746af85af80308355e33aed00925518449c5f5cd502cc8ab044f2abb5b5",
+  "original_canonical_sha256": "b6e664a7e9e10af53ce1055e5ea2db0deaf68772d7ae7fbc5c957744a7a2d8bc",
+  "repairs": [
+    {
+      "old_path": "/srv/data/samsone_clm/processed/audio/tacos/f639a21bef674c7a61cfe4a2.wav",
+      "new_path": "/srv/data/samsone_clm/processed/audio_verified/tacos/9ce1667ee1d63fd8e0162d893131467d87a3955b8b5534acd7b6f48f104fbb54.wav",
+      "old_duration_s": 14.751375,
+      "restored_duration_s": 18.4875625,
+      "original_payload_sha256": "cc90a2af4e1683c9bc1004e96806835913d469163989588be730ba0c8a68c0cd",
+      "archive_md5": "a1b11ed7a88d6b95109decb577c128fd",
+      "old_pcm": "pcm:4c966a25fcb6f98e24c7cf1afbea269e5b5bc479f637e1be8b4899a5a748a184",
+      "new_pcm": "pcm:9ce1667ee1d63fd8e0162d893131467d87a3955b8b5534acd7b6f48f104fbb54",
+      "samples": 3,
+      "labels_match_official_metadata": true,
+      "pcm_roundtrip_exact": true
+    }
+  ],
+  "snapshots": {
+    "pilot_1000": {
+      "changed_train_rows": 0,
+      "heldout_changed": 0
+    },
+    "stage1_10k": {
+      "changed_train_rows": 0,
+      "heldout_changed": 0
+    },
+    "stage2_50k": {
+      "changed_train_rows": 2,
+      "heldout_changed": 0
+    },
+    "stage3_150k": {
+      "changed_train_rows": 3,
+      "heldout_changed": 0
+    },
+    "stage4_all": {
+      "changed_train_rows": 3,
+      "heldout_changed": 0
+    }
+  },
+  "rows": 227353,
+  "heldout_unchanged": true,
+  "stage1_unchanged": true,
+  "pcm_cross_split_overlap": 0
+}

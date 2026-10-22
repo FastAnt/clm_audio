@@ -1,0 +1,262 @@
+{
+  "samples": 60981,
+  "input_qa": 60996,
+  "excluded_qa": 15,
+  "cross_split_duplicate_pcm": 0,
+  "conflicting_pcm_questions": 7,
+  "excluded_cross_split_pcm": [],
+  "sha256": "dfa244e48b27a78d9ba18dfd8376ad36333de5614496ff6914ddb779b48a91d4",
+  "split_task_counts": {
+    "train:genre": 527,
+    "train:vocals": 7239,
+    "train:mood_aggressive": 6390,
+    "train:mood_relaxed": 5067,
+    "train:mood_acoustic": 5247,
+    "train:genre_rosamerica": 479,
+    "train:mood_happy": 4702,
+    "train:mood_sad": 4764,
+    "train:mood_electronic": 5863,
+    "test:mood_electronic": 603,
+    "train:mood_party": 6182,
+    "test:mood_sad": 428,
+    "test:danceability": 358,
+    "train:genre_gtzan": 334,
+    "validation:mood_electronic": 623,
+    "test:mood_party": 638,
+    "train:danceability": 3752,
+    "test:mood_acoustic": 560,
+    "test:mood_relaxed": 496,
+    "validation:mood_acoustic": 565,
+    "test:mood_aggressive": 610,
+    "validation:mood_relaxed": 540,
+    "validation:mood_party": 647,
+    "validation:vocals": 788,
+    "validation:mood_aggressive": 672,
+    "test:vocals": 695,
+    "test:mood_happy": 500,
+    "validation:mood_sad": 449,
+    "validation:mood_happy": 478,
+    "validation:danceability": 340,
+    "test:genre_rosamerica": 48,
+    "validation:genre_gtzan": 36,
+    "train:electronic_genre": 143,
+    "validation:genre_rosamerica": 46,
+    "validation:genre": 45,
+    "test:genre": 49,
+    "test:genre_gtzan": 41,
+    "test:electronic_genre": 22,
+    "validation:electronic_genre": 15
+  },
+  "label_counts": {
+    "train:genre": {
+      "electronic": 308,
+      "rock": 113,
+      "jazz": 13,
+      "folk country": 14,
+      "pop": 26,
+      "rap hiphop": 37,
+      "funk soul rnb": 11,
+      "blues": 2,
+      "alternative": 3
+    },
+    "train:vocals": {
+      "instrumental": 5395,
+      "voice": 1844
+    },
+    "train:mood_aggressive": {
+      "not aggressive": 5703,
+      "aggressive": 687
+    },
+    "train:mood_relaxed": {
+      "relaxed": 1878,
+      "not relaxed": 3189
+    },
+    "train:mood_acoustic": {
+      "not acoustic": 3306,
+      "acoustic": 1941
+    },
+    "train:genre_rosamerica": {
+      "pop": 67,
+      "classical": 87,
+      "dance": 109,
+      "jazz": 15,
+      "rock": 160,
+      "hip hop": 41
+    },
+    "train:mood_happy": {
+      "not happy": 3436,
+      "happy": 1266
+    },
+    "train:mood_sad": {
+      "sad": 697,
+      "not sad": 4067
+    },
+    "train:mood_electronic": {
+      "not electronic": 2598,
+      "electronic": 3265
+    },
+    "test:mood_electronic": {
+      "not electronic": 275,
+      "electronic": 328
+    },
+    "train:mood_party": {
+      "not party": 5556,
+      "party": 626
+    },
+    "test:mood_sad": {
+      "not sad": 352,
+      "sad": 76
+    },
+    "test:danceability": {
+      "not danceable": 252,
+      "danceable": 106
+    },
+    "train:genre_gtzan": {
+      "classical": 85,
+      "pop": 54,
+      "rock": 104,
+      "reggae": 7,
+      "metal": 18,
+      "hip hop": 42,
+      "jazz": 14,
+      "country": 5,
+      "blues": 4,
+      "disco": 1
+    },
+    "validation:mood_electronic": {
+      "not electronic": 281,
+      "electronic": 342
+    },
+    "test:mood_party": {
+      "not party": 600,
+      "party": 38
+    },
+    "train:danceability": {
+      "not danceable": 2289,
+      "danceable": 1463
+    },
+    "test:mood_acoustic": {
+      "not acoustic": 327,
+      "acoustic": 233
+    },
+    "test:mood_relaxed": {
+      "relaxed": 190,
+      "not relaxed": 306
+    },
+    "validation:mood_acoustic": {
+      "acoustic": 230,
+      "not acoustic": 335
+    },
+    "test:mood_aggressive": {
+      "aggressive": 63,
+      "not aggressive": 547
+    },
+    "validation:mood_relaxed": {
+      "relaxed": 226,
+      "not relaxed": 314
+    },
+    "validation:mood_party": {
+      "not party": 600,
+      "party": 47
+    },
+    "validation:vocals": {
+      "voice": 254,
+      "instrumental": 534
+    },
+    "validation:mood_aggressive": {
+      "not aggressive": 600,
+      "aggressive": 72
+    },
+    "test:vocals": {
+      "voice": 214,
+      "instrumental": 481
+    },
+    "test:mood_happy": {
+      "happy": 111,
+      "not happy": 389
+    },
+    "validation:mood_sad": {
+      "not sad": 366,
+      "sad": 83
+    },
+    "validation:mood_happy": {
+      "not happy": 383,
+      "happy": 95
+    },
+    "validation:danceability": {
+      "danceable": 125,
+      "not danceable": 215
+    },
+    "test:genre_rosamerica": {
+      "pop": 4,
+      "classical": 19,
+      "rock": 18,
+      "dance": 5,
+      "hip hop": 2
+    },
+    "validation:genre_gtzan": {
+      "metal": 3,
+      "pop": 3,
+      "jazz": 4,
+      "classical": 11,
+      "rock": 4,
+      "hip hop": 8,
+      "blues": 1,
+      "disco": 1,
+      "country": 1
+    },
+    "train:electronic_genre": {
+      "ambient": 107,
+      "trance": 17,
+      "techno": 9,
+      "drum and bass": 4,
+      "house": 6
+    },
+    "validation:genre_rosamerica": {
+      "rock": 9,
+      "pop": 9,
+      "classical": 12,
+      "hip hop": 7,
+      "dance": 4,
+      "jazz": 5
+    },
+    "validation:genre": {
+      "electronic": 25,
+      "rap hiphop": 7,
+      "rock": 6,
+      "jazz": 4,
+      "blues": 1,
+      "pop": 1,
+      "folk country": 1
+    },
+    "test:genre": {
+      "electronic": 30,
+      "pop": 2,
+      "rock": 13,
+      "alternative": 1,
+      "folk country": 1,
+      "rap hiphop": 2
+    },
+    "test:genre_gtzan": {
+      "rock": 11,
+      "classical": 19,
+      "pop": 4,
+      "hip hop": 2,
+      "metal": 3,
+      "disco": 1,
+      "jazz": 1
+    },
+    "test:electronic_genre": {
+      "ambient": 21,
+      "trance": 1
+    },
+    "validation:electronic_genre": {
+      "ambient": 15
+    }
+  },
+  "source_groups": 701,
+  "unique_pcm": 10595,
+  "split_leaks": 0,
+  "captions_in_state": false,
+  "label_scope_preserved": true
+}

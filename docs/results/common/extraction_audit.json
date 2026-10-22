@@ -1,0 +1,27 @@
+{
+  "frozen_parameters": true,
+  "total_parameters": 356883264,
+  "state_shape": [
+    185688,
+    960
+  ],
+  "audio_changed_mean_l2": 9.845766067504883,
+  "nonfinite": 0,
+  "provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1",
+    "dataset_semantic_sha256": "238ae0c3c9df3900065d37e5b06b9fa3ce1aa2e2f81533072d2a48052936d5bd",
+    "choices_sha256": "76256727ae0de7460f6b6bdcb1d67cfd51e3ff88cc16c13774f422a486a1d481",
+    "random_recipe": "same-split identity-group derangement v2",
+    "ablation_splits": [
+      "test",
+      "validation"
+    ]
+  }
+}

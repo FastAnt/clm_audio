@@ -1,0 +1,29 @@
+{
+  "samples": 64,
+  "pcm_exact": true,
+  "hidden_exact": true,
+  "timings": {
+    "old": [
+      2.193655313923955,
+      1.6156530939042568,
+      1.3922912422567606
+    ],
+    "new": [
+      0.8923978507518768,
+      0.7527550794184208,
+      0.9291107226163149
+    ]
+  },
+  "speedup": 1.8104627801860032,
+  "states_per_second": 71.71689168242364,
+  "encoder_provenance": {
+    "recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "samsone_sha256": "8ed28e35aff5cb724bc84d1b2ea1559492e88e9c53abd1439f7e0a397214fea8",
+    "hidden_width": 960,
+    "dtype": "bfloat16",
+    "sample_rate": 16000,
+    "max_audio_samples": 480000,
+    "compute_dtype": "float32",
+    "position_recipe": "native-attention-mask-cumsum-v1"
+  }
+}

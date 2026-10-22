@@ -1,0 +1,339 @@
+{
+  "passed": true,
+  "real_audio": "/srv/data/samsone_clm/processed/music/audio/musicbench/3ujGrObyefA_9.wav",
+  "question": "What is the tonic note of the musical key?",
+  "choices": [
+    "B flat",
+    "C",
+    "G",
+    "B",
+    "E flat",
+    "E",
+    "F",
+    "F sharp",
+    "A flat",
+    "D",
+    "A",
+    "C sharp"
+  ],
+  "upload": {
+    "audio_id": "16f43de522e44b94a4b20d7e6273e45e",
+    "audio_url": "/api/audio/16f43de522e44b94a4b20d7e6273e45e",
+    "duration_s": 10.0
+  },
+  "range_playback_passed": true,
+  "models": {
+    "models": [
+      {
+        "id": "common",
+        "name": "General · samsone_clm_common",
+        "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_common/calibrated.pt",
+        "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98"
+      },
+      {
+        "id": "music",
+        "name": "Music · samsone_clm_music",
+        "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+        "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b"
+      }
+    ],
+    "default_model": "music",
+    "active_model": "music",
+    "device": "cpu"
+  },
+  "health": {
+    "status": "ready",
+    "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+    "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+    "model_id": "music",
+    "model_name": "Music · samsone_clm_music",
+    "device": "cpu",
+    "samsone_frozen": true,
+    "score": "cosine",
+    "score_scale": 47.09920120239258,
+    "head_input_l2": true,
+    "encoder_recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+    "adapter_kind": "linear"
+  },
+  "results": [
+    {
+      "ranking": [
+        {
+          "choice": "E flat",
+          "probability": 0.24156107008457184
+        },
+        {
+          "choice": "C",
+          "probability": 0.13218452036380768
+        },
+        {
+          "choice": "D",
+          "probability": 0.10623351484537125
+        },
+        {
+          "choice": "B",
+          "probability": 0.09238534420728683
+        },
+        {
+          "choice": "C sharp",
+          "probability": 0.07771750539541245
+        },
+        {
+          "choice": "F sharp",
+          "probability": 0.0685826763510704
+        },
+        {
+          "choice": "A",
+          "probability": 0.053211115300655365
+        },
+        {
+          "choice": "A flat",
+          "probability": 0.050700969994068146
+        },
+        {
+          "choice": "E",
+          "probability": 0.04882623627781868
+        },
+        {
+          "choice": "F",
+          "probability": 0.04754297435283661
+        },
+        {
+          "choice": "B flat",
+          "probability": 0.041289884597063065
+        },
+        {
+          "choice": "G",
+          "probability": 0.03976423665881157
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 5105.11493300146,
+      "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_common/calibrated.pt",
+      "checkpoint_sha256": "7f95b6d94bfc22da61afa41ff3119db4b087912550dc964f25ecbc0c5d8d5b98",
+      "model_id": "common",
+      "model_name": "General · samsone_clm_common",
+      "device": "cpu"
+    },
+    {
+      "ranking": [
+        {
+          "choice": "F sharp",
+          "probability": 0.17137907445430756
+        },
+        {
+          "choice": "A flat",
+          "probability": 0.10476233065128326
+        },
+        {
+          "choice": "E",
+          "probability": 0.09757563471794128
+        },
+        {
+          "choice": "G",
+          "probability": 0.09610359370708466
+        },
+        {
+          "choice": "B flat",
+          "probability": 0.09268168359994888
+        },
+        {
+          "choice": "A",
+          "probability": 0.08979274332523346
+        },
+        {
+          "choice": "E flat",
+          "probability": 0.07926657050848007
+        },
+        {
+          "choice": "F",
+          "probability": 0.07668045163154602
+        },
+        {
+          "choice": "B",
+          "probability": 0.07521180063486099
+        },
+        {
+          "choice": "C",
+          "probability": 0.04641580954194069
+        },
+        {
+          "choice": "D",
+          "probability": 0.04226955771446228
+        },
+        {
+          "choice": "C sharp",
+          "probability": 0.02786077931523323
+        }
+      ],
+      "window": {
+        "position_s": 5.0,
+        "requested_start_s": 0.0,
+        "requested_end_s": 10.0,
+        "source_start_s": 0.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 5647.563174992683,
+      "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "model_id": "music",
+      "model_name": "Music · samsone_clm_music",
+      "device": "cpu"
+    },
+    {
+      "ranking": [
+        {
+          "choice": "G",
+          "probability": 0.21579144895076752
+        },
+        {
+          "choice": "D",
+          "probability": 0.1636730581521988
+        },
+        {
+          "choice": "A",
+          "probability": 0.1056489646434784
+        },
+        {
+          "choice": "E",
+          "probability": 0.10202018916606903
+        },
+        {
+          "choice": "F",
+          "probability": 0.0901208147406578
+        },
+        {
+          "choice": "F sharp",
+          "probability": 0.07377801090478897
+        },
+        {
+          "choice": "C",
+          "probability": 0.07023028284311295
+        },
+        {
+          "choice": "B",
+          "probability": 0.059680595993995667
+        },
+        {
+          "choice": "B flat",
+          "probability": 0.05066011846065521
+        },
+        {
+          "choice": "A flat",
+          "probability": 0.040123406797647476
+        },
+        {
+          "choice": "E flat",
+          "probability": 0.019201969727873802
+        },
+        {
+          "choice": "C sharp",
+          "probability": 0.009071116335690022
+        }
+      ],
+      "window": {
+        "position_s": 0.0,
+        "requested_start_s": -5.0,
+        "requested_end_s": 5.0,
+        "source_start_s": 0.0,
+        "source_end_s": 5.0,
+        "silence_before_s": 5.0,
+        "silence_after_s": 0.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 860.4113010078436,
+      "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "model_id": "music",
+      "model_name": "Music · samsone_clm_music",
+      "device": "cpu"
+    },
+    {
+      "ranking": [
+        {
+          "choice": "A flat",
+          "probability": 0.14624552428722382
+        },
+        {
+          "choice": "A",
+          "probability": 0.14224599301815033
+        },
+        {
+          "choice": "F sharp",
+          "probability": 0.12073733657598495
+        },
+        {
+          "choice": "G",
+          "probability": 0.10738088935613632
+        },
+        {
+          "choice": "E",
+          "probability": 0.10192684084177017
+        },
+        {
+          "choice": "B",
+          "probability": 0.07526717334985733
+        },
+        {
+          "choice": "E flat",
+          "probability": 0.07383816689252853
+        },
+        {
+          "choice": "C",
+          "probability": 0.07032757252454758
+        },
+        {
+          "choice": "F",
+          "probability": 0.04974730685353279
+        },
+        {
+          "choice": "D",
+          "probability": 0.04191771149635315
+        },
+        {
+          "choice": "C sharp",
+          "probability": 0.035557493567466736
+        },
+        {
+          "choice": "B flat",
+          "probability": 0.03480792045593262
+        }
+      ],
+      "window": {
+        "position_s": 9.0,
+        "requested_start_s": 4.0,
+        "requested_end_s": 14.0,
+        "source_start_s": 4.0,
+        "source_end_s": 10.0,
+        "silence_before_s": 0.0,
+        "silence_after_s": 4.0,
+        "total_seconds": 10.0
+      },
+      "latency_ms": 1484.9062849971233,
+      "checkpoint": "/srv/data/samsone_clm/models/samsone_clm_music/calibrated.pt",
+      "checkpoint_sha256": "a1cc52344117b320c420aefc7a61f82a89f3d546b3430ac39c77fbd0e8dab71b",
+      "model_id": "music",
+      "model_name": "Music · samsone_clm_music",
+      "device": "cpu"
+    }
+  ],
+  "browser_visual_check": "not_available: no connected browser",
+  "tests": {
+    "passed": 73,
+    "seconds": 6.73,
+    "javascript_syntax_passed": true,
+    "launcher_shell_syntax_passed": true
+  }
+}

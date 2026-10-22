@@ -1,0 +1,80 @@
+{
+  "samples": 42344,
+  "input_qa": 42360,
+  "excluded_qa": 16,
+  "cross_split_duplicate_pcm": 4,
+  "conflicting_pcm_questions": 0,
+  "excluded_cross_split_pcm": [
+    "pcm:239a4bc030031b3064122b7c9d8337495dd2cdbd2ea855660aec1aaef0bf30fd",
+    "pcm:6e89ec43718737c96ce9f28277fd25355b3f090e5e375aea5040bfb91c8070b9",
+    "pcm:c50add12d7dd84bbfdb7845b348fd1a972bfffa672b2b7739a7b20145df7a97a",
+    "pcm:c52fa22b13c254faadd32cde4c282b3f4b7e322afc5d0e41884c0692b5956725"
+  ],
+  "sha256": "d145510a8a3af11512578ee983f74ecf478d566e68243c97b569b52b55677bb5",
+  "split_task_counts": {
+    "train:instrument_family": 19056,
+    "train:instrument_source": 19056,
+    "test:instrument_family": 1118,
+    "validation:instrument_source": 998,
+    "test:instrument_source": 1118,
+    "validation:instrument_family": 998
+  },
+  "label_counts": {
+    "train:instrument_family": {
+      "guitar": 1800,
+      "keyboard": 2760,
+      "organ": 2560,
+      "string": 1737,
+      "brass": 1280,
+      "bass": 3680,
+      "mallet": 1939,
+      "vocal": 960,
+      "reed": 1220,
+      "flute": 860,
+      "synth lead": 260
+    },
+    "train:instrument_source": {
+      "electronic": 6720,
+      "synthetic": 4260,
+      "acoustic": 8076
+    },
+    "test:instrument_family": {
+      "flute": 80,
+      "keyboard": 120,
+      "vocal": 40,
+      "bass": 160,
+      "string": 158,
+      "organ": 160,
+      "mallet": 80,
+      "brass": 40,
+      "guitar": 240,
+      "reed": 40
+    },
+    "validation:instrument_source": {
+      "acoustic": 518,
+      "synthetic": 280,
+      "electronic": 200
+    },
+    "test:instrument_source": {
+      "synthetic": 120,
+      "acoustic": 518,
+      "electronic": 480
+    },
+    "validation:instrument_family": {
+      "reed": 120,
+      "guitar": 40,
+      "brass": 160,
+      "organ": 80,
+      "keyboard": 200,
+      "bass": 240,
+      "string": 79,
+      "mallet": 39,
+      "vocal": 40
+    }
+  },
+  "source_groups": 1006,
+  "unique_pcm": 21123,
+  "split_leaks": 0,
+  "captions_in_state": false,
+  "label_scope_preserved": true
+}

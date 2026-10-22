@@ -1,0 +1,47 @@
+{
+  "status": "completed",
+  "run_root": "/srv/data/samsone_clm/runs/v3",
+  "completed_stages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "supervisor_pid": null,
+  "completed_points": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "encoder_recipe": "samsone356m-final-last-valid-v2-native-positions-fp32-state-answer-suffix-action-text-only",
+  "architecture": "Frozen Samsone356M -> SAME adapter -> original CLM state/action heads",
+  "success_target_audio_gap": 0.05,
+  "completion_policy": "Finish full available AudioMCQ Stage4 before music stages",
+  "model_name": "samsone_clm_common",
+  "phase": "completed",
+  "updated_at": "2026-10-03T20:52:32.381210+00:00",
+  "resources": {
+    "available_ram_gib": 106.9617919921875,
+    "free_disk_gib": 481.9937400817871,
+    "swap_used_gib": 0.00032806396484375
+  },
+  "selected_loss": "ce",
+  "precompute_batch_size": 64,
+  "stage_directories": {
+    "2": "/srv/data/samsone_clm/runs/v3/stage2-audio-grounded"
+  },
+  "active_pid": null,
+  "log": "/srv/data/samsone_clm/runs/v3/export_common.log",
+  "adopted_existing_worker": false,
+  "final_raw_checkpoint": "/srv/data/samsone_clm/runs/v3/stage4/best.pt",
+  "final_checkpoint": "/srv/data/samsone_clm/runs/v3/stage4/calibrated.pt",
+  "conclusion": "Full available AudioMCQ completed and exported as samsone_clm_common; music stages are separate and have not started",
+  "exported_model": "/srv/data/samsone_clm/models/samsone_clm_common",
+  "exported_dataset": "/srv/data/samsone_clm/processed/samsone_clm_common"
+}

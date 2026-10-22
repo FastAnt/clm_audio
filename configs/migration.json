@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-03",
+  "original_data_root": "/srv/data/samsone_clm",
+  "model": "samsone_clm_common",
+  "completed_stages": [1, 2, 3, 4],
+  "planned_stages": [5, 6],
+  "feature_directories": [
+    "features/spike-5ec3f92322401b72",
+    "features/spike-5cfa0fe86437ad1a",
+    "features/spike-7248fe4935c405c5",
+    "features/spike-a86e057eae695e43"
+  ],
+  "stage4_manifest": "features/spike-a86e057eae695e43/manifest.json",
+  "common_best": "models/samsone_clm_common/best.pt",
+  "common_last": "models/samsone_clm_common/last.pt",
+  "inference_checkpoint": "models/samsone_clm_common/calibrated.pt",
+  "samsone_checkpoint": "models/samsone_356m_model_bf16.ckpt",
+  "clm_checkpoint": "models/clm/CLM_v0.1-8B.pt",
+  "canonical": "processed/v3/canonical.jsonl",
+  "dataset_sizes": {"metadata": 571118, "strong": 257941, "usable": 227353, "train": 181592, "validation": 22679, "test": 23082},
+  "upstream_revisions": {
+    "SamsungLabs/samsone": "a71e77ae9528ef411ae26cdeb02d7b90cc18a50c",
+    "Contrastive-LM/CLM": "bb42c6c5bf914fd449bed2f6ca65be80602cb1f7"
+  }
+}

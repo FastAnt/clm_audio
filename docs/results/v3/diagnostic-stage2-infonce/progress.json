@@ -1,0 +1,325 @@
+{
+  "status": "completed",
+  "stage": 2,
+  "step": 1884,
+  "epoch": 12,
+  "epochs": 12,
+  "offset": 0,
+  "target_steps": 1884,
+  "train_samples": 10000,
+  "samples_seen": 120000,
+  "elapsed_s": 131.59051224899986,
+  "samples_per_second": 911.9198485444915,
+  "batch_loss": null,
+  "train_curve": [
+    {
+      "step": 1,
+      "epoch": 0,
+      "loss": 1.432220220565796,
+      "elapsed_s": 1.672221690999777
+    },
+    {
+      "step": 88,
+      "epoch": 0,
+      "loss": 1.017113875936378,
+      "elapsed_s": 6.693053858999974
+    },
+    {
+      "step": 157,
+      "epoch": 1,
+      "loss": 0.9873843162536621,
+      "elapsed_s": 10.70630700799984
+    },
+    {
+      "step": 215,
+      "epoch": 1,
+      "loss": 0.9390231442862543,
+      "elapsed_s": 15.74609744099962
+    },
+    {
+      "step": 300,
+      "epoch": 1,
+      "loss": 0.9537812884037311,
+      "elapsed_s": 20.777654923999762
+    },
+    {
+      "step": 314,
+      "epoch": 2,
+      "loss": 0.95616465549469,
+      "elapsed_s": 21.566918144999818
+    },
+    {
+      "step": 379,
+      "epoch": 2,
+      "loss": 0.8618151591374323,
+      "elapsed_s": 26.599486141999932
+    },
+    {
+      "step": 466,
+      "epoch": 2,
+      "loss": 0.861535311137375,
+      "elapsed_s": 31.629652093999994
+    },
+    {
+      "step": 471,
+      "epoch": 3,
+      "loss": 0.8627878036499024,
+      "elapsed_s": 31.941358966999815
+    },
+    {
+      "step": 522,
+      "epoch": 3,
+      "loss": 0.7297163295979593,
+      "elapsed_s": 36.95311007700002
+    },
+    {
+      "step": 608,
+      "epoch": 3,
+      "loss": 0.7494877093899859,
+      "elapsed_s": 41.953730318
+    },
+    {
+      "step": 628,
+      "epoch": 4,
+      "loss": 0.7475296222686768,
+      "elapsed_s": 43.03611303699972
+    },
+    {
+      "step": 694,
+      "epoch": 4,
+      "loss": 0.6660894539320108,
+      "elapsed_s": 48.08069251300003
+    },
+    {
+      "step": 780,
+      "epoch": 4,
+      "loss": 0.6592615864386684,
+      "elapsed_s": 53.09872867499962
+    },
+    {
+      "step": 785,
+      "epoch": 5,
+      "loss": 0.6573577465057373,
+      "elapsed_s": 53.38356844500004
+    },
+    {
+      "step": 837,
+      "epoch": 5,
+      "loss": 0.5825992897152901,
+      "elapsed_s": 58.409196277999854
+    },
+    {
+      "step": 924,
+      "epoch": 5,
+      "loss": 0.5964196491584504,
+      "elapsed_s": 63.429118468999604
+    },
+    {
+      "step": 942,
+      "epoch": 6,
+      "loss": 0.6010375633716584,
+      "elapsed_s": 64.56796109199968
+    },
+    {
+      "step": 1008,
+      "epoch": 6,
+      "loss": 0.503776848767743,
+      "elapsed_s": 69.59840072999987
+    },
+    {
+      "step": 1095,
+      "epoch": 6,
+      "loss": 0.49998869537528046,
+      "elapsed_s": 74.613980911
+    },
+    {
+      "step": 1099,
+      "epoch": 7,
+      "loss": 0.49912350978851316,
+      "elapsed_s": 74.82160993599973
+    },
+    {
+      "step": 1153,
+      "epoch": 7,
+      "loss": 0.48663489023844403,
+      "elapsed_s": 79.8596006519997
+    },
+    {
+      "step": 1239,
+      "epoch": 7,
+      "loss": 0.4617172360420227,
+      "elapsed_s": 84.91043730599995
+    },
+    {
+      "step": 1256,
+      "epoch": 8,
+      "loss": 0.459904443359375,
+      "elapsed_s": 85.8857674789997
+    },
+    {
+      "step": 1321,
+      "epoch": 8,
+      "loss": 0.4065785038929719,
+      "elapsed_s": 90.90246533799973
+    },
+    {
+      "step": 1407,
+      "epoch": 8,
+      "loss": 0.3887550842683047,
+      "elapsed_s": 95.91627815899983
+    },
+    {
+      "step": 1413,
+      "epoch": 9,
+      "loss": 0.3887058673143387,
+      "elapsed_s": 96.3027323399997
+    },
+    {
+      "step": 1465,
+      "epoch": 9,
+      "loss": 0.3176307248381468,
+      "elapsed_s": 101.35759495599996
+    },
+    {
+      "step": 1552,
+      "epoch": 9,
+      "loss": 0.320211013444036,
+      "elapsed_s": 106.3812612519996
+    },
+    {
+      "step": 1570,
+      "epoch": 10,
+      "loss": 0.3143037302017212,
+      "elapsed_s": 107.3755907599998
+    },
+    {
+      "step": 1635,
+      "epoch": 10,
+      "loss": 0.2785593181848526,
+      "elapsed_s": 112.38227299399978
+    },
+    {
+      "step": 1721,
+      "epoch": 10,
+      "loss": 0.2776876099851747,
+      "elapsed_s": 117.38679511600003
+    },
+    {
+      "step": 1727,
+      "epoch": 11,
+      "loss": 0.2781691153526306,
+      "elapsed_s": 117.72438215299962
+    },
+    {
+      "step": 1780,
+      "epoch": 11,
+      "loss": 0.26178246441314806,
+      "elapsed_s": 122.76735111299968
+    },
+    {
+      "step": 1867,
+      "epoch": 11,
+      "loss": 0.2575730811804533,
+      "elapsed_s": 127.81335705999982
+    },
+    {
+      "step": 1884,
+      "epoch": 12,
+      "loss": 0.25714814953804016,
+      "elapsed_s": 128.85617872099965
+    }
+  ],
+  "configuration": {
+    "stage": 2,
+    "overfit": false,
+    "samples": 10000,
+    "steps": 0,
+    "batch_size": 64,
+    "evaluate_every": 0,
+    "lr": 0.0003,
+    "bottleneck": null,
+    "adapter_kind": "linear",
+    "run_root": "/srv/data/samsone_clm/runs/v3",
+    "seed": 42,
+    "device": "cuda",
+    "out": "/srv/data/samsone_clm/runs/v3/diagnostic-stage2-infonce",
+    "feature_manifest": "/srv/data/samsone_clm/features/spike-5ec3f92322401b72/manifest.json",
+    "diagnostic": true,
+    "init_checkpoint": "/srv/data/samsone_clm/runs/v3/stage1/best.pt",
+    "resume": null,
+    "epochs": 12,
+    "loss": "infonce",
+    "infonce_weight": 1.0,
+    "learnable_scale": true,
+    "scale_lr": 0.001,
+    "weight_decay": 0.01,
+    "scheduler": "onecycle",
+    "patience": 4,
+    "head_lr": 0.0001,
+    "audio_swap_weight": 1.0,
+    "audio_swap_margin": 0.05,
+    "audio_pair_batch_size": 32,
+    "audio_pair_ce_weight": 0.5,
+    "audio_pair_mode": "reciprocal-answers"
+  },
+  "first_gradients": {
+    "adapter": 1.0140582919120789,
+    "state_head": 0.09718142889323644,
+    "action_head": 0.07976410792616662
+  },
+  "trainable_parameters": 22823937,
+  "evaluation_every_steps": 157,
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0
+  },
+  "trainable_modules": [
+    "adapter",
+    "state_head",
+    "action_head"
+  ],
+  "model": {
+    "samsone_width": 960,
+    "input_width": 4096,
+    "projection_width": 512,
+    "bottleneck": 960,
+    "clm_sha256": "b2b4a8c9c2d39263eff78a351eb909a342ce9b3bf21a3f07c1d1bf15f1c4eda5",
+    "clm_cfg": {
+      "model": "Qwen/Qwen3-8B",
+      "hidden_size": 4096,
+      "projection_dim": 512,
+      "width": 1536,
+      "depth": 3,
+      "activation": "gelu",
+      "layernorm": true,
+      "residual": false
+    },
+    "score": "cosine",
+    "temperature": 0.01,
+    "score_scale": 100.0,
+    "checkpoint_logit_scale": 4.613248825073242,
+    "head_input_l2": true,
+    "adapter_kind": "linear",
+    "contract_version": 2,
+    "head_matmul_precision": "fp32",
+    "learnable_scale": true
+  },
+  "encoder_calls_during_training": 0,
+  "learning_rates": [
+    1.4574615215782387e-09,
+    4.858205071927463e-10,
+    4.858205071927463e-10,
+    4.858205071927463e-09
+  ],
+  "score_scale": 99.9990005493164,
+  "auxiliary_train_samples": 4733,
+  "supervised_audio_pair_rows": 4955,
+  "pair_updates": 1884,
+  "pair_samples_seen": 120576
+}

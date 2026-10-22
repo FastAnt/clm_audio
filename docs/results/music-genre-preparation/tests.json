@@ -1,0 +1,7 @@
+{
+  "remote_only": true,
+  "tests_passed": 64,
+  "tests_log": "data/runs/music-genre/tests-current.log",
+  "training_optimizer_started": false,
+  "architecture": "frozen Samsone356M -> shared adapter -> original CLM state/action heads"
+}

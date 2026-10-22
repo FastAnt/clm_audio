@@ -1,0 +1,8 @@
+{
+  "frontend_render_passed": true,
+  "default_completed_epochs": 32,
+  "history_selection_passed": true,
+  "graph_panels": 4,
+  "default_run": "FMA Medium v1",
+  "phase": "precompute-large"
+}

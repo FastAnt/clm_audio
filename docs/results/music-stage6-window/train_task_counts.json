@@ -1,0 +1,69 @@
+{
+  "train_qa": 190653,
+  "task_counts": {
+    "key_tonic": 19869,
+    "tempo": 29034,
+    "key_mode": 19869,
+    "meter": 21457,
+    "AudioMCQ-music": 11623,
+    "instrument_family": 19056,
+    "mood_party": 6182,
+    "mood_sad": 4764,
+    "instrument_source": 19056,
+    "danceability": 3752,
+    "mood_happy": 4702,
+    "vocals": 7239,
+    "mood_electronic": 5863,
+    "mood_aggressive": 6390,
+    "mood_relaxed": 5067,
+    "mood_acoustic": 5247,
+    "genre_gtzan": 334,
+    "electronic_genre": 143,
+    "genre": 527,
+    "genre_rosamerica": 479
+  },
+  "explicit_genre_qa_from_new_sources": 1483,
+  "unique_genre_audio_identities": 793,
+  "genre_label_counts": {
+    "electronic_genre": {
+      "techno": 9,
+      "ambient": 107,
+      "trance": 17,
+      "house": 6,
+      "drum and bass": 4
+    },
+    "genre": {
+      "electronic": 308,
+      "pop": 26,
+      "rock": 113,
+      "rap hiphop": 37,
+      "funk soul rnb": 11,
+      "jazz": 13,
+      "folk country": 14,
+      "alternative": 3,
+      "blues": 2
+    },
+    "genre_gtzan": {
+      "classical": 85,
+      "rock": 104,
+      "metal": 18,
+      "pop": 54,
+      "hip hop": 42,
+      "jazz": 14,
+      "blues": 4,
+      "reggae": 7,
+      "disco": 1,
+      "country": 5
+    },
+    "genre_rosamerica": {
+      "rock": 160,
+      "jazz": 15,
+      "hip hop": 41,
+      "pop": 67,
+      "dance": 109,
+      "classical": 87
+    }
+  },
+  "AudioMCQ_music_replay_genre_style_keyword_matches": 1274,
+  "keyword_count_is_not_a_verified_genre_taxonomy": true
+}

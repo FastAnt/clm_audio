@@ -1,0 +1,129 @@
+{
+  "samples": 111561,
+  "input_qa": 111666,
+  "excluded_qa": 105,
+  "cross_split_duplicate_pcm": 14,
+  "conflicting_pcm_questions": 7,
+  "excluded_cross_split_pcm": [
+    "pcm:0692c46729ff4a4dcd2d506a4ef156ae411ecf10e11b0bb8aeb2c921c1999391",
+    "pcm:488fd9edc8380eab2730ac5ce34c32f1f782f13631765e3076790e33d1d18a12",
+    "pcm:4b0ba48712fcb2fe381decb5e5224a7697811a477b05b896560cb72ae0523f35",
+    "pcm:54609c099c46f77aa2550ce115337385b87de8fcab7cc366e862e4d0c5c6412d",
+    "pcm:5625cbbc0e023a79639ee78558fb05e659d79f0de61486a683f46005da41df5f",
+    "pcm:5e71214f105f9c5bcfec50f0c8d3ba769644428361111477c7455a05b3ac00ae",
+    "pcm:8bebda617d4dcd703f23e1e8039a30fb2bc1abe83b96ba404e07acda35c3f687",
+    "pcm:92072795db8db050763551e8fee88bd49339d1303d7f15bbe306830a79747e45",
+    "pcm:937ac1e23ae569ad54c3f700349e4abc2591f96fd166529a8fbccdddbed2fd85",
+    "pcm:9a1566c432fad5b57d49663fa0088b4962989f3817110c06ee12efff52d07175",
+    "pcm:d16adcd219a831e1cc249a265179c75e7ab901f38d86cd975b2bc4c00d0f9d5c",
+    "pcm:faf75f6bacaef9c0148845695f956c1ccf076d458c12052aa879c772c23e1175",
+    "pcm:fd0f6dba36b61fe603af66513d4c8293563589e10138fd2a87f68f3c65170d16",
+    "pcm:fee5e4a089b757eb2f30aa73d389409216f88b4088e1b5fe46feeebedd4f635f"
+  ],
+  "sha256": "b135085b91184e9bea015f02289ae1b38e86c2071b70983d7031d95e94f9170c",
+  "split_task_counts": {
+    "train:key_tonic": 19869,
+    "train:tempo": 29034,
+    "test:tempo": 3353,
+    "train:key_mode": 19869,
+    "train:meter": 21457,
+    "validation:meter": 2651,
+    "test:key_mode": 2412,
+    "validation:key_mode": 2277,
+    "validation:key_tonic": 2277,
+    "validation:tempo": 3615,
+    "test:key_tonic": 2412,
+    "test:meter": 2335
+  },
+  "label_counts": {
+    "train:key_tonic": {
+      "A flat": 1233,
+      "G": 2055,
+      "E flat": 1345,
+      "F sharp": 1271,
+      "F": 1622,
+      "D": 2048,
+      "A": 2274,
+      "C": 2082,
+      "B flat": 1526,
+      "B": 1402,
+      "E": 1740,
+      "C sharp": 1271
+    },
+    "train:tempo": {
+      "120 to 159 BPM": 9025,
+      "80 to 119 BPM": 8563,
+      "160 to 239 BPM": 7771,
+      "40 to 79 BPM": 3675
+    },
+    "test:tempo": {
+      "160 to 239 BPM": 824,
+      "120 to 159 BPM": 1092,
+      "80 to 119 BPM": 882,
+      "40 to 79 BPM": 555
+    },
+    "train:key_mode": {
+      "minor": 8136,
+      "major": 11733
+    },
+    "train:meter": {
+      "three beats per bar": 8702,
+      "four beats per bar": 12755
+    },
+    "validation:meter": {
+      "three beats per bar": 1040,
+      "four beats per bar": 1611
+    },
+    "test:key_mode": {
+      "major": 1191,
+      "minor": 1221
+    },
+    "validation:key_mode": {
+      "major": 1325,
+      "minor": 952
+    },
+    "validation:key_tonic": {
+      "E flat": 163,
+      "A": 224,
+      "A flat": 185,
+      "B flat": 174,
+      "F sharp": 133,
+      "C sharp": 147,
+      "C": 266,
+      "G": 216,
+      "D": 272,
+      "B": 163,
+      "E": 166,
+      "F": 168
+    },
+    "validation:tempo": {
+      "80 to 119 BPM": 1140,
+      "160 to 239 BPM": 869,
+      "120 to 159 BPM": 1114,
+      "40 to 79 BPM": 492
+    },
+    "test:key_tonic": {
+      "F sharp": 197,
+      "E flat": 170,
+      "C sharp": 148,
+      "A": 301,
+      "B flat": 192,
+      "A flat": 159,
+      "E": 228,
+      "F": 171,
+      "B": 157,
+      "D": 214,
+      "C": 240,
+      "G": 235
+    },
+    "test:meter": {
+      "three beats per bar": 955,
+      "four beats per bar": 1380
+    }
+  },
+  "source_groups": 5030,
+  "unique_pcm": 41608,
+  "split_leaks": 0,
+  "captions_in_state": false,
+  "label_scope_preserved": true
+}

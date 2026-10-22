@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "project_only": true,
+  "web_pids_stopped": [
+    910363
+  ],
+  "removed": [
+    "/home/ubuntu/dev_clm/data/raw",
+    "/home/ubuntu/dev_clm/data/processed",
+    "/home/ubuntu/dev_clm/data/features",
+    "/home/ubuntu/dev_clm/data/tmp/github-lfs-restore-check"
+  ],
+  "original_models_and_runs_retained": true,
+  "free_bytes_before": 103587655680,
+  "free_bytes_after": 507575037952,
+  "reclaimed_bytes": 403987382272,
+  "github_weights_verified": true,
+  "trained_data_not_backed_up_by_user_instruction": true
+}

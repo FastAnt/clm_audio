@@ -1,0 +1,1 @@
+{"selected_checkpoint": "/srv/data/samsone_clm/runs/v3/stage2-clm-infonce-audio-grounded/best.pt", "validation": {"samples": 2048, "top1": 0.568359375, "top2": 0.7763671875, "loss": 1.2005380392074585, "mean_correct_probability": 0.5199517011642456, "ece": 0.14076251862570643, "bins": 15}, "audio_gaps": {"random": 0.076171875, "silence": 0.06298828125}}

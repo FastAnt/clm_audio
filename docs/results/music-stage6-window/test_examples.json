@@ -1,0 +1,49 @@
+{
+  "selection": "First full held-out QA per task in fixed manifest; examples are not selected for correctness",
+  "examples": [
+    {
+      "audio_path": "/srv/data/samsone_clm/processed/music/audio/nsynth/valid/flute_synthetic_000-081-025.wav",
+      "question": "Which instrument family produces this sound?",
+      "choices": [
+        "guitar",
+        "bass",
+        "organ",
+        "vocal",
+        "keyboard",
+        "reed",
+        "flute",
+        "string",
+        "synth lead",
+        "brass",
+        "mallet"
+      ],
+      "answer_index": 6,
+      "music_task": "instrument_family",
+      "sample_id": "27bcc320b79038ade90608f6c26f9c5217b6bd0018776353aad30bb6de8d5420"
+    },
+    {
+      "audio_path": "/srv/data/samsone_clm/processed/music/audio/jamendo/track_1093794.wav",
+      "question": "Does this music contain singing or voice, or is it instrumental?",
+      "choices": [
+        "voice",
+        "instrumental"
+      ],
+      "answer_index": 0,
+      "music_task": "vocals",
+      "sample_id": "8a37218d14a5ddeabc2a35acba3292da40118046ca7d2e6a36f15828230f9689"
+    },
+    {
+      "audio_path": "/srv/data/samsone_clm/processed/music/audio/musicbench/qRLRLp-KTFs_5.wav",
+      "question": "What is the approximate tempo of the musical pulse in beats per minute?",
+      "choices": [
+        "80 to 119 BPM",
+        "120 to 159 BPM",
+        "40 to 79 BPM",
+        "160 to 239 BPM"
+      ],
+      "answer_index": 0,
+      "music_task": "tempo",
+      "sample_id": "c9847ad6c97b199f0aafd6a61a6ea798ede8057741d4944e6062819fe1e50a86"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "profile": "full",
+  "file_count": 206327,
+  "bytes": 215510742127,
+  "by_top_directory": {
+    "features": 4251,
+    "models": 15,
+    "processed": 201227,
+    "raw": 685,
+    "runs": 149
+  },
+  "source_data_root": "/srv/data/samsone_clm",
+  "all_bytes_verified": false,
+  "exclusions": [
+    "Python environment/cache",
+    "duplicate source archives",
+    "legacy v1/v2 run directories"
+  ],
+  "note": "Inherited checksums are verified only with --verify; model/feature checksums remain unchanged after relocation."
+}
